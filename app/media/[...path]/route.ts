@@ -3,8 +3,6 @@ import path from 'node:path';
 
 import { NextResponse } from 'next/server';
 
-const uploadsRoot = path.join(process.cwd(), 'extracted', 'uploads');
-
 const mimeTypes: Record<string, string> = {
   '.avif': 'image/avif',
   '.gif': 'image/gif',
@@ -27,6 +25,16 @@ type RouteContext = {
 };
 
 export async function GET(_request: Request, context: RouteContext) {
+  if (process.env.VERCEL || process.env.NODE_ENV === 'production') {
+    return NextResponse.json({ error: 'Local media route is disabled in production' }, { status: 404 });
+  }
+
+  const uploadsRoot = process.env.LOCAL_UPLOADS_DIR;
+
+  if (!uploadsRoot) {
+    return NextResponse.json({ error: 'LOCAL_UPLOADS_DIR is not configured' }, { status: 404 });
+  }
+
   const { path: parts } = await context.params;
 
   if (parts.some((part) => part === '..' || part.includes('\\'))) {
