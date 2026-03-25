@@ -1,0 +1,16 @@
+.git
+.github
+.next
+.vercel
+node_modules
+coverage
+dist
+extracted
+migration
+scripts
+data/elementor
+backup_*.gz
+backup_*.zip
+vetiverwithoutborders.WordPress.*.xml
+VSF template.zip
+*.log
