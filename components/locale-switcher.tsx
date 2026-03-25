@@ -13,7 +13,7 @@ export function LocaleSwitcher({ locale }: { locale: Locale }) {
   return (
     <Link
       href={href}
-      className="rounded-full border border-bark/12 px-3 py-2 text-xs font-semibold uppercase tracking-[0.18em] text-bark hover:border-bark/25"
+      className="rounded-full border border-bark/12 bg-surface/80 px-3 py-2 text-xs font-medium uppercase tracking-[0.18em] text-bark hover:border-bark/25 hover:bg-surfaceAlt"
     >
       {targetLocale}
     </Link>

@@ -63,7 +63,7 @@ export async function renderEntryPage(entry: ContentEntry, locale: Locale) {
       </PageHero>
 
       <article className="mx-auto flex w-full max-w-5xl flex-col gap-10 px-6 py-12 lg:px-10 lg:py-16">
-        <section className="rounded-[2.5rem] border border-bark/10 bg-white/84 px-7 py-8 shadow-soft lg:px-12 lg:py-12">
+        <section className="brand-frame rounded-[2.5rem] px-7 py-8 lg:px-12 lg:py-12">
           {content}
         </section>
       </article>

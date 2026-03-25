@@ -4,8 +4,16 @@
 
 :root {
   color-scheme: light;
-  --font-heading: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif;
-  --font-body: "Avenir Next", Avenir, "Segoe UI", sans-serif;
+  --font-heading: "Montserrat", "Avenir Next", "Segoe UI", sans-serif;
+  --font-body: "Montserrat", "Avenir Next", "Segoe UI", sans-serif;
+  --color-primary: #6aa63f;
+  --color-secondary: #75be2b;
+  --color-surface: #d1d9b4;
+  --color-surface-alt: #cad996;
+  --color-accent: #232323;
+  --color-text: #6c6c6c;
+  --color-deep-green: #14261c;
+  --color-white: #ffffff;
 }
 
 html {
@@ -15,9 +23,11 @@ html {
 body {
   font-family: var(--font-body), sans-serif;
   background:
-    linear-gradient(180deg, rgba(239, 231, 218, 0.92), rgba(239, 231, 218, 1)),
-    linear-gradient(115deg, rgba(166, 201, 106, 0.14), transparent 48%);
+    radial-gradient(circle at top right, rgba(209, 217, 180, 0.55), transparent 22%),
+    radial-gradient(circle at top left, rgba(117, 190, 43, 0.18), transparent 28%),
+    linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(250, 252, 244, 1));
   min-height: 100vh;
+  color: var(--color-accent);
 }
 
 .font-body {
@@ -30,8 +40,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--font-heading), serif;
-  letter-spacing: -0.03em;
+  font-family: var(--font-heading), sans-serif;
+  letter-spacing: -0.04em;
+  line-height: 1.08;
 }
 
 a {
@@ -39,5 +50,39 @@ a {
 }
 
 ::selection {
-  background: rgba(166, 201, 106, 0.45);
+  background: rgba(117, 190, 43, 0.4);
+}
+
+.brand-frame {
+  border: 1px solid rgba(20, 38, 28, 0.08);
+  background: rgba(255, 255, 255, 0.88);
+  box-shadow: 0 18px 48px rgba(35, 35, 35, 0.08);
+}
+
+.brand-pill {
+  border-radius: 999px;
+  background: var(--color-secondary);
+  color: var(--color-deep-green);
+}
+
+.brand-label {
+  background: rgba(209, 217, 180, 0.82);
+  color: var(--color-deep-green);
+}
+
+.brand-band {
+  background: linear-gradient(90deg, var(--color-surface), var(--color-secondary));
+}
+
+.prose {
+  color: var(--color-accent);
+}
+
+.prose :where(a):not(:where([class~="not-prose"] *)) {
+  color: var(--color-deep-green);
+  text-decoration-thickness: 1px;
+}
+
+.prose :where(a:hover):not(:where([class~="not-prose"] *)) {
+  color: var(--color-secondary);
 }

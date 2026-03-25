@@ -1,4 +1,13 @@
+import fs from 'node:fs';
 import type { Config } from 'tailwindcss';
+
+const brandTokens = JSON.parse(fs.readFileSync('./data/brand/tokens.json', 'utf8')) as {
+  brand: {
+    colors: Record<string, string>;
+  };
+};
+
+const brandColors = brandTokens.brand.colors;
 
 const config: Config = {
   content: [
@@ -10,19 +19,28 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        bark: '#14332a',
-        moss: '#6b9f39',
-        reed: '#a6c96a',
-        sand: '#efe7da',
-        clay: '#b57b45',
-        ink: '#15221d'
+        bark: brandColors.deepGreen,
+        moss: brandColors.secondary,
+        reed: brandColors.surfaceMossAlt,
+        sand: brandColors.surfaceMoss,
+        clay: brandColors.primary,
+        ink: brandColors.accent,
+        primary: brandColors.primary,
+        secondary: brandColors.secondary,
+        surface: brandColors.surfaceMoss,
+        surfaceAlt: brandColors.surfaceMossAlt,
+        accent: brandColors.accent,
+        white: brandColors.white
       },
       boxShadow: {
-        soft: '0 24px 60px rgba(20, 51, 42, 0.12)'
+        soft: '0 24px 60px rgba(35, 35, 35, 0.12)',
+        card: '0 18px 48px rgba(35, 35, 35, 0.08)'
       },
       backgroundImage: {
         'vetiver-radial':
-          'radial-gradient(circle at top left, rgba(166, 201, 106, 0.28), transparent 42%), radial-gradient(circle at top right, rgba(20, 51, 42, 0.16), transparent 34%)'
+          'radial-gradient(circle at top left, rgba(117, 190, 43, 0.24), transparent 38%), radial-gradient(circle at top right, rgba(209, 217, 180, 0.56), transparent 34%), linear-gradient(180deg, rgba(255,255,255,1), rgba(250,252,244,1))',
+        'brand-band':
+          'linear-gradient(90deg, rgba(209,217,180,1), rgba(117,190,43,1))'
       }
     }
   },

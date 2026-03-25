@@ -13,8 +13,8 @@ export function ContactPage({ locale }: { locale: Locale }) {
         image="2022/11/clouds-cloud-bank-high-fog-4979558.jpg"
       />
       <section className="mx-auto grid w-full max-w-6xl gap-8 px-6 py-16 lg:grid-cols-[0.8fr_1.2fr] lg:px-10">
-        <div className="rounded-[2rem] bg-white/82 p-8 shadow-soft">
-          <h2 className="text-3xl font-bold text-bark">{t.contactUs}</h2>
+        <div className="rounded-[2rem] bg-surface p-8 shadow-card">
+          <h2 className="text-3xl font-bold uppercase tracking-[-0.04em] text-ink">{t.contactUs}</h2>
           <ul className="mt-6 space-y-4 text-lg leading-8 text-ink/80">
             <li><a href="mailto:info@vetiversansfrontieres.org" className="hover:text-bark">info@vetiversansfrontieres.org</a></li>
             <li>599 4e rue Quebec, Qc, Canada</li>
@@ -29,9 +29,9 @@ export function ContactPage({ locale }: { locale: Locale }) {
             />
           </div>
         </div>
-        <div className="rounded-[2rem] bg-white/82 p-8 shadow-soft">
+        <div className="brand-frame rounded-[2rem] p-8">
           <div className="mb-6">
-            <h2 className="text-3xl font-bold text-bark">{t.formTitle}</h2>
+            <h2 className="text-3xl font-bold uppercase tracking-[-0.04em] text-ink">{t.formTitle}</h2>
             <p className="mt-3 text-lg leading-8 text-ink/78">{t.formBody}</p>
           </div>
           <FormEmbed kind="contact" />

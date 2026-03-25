@@ -16,6 +16,7 @@ export function HomePage({ locale, posts }: HomePageProps) {
   return (
     <div className="pb-16">
       <section className="relative isolate overflow-hidden">
+        <div className="absolute inset-x-0 top-0 h-20 bg-brand-band opacity-90" />
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
@@ -27,36 +28,36 @@ export function HomePage({ locale, posts }: HomePageProps) {
         <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(209,217,180,0.55),rgba(20,38,28,0.25)_70%,rgba(239,231,218,1))]" />
         <div className="relative mx-auto flex w-full max-w-6xl flex-col gap-12 px-6 pb-16 pt-20 lg:px-10 lg:pb-24 lg:pt-28">
           <div className="mx-auto max-w-4xl text-center">
-            <p className="mx-auto inline-block bg-sand/40 px-4 py-2 text-sm font-semibold uppercase tracking-[0.28em] text-moss shadow-soft backdrop-blur">
+            <p className="brand-label mx-auto inline-block rounded-full px-4 py-2 text-sm font-medium uppercase tracking-[0.28em] shadow-card backdrop-blur">
               {t.heroEyebrow}
             </p>
-            <h1 className="mt-6 text-6xl font-black uppercase tracking-[-0.06em] text-[#75BE2B] [text-shadow:0_2px_8px_rgba(0,0,0,0.4)] sm:text-7xl lg:text-[5.5rem]">
+            <h1 className="mt-6 text-6xl font-black uppercase tracking-[-0.06em] text-secondary [text-shadow:0_2px_8px_rgba(0,0,0,0.4)] sm:text-7xl lg:text-[5.5rem]">
               Vetiver
             </h1>
             <h2 className="mx-auto mt-4 max-w-4xl text-2xl font-semibold leading-tight text-white [text-shadow:0_1px_3px_rgba(0,0,0,0.5)] sm:text-3xl lg:text-4xl">
               {t.heroTitle}
             </h2>
-            <p className="mx-auto mt-6 max-w-3xl bg-[#D1D9B499] px-5 py-4 text-lg font-semibold leading-8 text-white [text-shadow:0_1px_2px_rgba(0,0,0,0.5)]">
+            <p className="mx-auto mt-6 max-w-3xl rounded-[1.5rem] bg-surface/70 px-5 py-4 text-lg font-semibold leading-8 text-white [text-shadow:0_1px_2px_rgba(0,0,0,0.5)]">
               {t.heroSubtitle}
             </p>
             <div className="mt-8 flex justify-center">
               <Link
                 href={locale === 'fr' ? '/fr/get-involved' : '/get-involved'}
-                className="rounded-full border border-bark bg-[#75BE2B] px-7 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-bark shadow-soft hover:bg-[#6AA63F]"
+                className="brand-pill rounded-full border border-bark px-7 py-3 text-sm font-semibold uppercase tracking-[0.18em] shadow-soft hover:bg-clay"
               >
                 {t.heroCta}
               </Link>
             </div>
           </div>
 
-          <div className="grid gap-6 rounded-[2rem] bg-white/78 p-5 shadow-soft backdrop-blur md:grid-cols-[1.15fr_0.85fr] lg:p-8">
+          <div className="brand-frame grid gap-6 rounded-[2rem] p-5 backdrop-blur md:grid-cols-[1.15fr_0.85fr] lg:p-8">
             <div className="space-y-5">
               <p className="text-lg leading-8 text-ink/80">{t.introOne}</p>
               <p className="text-lg leading-8 text-ink/80">{t.introTwo}</p>
               <div className="flex flex-wrap gap-3 pt-2">
                 <Link
                   href={locale === 'fr' ? '/fr/vetiver' : '/vetiver'}
-                  className="rounded-full bg-[#75BE2B] px-5 py-3 text-sm font-semibold text-bark hover:bg-[#6AA63F]"
+                  className="brand-pill rounded-full px-5 py-3 text-sm font-semibold uppercase tracking-[0.14em] hover:bg-clay"
                 >
                   {t.learnMore}
                 </Link>
@@ -64,7 +65,7 @@ export function HomePage({ locale, posts }: HomePageProps) {
                   href="https://www.facebook.com/profile.php?id=61553674826785"
                   target="_blank"
                   rel="noreferrer"
-                  className="rounded-full border border-bark/15 px-5 py-3 text-sm font-medium text-bark hover:border-bark/30"
+                  className="rounded-full border border-bark/15 bg-surface/40 px-5 py-3 text-sm font-medium text-bark hover:border-bark/30"
                 >
                   Facebook
                 </a>
@@ -72,7 +73,7 @@ export function HomePage({ locale, posts }: HomePageProps) {
                   href="https://www.linkedin.com/company/vetiver-sans-frontieres/"
                   target="_blank"
                   rel="noreferrer"
-                  className="rounded-full border border-bark/15 px-5 py-3 text-sm font-medium text-bark hover:border-bark/30"
+                  className="rounded-full border border-bark/15 bg-surface/40 px-5 py-3 text-sm font-medium text-bark hover:border-bark/30"
                 >
                   LinkedIn
                 </a>
@@ -80,7 +81,7 @@ export function HomePage({ locale, posts }: HomePageProps) {
                   href="https://www.instagram.com/vetiversansfrontieres/"
                   target="_blank"
                   rel="noreferrer"
-                  className="rounded-full border border-bark/15 px-5 py-3 text-sm font-medium text-bark hover:border-bark/30"
+                  className="rounded-full border border-bark/15 bg-surface/40 px-5 py-3 text-sm font-medium text-bark hover:border-bark/30"
                 >
                   Instagram
                 </a>
@@ -106,12 +107,12 @@ export function HomePage({ locale, posts }: HomePageProps) {
         }}
       >
         <div className="mx-auto flex w-full max-w-4xl flex-col items-center px-6 text-center lg:px-10">
-          <p className="text-xl leading-9 text-white">{t.donateText}</p>
+          <p className="max-w-3xl text-xl leading-9 text-white">{t.donateText}</p>
           <a
             href="https://www.zeffy.com/en-CA/donation-form/cbac2a62-15cb-4f94-866c-c860b1cfa606"
             target="_blank"
             rel="noreferrer"
-            className="mt-8 rounded-full bg-[#75BE2B] px-8 py-4 text-base font-semibold text-bark shadow-soft hover:bg-[#6AA63F]"
+            className="brand-pill mt-8 rounded-full px-8 py-4 text-base font-semibold uppercase tracking-[0.14em] shadow-soft hover:bg-clay"
           >
             {t.donateCta}
           </a>
@@ -120,7 +121,10 @@ export function HomePage({ locale, posts }: HomePageProps) {
 
       <section className="mx-auto w-full max-w-6xl px-6 py-20 lg:px-10">
         <div className="text-center">
-          <h2 className="text-4xl font-bold text-bark">{t.projectsTitle}</h2>
+          <p className="mx-auto inline-block rounded-full bg-surface px-4 py-2 text-xs font-medium uppercase tracking-[0.2em] text-bark">
+            {t.projectsEyebrow}
+          </p>
+          <h2 className="mt-5 text-4xl font-bold uppercase tracking-[-0.05em] text-ink">{t.projectsTitle}</h2>
           <p className="mt-4 text-lg text-ink/75">{t.projectsSubtitle}</p>
         </div>
         <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
@@ -131,20 +135,20 @@ export function HomePage({ locale, posts }: HomePageProps) {
       </section>
 
       <section className="mx-auto grid w-full max-w-6xl gap-8 px-6 py-6 lg:grid-cols-[0.95fr_1.05fr] lg:px-10">
-        <div className="rounded-[2rem] bg-white/80 p-8 shadow-soft">
-          <h2 className="text-4xl font-bold text-bark">{t.involvedTitle}</h2>
+        <div className="rounded-[2rem] bg-surface p-8 shadow-card">
+          <h2 className="text-4xl font-bold uppercase tracking-[-0.05em] text-ink">{t.involvedTitle}</h2>
           <p className="mt-6 text-lg leading-8 text-ink/80">{t.involvedBody}</p>
           <div className="mt-8">
             <Link
               href={locale === 'fr' ? '/fr/get-involved' : '/get-involved'}
-              className="rounded-full bg-bark px-6 py-3 text-sm font-semibold text-white hover:bg-bark/90"
+              className="brand-pill rounded-full px-6 py-3 text-sm font-semibold uppercase tracking-[0.16em] hover:bg-clay"
             >
               {t.involvedCta}
             </Link>
           </div>
         </div>
-        <div className="rounded-[2rem] bg-white/80 p-8 shadow-soft">
-          <h2 className="text-4xl font-bold text-bark">{t.partnerTitle}</h2>
+        <div className="brand-frame rounded-[2rem] p-8">
+          <h2 className="text-4xl font-bold uppercase tracking-[-0.05em] text-ink">{t.partnerTitle}</h2>
           <div className="mt-6 grid gap-6 md:grid-cols-[0.85fr_1.15fr]">
             <img
               src={getMediaUrl('2022/10/vlcsnap-2022-10-21-14h15m27s059-scaled.jpg')}
@@ -155,13 +159,13 @@ export function HomePage({ locale, posts }: HomePageProps) {
               <p className="text-lg leading-8 text-ink/80">{t.partnerBody}</p>
               <p className="text-base font-semibold uppercase tracking-[0.18em] text-bark/60">{t.followLabel}</p>
               <div className="flex flex-wrap gap-3">
-                <a href="https://www.facebook.com/profile.php?id=61553674826785" target="_blank" rel="noreferrer" className="rounded-full border border-bark/15 px-4 py-2 text-sm text-bark">
+                <a href="https://www.facebook.com/profile.php?id=61553674826785" target="_blank" rel="noreferrer" className="rounded-full border border-bark/15 bg-surface/40 px-4 py-2 text-sm text-bark">
                   Facebook
                 </a>
-                <a href="https://www.linkedin.com/company/vetiver-sans-frontieres/" target="_blank" rel="noreferrer" className="rounded-full border border-bark/15 px-4 py-2 text-sm text-bark">
+                <a href="https://www.linkedin.com/company/vetiver-sans-frontieres/" target="_blank" rel="noreferrer" className="rounded-full border border-bark/15 bg-surface/40 px-4 py-2 text-sm text-bark">
                   LinkedIn
                 </a>
-                <a href="https://www.instagram.com/vetiversansfrontieres/" target="_blank" rel="noreferrer" className="rounded-full border border-bark/15 px-4 py-2 text-sm text-bark">
+                <a href="https://www.instagram.com/vetiversansfrontieres/" target="_blank" rel="noreferrer" className="rounded-full border border-bark/15 bg-surface/40 px-4 py-2 text-sm text-bark">
                   Instagram
                 </a>
               </div>
@@ -171,9 +175,9 @@ export function HomePage({ locale, posts }: HomePageProps) {
       </section>
 
       <section className="mx-auto w-full max-w-5xl px-6 py-16 lg:px-10">
-        <div className="rounded-[2rem] bg-white/82 p-8 shadow-soft">
+        <div className="rounded-[2rem] bg-surface p-8 shadow-card">
           <div className="text-center">
-            <h2 className="text-4xl font-bold text-bark">{t.newsletterTitle}</h2>
+            <h2 className="text-4xl font-bold uppercase tracking-[-0.05em] text-ink">{t.newsletterTitle}</h2>
             <p className="mx-auto mt-4 max-w-2xl text-lg leading-8 text-ink/78">{t.newsletterBody}</p>
           </div>
           <div className="mt-8">
@@ -201,6 +205,7 @@ const copy = {
     donateText:
       'Join VSF in environmental regeneration. Witness the transformation of our ongoing and completed projects, and help create a sustainable future by supporting field action directly.',
     donateCta: 'Donate here',
+    projectsEyebrow: 'Field stories',
     projectsTitle: 'Projects',
     projectsSubtitle: 'Follow our latest stories and stay close to the projects on the ground.',
     involvedTitle: 'Get Involved, Make a Difference',
@@ -230,6 +235,7 @@ const copy = {
     donateText:
       'Participez a la regeneration environnementale avec VSF. Soutenez nos projets de terrain et aidez-nous a construire un futur plus durable.',
     donateCta: 'Faire un don',
+    projectsEyebrow: 'Actualites terrain',
     projectsTitle: 'Projets',
     projectsSubtitle: 'Suivez nos actualites et restez proches des projets sur le terrain.',
     involvedTitle: 'Impliquez-vous, faites une difference',

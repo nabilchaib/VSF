@@ -23,7 +23,7 @@ export function FormEmbed({ kind }: { kind: FormKind }) {
 
   if (config.embedUrl) {
     return (
-      <div className="overflow-hidden rounded-[2rem] border border-bark/10 bg-white p-2 shadow-soft">
+      <div className="overflow-hidden rounded-[2rem] border border-bark/10 bg-white p-2 shadow-card">
         <iframe
           title={config.title}
           src={config.embedUrl}
@@ -35,14 +35,14 @@ export function FormEmbed({ kind }: { kind: FormKind }) {
   }
 
   return (
-    <div className="rounded-[2rem] border border-dashed border-bark/20 bg-white/80 p-8 shadow-soft">
-      <h3 className="text-2xl font-semibold text-bark">{config.title}</h3>
+    <div className="rounded-[2rem] border border-dashed border-bark/20 bg-surface/55 p-8 shadow-card">
+      <h3 className="text-2xl font-semibold uppercase tracking-[-0.03em] text-ink">{config.title}</h3>
       <p className="mt-3 max-w-2xl text-base leading-7 text-ink/75">
         Configure the hosted form URL in the environment variables to embed the production form. The fallback link below still keeps the page functional.
       </p>
       <a
         href={config.linkUrl || config.fallback}
-        className="mt-5 inline-flex rounded-full bg-bark px-5 py-3 text-sm font-semibold text-white hover:bg-bark/90"
+        className="brand-pill mt-5 inline-flex rounded-full px-5 py-3 text-sm font-semibold uppercase tracking-[0.14em] hover:bg-clay"
       >
         Open form
       </a>
