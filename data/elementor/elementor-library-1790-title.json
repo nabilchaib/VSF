@@ -1,0 +1,34 @@
+{
+  "postId": 1790,
+  "postType": "elementor_library",
+  "status": "publish",
+  "title": "Title",
+  "slug": "?elementor_library=title-2",
+  "link": "https://vetiversansfrontieres.org/?elementor_library=title-2",
+  "meta": {
+    "_elementor_template_type": "widget",
+    "_elementor_edit_mode": "builder",
+    "_elementor_version": "3.8.1",
+    "_elementor_pro_version": "3.8.1",
+    "_elementor_template_widget_type": "heading",
+    "_wp_page_template": "default"
+  },
+  "elementorPageSettings": null,
+  "elementorData": [
+    {
+      "id": "68d6ad3f",
+      "elType": "widget",
+      "settings": {
+        "title": "Vetiver",
+        "header_size": "h1",
+        "align": "center",
+        "__globals__": {
+          "title_color": "globals/colors?id=secondary"
+        }
+      },
+      "elements": [],
+      "widgetType": "heading"
+    }
+  ],
+  "fileName": "elementor-library-1790-title.json"
+}

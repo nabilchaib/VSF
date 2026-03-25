@@ -1,0 +1,1216 @@
+{
+  "postId": 2333,
+  "postType": "unknown",
+  "status": "unknown",
+  "title": "Post 2333",
+  "slug": "",
+  "link": "",
+  "meta": {
+    "_elementor_template_type": "wp-post",
+    "_elementor_edit_mode": "builder",
+    "_elementor_version": "3.19.0",
+    "_elementor_pro_version": "3.19.0",
+    "_elementor_template_widget_type": "",
+    "_wp_page_template": "default"
+  },
+  "elementorPageSettings": null,
+  "elementorData": [
+    {
+      "id": "c229c3e",
+      "elType": "section",
+      "settings": [],
+      "elements": [
+        {
+          "id": "43f5634",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null,
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            }
+          },
+          "elements": [
+            {
+              "id": "684138f",
+              "elType": "widget",
+              "settings": {
+                "__dynamic__": {
+                  "image": "[elementor-tag id=\"\" name=\"post-featured-image\" settings=\"%7B%22fallback%22%3A%7B%22url%22%3A%22https%3A%2F%2Fvetiversansfrontieres.org%2Fwp-content%2Fuploads%2F2023%2F11%2FHeritage-Food-System-Presentation.png%22%2C%22id%22%3A2043%2C%22alt%22%3A%22%22%2C%22source%22%3A%22library%22%2C%22size%22%3A%22%22%7D%7D\"]"
+                },
+                "image_size": "medium_large",
+                "image_custom_dimension": {
+                  "width": "1140",
+                  "height": "550"
+                },
+                "image": {
+                  "id": 727,
+                  "url": "https://vetiversansfrontieres.org/wp-content/uploads/2022/10/placeholder.png"
+                },
+                "link_to": "custom",
+                "link": {
+                  "url": "",
+                  "is_external": "on",
+                  "nofollow": "",
+                  "custom_attributes": ""
+                },
+                "height": {
+                  "unit": "px",
+                  "size": 446,
+                  "sizes": []
+                },
+                "object-fit": "cover"
+              },
+              "elements": [],
+              "widgetType": "theme-post-featured-image"
+            },
+            {
+              "id": "b66bb74",
+              "elType": "widget",
+              "settings": {
+                "source": "custom",
+                "author_avatar": {
+                  "url": "https://vetiversansfrontieres.org/wp-content/uploads/2024/01/WhatsApp-Image-2024-01-31-at-11.03.38.jpeg",
+                  "id": 2248,
+                  "size": "",
+                  "alt": "",
+                  "source": "library"
+                },
+                "author_name": "Chris Hill",
+                "author_bio": "",
+                "link_text": "All Posts",
+                "layout": "above",
+                "alignment": "center",
+                "image_border": "yes",
+                "image_border_color": "#FFFFFF",
+                "image_border_width": {
+                  "unit": "px",
+                  "size": 8,
+                  "sizes": []
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "-70",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "author-box"
+            },
+            {
+              "id": "1c6fc70",
+              "elType": "widget",
+              "settings": {
+                "__dynamic__": {
+                  "title": "[elementor-tag id=\"\" name=\"post-title\" settings=\"%7B%22before%22%3A%22%22%2C%22after%22%3A%22%22%2C%22fallback%22%3A%22%22%7D\"]"
+                },
+                "title": "Add Your Heading Text Here",
+                "header_size": "h2",
+                "align": "center"
+              },
+              "elements": [],
+              "widgetType": "theme-post-title"
+            },
+            {
+              "id": "f048d94",
+              "elType": "widget",
+              "settings": {
+                "image": {
+                  "url": "https://vetiversansfrontieres.org/wp-content/uploads/2024/02/IMG-20240131-WA0016.jpg",
+                  "id": 2305,
+                  "size": "",
+                  "source": "library",
+                  "alt": ""
+                },
+                "image_size": "1536x1536",
+                "height": {
+                  "unit": "px",
+                  "size": 459,
+                  "sizes": []
+                },
+                "object-fit": "cover",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "-0",
+                  "bottom": "0",
+                  "left": "-0",
+                  "isLinked": false
+                },
+                "_offset_orientation_v": "end",
+                "space": {
+                  "unit": "%",
+                  "size": 100,
+                  "sizes": []
+                },
+                "_offset_x": {
+                  "size": 11,
+                  "unit": "px"
+                },
+                "_offset_y_end": {
+                  "size": 0,
+                  "unit": "px"
+                }
+              },
+              "elements": [],
+              "widgetType": "image"
+            },
+            {
+              "id": "4cc3509",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Nestled in the lush landscapes of the Sierra Nevada of Santa Marta, Colombia, lies a beacon of sustainable living and agricultural innovation: Finca Sin Fronteras / NoBorders Farm. Operated by a passionate UK-Colombian couple with a vibrant daughter, this 10-hectare permaculture farm and school represents more than just a piece of land; it's a living, breathing example of harmony between humanity and nature.</p><p><!-- notionvc: 17339c47-4e6e-4cec-95f3-7d470520a423 --></p>",
+                "drop_cap": "yes",
+                "_margin": {
+                  "unit": "px",
+                  "top": "10",
+                  "right": "0",
+                  "bottom": "10",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "5e73998",
+              "elType": "widget",
+              "settings": {
+                "editor": ""
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "aae5bce",
+              "elType": "section",
+              "settings": {
+                "structure": "20"
+              },
+              "elements": [
+                {
+                  "id": "5c8969f",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "5879d55",
+                      "elType": "widget",
+                      "settings": {
+                        "image": {
+                          "url": "https://vetiversansfrontieres.org/wp-content/uploads/2024/01/WhatsApp-Image-2024-01-31-at-11.03.37.jpeg",
+                          "id": 2257,
+                          "size": "",
+                          "alt": "",
+                          "source": "library"
+                        },
+                        "height": {
+                          "unit": "px",
+                          "size": 384,
+                          "sizes": []
+                        },
+                        "object-fit": "cover",
+                        "_padding": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "image"
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "d99d94d",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "content_position": "top",
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "87ebb3f",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p>Permaculture, a concept that's rapidly gaining traction in today's environmentally conscious world, is at the heart of Finca Sin Fronteras. It's a philosophy that interweaves sustainability, ecology, and community living, aiming to create self-sufficient agricultural systems. This farm doesn't just cultivate crops; it cultivates hope, showcasing a way of life that respects and nurtures the environment.</p><p>At the core of their success story is Vetiver, a remarkable plant that's transforming permaculture practices. </p>",
+                        "align": "justify",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "15",
+                          "right": "15",
+                          "bottom": "15",
+                          "left": "15",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "801b2f4",
+              "elType": "section",
+              "settings": {
+                "structure": "20"
+              },
+              "elements": [
+                {
+                  "id": "b6b44c5",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "cf1604e",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "The Journey to Vetiver",
+                        "align": "center",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "19",
+                          "right": "19",
+                          "bottom": "19",
+                          "left": "19",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "f3292a5",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p>The story of Finca Sin Fronteras / NoBorders Farm and their embrace of Vetiver is as much a tale of community as it is of agriculture. It began with a quest for authenticity and sustainability in farming practices, a journey that led the farm's stewards, Chris and his family, to a transformative discovery.</p><p>Amidst the challenges of obtaining non-hybrid, traditional seeds, a gathering of local communities sparked the change. Farmers and gardeners, each a guardian of the land in their own right, came together to exchange seeds - a practice as old as agriculture itself. It was here, in this vibrant assembly of shared knowledge and mutual support, that Chris first encountered Vetiver.</p><p> </p>",
+                        "_element_width": "initial",
+                        "_element_custom_width": {
+                          "unit": "%",
+                          "size": 100.112
+                        },
+                        "align": "justify",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "25",
+                          "right": "25",
+                          "bottom": "25",
+                          "left": "25",
+                          "isLinked": true
+                        },
+                        "_padding": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "25a1d4f",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "27ca015",
+                      "elType": "widget",
+                      "settings": {
+                        "image": {
+                          "url": "https://vetiversansfrontieres.org/wp-content/uploads/2024/01/WhatsApp-Image-2024-01-31-at-09.26.28.jpeg",
+                          "id": 2267,
+                          "size": "",
+                          "alt": "",
+                          "source": "library"
+                        },
+                        "_element_width": "initial",
+                        "_element_custom_width": {
+                          "unit": "%",
+                          "size": 100.703
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "image"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "a823590",
+              "elType": "section",
+              "settings": {
+                "structure": "20"
+              },
+              "elements": [
+                {
+                  "id": "27e6e8c",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "73d3761",
+                      "elType": "widget",
+                      "settings": {
+                        "image": {
+                          "url": "https://vetiversansfrontieres.org/wp-content/uploads/2024/01/WhatsApp-Image-2024-01-31-at-09.46.21-2.jpeg",
+                          "id": 2263,
+                          "size": "",
+                          "alt": "",
+                          "source": "library"
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "image"
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "ba477af",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null
+                  },
+                  "elements": [
+                    {
+                      "id": "78f0540",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p>Vetiver was not just another plant; it was a revelation. Chris, intrigued by the tales of its impact, visited a neighboring farm where Vetiver was already in use. The visit opened his eyes to the plant's potential. He witnessed Vetiver's resilience, its ability to thrive and bring life even to the most challenging terrains. The decision was made: Vetiver would become a cornerstone of Finca Sin Fronteras' permaculture practices.</p><p>This initial encounter with Vetiver was more than just an agricultural choice. It was a commitment to a philosophy that values the interconnectedness of all life, recognizing that the health of our environment is inextricably linked to our own.</p>",
+                        "align": "justify",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "25",
+                          "right": "25",
+                          "bottom": "25",
+                          "left": "25",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "7d81f19",
+              "elType": "section",
+              "settings": {
+                "layout": "full_width",
+                "structure": "20",
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                }
+              },
+              "elements": [
+                {
+                  "id": "3384e5f",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": 50,
+                    "content_position": "top",
+                    "margin": {
+                      "unit": "px",
+                      "top": "25",
+                      "right": "25",
+                      "bottom": "0",
+                      "left": "25",
+                      "isLinked": false
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "ebc7c58",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Transformative Impact of Vetiver\n",
+                        "header_size": "h3",
+                        "align": "center"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "82b8a25",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p>The integration of Vetiver at Finca Sin Fronteras / NoBorders Farm marked a turning point in their journey towards sustainable agriculture. Vetiver was not just a plant; it became a symbol of resilience and regeneration, a testament to the power of harmonizing with nature.</p><p><strong>Mitigating Heavy Rains</strong>: One of the most immediate impacts of Vetiver was its ability to withstand and mitigate heavy rains. In an area like the Sierra Nevada, where downpours can be intense, this was a game-changer. The Vetiver root system, deep and robust, held the soil firmly, preventing erosion and preserving the farm's precious topsoil. The once turbulent water streams on the land were tamed, becoming clearer and more manageable.</p><p><strong>Terracing and Soil Retention</strong>: The strategic planting of Vetiver transformed the landscape. Its hedgerows created natural contours on the land, shaping terraced fields that not only looked aesthetically pleasing but also significantly increased farming efficiency. The upper slopes, once at risk of being washed away, were now secure, their soil held firmly in place by the resilient Vetiver.</p><p> </p>",
+                        "align": "justify"
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "efe7ded",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": 50,
+                    "space_between_widgets": 0,
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "36a04bc",
+                      "elType": "widget",
+                      "settings": {
+                        "image": {
+                          "url": "https://vetiversansfrontieres.org/wp-content/uploads/2024/01/WhatsApp-Image-2024-01-31-at-09.37.51.jpeg",
+                          "id": 2260,
+                          "size": "",
+                          "alt": "",
+                          "source": "library"
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "image"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "95a6821",
+              "elType": "widget",
+              "settings": {
+                "image": {
+                  "url": "https://vetiversansfrontieres.org/wp-content/uploads/2024/02/IMG-20240131-WA0023.jpg",
+                  "id": 2312,
+                  "size": "",
+                  "alt": "",
+                  "source": "library"
+                },
+                "_padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                }
+              },
+              "elements": [],
+              "widgetType": "image"
+            },
+            {
+              "id": "27f377f",
+              "elType": "section",
+              "settings": {
+                "structure": "20"
+              },
+              "elements": [
+                {
+                  "id": "2454bb8",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "8bb198c",
+                      "elType": "widget",
+                      "settings": {
+                        "image": {
+                          "url": "https://vetiversansfrontieres.org/wp-content/uploads/2024/02/IMG-20240131-WA0017.jpg",
+                          "id": 2306,
+                          "size": "",
+                          "alt": "",
+                          "source": "library"
+                        },
+                        "height": {
+                          "unit": "px",
+                          "size": 455,
+                          "sizes": []
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "image"
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "3a09a4d",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null
+                  },
+                  "elements": [
+                    {
+                      "id": "ca1a792",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p><strong>Designing with Nature</strong>: In permaculture, design is crucial, and Vetiver became an essential element in this. Its hedgerows served as natural boundaries between different sections of the farm, guiding the layout and flow of the land. This was not just about farming; it was about creating a living ecosystem where each element supports and enhances the others.</p><p>For Chris and his family, Vetiver was more than a solution; it was an ally. It changed the way they interacted with their land, shifting from mere cultivation to nurturing a thriving ecosystem. The impact of Vetiver was profound, touching every aspect of the farm's operation and turning challenges into opportunities for growth and renewal.</p>",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "25",
+                          "right": "25",
+                          "bottom": "25",
+                          "left": "25",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "7f12ad4",
+              "elType": "widget",
+              "settings": {
+                "image": {
+                  "url": "https://vetiversansfrontieres.org/wp-content/uploads/2024/02/IMG-20240131-WA0015.jpg",
+                  "id": 2304,
+                  "size": "",
+                  "alt": "",
+                  "source": "library"
+                },
+                "object-fit": "cover"
+              },
+              "elements": [],
+              "widgetType": "image"
+            },
+            {
+              "id": "9c0c1c6",
+              "elType": "widget",
+              "settings": {
+                "title": "Vetiver in the Bigger Picture",
+                "align": "center",
+                "_margin": {
+                  "unit": "px",
+                  "top": "20",
+                  "right": "20",
+                  "bottom": "20",
+                  "left": "20",
+                  "isLinked": true
+                }
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "5fec439",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>The success story of Vetiver at Finca Sin Fronteras is not just a local phenomenon but a microcosm of a global movement in sustainable agriculture and environmental conservation.</p>",
+                "align": "justify",
+                "_margin": {
+                  "unit": "px",
+                  "top": "25",
+                  "right": "25",
+                  "bottom": "25",
+                  "left": "25",
+                  "isLinked": true
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "0080f7c",
+              "elType": "section",
+              "settings": {
+                "structure": "20"
+              },
+              "elements": [
+                {
+                  "id": "6692de4",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "content_position": "top"
+                  },
+                  "elements": [
+                    {
+                      "id": "b87455b",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p><strong>A Global Solution for Sustainable Agriculture</strong>: Vetiver's effectiveness in land regeneration and soil conservation has made it a key player in the worldwide permaculture community. Its deep roots and robust nature make it an ideal solution for soil erosion control, a challenge faced by farmers globally. By stabilizing soil and improving water retention, Vetiver not only enhances the productivity of farmlands but also contributes to the well-being of the surrounding ecosystems.</p><p><strong>Enhancing Biodiversity and Ecosystem Health</strong>: Beyond its practical applications in farming, Vetiver plays a crucial role in biodiversity. By creating a habitat for various species, it contributes to the ecological balance, supporting a range of flora and fauna. The presence of Vetiver in farmlands is a step towards restoring the natural harmony of the land, making it a haven for wildlife and a bastion of biodiversity.</p><p> </p>",
+                        "drop_cap": "yes"
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "4b3e3bc",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "b9f7816",
+                      "elType": "widget",
+                      "settings": {
+                        "image": {
+                          "url": "https://vetiversansfrontieres.org/wp-content/uploads/2024/01/WhatsApp-Image-2024-01-31-at-09.37.51.jpeg",
+                          "id": 2260,
+                          "size": "",
+                          "alt": "",
+                          "source": "library"
+                        },
+                        "object-fit": "fill"
+                      },
+                      "elements": [],
+                      "widgetType": "image"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "abe90e0",
+              "elType": "section",
+              "settings": {
+                "structure": "20"
+              },
+              "elements": [
+                {
+                  "id": "1bd0f29",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "9c4de2e",
+                      "elType": "widget",
+                      "settings": {
+                        "image": {
+                          "url": "https://vetiversansfrontieres.org/wp-content/uploads/2024/01/WhatsApp-Image-2024-01-31-at-09.26.30.jpeg",
+                          "id": 2269,
+                          "size": "",
+                          "alt": "",
+                          "source": "library"
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "image"
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "9789e6f",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null
+                  },
+                  "elements": [
+                    {
+                      "id": "41c4f45",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p><strong>Water Management and Climate Resiliency</strong>: In regions plagued by water scarcity or excessive rainfall, Vetiver has emerged as a critical tool for efficient water management. Its ability to withstand diverse climatic conditions, from droughts to floods, showcases its resilience and adaptability, making it an invaluable asset in the face of climate change.</p><p>The story of Vetiver is more than just a tale of a plant; it's a narrative of hope, resilience, and a testament to the power of working with nature rather than against it. As more farms and communities embrace Vetiver, the prospects for a sustainable, resilient, and biodiverse future become increasingly tangible.</p>"
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "49e3146",
+              "elType": "widget",
+              "settings": {
+                "title": "Learning from Finca Sin Fronteras",
+                "align": "center",
+                "_margin": {
+                  "unit": "px",
+                  "top": "18",
+                  "right": "18",
+                  "bottom": "18",
+                  "left": "18",
+                  "isLinked": true
+                }
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "7946d47",
+              "elType": "section",
+              "settings": {
+                "structure": "20",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": 0,
+                  "bottom": "0",
+                  "left": 0,
+                  "isLinked": false
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                }
+              },
+              "elements": [
+                {
+                  "id": "51571ba",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "830040d",
+                      "elType": "widget",
+                      "settings": {
+                        "image": {
+                          "url": "https://vetiversansfrontieres.org/wp-content/uploads/2024/01/WhatsApp-Image-2024-01-31-at-09.46.20.jpeg",
+                          "id": 2261,
+                          "size": "",
+                          "alt": "",
+                          "source": "library"
+                        },
+                        "object-fit": "cover"
+                      },
+                      "elements": [],
+                      "widgetType": "image"
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "04b8725",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "d9e2cd8",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p>The journey of Finca Sin Fronteras with Vetiver extends beyond their own land. It offers invaluable lessons and insights for other farms and ecological projects, emphasizing the power of community, resilience, and adaptability in sustainable farming.</p><p><strong>Community-Driven Sustainability</strong>: One of the key lessons from their experience is the importance of community in sustainable practices. The initial discovery and subsequent adoption of Vetiver were rooted in community interactions and knowledge exchange. This reinforces the idea that sustainable farming is as much about growing crops as it is about nurturing relationships and building networks of shared knowledge.</p><p><strong>Designing with Nature</strong>: The use of Vetiver at Finca Sin Fronteras demonstrates the effectiveness of working in harmony with nature. Permaculture is not just about selecting the right crops; it's about understanding and integrating natural patterns and systems into agricultural design. Vetiver, with its natural ability to shape landscapes, prevent erosion, and enhance biodiversity, embodies this principle.</p>",
+                        "align": "justify",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "25",
+                          "right": "25",
+                          "bottom": "25",
+                          "left": "25",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "c510550",
+              "elType": "section",
+              "settings": {
+                "structure": "20"
+              },
+              "elements": [
+                {
+                  "id": "96d95f3",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null
+                  },
+                  "elements": [
+                    {
+                      "id": "941e09a",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p><strong>Resilience and Adaptation</strong>: Vetiver's role in enhancing the farm's resilience to environmental challenges is a critical takeaway. Its ability to thrive in various conditions, from heavy rains to droughts, makes it an exemplary model of adaptability in the face of climate change. This adaptability is a crucial element for any farm or ecological project looking to build long-term sustainability.</p><p><strong>Starting with Simple Solutions</strong>: The success of Vetiver at Finca Sin Fronteras shows that sometimes, the simplest solutions can be the most effective. Vetiver is not a high-tech solution; it's a natural, accessible, and effective tool that can be easily integrated into various agricultural and ecological projects.</p><p>The story of Vetiver at Finca Sin Fronteras is not just about a plant; it's a narrative of how simple, nature-based solutions can lead to profound and lasting impacts on the land, the environment, and the community.</p>",
+                        "_padding": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "bf9e5d3",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "c6c01bc",
+              "elType": "widget",
+              "settings": {
+                "title": "Cultivating a Sustainable Future with Vetiver",
+                "align": "center",
+                "_margin": {
+                  "unit": "px",
+                  "top": "10",
+                  "right": "10",
+                  "bottom": "10",
+                  "left": "10",
+                  "isLinked": true
+                }
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "16ea900",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>As the sun heralds a new day over the lush, Vetiver-lined fields of Finca Sin Fronteras / NoBorders Farm, it symbolizes more than just the dawn of a new day. It represents the awakening of a global consciousness towards sustainable agriculture and a harmonious relationship with our environment.</p><p><strong>Join the Movement</strong>: As we marvel at the transformation brought by Vetiver at Finca Sin Fronteras, we invite you to be part of this sustainable revolution. By supporting initiatives like <a href=\"https://www.zeffy.com/en-CA/donation-form/cbac2a62-15cb-4f94-866c-c860b1cfa606\">Vetiver Sans Frontières</a>, you contribute to the proliferation of environmentally conscious farming practices that benefit both the land and the communities that nurture it.</p><p><strong>Learn and Grow with Us</strong>: Moreover, we encourage you to delve deeper into the world of sustainable agriculture by participating in the Permaculture Course offered by Finca Sin Fronteras. This course is not just an educational experience; it's an opportunity to be part of a community dedicated to ecological stewardship and innovation.</p><p><strong>Your Impact Matters</strong>: Every step you take, whether it's a donation, participation in a course, or simply sharing the story of Vetiver and Finca Sin Fronteras, makes a difference. Your involvement helps propagate the vision of a world where agriculture and ecology exist in harmony, where each of us plays a vital role in nurturing our planet.</p><p>Join us in this mission. Support Vetiver Sans Frontières and participate in Finca Sin Fronteras' Permaculture Course. Together, we can sow the seeds for a sustainable, resilient, and hopeful future, one farm, one community, one Vetiver plant at a time.</p>"
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "e7e0a81",
+              "elType": "section",
+              "settings": {
+                "structure": "20"
+              },
+              "elements": [
+                {
+                  "id": "5944a28",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null
+                  },
+                  "elements": [
+                    {
+                      "id": "a1d5673",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p><span style=\"font-size: 18px;\"><strong>Step into Nature's Classroom at Finca Sin Fronteras</strong></span>:</p><p>Embark on an enriching journey with us and uncover the transformative power of Vetiver, a testament to nature's simplicity and its profound impact on sustainable agriculture. This is more than a story; it's an invitation to weave nature's wisdom into the fabric of our farming practices.</p><p><strong>Join Their Next Permaculture Design Course!</strong></p><p>We're inviting you to immerse yourself in the vibrant learning experience at Finca Sin Fronteras. This is your chance to dive deep into the world of Permaculture and the Vetiver System, surrounded by the beauty of our environment. Through interactive, hands-on projects, you'll not only witness but actively participate in crafting sustainable solutions that nurture both your surroundings and community. Don't let this opportunity pass you by—come grow with us and become a part of something truly special!</p>"
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "ca3cc34",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "2c81000",
+                      "elType": "widget",
+                      "settings": {
+                        "image": {
+                          "url": "https://vetiversansfrontieres.org/wp-content/uploads/2024/01/WhatsApp-Image-2024-01-31-at-11.09.36.jpeg",
+                          "id": 2247,
+                          "size": "",
+                          "alt": "",
+                          "source": "library"
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "image"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "21d0b30",
+      "elType": "section",
+      "settings": [],
+      "elements": [
+        {
+          "id": "1d2d4f8",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "b6b9b0a",
+              "elType": "widget",
+              "settings": {
+                "title": "If you like this story and want to know more, please share and like below",
+                "header_size": "h3"
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "2fe287e",
+              "elType": "widget",
+              "settings": {
+                "share_buttons": [
+                  {
+                    "_id": "03ca5d0"
+                  },
+                  {
+                    "button": "twitter",
+                    "_id": "4fa4f0c"
+                  },
+                  {
+                    "button": "linkedin",
+                    "_id": "0230a69"
+                  },
+                  {
+                    "_id": "ece1d14",
+                    "button": "email"
+                  }
+                ]
+              },
+              "elements": [],
+              "widgetType": "share-buttons"
+            },
+            {
+              "id": "ba17f37",
+              "elType": "widget",
+              "settings": {
+                "size": "large",
+                "show_share": "yes"
+              },
+              "elements": [],
+              "widgetType": "facebook-button"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ],
+  "fileName": "unknown-2333-post-2333.json"
+}

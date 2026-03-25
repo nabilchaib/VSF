@@ -1,0 +1,222 @@
+{
+  "postId": 1282,
+  "postType": "unknown",
+  "status": "unknown",
+  "title": "Post 1282",
+  "slug": "",
+  "link": "",
+  "meta": {
+    "_elementor_template_type": "popup",
+    "_elementor_edit_mode": "builder",
+    "_elementor_version": "3.8.0",
+    "_elementor_pro_version": "3.8.0",
+    "_elementor_template_widget_type": "",
+    "_wp_page_template": "default"
+  },
+  "elementorPageSettings": "a:9:{s:5:\"width\";a:3:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";s:4:\"1400\";s:5:\"sizes\";a:0:{}}s:12:\"width_tablet\";a:3:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";s:3:\"720\";s:5:\"sizes\";a:0:{}}s:18:\"entrance_animation\";s:6:\"fadeIn\";s:14:\"exit_animation\";s:6:\"fadeIn\";s:27:\"entrance_animation_duration\";a:3:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";s:3:\"0.5\";s:5:\"sizes\";a:0:{}}s:24:\"overlay_background_color\";s:9:\"#FFFAF5CC\";s:18:\"close_button_color\";s:7:\"#0F1319\";s:24:\"close_button_hover_color\";s:7:\"#5659C7\";s:11:\"__globals__\";a:3:{s:24:\"overlay_background_color\";s:0:\"\";s:18:\"close_button_color\";s:0:\"\";s:24:\"close_button_hover_color\";s:0:\"\";}}",
+  "elementorData": [
+    {
+      "id": "36c128f8",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "structure": "21",
+        "reverse_order_tablet": "reverse-tablet",
+        "reverse_order_mobile": "reverse-mobile",
+        "_title": "Popup",
+        "__globals__": {
+          "background_color": ""
+        }
+      },
+      "elements": [
+        {
+          "id": "1ecb166d",
+          "elType": "column",
+          "settings": {
+            "_column_size": "33",
+            "background_background": "classic",
+            "background_image": {
+              "id": "1205",
+              "url": "https://vetiversansfrontieres.org/wp-content/uploads/2022/11/IMG-20220616-WA0001.jpg"
+            },
+            "background_position": "center center",
+            "background_repeat": "no-repeat",
+            "background_size": "cover",
+            "_inline_size_tablet": "100",
+            "background_position_tablet": "initial",
+            "background_ypos_tablet": {
+              "unit": "px",
+              "size": "-200",
+              "sizes": []
+            },
+            "background_repeat_tablet": "no-repeat",
+            "background_size_tablet": "cover",
+            "background_position_mobile": "top center",
+            "_inline_size": 46.19
+          },
+          "elements": [
+            {
+              "id": "7f9c0e0d",
+              "elType": "widget",
+              "settings": {
+                "space_tablet": {
+                  "unit": "px",
+                  "size": "350",
+                  "sizes": []
+                },
+                "space_mobile": {
+                  "unit": "px",
+                  "size": "280",
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "spacer"
+            }
+          ],
+          "isInner": ""
+        },
+        {
+          "id": "4ec5e1fd",
+          "elType": "column",
+          "settings": {
+            "_column_size": "66",
+            "space_between_widgets": "30",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "1",
+              "left": "0",
+              "isLinked": ""
+            },
+            "padding": {
+              "unit": "%",
+              "top": "10",
+              "right": "10",
+              "bottom": "10",
+              "left": "10",
+              "isLinked": "1"
+            },
+            "_inline_size_tablet": "100",
+            "padding_tablet": {
+              "unit": "%",
+              "top": "5",
+              "right": "5",
+              "bottom": "5",
+              "left": "5",
+              "isLinked": "1"
+            },
+            "padding_mobile": {
+              "unit": "%",
+              "top": "10",
+              "right": "10",
+              "bottom": "10",
+              "left": "10",
+              "isLinked": "1"
+            },
+            "__globals__": {
+              "border_color": ""
+            },
+            "border_color": "#5659C7",
+            "_inline_size": 53.81
+          },
+          "elements": [
+            {
+              "id": "69a43fa2",
+              "elType": "widget",
+              "settings": {
+                "title": "Who uses our services",
+                "align_tablet": "center",
+                "align_mobile": "center",
+                "__globals__": {
+                  "title_color": "",
+                  "typography_typography": ""
+                },
+                "title_color": "#0F1319",
+                "typography_typography": "custom",
+                "typography_font_family": "Rubik",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": "45",
+                  "sizes": []
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": "28",
+                  "sizes": []
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": "25",
+                  "sizes": []
+                },
+                "typography_font_weight": "300",
+                "typography_text_transform": "capitalize",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": "1.2",
+                  "sizes": []
+                },
+                "align": "center"
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "23a63e16",
+              "elType": "widget",
+              "settings": {
+                "icon_list": [
+                  {
+                    "text": "All scales of farmers",
+                    "_id": "2f3f5cc"
+                  },
+                  {
+                    "_id": "a435567",
+                    "text": "Transport engineers"
+                  },
+                  {
+                    "text": "Environnement associations",
+                    "_id": "4183dc3"
+                  },
+                  {
+                    "text": "Watershed associations",
+                    "_id": "a73725e"
+                  },
+                  {
+                    "_id": "63e994b",
+                    "text": "Beach and sand dunes managers"
+                  }
+                ],
+                "space_between": {
+                  "unit": "px",
+                  "size": 19,
+                  "sizes": []
+                },
+                "icon_align": "left",
+                "text_indent": {
+                  "unit": "px",
+                  "size": 0,
+                  "sizes": []
+                },
+                "icon_typography_typography": "custom",
+                "icon_typography_font_size": {
+                  "unit": "px",
+                  "size": 17,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "icon-list"
+            }
+          ],
+          "isInner": ""
+        }
+      ],
+      "isInner": ""
+    }
+  ],
+  "fileName": "unknown-1282-post-1282.json"
+}

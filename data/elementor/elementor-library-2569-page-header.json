@@ -1,0 +1,113 @@
+{
+  "postId": 2569,
+  "postType": "elementor_library",
+  "status": "publish",
+  "title": "Page_header",
+  "slug": "?elementor_library=page_header",
+  "link": "https://vetiversansfrontieres.org/?elementor_library=page_header",
+  "meta": {
+    "_elementor_template_type": "section",
+    "_elementor_edit_mode": "builder",
+    "_elementor_version": "3.27.6",
+    "_elementor_pro_version": "3.27.4",
+    "_elementor_template_widget_type": "",
+    "_wp_page_template": "default"
+  },
+  "elementorPageSettings": "a:51:{s:22:\"astra_sites_main_color\";s:25:\"var(--ast-global-color-0)\";s:30:\"astra_sites_heading_base_color\";s:25:\"var(--ast-global-color-2)\";s:22:\"astra_sites_link_color\";s:25:\"var(--ast-global-color-0)\";s:28:\"astra_sites_link_hover_color\";s:25:\"var(--ast-global-color-1)\";s:22:\"astra_sites_text_color\";s:25:\"var(--ast-global-color-3)\";s:27:\"astra_sites_body_typography\";s:6:\"custom\";s:26:\"astra_sites_body_font_size\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:15;}s:28:\"astra_sites_body_font_family\";s:10:\"Montserrat\";s:28:\"astra_sites_body_font_weight\";s:3:\"400\";s:31:\"astra_sites_body_text_transform\";s:4:\"none\";s:32:\"astra_sites_heading_1_typography\";s:6:\"custom\";s:31:\"astra_sites_heading_1_font_size\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:70;}s:38:\"astra_sites_heading_1_font_size_tablet\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:42;}s:38:\"astra_sites_heading_1_font_size_mobile\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:28;}s:39:\"astra_sites_default_heading_font_family\";s:24:\"'Montserrat', sans-serif\";s:33:\"astra_sites_heading_1_font_family\";s:12:\"'Montserrat'\";s:33:\"astra_sites_heading_1_font_weight\";s:3:\"700\";s:36:\"astra_sites_heading_1_text_transform\";s:9:\"uppercase\";s:32:\"astra_sites_heading_2_typography\";s:6:\"custom\";s:31:\"astra_sites_heading_2_font_size\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:34;}s:38:\"astra_sites_heading_2_font_size_tablet\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:40;}s:38:\"astra_sites_heading_2_font_size_mobile\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:24;}s:33:\"astra_sites_heading_2_line_height\";a:2:{s:4:\"unit\";s:2:\"em\";s:4:\"size\";d:1.1999999999999999555910790149937383830547332763671875;}s:33:\"astra_sites_heading_2_font_family\";s:12:\"'Montserrat'\";s:33:\"astra_sites_heading_2_font_weight\";s:3:\"700\";s:32:\"astra_sites_heading_3_typography\";s:6:\"custom\";s:31:\"astra_sites_heading_3_font_size\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:26;}s:38:\"astra_sites_heading_3_font_size_tablet\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:26;}s:38:\"astra_sites_heading_3_font_size_mobile\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:20;}s:33:\"astra_sites_heading_3_line_height\";a:2:{s:4:\"unit\";s:2:\"em\";s:4:\"size\";d:1.5;}s:33:\"astra_sites_heading_3_font_family\";s:12:\"'Montserrat'\";s:33:\"astra_sites_heading_3_font_weight\";s:3:\"700\";s:32:\"astra_sites_heading_4_typography\";s:6:\"custom\";s:31:\"astra_sites_heading_4_font_size\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:22;}s:38:\"astra_sites_heading_4_font_size_tablet\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:22;}s:38:\"astra_sites_heading_4_font_size_mobile\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:18;}s:33:\"astra_sites_heading_4_font_family\";s:12:\"'Montserrat'\";s:33:\"astra_sites_heading_4_font_weight\";s:3:\"700\";s:32:\"astra_sites_heading_5_typography\";s:6:\"custom\";s:31:\"astra_sites_heading_5_font_size\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:18;}s:38:\"astra_sites_heading_5_font_size_tablet\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:16;}s:38:\"astra_sites_heading_5_font_size_mobile\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:16;}s:33:\"astra_sites_heading_5_font_family\";s:12:\"'Montserrat'\";s:33:\"astra_sites_heading_5_font_weight\";s:3:\"700\";s:32:\"astra_sites_heading_6_typography\";s:6:\"custom\";s:31:\"astra_sites_heading_6_font_size\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:16;}s:38:\"astra_sites_heading_6_font_size_tablet\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:14;}s:38:\"astra_sites_heading_6_font_size_mobile\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:14;}s:33:\"astra_sites_heading_6_font_family\";s:12:\"'Montserrat'\";s:33:\"astra_sites_heading_6_font_weight\";s:3:\"700\";s:31:\"astra_sites_page_setting_enable\";s:0:\"\";}",
+  "elementorData": [
+    {
+      "id": "5015b407",
+      "elType": "section",
+      "settings": {
+        "gap": "no",
+        "content_position": "middle",
+        "background_background": "classic",
+        "background_image": {
+          "id": 568,
+          "url": "https://vetiversansfrontieres.org/wp-content/uploads/2022/10/IMG-20220616-WA0000-1024x768.jpg",
+          "alt": "",
+          "source": "library",
+          "size": "large"
+        },
+        "background_position": "center left",
+        "background_attachment": "scroll",
+        "background_repeat": "no-repeat",
+        "background_size": "cover",
+        "background_overlay_background": "classic",
+        "padding": {
+          "unit": "px",
+          "top": "250",
+          "right": "0",
+          "bottom": "200",
+          "left": "0",
+          "isLinked": false
+        },
+        "content_width": {
+          "unit": "px",
+          "size": 950
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "200",
+          "right": "25",
+          "bottom": "175",
+          "left": "25",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "150",
+          "right": "20",
+          "bottom": "100",
+          "left": "20",
+          "isLinked": false
+        },
+        "__globals__": {
+          "background_overlay_color": ""
+        },
+        "background_color": "#020101B0",
+        "background_overlay_color": "#14261CAD",
+        "background_overlay_opacity": {
+          "unit": "px",
+          "size": 0.4,
+          "sizes": []
+        }
+      },
+      "elements": [
+        {
+          "id": "2b214f9b",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "1187d4f0",
+              "elType": "widget",
+              "settings": {
+                "title": "About Us",
+                "header_size": "h1",
+                "align": "center",
+                "__globals__": {
+                  "title_color": "globals/colors?id=secondary"
+                },
+                "text_stroke_text_stroke_type": "yes",
+                "text_stroke_text_stroke": {
+                  "unit": "px",
+                  "size": 1,
+                  "sizes": []
+                },
+                "text_stroke_stroke_color": "#000000B3"
+              },
+              "elements": [],
+              "widgetType": "heading"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ],
+  "fileName": "elementor-library-2569-page-header.json"
+}

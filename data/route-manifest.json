@@ -1,0 +1,170 @@
+{
+  "en": {
+    "about": {
+      "canonical": "about",
+      "legacyPaths": [
+        "en/about"
+      ]
+    },
+    "": {
+      "canonical": "",
+      "legacyPaths": [
+        "en"
+      ]
+    },
+    "about/services": {
+      "canonical": "about/services",
+      "legacyPaths": [
+        "en/about/services"
+      ]
+    },
+    "projects": {
+      "canonical": "projects",
+      "legacyPaths": [
+        "en/projects"
+      ]
+    },
+    "about/contact": {
+      "canonical": "about/contact",
+      "legacyPaths": [
+        "en/about/contact"
+      ]
+    },
+    "get-involved": {
+      "canonical": "get-involved",
+      "legacyPaths": [
+        "en/get-involved"
+      ]
+    },
+    "about/vetiver-system": {
+      "canonical": "about/vetiver-system",
+      "legacyPaths": [
+        "en/about/vetiver-system"
+      ]
+    },
+    "about/vetiver-system/how-to-plant-vetiver-system": {
+      "canonical": "about/vetiver-system/how-to-plant-vetiver-system",
+      "legacyPaths": [
+        "en/about/vetiver-system/how-to-plant-vetiver-system"
+      ]
+    },
+    "vetiver": {
+      "canonical": "vetiver",
+      "legacyPaths": [
+        "en/vetiver"
+      ]
+    },
+    "about/faq": {
+      "canonical": "about/faq",
+      "legacyPaths": [
+        "en/about/faq"
+      ]
+    },
+    "pasture-regeneration": {
+      "canonical": "pasture-regeneration",
+      "legacyPaths": [
+        "en/pasture-regeneration"
+      ]
+    },
+    "using-hydrogel-as-an-irrigation-method-to-implement-vetiver": {
+      "canonical": "using-hydrogel-as-an-irrigation-method-to-implement-vetiver",
+      "legacyPaths": [
+        "en/using-hydrogel-as-an-irrigation-method-to-implement-vetiver"
+      ]
+    },
+    "regenerate-degraded-pasture-verdenergia-exemple": {
+      "canonical": "regenerate-degraded-pasture-verdenergia-exemple",
+      "legacyPaths": [
+        "en/regenerate-degraded-pasture-verdenergia-exemple"
+      ]
+    },
+    "embracing-permaculture-with-vetiver-at-finca-sin-fronteras": {
+      "canonical": "embracing-permaculture-with-vetiver-at-finca-sin-fronteras",
+      "legacyPaths": [
+        "en/embracing-permaculture-with-vetiver-at-finca-sin-fronteras"
+      ]
+    },
+    "bamboo-and-vetiver-the-resilience-revolution": {
+      "canonical": "bamboo-and-vetiver-the-resilience-revolution",
+      "legacyPaths": [
+        "en/bamboo-and-vetiver-the-resilience-revolution"
+      ]
+    },
+    "from-fire-to-future-understanding-and-breaking-the-cycle-of-slash-and-burn-agriculture": {
+      "canonical": "from-fire-to-future-understanding-and-breaking-the-cycle-of-slash-and-burn-agriculture",
+      "legacyPaths": [
+        "en/from-fire-to-future-understanding-and-breaking-the-cycle-of-slash-and-burn-agriculture"
+      ]
+    }
+  },
+  "fr": {
+    "about": {
+      "canonical": "about",
+      "legacyPaths": []
+    },
+    "": {
+      "canonical": "",
+      "legacyPaths": []
+    },
+    "services": {
+      "canonical": "services",
+      "legacyPaths": [
+        "about/services"
+      ]
+    },
+    "projects": {
+      "canonical": "projects",
+      "legacyPaths": []
+    },
+    "contact": {
+      "canonical": "contact",
+      "legacyPaths": [
+        "about/contact"
+      ]
+    },
+    "get-involved": {
+      "canonical": "get-involved",
+      "legacyPaths": []
+    },
+    "about/vetiver-system": {
+      "canonical": "about/vetiver-system",
+      "legacyPaths": []
+    },
+    "about/vetiver-system/how-to-plant-vetiver-system": {
+      "canonical": "about/vetiver-system/how-to-plant-vetiver-system",
+      "legacyPaths": []
+    },
+    "vetiver": {
+      "canonical": "vetiver",
+      "legacyPaths": []
+    },
+    "about/faq": {
+      "canonical": "about/faq",
+      "legacyPaths": []
+    },
+    "pasture-regeneration": {
+      "canonical": "pasture-regeneration",
+      "legacyPaths": []
+    },
+    "using-hydrogel-as-an-irrigation-method-to-implement-vetiver": {
+      "canonical": "using-hydrogel-as-an-irrigation-method-to-implement-vetiver",
+      "legacyPaths": []
+    },
+    "regenerate-degraded-pasture-verdenergia-exemple": {
+      "canonical": "regenerate-degraded-pasture-verdenergia-exemple",
+      "legacyPaths": []
+    },
+    "embracing-permaculture-with-vetiver-at-finca-sin-fronteras": {
+      "canonical": "embracing-permaculture-with-vetiver-at-finca-sin-fronteras",
+      "legacyPaths": []
+    },
+    "bamboo-and-vetiver-the-resilience-revolution": {
+      "canonical": "bamboo-and-vetiver-the-resilience-revolution",
+      "legacyPaths": []
+    },
+    "from-fire-to-future-understanding-and-breaking-the-cycle-of-slash-and-burn-agriculture": {
+      "canonical": "from-fire-to-future-understanding-and-breaking-the-cycle-of-slash-and-burn-agriculture",
+      "legacyPaths": []
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "postId": 1792,
+  "postType": "unknown",
+  "status": "unknown",
+  "title": "Post 1792",
+  "slug": "",
+  "link": "",
+  "meta": {
+    "_elementor_template_type": "widget",
+    "_elementor_edit_mode": "builder",
+    "_elementor_version": "3.8.1",
+    "_elementor_pro_version": "3.8.1",
+    "_elementor_template_widget_type": "",
+    "_wp_page_template": "default"
+  },
+  "elementorPageSettings": null,
+  "elementorData": [
+    {
+      "id": "68d6ad3f",
+      "elType": "widget",
+      "settings": {
+        "title": "Vetiver",
+        "header_size": "h1",
+        "align": "center",
+        "__globals__": {
+          "title_color": "globals/colors?id=secondary"
+        }
+      },
+      "elements": [],
+      "widgetType": "heading"
+    }
+  ],
+  "fileName": "unknown-1792-post-1792.json"
+}

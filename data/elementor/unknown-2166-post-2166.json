@@ -1,0 +1,655 @@
+{
+  "postId": 2166,
+  "postType": "unknown",
+  "status": "unknown",
+  "title": "Post 2166",
+  "slug": "",
+  "link": "",
+  "meta": {
+    "_elementor_template_type": "wp-post",
+    "_elementor_edit_mode": "builder",
+    "_elementor_version": "3.18.3",
+    "_elementor_pro_version": "3.18.3",
+    "_elementor_template_widget_type": "",
+    "_wp_page_template": "default"
+  },
+  "elementorPageSettings": "a:51:{s:22:\"astra_sites_main_color\";s:25:\"var(--ast-global-color-0)\";s:30:\"astra_sites_heading_base_color\";s:25:\"var(--ast-global-color-2)\";s:22:\"astra_sites_link_color\";s:25:\"var(--ast-global-color-0)\";s:28:\"astra_sites_link_hover_color\";s:25:\"var(--ast-global-color-1)\";s:22:\"astra_sites_text_color\";s:25:\"var(--ast-global-color-3)\";s:27:\"astra_sites_body_typography\";s:6:\"custom\";s:26:\"astra_sites_body_font_size\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:15;}s:28:\"astra_sites_body_font_family\";s:10:\"Montserrat\";s:28:\"astra_sites_body_font_weight\";s:3:\"400\";s:31:\"astra_sites_body_text_transform\";s:4:\"none\";s:32:\"astra_sites_heading_1_typography\";s:6:\"custom\";s:31:\"astra_sites_heading_1_font_size\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:70;}s:38:\"astra_sites_heading_1_font_size_tablet\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:42;}s:38:\"astra_sites_heading_1_font_size_mobile\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:28;}s:39:\"astra_sites_default_heading_font_family\";s:24:\"'Montserrat', sans-serif\";s:33:\"astra_sites_heading_1_font_family\";s:12:\"'Montserrat'\";s:33:\"astra_sites_heading_1_font_weight\";s:3:\"700\";s:36:\"astra_sites_heading_1_text_transform\";s:9:\"uppercase\";s:32:\"astra_sites_heading_2_typography\";s:6:\"custom\";s:31:\"astra_sites_heading_2_font_size\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:34;}s:38:\"astra_sites_heading_2_font_size_tablet\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:40;}s:38:\"astra_sites_heading_2_font_size_mobile\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:24;}s:33:\"astra_sites_heading_2_line_height\";a:2:{s:4:\"unit\";s:2:\"em\";s:4:\"size\";d:1.1999999999999999555910790149937383830547332763671875;}s:33:\"astra_sites_heading_2_font_family\";s:12:\"'Montserrat'\";s:33:\"astra_sites_heading_2_font_weight\";s:3:\"700\";s:32:\"astra_sites_heading_3_typography\";s:6:\"custom\";s:31:\"astra_sites_heading_3_font_size\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:26;}s:38:\"astra_sites_heading_3_font_size_tablet\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:26;}s:38:\"astra_sites_heading_3_font_size_mobile\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:20;}s:33:\"astra_sites_heading_3_line_height\";a:2:{s:4:\"unit\";s:2:\"em\";s:4:\"size\";d:1.5;}s:33:\"astra_sites_heading_3_font_family\";s:12:\"'Montserrat'\";s:33:\"astra_sites_heading_3_font_weight\";s:3:\"700\";s:32:\"astra_sites_heading_4_typography\";s:6:\"custom\";s:31:\"astra_sites_heading_4_font_size\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:22;}s:38:\"astra_sites_heading_4_font_size_tablet\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:22;}s:38:\"astra_sites_heading_4_font_size_mobile\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:18;}s:33:\"astra_sites_heading_4_font_family\";s:12:\"'Montserrat'\";s:33:\"astra_sites_heading_4_font_weight\";s:3:\"700\";s:32:\"astra_sites_heading_5_typography\";s:6:\"custom\";s:31:\"astra_sites_heading_5_font_size\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:18;}s:38:\"astra_sites_heading_5_font_size_tablet\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:16;}s:38:\"astra_sites_heading_5_font_size_mobile\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:16;}s:33:\"astra_sites_heading_5_font_family\";s:12:\"'Montserrat'\";s:33:\"astra_sites_heading_5_font_weight\";s:3:\"700\";s:32:\"astra_sites_heading_6_typography\";s:6:\"custom\";s:31:\"astra_sites_heading_6_font_size\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:16;}s:38:\"astra_sites_heading_6_font_size_tablet\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:14;}s:38:\"astra_sites_heading_6_font_size_mobile\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:14;}s:33:\"astra_sites_heading_6_font_family\";s:12:\"'Montserrat'\";s:33:\"astra_sites_heading_6_font_weight\";s:3:\"700\";s:31:\"astra_sites_page_setting_enable\";s:0:\"\";}",
+  "elementorData": [
+    {
+      "id": "5e3e3d37",
+      "elType": "section",
+      "settings": {
+        "margin": {
+          "unit": "px",
+          "top": "50",
+          "right": 0,
+          "bottom": "50",
+          "left": 0,
+          "isLinked": true
+        },
+        "content_width": {
+          "unit": "px",
+          "size": 880
+        }
+      },
+      "elements": [
+        {
+          "id": "51e1a128",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "background_color": "#ffffff",
+            "box_shadow_box_shadow": {
+              "horizontal": 0,
+              "vertical": 0,
+              "blur": 34,
+              "spread": 0,
+              "color": "rgba(0,0,0,0.11)"
+            }
+          },
+          "elements": [
+            {
+              "id": "3b76215",
+              "elType": "widget",
+              "settings": {
+                "__dynamic__": {
+                  "image": "[elementor-tag id=\"\" name=\"post-featured-image\" settings=\"%7B%22fallback%22%3A%7B%22url%22%3A%22https%3A%2F%2Fvetiversansfrontieres.org%2Fwp-content%2Fuploads%2F2022%2F10%2FFacebook-event-cover-1920x1080-1-1.jpg%22%2C%22id%22%3A1024%2C%22alt%22%3A%22%22%2C%22source%22%3A%22library%22%7D%7D\"]"
+                },
+                "image_size": "custom",
+                "image_custom_dimension": {
+                  "width": "1140",
+                  "height": "500"
+                },
+                "image": {
+                  "id": 727,
+                  "url": "https://vetiversansfrontieres.org/wp-content/uploads/2022/10/placeholder.png"
+                }
+              },
+              "elements": [],
+              "widgetType": "global",
+              "templateID": 867
+            },
+            {
+              "id": "1bdfa9bc",
+              "elType": "widget",
+              "settings": {
+                "author_name": "Marcia Gomez",
+                "show_biography": "",
+                "author_bio": "",
+                "link_text": "All Posts",
+                "layout": "above",
+                "alignment": "center",
+                "image_gap": {
+                  "unit": "px",
+                  "size": 0
+                },
+                "image_border": "yes",
+                "image_border_color": "#ffffff",
+                "image_border_width": {
+                  "unit": "px",
+                  "size": 8
+                },
+                "name_color": "#828282",
+                "name_typography_typography": "custom",
+                "name_typography_font_size": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "name_typography_text_transform": "uppercase",
+                "name_typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 2.9
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "-70",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "author_avatar": {
+                  "id": 881,
+                  "url": "https://vetiversansfrontieres.org/wp-content/uploads/2022/10/DJI_0170-scaled-e1666812694142.jpg",
+                  "alt": "",
+                  "source": "library"
+                },
+                "source": "custom"
+              },
+              "elements": [],
+              "widgetType": "author-box"
+            },
+            {
+              "id": "268c60b3",
+              "elType": "widget",
+              "settings": {
+                "icon_list": [
+                  {
+                    "icon": "fa fa-calendar",
+                    "_id": "ba9c996",
+                    "custom_date_format": "F j, Y",
+                    "custom_time_format": "g:i a",
+                    "comments_custom_strings": "",
+                    "show_icon": "none",
+                    "selected_icon": {
+                      "value": "fas fa-calendar-alt",
+                      "library": "fa-solid"
+                    },
+                    "__fa4_migrated": {
+                      "selected_icon": true
+                    }
+                  },
+                  {
+                    "type": "time",
+                    "icon": "fa fa-clock-o",
+                    "_id": "d7670a7",
+                    "custom_date_format": "F j, Y",
+                    "custom_time_format": "g:i a",
+                    "text_prefix": ",",
+                    "comments_custom_strings": "",
+                    "show_icon": "none",
+                    "selected_icon": {
+                      "value": "far fa-clock",
+                      "library": "fa-regular"
+                    },
+                    "__fa4_migrated": {
+                      "selected_icon": true
+                    }
+                  },
+                  {
+                    "type": "terms",
+                    "icon": "fa fa-commenting-o",
+                    "_id": "afbda51",
+                    "custom_date_format": "F j, Y",
+                    "custom_time_format": "g:i a",
+                    "taxonomy": "category",
+                    "text_prefix": ",",
+                    "comments_custom_strings": "",
+                    "show_icon": "none",
+                    "selected_icon": {
+                      "value": "far fa-comment-dots",
+                      "library": "fa-regular"
+                    },
+                    "__fa4_migrated": {
+                      "selected_icon": true
+                    }
+                  }
+                ],
+                "space_between": {
+                  "unit": "px",
+                  "size": 0
+                },
+                "space_between_mobile": {
+                  "unit": "px",
+                  "size": 15
+                },
+                "icon_align_mobile": "center",
+                "icon_color": "#54595f",
+                "icon_size_mobile": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "text_indent": {
+                  "unit": "px",
+                  "size": 8
+                },
+                "text_color": "#54595f",
+                "icon_typography_typography": "custom",
+                "icon_typography_font_size": {
+                  "unit": "px",
+                  "size": 13
+                },
+                "icon_typography_font_weight": "300",
+                "icon_size": {
+                  "unit": "px",
+                  "size": 13
+                },
+                "_border_color": "#afafaf",
+                "icon_typography_line_height_mobile": {
+                  "unit": "px",
+                  "size": 27
+                },
+                "icon_align": "center"
+              },
+              "elements": [],
+              "widgetType": "post-info"
+            },
+            {
+              "id": "3271082",
+              "elType": "widget",
+              "settings": {
+                "title": "Reviving Grasslands: Vetiver's Smart Solution for Sustainability",
+                "__globals__": {
+                  "typography_typography": "globals/typography?id=secondary"
+                }
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "229a945f",
+              "elType": "widget",
+              "settings": {
+                "__dynamic__": {
+                  "excerpt": "[elementor-tag id=\"\" name=\"post-excerpt\" settings=\"%7B%22before%22%3A%22%22%2C%22after%22%3A%22%22%2C%22fallback%22%3A%22%22%7D\"]"
+                },
+                "title_color": "#54595f",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 19
+                },
+                "typography_font_weight": "500",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.8
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "30",
+                  "right": "0",
+                  "bottom": "30",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "theme-post-excerpt"
+            },
+            {
+              "id": "9b61ab3",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Grasslands, Earth's sprawling green carpets, make up approximately 40% of the planet's land surface. These expansive ecosystems play a pivotal role in maintaining ecological balance. Yet, they've been facing significant challenges that have led to their rapid degradation. In this article, we'll explore the remarkable potential of the Vetiver plant, a surprising ally in revitalizing pasture lands and mitigating environmental issues.</p>"
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "19b0592",
+              "elType": "section",
+              "settings": {
+                "structure": "20"
+              },
+              "elements": [
+                {
+                  "id": "126a70d",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null
+                  },
+                  "elements": [
+                    {
+                      "id": "9d86838",
+                      "elType": "widget",
+                      "settings": {
+                        "image": {
+                          "url": "https://vetiversansfrontieres.org/wp-content/uploads/2022/10/Cow-1-1.webp",
+                          "id": 1950,
+                          "size": "",
+                          "alt": "",
+                          "source": "library"
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "image"
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "0cb9507",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null
+                  },
+                  "elements": [
+                    {
+                      "id": "586924c",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p><strong>The Grassland Predicament:</strong></p><p>Grasslands, while resilient, are not invulnerable. The delicate balance of these ecosystems can be disrupted by overgrazing and soil compaction, two critical factors that threaten their health. Herd animals, in their search for sustenance, often trample the land excessively, depriving it of the opportunity to regenerate naturally. Soil compaction becomes the villain here, as it prevents water infiltration and stifles grass growth.</p>"
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "f8095e5",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p><strong style=\"font-style: inherit;\">The Role of Water Streams:</strong></p><p>Water streams, vital arteries of grasslands, are integral to this story. Frequent overstepping by livestock in these areas causes a chain reaction. The water's flow is disrupted, forced to mingle with the soil. What was once a lush, vibrant expanse of grassland can quickly turn into a muddy quagmire, posing risks to both livestock and vehicles. Regenerative initiatives have proposed solutions to this dilemma, with fencing emerging as a game-changing approach.</p>"
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "3477007",
+              "elType": "section",
+              "settings": {
+                "structure": "20"
+              },
+              "elements": [
+                {
+                  "id": "15b0673",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null
+                  },
+                  "elements": [
+                    {
+                      "id": "99be670",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p><strong>Vetiver: The Smart Solution:</strong></p><p>Enter Vetiver, the surprising key to grassland revitalization. This remarkable plant boasts an array of benefits, making it an ingenious choice for tackling grassland degradation. Its partnership with other crops, such as maize and sorghum, has proven to be an efficient method for regenerating pasture lands. Furthermore, Vetiver has a lesser-known yet critical role in sustainability – it reduces methane emissions from livestock animals by up to 30%.</p>"
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "a5afa48",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null
+                  },
+                  "elements": [
+                    {
+                      "id": "b350526",
+                      "elType": "widget",
+                      "settings": {
+                        "image": {
+                          "url": "https://vetiversansfrontieres.org/wp-content/uploads/2022/10/vs-use-07-b.jpeg",
+                          "id": 1952,
+                          "size": "",
+                          "alt": "",
+                          "source": "library"
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "image"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "bc0315f",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p><strong>The Science Behind Vetiver:</strong></p><p>The science of Vetiver is captivating. Its extensive root system is a marvel in itself, capable of anchoring soil and preventing erosion. Moreover, it acts as a natural filter, cleansing water as it percolates through the earth. The rich history of Vetiver's use in various cultures underscores its importance in sustainable agriculture.</p>"
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "cd48710",
+              "elType": "widget",
+              "settings": {
+                "slides": [
+                  {
+                    "heading": "Pasture fields",
+                    "description": "\"Trampling wet grass creates muddy fields where animals often become trapped and die.\"",
+                    "button_text": "Donate",
+                    "background_color": "#833ca3",
+                    "_id": "be63843",
+                    "background_image": {
+                      "url": "https://vetiversansfrontieres.org/wp-content/uploads/2022/10/DJI_0219_1_75-scaled.jpg",
+                      "id": 1019,
+                      "alt": "",
+                      "source": "library"
+                    },
+                    "__dynamic__": [],
+                    "link": {
+                      "url": "https://www.paypal.com/donate/?hosted_button_id=R7RX6LXKTKFBG",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "link_click": "button"
+                  },
+                  {
+                    "heading": "Harnessing Vetiver: ",
+                    "description": "Shielding Water Streams to Prevent Swamps and Muddy Fields",
+                    "button_text": "Click Here",
+                    "background_color": "#4054b2",
+                    "_id": "03d43ae",
+                    "background_image": {
+                      "url": "https://vetiversansfrontieres.org/wp-content/uploads/2022/10/Facebook-event-cover-1920x1080-1.jpg",
+                      "id": 1023,
+                      "alt": "",
+                      "source": "library"
+                    },
+                    "background_ken_burns": "yes",
+                    "link": {
+                      "url": "https://www.paypal.com/donate/?hosted_button_id=R7RX6LXKTKFBG",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "link_click": "button"
+                  },
+                  {
+                    "heading": "Vetiver and Water Streams - Nature's Allies",
+                    "description": "Vetiver grass plays a vital role in safeguarding our water streams and ecosystems. Here's how:",
+                    "button_text": "Click Here",
+                    "background_color": "#1abc9c",
+                    "_id": "ecf6b8a",
+                    "background_image": {
+                      "url": "https://vetiversansfrontieres.org/wp-content/uploads/2022/10/Facebook-event-cover-1920x1080-3.jpg",
+                      "id": 1028,
+                      "alt": "",
+                      "source": "library"
+                    }
+                  }
+                ],
+                "transition": "fade",
+                "transition_speed": 4000,
+                "slides_height": {
+                  "unit": "px",
+                  "size": 435,
+                  "sizes": []
+                },
+                "autoplay_speed": 9000,
+                "text_shadow_text_shadow_type": "yes",
+                "text_shadow_text_shadow": {
+                  "horizontal": 0,
+                  "vertical": 0,
+                  "blur": 10,
+                  "color": "rgba(0, 0, 0, 0.9)"
+                }
+              },
+              "elements": [],
+              "widgetType": "slides"
+            },
+            {
+              "id": "2f2f8a9",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p><strong>Unlocking Vetiver's Potential:</strong></p><p>By harnessing the regenerative power of Vetiver, we can breathe new life into our grasslands. It's a big step towards mitigating the critical issues plaguing these vital ecosystems. Vetiver is not just a plant; it's a smart solution backed by science and history, offering surprising answers to our pressing environmental challenges.</p><p><span style=\"font-style: inherit; font-weight: inherit; background-color: var(--ast-global-color-5);\">Vetiver emerges as a critical tool in the fight against grassland degradation. Its smart, science-backed approach, intertwined with a rich history, is nothing short of inspiring. By adopting Vetiver into our land management strategies, we can hack our way to a healthier planet, one pasture at a time.</span></p>",
+                "align": "justify",
+                "_margin": {
+                  "unit": "px",
+                  "top": "45",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "_padding": {
+                  "unit": "px",
+                  "top": "15",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "91760ad",
+              "elType": "widget",
+              "settings": {
+                "title": "<font color=\"#000000\"><span style=\"font-size: 22px; text-transform: uppercase;\">Help us SAVE a flooded prairie!\n\n🔄 Retweet to spread the word! Every share counts. Let's be the voice for nature. 🌍💙 #SaveOurPrairie #FloodResponse #NatureInNeed</span></font><h4 data-elementor-setting-key=\"title\" data-pen-placeholder=\"Type Here...\" style=\"font-size: 1.46667rem; font-style: normal; color: rgb(0, 0, 0); text-transform: uppercase;\"></h4>"
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "766f1280",
+              "elType": "section",
+              "settings": {
+                "content_position": "middle",
+                "structure": "20",
+                "background_color": "#f4f4f4"
+              },
+              "elements": [
+                {
+                  "id": "58a409d1",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null
+                  },
+                  "elements": [
+                    {
+                      "id": "aa6bc2e",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Share this post",
+                        "header_size": "h4",
+                        "title_color": "#000000",
+                        "typography_typography": "custom",
+                        "typography_text_transform": "uppercase"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "49d5e43",
+                      "elType": "widget",
+                      "settings": [],
+                      "elements": [],
+                      "widgetType": "spacer"
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "4d87ecfc",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null
+                  },
+                  "elements": [
+                    {
+                      "id": "67a3d0f0",
+                      "elType": "widget",
+                      "settings": {
+                        "share_buttons": [
+                          {
+                            "_id": "62d78a5"
+                          },
+                          {
+                            "button": "google",
+                            "_id": "0f55b88"
+                          },
+                          {
+                            "button": "twitter",
+                            "_id": "21de836"
+                          },
+                          {
+                            "button": "linkedin",
+                            "_id": "f780b63"
+                          },
+                          {
+                            "button": "pinterest",
+                            "_id": "050fff4"
+                          },
+                          {
+                            "button": "print",
+                            "_id": "f85468c"
+                          },
+                          {
+                            "button": "email",
+                            "_id": "7b166d6"
+                          }
+                        ],
+                        "row_gap": {
+                          "unit": "px",
+                          "size": ""
+                        },
+                        "row_gap_mobile": {
+                          "unit": "px",
+                          "size": 10
+                        },
+                        "button_size": {
+                          "unit": "px",
+                          "size": 0.8
+                        },
+                        "icon_size": {
+                          "unit": "em",
+                          "size": 1.5
+                        },
+                        "skin": "flat",
+                        "columns_mobile": "1",
+                        "typography_typography": "custom",
+                        "typography_text_transform": "uppercase",
+                        "view": "icon",
+                        "alignment": "right"
+                      },
+                      "elements": [],
+                      "widgetType": "share-buttons"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "626efa6f",
+              "elType": "widget",
+              "settings": {
+                "style": "dotted",
+                "gap": {
+                  "unit": "px",
+                  "size": 28
+                },
+                "text": "Divider"
+              },
+              "elements": [],
+              "widgetType": "divider"
+            },
+            {
+              "id": "3b9c9a34",
+              "elType": "widget",
+              "settings": [],
+              "elements": [],
+              "widgetType": "facebook-comments"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ],
+  "fileName": "unknown-2166-post-2166.json"
+}

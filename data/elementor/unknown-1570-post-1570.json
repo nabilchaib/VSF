@@ -1,0 +1,1895 @@
+{
+  "postId": 1570,
+  "postType": "unknown",
+  "status": "unknown",
+  "title": "Post 1570",
+  "slug": "",
+  "link": "",
+  "meta": {
+    "_elementor_template_type": "",
+    "_elementor_edit_mode": "",
+    "_elementor_version": "",
+    "_elementor_pro_version": "",
+    "_elementor_template_widget_type": "",
+    "_wp_page_template": ""
+  },
+  "elementorPageSettings": null,
+  "elementorData": [
+    {
+      "id": "688ad38",
+      "elType": "section",
+      "settings": {
+        "gap": "no",
+        "content_position": "middle",
+        "background_background": "classic",
+        "background_image": {
+          "id": 568,
+          "url": "https://vetiversansfrontieres.org/wp-content/uploads/2022/10/IMG-20220616-WA0000.jpg",
+          "alt": "",
+          "source": "library"
+        },
+        "background_position": "bottom left",
+        "background_attachment": "fixed",
+        "background_repeat": "no-repeat",
+        "background_size": "cover",
+        "background_overlay_background": "classic",
+        "padding": {
+          "unit": "px",
+          "top": "250",
+          "right": "0",
+          "bottom": "200",
+          "left": "0",
+          "isLinked": false
+        },
+        "content_width": {
+          "unit": "px",
+          "size": 950
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "200",
+          "right": "25",
+          "bottom": "175",
+          "left": "25",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "150",
+          "right": "20",
+          "bottom": "100",
+          "left": "20",
+          "isLinked": false
+        },
+        "__globals__": {
+          "background_overlay_color": "globals/colors?id=astglobalcolor2"
+        }
+      },
+      "elements": [
+        {
+          "id": "148e58a",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "d915ffa",
+              "elType": "widget",
+              "settings": {
+                "title": "About Us",
+                "header_size": "h1",
+                "align": "center",
+                "_padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "_padding_mobile": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "_margin_tablet": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "_margin_mobile": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "_padding_tablet": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "__globals__": {
+                  "title_color": "globals/colors?id=astglobalcolor4",
+                  "typography_typography": "globals/typography?id=primary"
+                }
+              },
+              "elements": [],
+              "widgetType": "heading"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "3604feb",
+      "elType": "section",
+      "settings": [],
+      "elements": [
+        {
+          "id": "d3b0530",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "6542dbd",
+              "elType": "widget",
+              "settings": [],
+              "elements": [],
+              "widgetType": "spacer"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "f893ec8",
+      "elType": "section",
+      "settings": {
+        "gap": "no",
+        "margin": {
+          "unit": "px",
+          "top": "15",
+          "right": 0,
+          "bottom": "15",
+          "left": 0,
+          "isLinked": true
+        }
+      },
+      "elements": [
+        {
+          "id": "0e4aed0",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "adb0677",
+              "elType": "section",
+              "settings": {
+                "structure": "20",
+                "margin": {
+                  "unit": "px",
+                  "top": "10",
+                  "right": 0,
+                  "bottom": "0",
+                  "left": 0,
+                  "isLinked": false
+                }
+              },
+              "elements": [
+                {
+                  "id": "a321fbf",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null
+                  },
+                  "elements": [
+                    {
+                      "id": "1419945",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Mission",
+                        "align": "center",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "15",
+                          "right": "15",
+                          "bottom": "15",
+                          "left": "15",
+                          "isLinked": true
+                        },
+                        "__globals__": {
+                          "title_color": "globals/colors?id=primary",
+                          "typography_typography": "globals/typography?id=primary"
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "1b6c58f",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p><span style=\"font-weight: 400;\">Vetiver Without Borders mission is to </span><span style=\"font-weight: 400;\">develop and popularize the use of the </span><a href=\"https://vetiversansfrontieres.org/about/vetiver-system/\"><span style=\"font-weight: 400;\">Vetiver System</span></a><span style=\"font-weight: 400;\"> around the world,</span> <span style=\"font-weight: 400;\">providing communities with easy </span><span style=\"font-weight: 400;\">acces</span><span style=\"font-weight: 400;\">s </span><span style=\"font-weight: 400;\">to it. This soil conservation and regeneration system</span><span style=\"font-weight: 400;\"> has the potential to become</span><span style=\"font-weight: 400;\"> a great tool in the fight against climate change by offering a real, effective, simple and low-cost solution to address the problems of rainwater management, soil erosion, soil and water quality and more generally the consequences of climate change.  </span></p>",
+                        "align": "center",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "30",
+                          "right": "30",
+                          "bottom": "30",
+                          "left": "30",
+                          "isLinked": true
+                        },
+                        "__globals__": {
+                          "text_color": "globals/colors?id=text",
+                          "typography_typography": "globals/typography?id=secondary"
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "a645aec",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "space_between_widgets": 0,
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "1470c1b",
+                      "elType": "widget",
+                      "settings": {
+                        "image": {
+                          "url": "https://vetiversansfrontieres.org/wp-content/uploads/2022/10/DSCF0117.jpeg",
+                          "id": 834,
+                          "alt": "",
+                          "source": "library"
+                        },
+                        "width": {
+                          "unit": "%",
+                          "size": 100,
+                          "sizes": []
+                        },
+                        "space": {
+                          "unit": "%",
+                          "size": 100,
+                          "sizes": []
+                        },
+                        "height": {
+                          "unit": "px",
+                          "size": 415,
+                          "sizes": []
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "_element_width": "inherit",
+                        "_element_vertical_align": "center"
+                      },
+                      "elements": [],
+                      "widgetType": "image"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "796ba11",
+              "elType": "section",
+              "settings": {
+                "structure": "20"
+              },
+              "elements": [
+                {
+                  "id": "0b91491",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "8dc6c3b",
+                      "elType": "widget",
+                      "settings": {
+                        "image": {
+                          "url": "https://vetiversansfrontieres.org/wp-content/uploads/2022/11/clouds-cloud-bank-high-fog-4979558.jpg",
+                          "id": 1413,
+                          "alt": "clouds, cloud bank, high fog-4979558.jpg",
+                          "source": "library"
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        },
+                        "height": {
+                          "unit": "px",
+                          "size": 348,
+                          "sizes": []
+                        },
+                        "height_tablet": {
+                          "unit": "vh",
+                          "size": "",
+                          "sizes": []
+                        },
+                        "height_mobile": {
+                          "unit": "vh",
+                          "size": "",
+                          "sizes": []
+                        },
+                        "object-fit": "cover"
+                      },
+                      "elements": [],
+                      "widgetType": "image"
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "b8e47f7",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null
+                  },
+                  "elements": [
+                    {
+                      "id": "a103fc6",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Vision",
+                        "align": "center",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "19",
+                          "right": "10",
+                          "bottom": "10",
+                          "left": "10",
+                          "isLinked": false
+                        },
+                        "__globals__": {
+                          "title_color": "globals/colors?id=astglobalcolor6",
+                          "typography_typography": "globals/typography?id=primary"
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "c868fca",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p>At VSF, we dream of a world where environmental and local actors hold the resources and techniques to restore their ecosystems. To transform what is now arid and empty places into abundance of life and ressources. We want to create a world where soil areas which are degraded today become green places that sequester carbon from the air and contribute massively to the fight against climate change.</p>",
+                        "align": "center",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "30",
+                          "right": "30",
+                          "bottom": "30",
+                          "left": "30",
+                          "isLinked": true
+                        },
+                        "__globals__": {
+                          "text_color": "globals/colors?id=text",
+                          "typography_typography": "globals/typography?id=text"
+                        },
+                        "text_color": "#1E1E1E"
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "50edf57",
+      "elType": "section",
+      "settings": {
+        "margin": {
+          "unit": "px",
+          "top": "20",
+          "right": 0,
+          "bottom": "20",
+          "left": 0,
+          "isLinked": true
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        }
+      },
+      "elements": [
+        {
+          "id": "abc570d",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "a479d8d",
+              "elType": "widget",
+              "settings": {
+                "title": "Our values",
+                "align": "center",
+                "_margin": {
+                  "unit": "px",
+                  "top": "25",
+                  "right": "25",
+                  "bottom": "25",
+                  "left": "25",
+                  "isLinked": true
+                },
+                "_padding": {
+                  "unit": "px",
+                  "top": "35",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "__globals__": {
+                  "typography_typography": "globals/typography?id=primary"
+                }
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "8945fee",
+              "elType": "section",
+              "settings": {
+                "structure": "20"
+              },
+              "elements": [
+                {
+                  "id": "5ab6037",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null
+                  },
+                  "elements": [
+                    {
+                      "id": "32fbd73",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Solidarity",
+                        "header_size": "h3",
+                        "align": "center",
+                        "__globals__": {
+                          "typography_typography": "globals/typography?id=primary"
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "9717710",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p><span style=\"font-weight: 400;\"> </span><span style=\"font-weight: 400;\">Our organization focuses on issues that affect us all, like soil and water quality, climate change and natural disasters. These are problems that require </span><span style=\"font-weight: 400;\">local mobilization </span><span style=\"font-weight: 400;\">to acquire a</span><span style=\"font-weight: 400;\"> global impact. </span><span style=\"font-weight: 400;\">Solidarity is therefore essential</span><span style=\"font-weight: 400;\"> to offer solutions that improve community resiliency on these issues. </span></p><p><span style=\"font-weight: 400;\">W</span><span style=\"font-weight: 400;\">e intend to answer people's needs in the realization of their locally-led projects. Our approach is based on answering needs described by community leaders conducting their own project. The Foundation is therefore there to provide knowledge and technical support, in the form of a soil regeneration toolbox, for the project to be completed.</span></p>",
+                        "align": "center",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "15",
+                          "right": "15",
+                          "bottom": "15",
+                          "left": "15",
+                          "isLinked": true
+                        },
+                        "__globals__": {
+                          "typography_typography": "globals/typography?id=secondary",
+                          "text_color": "globals/colors?id=text"
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "e36ef80",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null
+                  },
+                  "elements": [
+                    {
+                      "id": "c961d98",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Inclusion",
+                        "header_size": "h3",
+                        "align": "center",
+                        "__globals__": {
+                          "typography_typography": "globals/typography?id=primary"
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "00a1075",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p><strong><span style=\"font-weight: 400;\">We intend to involve as much as possible women and girls in our activities so that they can participate in the process and ultimately appropriate and recreate the knowledge, skills and regeneration techniques we provide.</span></strong></p><p><strong><span style=\"font-weight: 400;\">VSF is particularly concerned with diversity, openness and tolerance, but also with equality in the dialogue. We are commited to offering equal opportunities and support for everyone regardless of gender, sexual orientation, ethnicity, age or socio-economic status.</span></strong></p>",
+                        "align": "center",
+                        "__globals__": {
+                          "typography_typography": "globals/typography?id=secondary",
+                          "text_color": "globals/colors?id=text"
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "15",
+                          "right": "15",
+                          "bottom": "15",
+                          "left": "15",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    },
+                    {
+                      "id": "a288ee9",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "UN Sustainable Development Goals",
+                        "header_size": "h3",
+                        "align": "center",
+                        "__globals__": {
+                          "typography_typography": "globals/typography?id=primary"
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "9ed0426",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "",
+                        "align": "center",
+                        "__globals__": {
+                          "typography_typography": "globals/typography?id=text",
+                          "text_color": "globals/colors?id=text"
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    },
+                    {
+                      "id": "ce26c7d",
+                      "elType": "widget",
+                      "settings": {
+                        "gallery": [
+                          {
+                            "id": 1422,
+                            "url": "https://vetiversansfrontieres.org/wp-content/uploads/2022/11/water.png"
+                          },
+                          {
+                            "id": 1421,
+                            "url": "https://vetiversansfrontieres.org/wp-content/uploads/2022/11/unnamed-3.png"
+                          },
+                          {
+                            "id": 1420,
+                            "url": "https://vetiversansfrontieres.org/wp-content/uploads/2022/11/unnamed-2.png"
+                          },
+                          {
+                            "id": 1419,
+                            "url": "https://vetiversansfrontieres.org/wp-content/uploads/2022/11/unnamed-1.png"
+                          },
+                          {
+                            "id": 1418,
+                            "url": "https://vetiversansfrontieres.org/wp-content/uploads/2022/11/unnamed.png"
+                          }
+                        ],
+                        "galleries": [
+                          {
+                            "gallery_title": "New Gallery",
+                            "_id": "2728fb1"
+                          }
+                        ],
+                        "gallery_layout": "masonry",
+                        "columns": 5,
+                        "gap": {
+                          "unit": "px",
+                          "size": 0,
+                          "sizes": []
+                        },
+                        "show_all_galleries_label": "All"
+                      },
+                      "elements": [],
+                      "widgetType": "gallery"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "d560b71",
+              "elType": "widget",
+              "settings": [],
+              "elements": [],
+              "widgetType": "spacer"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "397730e",
+      "elType": "section",
+      "settings": {
+        "gap": "no",
+        "content_position": "middle",
+        "background_background": "classic",
+        "background_image": {
+          "id": 831,
+          "url": "https://vetiversansfrontieres.org/wp-content/uploads/2022/10/macro-photo-of-wet-blades-of-grass-and-morning-dew-scaled.jpg",
+          "alt": "",
+          "source": "library"
+        },
+        "background_position": "center center",
+        "background_attachment": "fixed",
+        "background_repeat": "no-repeat",
+        "background_size": "cover",
+        "background_overlay_background": "classic",
+        "padding": {
+          "unit": "px",
+          "top": "250",
+          "right": "0",
+          "bottom": "200",
+          "left": "0",
+          "isLinked": false
+        },
+        "content_width": {
+          "unit": "px",
+          "size": 950
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "200",
+          "right": "25",
+          "bottom": "175",
+          "left": "25",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "150",
+          "right": "20",
+          "bottom": "100",
+          "left": "20",
+          "isLinked": false
+        },
+        "__globals__": {
+          "background_overlay_color": "globals/colors?id=astglobalcolor2"
+        }
+      },
+      "elements": [
+        {
+          "id": "439c87c",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "8fa2bdf",
+              "elType": "widget",
+              "settings": {
+                "title": "Goals and Objectives",
+                "align": "center",
+                "title_color": "#FCF8F8",
+                "_margin": {
+                  "unit": "px",
+                  "top": "17",
+                  "right": "17",
+                  "bottom": "17",
+                  "left": "17",
+                  "isLinked": true
+                },
+                "__globals__": {
+                  "typography_typography": "globals/typography?id=primary"
+                }
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "6e4c205",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p> <b>Results-based approach.</b><span style=\"font-weight: 400;\"> We believe that if our vision is to be fullfilled, the organization has to be focused on offering tangible, measurable results. We understand that we are privileged to work for a cause we believe in, and that the most important thing is to focus on how to get the job done. <br /></span></p><p><span style=\"font-weight: 400;\">That is why every project has established goals with <strong>measurable targets</strong> with <strong>transparent</strong> key <strong>indicators</strong>.</span></p>",
+                "align": "center",
+                "text_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 20,
+                  "sizes": []
+                },
+                "typography_font_weight": "400",
+                "__globals__": {
+                  "text_color": "globals/colors?id=astglobalcolor5",
+                  "typography_typography": ""
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "1c20accb",
+      "elType": "section",
+      "settings": {
+        "gap": "no",
+        "custom_height": {
+          "unit": "px",
+          "size": 1000
+        },
+        "content_position": "middle",
+        "padding": {
+          "unit": "px",
+          "top": "100",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "100",
+          "right": "25",
+          "bottom": "100",
+          "left": "25",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "50",
+          "right": "20",
+          "bottom": "50",
+          "left": "20",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "79894272",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "4251aad4",
+              "elType": "widget",
+              "settings": {
+                "title": "Our actions",
+                "align": "center",
+                "title_color": "#000000",
+                "header_size": "h1",
+                "__globals__": {
+                  "typography_typography": "globals/typography?id=primary"
+                }
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "58978b38",
+              "elType": "section",
+              "settings": {
+                "structure": "20",
+                "padding": {
+                  "unit": "px",
+                  "top": "90",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "gap": "no",
+                "content_position": "middle"
+              },
+              "elements": [
+                {
+                  "id": "793f0846",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "59920298",
+                      "elType": "widget",
+                      "settings": {
+                        "image": {
+                          "id": 572,
+                          "url": "https://vetiversansfrontieres.org/wp-content/uploads/2022/10/IMG-20220616-WA0003.jpg",
+                          "alt": "",
+                          "source": "library"
+                        },
+                        "_mask_size": "cover",
+                        "link_to": "custom",
+                        "__dynamic__": {
+                          "link": "[elementor-tag id=\"c2e8510\" name=\"popup\" settings=\"%7B%22popup%22%3A%221192%22%7D\"]"
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "image"
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "7d027a54",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "15",
+                      "bottom": "15",
+                      "left": "15",
+                      "isLinked": false
+                    },
+                    "padding_mobile": {
+                      "unit": "px",
+                      "top": "35",
+                      "right": "35",
+                      "bottom": "35",
+                      "left": "35",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "5fa2037b",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Innovation and research",
+                        "align": "center",
+                        "title_color": "#000000",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "10",
+                          "right": "10",
+                          "bottom": "10",
+                          "left": "10",
+                          "isLinked": true
+                        },
+                        "__dynamic__": {
+                          "link": "[elementor-tag id=\"d0f8bb5\" name=\"popup\" settings=\"%7B%22popup%22%3A%221192%22%7D\"]"
+                        },
+                        "__globals__": {
+                          "typography_typography": "globals/typography?id=primary"
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "40037159",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p><span style=\"font-weight: 400;\">The Foundation supports innovations and research on Vetiver System for communities in environmental emergencies. </span></p>",
+                        "align": "center",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "22",
+                          "right": "22",
+                          "bottom": "22",
+                          "left": "22",
+                          "isLinked": true
+                        },
+                        "__globals__": {
+                          "text_color": "globals/colors?id=text",
+                          "typography_typography": "globals/typography?id=secondary"
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "6269a064",
+              "elType": "section",
+              "settings": {
+                "structure": "20",
+                "gap": "no",
+                "content_position": "middle",
+                "reverse_order_mobile": "reverse-mobile"
+              },
+              "elements": [
+                {
+                  "id": "11f61cf1",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "padding": {
+                      "unit": "px",
+                      "top": "15",
+                      "right": "55",
+                      "bottom": "25",
+                      "left": "55",
+                      "isLinked": false
+                    },
+                    "padding_mobile": {
+                      "unit": "px",
+                      "top": "35",
+                      "right": "35",
+                      "bottom": "35",
+                      "left": "35",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "fce643d",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Technical support",
+                        "align": "center",
+                        "title_color": "#000000",
+                        "__globals__": {
+                          "typography_typography": "globals/typography?id=primary"
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "ebaf21c",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p><span style=\"font-weight: 400;\">In order to fight soil degradation and water quality on a large scale, the Foundation's mission is to develop and grow the </span><span style=\"font-weight: 400;\">Vetiver System</span><span style=\"font-weight: 400;\"> through sharing and increasing awareness around it. <br /></span></p><div> </div>",
+                        "align": "center",
+                        "__globals__": {
+                          "typography_typography": "globals/typography?id=secondary",
+                          "text_color": "globals/colors?id=text"
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "586b09b5",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "532e8414",
+                      "elType": "widget",
+                      "settings": {
+                        "image": {
+                          "id": 574,
+                          "url": "https://vetiversansfrontieres.org/wp-content/uploads/2022/10/IMG-20220616-WA0001.jpg",
+                          "alt": "",
+                          "source": "library"
+                        },
+                        "link_to": "custom",
+                        "_element_width": "initial",
+                        "_element_custom_width": {
+                          "unit": "%",
+                          "size": 100,
+                          "sizes": []
+                        },
+                        "__dynamic__": {
+                          "link": "[elementor-tag id=\"155b657\" name=\"popup\" settings=\"%7B%22popup%22%3A%221221%22%7D\"]"
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "image"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "c5814d6",
+      "elType": "section",
+      "settings": {
+        "gap": "no",
+        "custom_height": {
+          "unit": "px",
+          "size": 1000
+        },
+        "content_position": "middle",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "100",
+          "left": "0",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "100",
+          "right": "25",
+          "bottom": "100",
+          "left": "25",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "50",
+          "right": "20",
+          "bottom": "50",
+          "left": "20",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "bfa7a7c",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "43aa0b2",
+              "elType": "section",
+              "settings": {
+                "structure": "20",
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "gap": "no",
+                "content_position": "middle"
+              },
+              "elements": [
+                {
+                  "id": "b095533",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "d0e16a4",
+                      "elType": "widget",
+                      "settings": {
+                        "image": {
+                          "id": 1376,
+                          "url": "https://vetiversansfrontieres.org/wp-content/uploads/2022/11/541fe0-20200104-house02.jpg",
+                          "alt": "",
+                          "source": "library"
+                        },
+                        "_mask_size": "cover"
+                      },
+                      "elements": [],
+                      "widgetType": "image"
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "8efdf1d",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "padding": {
+                      "unit": "px",
+                      "top": "15",
+                      "right": "15",
+                      "bottom": "15",
+                      "left": "15",
+                      "isLinked": true
+                    },
+                    "padding_mobile": {
+                      "unit": "px",
+                      "top": "35",
+                      "right": "35",
+                      "bottom": "35",
+                      "left": "35",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "5272141",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Natural Disaster Relief",
+                        "align": "center",
+                        "title_color": "#000000",
+                        "__globals__": {
+                          "typography_typography": "globals/typography?id=primary"
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "851974b",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<div><p><span style=\"font-weight: 400;\">VSF also supports the implementation of the Vetiver System for communities in environmental emergencies. The selected projects will follow the charitable objectives of the foundation and prioritize communities that benefit from the Vetiver System to: </span></p><ul><li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Reduce the risks and effects of environmental disasters</span></li><li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Protect infrastructure</span></li><li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Restore deforested watersheds</span></li><li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Eliminate pollution from natural environments</span></li></ul></div>",
+                        "align": "center",
+                        "__globals__": {
+                          "typography_typography": "globals/typography?id=secondary",
+                          "text_color": "globals/colors?id=text"
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "20b975e",
+              "elType": "section",
+              "settings": {
+                "structure": "20",
+                "gap": "no",
+                "content_position": "middle",
+                "reverse_order_mobile": "reverse-mobile"
+              },
+              "elements": [
+                {
+                  "id": "52581de",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "padding": {
+                      "unit": "px",
+                      "top": "15",
+                      "right": "55",
+                      "bottom": "25",
+                      "left": "55",
+                      "isLinked": false
+                    },
+                    "padding_mobile": {
+                      "unit": "px",
+                      "top": "35",
+                      "right": "35",
+                      "bottom": "35",
+                      "left": "35",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "ce857b7",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Climate change adaptation",
+                        "align": "center",
+                        "title_color": "#000000",
+                        "__globals__": {
+                          "typography_typography": "globals/typography?id=primary"
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "3407515",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p><span style=\"font-weight: 400;\">Vetiver Without Borders' mission is to participate in the worldwide fight against climate change, by offering concrete, effective, simple and low-cost solutions to address the problems of rainwater management, soil erosion, soil and water quality and more generally the consequences of climate change.</span></p><p> </p>",
+                        "align": "center",
+                        "__globals__": {
+                          "typography_typography": "globals/typography?id=secondary",
+                          "text_color": "globals/colors?id=text"
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "3467b79",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "9210752",
+                      "elType": "widget",
+                      "settings": {
+                        "image": {
+                          "id": 551,
+                          "url": "https://vetiversansfrontieres.org/wp-content/uploads/2022/10/IMG_20201211_164225_879.jpg",
+                          "alt": "",
+                          "source": "library"
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "image"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "470e268",
+      "elType": "section",
+      "settings": [],
+      "elements": [
+        {
+          "id": "10c03b2",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "795000f",
+              "elType": "widget",
+              "settings": {
+                "title": "Let's tell future generations that we can have a positive footprint​",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "40",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "_margin_mobile": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "20",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "__globals__": {
+                  "typography_typography": "globals/typography?id=primary"
+                },
+                "align": "center"
+              },
+              "elements": [],
+              "widgetType": "heading"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "fc1fee8",
+      "elType": "section",
+      "settings": {
+        "gap": "no",
+        "content_position": "top",
+        "padding": {
+          "unit": "px",
+          "top": "100",
+          "right": "0",
+          "bottom": "15",
+          "left": "0",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_overlay_background": "classic",
+        "background_overlay_opacity": {
+          "unit": "px",
+          "size": 1
+        },
+        "css_filters_saturate": {
+          "unit": "px",
+          "size": 0
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "75",
+          "right": "25",
+          "bottom": "75",
+          "left": "25",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "75",
+          "right": "20",
+          "bottom": "75",
+          "left": "20",
+          "isLinked": false
+        },
+        "__globals__": {
+          "background_color": "globals/colors?id=astglobalcolor4"
+        }
+      },
+      "elements": [
+        {
+          "id": "c3a919e",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "101eac6",
+              "elType": "section",
+              "settings": {
+                "gap": "no",
+                "structure": "40",
+                "content_position": "top",
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "65",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "padding_tablet": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "25",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": 0,
+                  "bottom": "0",
+                  "left": 0,
+                  "isLinked": false
+                }
+              },
+              "elements": [
+                {
+                  "id": "43d767e",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 25,
+                    "_inline_size": 40,
+                    "_inline_size_tablet": 49,
+                    "padding_mobile": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "25",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "padding_tablet": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "30",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "4fdb1de",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Some Cool Facts",
+                        "header_size": "h5",
+                        "align": "left",
+                        "align_mobile": "center",
+                        "__globals__": {
+                          "typography_typography": "globals/typography?id=primary"
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "8fd3c4a",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Numbers Speak For Themselves",
+                        "align_mobile": "center",
+                        "align": "left",
+                        "__globals__": {
+                          "typography_typography": "globals/typography?id=primary"
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "6a49245",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 25,
+                    "_inline_size": 20,
+                    "_inline_size_tablet": 17,
+                    "padding_mobile": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "25",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "4ca2d0e",
+                      "elType": "widget",
+                      "settings": {
+                        "ending_number": 350,
+                        "title": "Trained students",
+                        "typography_title_line_height_tablet": {
+                          "unit": "em",
+                          "size": ""
+                        },
+                        "thousand_separator": "",
+                        "__globals__": {
+                          "number_color": "globals/colors?id=astglobalcolor2",
+                          "typography_number_typography": "globals/typography?id=primary"
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "counter"
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "02be643",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 25,
+                    "_inline_size": 20,
+                    "_inline_size_tablet": 17,
+                    "padding_mobile": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "25",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "b546120",
+                      "elType": "widget",
+                      "settings": {
+                        "ending_number": 1,
+                        "title": "Hectares Regenerated",
+                        "typography_title_line_height_tablet": {
+                          "unit": "em",
+                          "size": ""
+                        },
+                        "thousand_separator": "",
+                        "__globals__": {
+                          "number_color": "globals/colors?id=astglobalcolor2",
+                          "typography_number_typography": "globals/typography?id=primary"
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "counter"
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "4d4aeec",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 25,
+                    "_inline_size": 20,
+                    "_inline_size_tablet": 17,
+                    "padding_mobile": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "25",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "08acfce",
+                      "elType": "widget",
+                      "settings": {
+                        "ending_number": 1,
+                        "title": "Completed Projects",
+                        "typography_title_line_height_tablet": {
+                          "unit": "em",
+                          "size": ""
+                        },
+                        "thousand_separator": "",
+                        "__globals__": {
+                          "number_color": "globals/colors?id=astglobalcolor2",
+                          "typography_number_typography": "globals/typography?id=primary"
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "counter"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "7a543e8",
+      "elType": "section",
+      "settings": {
+        "structure": "20",
+        "background_background": "classic",
+        "padding": {
+          "unit": "px",
+          "top": "40",
+          "right": "0",
+          "bottom": "40",
+          "left": "0",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "25",
+          "right": "25",
+          "bottom": "25",
+          "left": "25",
+          "isLinked": true
+        },
+        "__globals__": {
+          "background_color": ""
+        },
+        "content_width": {
+          "unit": "px",
+          "size": 1000,
+          "sizes": []
+        },
+        "content_position": "middle",
+        "padding_mobile": {
+          "unit": "px",
+          "top": "30",
+          "right": "20",
+          "bottom": "30",
+          "left": "20",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "5c796f3",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50,
+            "_inline_size": 80,
+            "content_position": "center",
+            "_inline_size_tablet": 64,
+            "padding_mobile": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "53d0d8e",
+              "elType": "widget",
+              "settings": {
+                "title": "Join us today in our fight for a greener world, sponsor or propose a project here.",
+                "align": "center",
+                "_padding_tablet": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "_padding_mobile": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "25",
+                  "bottom": "10",
+                  "left": "25",
+                  "isLinked": false
+                },
+                "header_size": "h3",
+                "align_mobile": "center",
+                "__globals__": {
+                  "typography_typography": "globals/typography?id=primary"
+                }
+              },
+              "elements": [],
+              "widgetType": "heading"
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "4f97028",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50,
+            "_inline_size": 20,
+            "_inline_size_tablet": 28,
+            "margin_mobile": {
+              "unit": "px",
+              "top": "30",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": false
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "0dcf4a2",
+              "elType": "widget",
+              "settings": {
+                "text": "Learn More",
+                "align": "right",
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": ""
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": ""
+                },
+                "_margin_mobile": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "align_mobile": "center"
+              },
+              "elements": [],
+              "widgetType": "button"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ],
+  "fileName": "unknown-1570-post-1570.json"
+}

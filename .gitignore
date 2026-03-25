@@ -1,0 +1,18 @@
+.next
+node_modules
+.vercel
+.DS_Store
+dist
+coverage
+.env
+.env.local
+.env.production.local
+.env.development.local
+*.log
+extracted/
+backup_*.gz
+backup_*.zip
+vetiverwithoutborders.WordPress.*.xml
+VSF template.zip
+__pycache__/
+*.pyc

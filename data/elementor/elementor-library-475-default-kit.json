@@ -1,0 +1,19 @@
+{
+  "postId": 475,
+  "postType": "elementor_library",
+  "status": "publish",
+  "title": "Default Kit",
+  "slug": "?elementor_library=default-kit-2",
+  "link": "https://vetiversansfrontieres.org/?elementor_library=default-kit-2",
+  "meta": {
+    "_elementor_template_type": "kit",
+    "_elementor_edit_mode": "builder",
+    "_elementor_version": "3.27.6",
+    "_elementor_pro_version": "3.27.6",
+    "_elementor_template_widget_type": "",
+    "_wp_page_template": "default"
+  },
+  "elementorPageSettings": "a:17:{s:21:\"default_generic_fonts\";s:10:\"Sans-serif\";s:15:\"container_width\";a:3:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";s:4:\"1170\";s:5:\"sizes\";a:0:{}}s:21:\"space_between_widgets\";a:6:{s:6:\"column\";s:2:\"10\";s:3:\"row\";s:2:\"10\";s:8:\"isLinked\";b:1;s:4:\"unit\";s:2:\"px\";s:4:\"size\";s:2:\"10\";s:5:\"sizes\";a:0:{}}s:13:\"custom_colors\";a:3:{i:0;a:3:{s:3:\"_id\";s:7:\"2a20fe1\";s:5:\"title\";s:11:\"New Item #1\";s:5:\"color\";s:7:\"#D1D9B4\";}i:1;a:3:{s:3:\"_id\";s:7:\"c580669\";s:5:\"title\";s:11:\"New Item #2\";s:5:\"color\";s:7:\"#FFFFFF\";}i:2;a:3:{s:3:\"_id\";s:7:\"839fbaa\";s:5:\"title\";s:11:\"New Item #3\";s:5:\"color\";s:7:\"#CAD996\";}}s:13:\"system_colors\";a:4:{i:0;a:3:{s:3:\"_id\";s:7:\"primary\";s:5:\"title\";s:7:\"Primary\";s:5:\"color\";s:7:\"#6AA63F\";}i:1;a:3:{s:3:\"_id\";s:9:\"secondary\";s:5:\"title\";s:9:\"Secondary\";s:5:\"color\";s:7:\"#75BE2B\";}i:2;a:3:{s:3:\"_id\";s:4:\"text\";s:5:\"title\";s:4:\"Text\";s:5:\"color\";s:7:\"#6C6C6C\";}i:3;a:3:{s:3:\"_id\";s:6:\"accent\";s:5:\"title\";s:6:\"Accent\";s:5:\"color\";s:7:\"#232323\";}}s:17:\"system_typography\";a:4:{i:0;a:4:{s:3:\"_id\";s:7:\"primary\";s:5:\"title\";s:7:\"Primary\";s:21:\"typography_typography\";s:6:\"custom\";s:22:\"typography_font_weight\";s:3:\"600\";}i:1;a:4:{s:3:\"_id\";s:9:\"secondary\";s:5:\"title\";s:9:\"Secondary\";s:21:\"typography_typography\";s:6:\"custom\";s:22:\"typography_font_weight\";s:3:\"400\";}i:2;a:4:{s:3:\"_id\";s:4:\"text\";s:5:\"title\";s:4:\"Text\";s:21:\"typography_typography\";s:6:\"custom\";s:22:\"typography_font_weight\";s:3:\"400\";}i:3;a:4:{s:3:\"_id\";s:6:\"accent\";s:5:\"title\";s:6:\"Accent\";s:21:\"typography_typography\";s:6:\"custom\";s:22:\"typography_font_weight\";s:3:\"500\";}}s:17:\"custom_typography\";a:0:{}s:9:\"site_name\";s:23:\"Vetiver without borders\";s:16:\"site_description\";s:20:\"One plant at a time.\";s:19:\"page_title_selector\";s:14:\"h1.entry-title\";s:15:\"activeItemIndex\";i:1;s:11:\"viewport_md\";i:768;s:11:\"viewport_lg\";i:1025;s:11:\"__globals__\";a:2:{s:23:\"button_background_color\";s:27:\"globals/colors?id=secondary\";s:29:\"button_hover_background_color\";s:25:\"globals/colors?id=primary\";}s:9:\"site_logo\";a:5:{s:3:\"url\";s:102:\"https://vetiversansfrontieres.org/wp-content/uploads/2020/02/Screen-Shot-2023-09-06-at-11.17.15-PM.png\";s:2:\"id\";i:1897;s:4:\"size\";s:0:\"\";s:3:\"alt\";s:0:\"\";s:6:\"source\";s:7:\"library\";}s:12:\"site_favicon\";a:5:{s:3:\"url\";s:102:\"https://vetiversansfrontieres.org/wp-content/uploads/2020/02/Screen-Shot-2023-09-06-at-11.17.15-PM.png\";s:2:\"id\";i:1897;s:4:\"size\";s:0:\"\";s:3:\"alt\";s:0:\"\";s:6:\"source\";s:7:\"library\";}s:32:\"colors_enable_styleguide_preview\";s:3:\"yes\";}",
+  "elementorData": [],
+  "fileName": "elementor-library-475-default-kit.json"
+}

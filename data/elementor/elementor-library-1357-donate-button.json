@@ -1,0 +1,44 @@
+{
+  "postId": 1357,
+  "postType": "elementor_library",
+  "status": "publish",
+  "title": "Donate Button",
+  "slug": "?elementor_library=donate-button",
+  "link": "https://vetiversansfrontieres.org/?elementor_library=donate-button",
+  "meta": {
+    "_elementor_template_type": "widget",
+    "_elementor_edit_mode": "builder",
+    "_elementor_version": "3.17.2",
+    "_elementor_pro_version": "3.17.1",
+    "_elementor_template_widget_type": "button",
+    "_wp_page_template": "default"
+  },
+  "elementorPageSettings": null,
+  "elementorData": [
+    {
+      "id": "1357",
+      "elType": "widget",
+      "settings": {
+        "text": "Donate here",
+        "align": "center",
+        "typography_letter_spacing": {
+          "unit": "px",
+          "size": ""
+        },
+        "link": {
+          "url": "https://www.zeffy.com/en-CA/donation-form/cbac2a62-15cb-4f94-866c-c860b1cfa606",
+          "is_external": "",
+          "nofollow": "",
+          "custom_attributes": ""
+        },
+        "size": "lg",
+        "__globals__": {
+          "background_color": "globals/colors?id=secondary"
+        }
+      },
+      "elements": [],
+      "widgetType": "button"
+    }
+  ],
+  "fileName": "elementor-library-1357-donate-button.json"
+}

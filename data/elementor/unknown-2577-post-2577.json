@@ -1,0 +1,113 @@
+{
+  "postId": 2577,
+  "postType": "unknown",
+  "status": "unknown",
+  "title": "Post 2577",
+  "slug": "",
+  "link": "",
+  "meta": {
+    "_elementor_template_type": "wp-page",
+    "_elementor_edit_mode": "builder",
+    "_elementor_version": "3.27.6",
+    "_elementor_pro_version": "3.27.4",
+    "_elementor_template_widget_type": "",
+    "_wp_page_template": "default"
+  },
+  "elementorPageSettings": null,
+  "elementorData": [
+    {
+      "id": "5af8ba7",
+      "elType": "section",
+      "settings": {
+        "content_width": {
+          "unit": "px",
+          "size": 950,
+          "sizes": []
+        },
+        "gap": "no",
+        "content_position": "middle",
+        "background_background": "classic",
+        "background_image": {
+          "url": "https://vetiversansfrontieres.org/wp-content/uploads/2022/11/photoholgic-0dRVaqItXtI-unsplash-683x1024.jpg",
+          "id": 1625,
+          "size": "large",
+          "alt": "",
+          "source": "library"
+        },
+        "background_attachment": "scroll",
+        "background_size": "cover",
+        "padding": {
+          "unit": "px",
+          "top": "250",
+          "right": "0",
+          "bottom": "200",
+          "left": "0",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "0755533",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "d4ef7cc",
+              "elType": "widget",
+              "settings": {
+                "title": "FAQ",
+                "header_size": "h1",
+                "align": "center",
+                "text_stroke_text_stroke_type": "yes",
+                "text_stroke_text_stroke": {
+                  "unit": "px",
+                  "size": 1,
+                  "sizes": []
+                },
+                "__globals__": {
+                  "title_color": "globals/colors?id=secondary"
+                }
+              },
+              "elements": [],
+              "widgetType": "heading"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "e33ab00",
+      "elType": "section",
+      "settings": [],
+      "elements": [
+        {
+          "id": "f56a64e",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "6c3a9e1",
+              "elType": "widget",
+              "settings": {
+                "template_id": "2572"
+              },
+              "elements": [],
+              "widgetType": "template"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ],
+  "fileName": "unknown-2577-post-2577.json"
+}

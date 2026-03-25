@@ -1,0 +1,255 @@
+{
+  "postId": 1273,
+  "postType": "unknown",
+  "status": "unknown",
+  "title": "Post 1273",
+  "slug": "",
+  "link": "",
+  "meta": {
+    "_elementor_template_type": "popup",
+    "_elementor_edit_mode": "builder",
+    "_elementor_version": "3.8.0",
+    "_elementor_pro_version": "3.8.0",
+    "_elementor_template_widget_type": "",
+    "_wp_page_template": "default"
+  },
+  "elementorPageSettings": "a:9:{s:5:\"width\";a:3:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";s:4:\"1400\";s:5:\"sizes\";a:0:{}}s:12:\"width_tablet\";a:3:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";s:3:\"720\";s:5:\"sizes\";a:0:{}}s:18:\"entrance_animation\";s:6:\"fadeIn\";s:14:\"exit_animation\";s:6:\"fadeIn\";s:27:\"entrance_animation_duration\";a:3:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";s:3:\"0.5\";s:5:\"sizes\";a:0:{}}s:24:\"overlay_background_color\";s:9:\"#FFFAF5CC\";s:18:\"close_button_color\";s:7:\"#0F1319\";s:24:\"close_button_hover_color\";s:7:\"#5659C7\";s:11:\"__globals__\";a:3:{s:24:\"overlay_background_color\";s:0:\"\";s:18:\"close_button_color\";s:0:\"\";s:24:\"close_button_hover_color\";s:0:\"\";}}",
+  "elementorData": [
+    {
+      "id": "4f73f2fd",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "structure": "21",
+        "reverse_order_tablet": "reverse-tablet",
+        "reverse_order_mobile": "reverse-mobile",
+        "_title": "Popup",
+        "__globals__": {
+          "background_color": ""
+        }
+      },
+      "elements": [
+        {
+          "id": "243f6df7",
+          "elType": "column",
+          "settings": {
+            "_column_size": "33",
+            "background_background": "classic",
+            "background_image": {
+              "id": 834,
+              "url": "https://vetiversansfrontieres.org/wp-content/uploads/2022/10/DSCF0117.jpeg",
+              "alt": "",
+              "source": "library"
+            },
+            "background_position": "center center",
+            "background_repeat": "no-repeat",
+            "background_size": "cover",
+            "_inline_size_tablet": "100",
+            "background_position_tablet": "initial",
+            "background_ypos_tablet": {
+              "unit": "px",
+              "size": "-200",
+              "sizes": []
+            },
+            "background_repeat_tablet": "no-repeat",
+            "background_size_tablet": "cover",
+            "background_position_mobile": "top center",
+            "_inline_size": 46.19
+          },
+          "elements": [
+            {
+              "id": "5f21a011",
+              "elType": "widget",
+              "settings": {
+                "space_tablet": {
+                  "unit": "px",
+                  "size": "350",
+                  "sizes": []
+                },
+                "space_mobile": {
+                  "unit": "px",
+                  "size": "280",
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "spacer"
+            }
+          ],
+          "isInner": ""
+        },
+        {
+          "id": "20eb3f1d",
+          "elType": "column",
+          "settings": {
+            "_column_size": "66",
+            "space_between_widgets": "30",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "1",
+              "left": "0",
+              "isLinked": ""
+            },
+            "padding": {
+              "unit": "%",
+              "top": "10",
+              "right": "10",
+              "bottom": "10",
+              "left": "10",
+              "isLinked": "1"
+            },
+            "_inline_size_tablet": "100",
+            "padding_tablet": {
+              "unit": "%",
+              "top": "5",
+              "right": "5",
+              "bottom": "5",
+              "left": "5",
+              "isLinked": "1"
+            },
+            "padding_mobile": {
+              "unit": "%",
+              "top": "10",
+              "right": "10",
+              "bottom": "10",
+              "left": "10",
+              "isLinked": "1"
+            },
+            "__globals__": {
+              "border_color": ""
+            },
+            "border_color": "#5659C7",
+            "_inline_size": 53.81
+          },
+          "elements": [
+            {
+              "id": "39e678cb",
+              "elType": "widget",
+              "settings": {
+                "title": "Infrastructure protection",
+                "align_tablet": "center",
+                "align_mobile": "center",
+                "__globals__": {
+                  "title_color": "",
+                  "typography_typography": ""
+                },
+                "title_color": "#0F1319",
+                "typography_typography": "custom",
+                "typography_font_family": "Rubik",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": "45",
+                  "sizes": []
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": "28",
+                  "sizes": []
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": "25",
+                  "sizes": []
+                },
+                "typography_font_weight": "300",
+                "typography_text_transform": "capitalize",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": "1.2",
+                  "sizes": []
+                },
+                "align": "center",
+                "_animation": "fadeInDown",
+                "animation_duration": "slow"
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "60d232e",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p><span style=\"font-weight: 400;\">With Vetiver System, your project site can easily adress a wide range of environnement challenges  such as :</span></p>",
+                "typography_typography": "custom",
+                "typography_font_family": "Roboto",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 14,
+                  "sizes": []
+                },
+                "typography_font_weight": "400",
+                "_padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "__globals__": {
+                  "typography_typography": ""
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "2b1a896b",
+              "elType": "widget",
+              "settings": {
+                "icon_list": [
+                  {
+                    "text": "Shorelines protection green bareer",
+                    "_id": "b01b1fb"
+                  },
+                  {
+                    "text": "road protection system",
+                    "_id": "4183dc3"
+                  },
+                  {
+                    "text": "soil erosion mitigation system",
+                    "_id": "a73725e"
+                  },
+                  {
+                    "_id": "a435567",
+                    "text": "infrastructures, such as roads, bridges or dams"
+                  },
+                  {
+                    "_id": "06b6c9f",
+                    "text": "Restoration of disused industrial land. "
+                  }
+                ],
+                "space_between": {
+                  "unit": "px",
+                  "size": 19,
+                  "sizes": []
+                },
+                "icon_align": "left",
+                "text_indent": {
+                  "unit": "px",
+                  "size": 0,
+                  "sizes": []
+                },
+                "icon_typography_typography": "custom",
+                "icon_typography_font_size": {
+                  "unit": "px",
+                  "size": 17,
+                  "sizes": []
+                },
+                "view": "inline"
+              },
+              "elements": [],
+              "widgetType": "icon-list"
+            }
+          ],
+          "isInner": ""
+        }
+      ],
+      "isInner": ""
+    }
+  ],
+  "fileName": "unknown-1273-post-1273.json"
+}

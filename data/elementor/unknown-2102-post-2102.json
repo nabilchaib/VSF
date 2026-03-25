@@ -1,0 +1,338 @@
+{
+  "postId": 2102,
+  "postType": "unknown",
+  "status": "unknown",
+  "title": "Post 2102",
+  "slug": "",
+  "link": "",
+  "meta": {
+    "_elementor_template_type": "wp-post",
+    "_elementor_edit_mode": "builder",
+    "_elementor_version": "3.17.3",
+    "_elementor_pro_version": "3.17.1",
+    "_elementor_template_widget_type": "",
+    "_wp_page_template": "default"
+  },
+  "elementorPageSettings": null,
+  "elementorData": [
+    {
+      "id": "c229c3e",
+      "elType": "section",
+      "settings": [],
+      "elements": [
+        {
+          "id": "43f5634",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "684138f",
+              "elType": "widget",
+              "settings": {
+                "__dynamic__": {
+                  "image": "[elementor-tag id=\"\" name=\"post-featured-image\" settings=\"%7B%22fallback%22%3A%7B%22url%22%3A%22https%3A%2F%2Fvetiversansfrontieres.org%2Fwp-content%2Fuploads%2F2023%2F11%2FHeritage-Food-System-Presentation.png%22%2C%22id%22%3A2043%2C%22alt%22%3A%22%22%2C%22source%22%3A%22library%22%2C%22size%22%3A%22%22%7D%7D\"]"
+                },
+                "image_size": "full",
+                "image_custom_dimension": {
+                  "width": "1140",
+                  "height": "550"
+                },
+                "image": {
+                  "id": 727,
+                  "url": "https://vetiversansfrontieres.org/wp-content/uploads/2022/10/placeholder.png"
+                },
+                "link_to": "custom",
+                "link": {
+                  "url": "https://www.zeffy.com/en-CA/fundraising/ddb91a62-2b47-461b-ab71-953191c84e2b",
+                  "is_external": "on",
+                  "nofollow": "",
+                  "custom_attributes": ""
+                }
+              },
+              "elements": [],
+              "widgetType": "theme-post-featured-image"
+            },
+            {
+              "id": "b66bb74",
+              "elType": "widget",
+              "settings": {
+                "source": "custom",
+                "author_avatar": {
+                  "url": "https://vetiversansfrontieres.org/wp-content/uploads/2023/11/Nawi.webp",
+                  "id": 2044,
+                  "size": "",
+                  "alt": "",
+                  "source": "library"
+                },
+                "author_name": "Ñawi K. Flores",
+                "author_bio": "",
+                "link_text": "All Posts",
+                "layout": "above",
+                "alignment": "center",
+                "image_border": "yes",
+                "image_border_color": "#FFFFFF",
+                "image_border_width": {
+                  "unit": "px",
+                  "size": 8,
+                  "sizes": []
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "-70",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "author_website": {
+                  "url": "https://www.linkedin.com/in/%C3%B1awi-k-flores/",
+                  "is_external": "",
+                  "nofollow": "",
+                  "custom_attributes": ""
+                }
+              },
+              "elements": [],
+              "widgetType": "author-box"
+            },
+            {
+              "id": "1c6fc70",
+              "elType": "widget",
+              "settings": {
+                "__dynamic__": {
+                  "title": "[elementor-tag id=\"\" name=\"post-title\" settings=\"%7B%22before%22%3A%22%22%2C%22after%22%3A%22%22%2C%22fallback%22%3A%22%22%7D\"]"
+                },
+                "title": "Add Your Heading Text Here",
+                "header_size": "h2",
+                "align": "center"
+              },
+              "elements": [],
+              "widgetType": "theme-post-title"
+            },
+            {
+              "id": "a5f01a6",
+              "elType": "widget",
+              "settings": {
+                "title": "Indigenous-led sustainable development institute",
+                "header_size": "h4",
+                "align": "center"
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "4cc3509",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>The geography of Cotacachi is as dramatic as it is diverse, lying in a valley flanked by the majestic volcanoes of Imbabura and Cotacachi. Its proximity to the artisan city of Otavalo and the Panamerican Highway makes it accessible from Quito, capital of Ecuador, 2.5 hours drive, yet it remains a bastion of Andean tranquility. The nearby Cuicocha, a stunning crater lake, adds to the region's allure, drawing hikers and nature enthusiasts to its shores. In 2000, Cotacachi was declared the first ecological county of South America, reflecting its community's commitment to environmental stewardship. It was also recognized as a Pueblo Mágico by the Ecuadorian Ministry of Tourism in 2019, highlighting its enchanting character. The inter-Andean valley's mild climate fosters a biodiverse environment, supporting a variety of flora and fauna unique to the region. The crater lake Cuicocha, just a short distance away, is a biological hotspot and a key feature of the Cotacachi-Cayapas Ecological Reserve. Cotacachi is home to a high concentration of indigenous people, preserving and practicing their ancestral knowledge systems for the last 15,000 years. This knowledge is particularly evident in their sustainable farming practices, water management, and artisan crafts.</p><p><!-- notionvc: 17339c47-4e6e-4cec-95f3-7d470520a423 --></p>",
+                "drop_cap": "yes",
+                "_margin": {
+                  "unit": "px",
+                  "top": "10",
+                  "right": "0",
+                  "bottom": "10",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "f048d94",
+              "elType": "widget",
+              "settings": {
+                "image": {
+                  "url": "https://vetiversansfrontieres.org/wp-content/uploads/2023/11/article-image-e1699931954352.jpg",
+                  "id": "",
+                  "size": "",
+                  "source": "url"
+                },
+                "image_size": "1536x1536",
+                "height": {
+                  "unit": "px",
+                  "size": 394,
+                  "sizes": []
+                },
+                "object-fit": "contain",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "-0",
+                  "bottom": "0",
+                  "left": "-0",
+                  "isLinked": false
+                },
+                "_offset_orientation_v": "end"
+              },
+              "elements": [],
+              "widgetType": "image"
+            },
+            {
+              "id": "5e73998",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p><strong>Impact of Western Settlers:</strong></p><p>The influx of Western settlers has brought significant changes to Cotacachi, particularly in terms of land tenure and resource stewardship. The introduction of Western legal frameworks and property concepts has often clashed with the communal and collective land management practices of the indigenous peoples. This has led to disputes over land rights and has sometimes resulted in the displacement of indigenous communities from their ancestral territories.</p><p>The shift towards a market-oriented economy has also altered traditional socioeconomic structures. Indigenous practices that prioritize sustainability and community well-being are increasingly being replaced by profit-driven approaches, which can lead to overexploitation of resources and a departure from regenerative practices. This transition has implications for the social fabric of indigenous communities, as well as for the conservation of the region's biodiversity.</p><p>The adoption of conventional agricultural practices have significant impacts on the bioregion's soil, water, air, and carbon cycles. These practices can greatly degrade soil health, reduce water quality, contribute to air pollution, and disrupt the carbon sequestration capabilities of the land. Furthermore, they can erode the sociocultural and cultural agricultural systems heritage, replacing indigenous crops and farming methods with monocultures and chemical-dependent agriculture.</p>"
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "b2305dc",
+              "elType": "widget",
+              "settings": {
+                "title": "Kinray-hub initiative",
+                "align": "center",
+                "_margin": {
+                  "unit": "px",
+                  "top": "9",
+                  "right": "9",
+                  "bottom": "9",
+                  "left": "9",
+                  "isLinked": true
+                },
+                "link": {
+                  "url": "https://www.kallamp.org",
+                  "is_external": "",
+                  "nofollow": "",
+                  "custom_attributes": ""
+                }
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "b1a9dad",
+              "elType": "widget",
+              "settings": {
+                "social_icon_list": [
+                  {
+                    "social_icon": {
+                      "value": "fab fa-linkedin",
+                      "library": "fa-brands"
+                    },
+                    "link": {
+                      "url": "https://www.linkedin.com/company/indigenous-led-klimate-research-resilient-development-kinray-hub/",
+                      "is_external": "true",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "_id": "55c3652"
+                  }
+                ],
+                "shape": "circle"
+              },
+              "elements": [],
+              "widgetType": "social-icons"
+            },
+            {
+              "id": "aae5bce",
+              "elType": "section",
+              "settings": {
+                "structure": "20"
+              },
+              "elements": [
+                {
+                  "id": "5c8969f",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null
+                  },
+                  "elements": [
+                    {
+                      "id": "87ebb3f",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p>In the wake of a global awakening to the paramount task of reinstating our disrupted cultural-climate resilience, traditional approaches often sideline LID communities from crucial research and development dialogues. Enter the Kinray Hub — a game-changer bridging the gap.</p><p>Unlike business-as-usual approaches, Kinray Hub functions as a space to connect LID community needs and self-determined developmental perspectives with Indigenous and non-Indigenous science and technology collaborators to co-strategize community-led solutions and co-evolve them into culture regeneration and resilient systems. Hence, Kinray Hub is a groundbreaking initiative that redefines how we approach soil, water, air, klimate, kulture, karbon, and socio-environmental complex issues. It is a living testament to the power of Indigenous STEM, transdisciplinary science, and community-driven innovation in the klimate, food systems transformation, economy, business, regenerative organization structure, and active stewardship of Indigenous Knowledge Value Chain.</p>"
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "d99d94d",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null
+                  },
+                  "elements": [
+                    {
+                      "id": "5879d55",
+                      "elType": "widget",
+                      "settings": {
+                        "image": {
+                          "url": "https://vetiversansfrontieres.org/wp-content/uploads/2023/11/20230708_145504926_iOS-1-scaled-e1699931510292.jpg",
+                          "id": 2045,
+                          "size": "",
+                          "alt": "",
+                          "source": "library"
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "image"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "f3292a5",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p><a href=\"https://www.zeffy.com/en-CA/fundraising/ddb91a62-2b47-461b-ab71-953191c84e2b\"><strong>With your help</strong></a>, Kinray Hub becomes an inclusive haven, breaking down educational barriers and inviting everyone — from the Chichupampa Clan to neighboring LID communities like the Arrayanes Kichwa Community, The Morochos Kichwa Community, and our valued non-Indigenous partners, collaborators, and allies. Your participation will allow us to create a vibrant tapestry of diversity working hand in hand toward solutions for climate crises and socio-environmental injustices.</p><p>Imagine a space where experimentation is not just a scientific endeavor but a cultural celebration. <a href=\"https://www.zeffy.com/en-CA/fundraising/ddb91a62-2b47-461b-ab71-953191c84e2b\"><strong>With your support</strong></a>, Kinray Hub aims to co-design experimental agriculture plots, fog and mist water harvesting installations, technological innovations, and stewardship interventions alongside LID participants and collaborators. <a href=\"https://www.zeffy.com/en-CA/fundraising/ddb91a62-2b47-461b-ab71-953191c84e2b\"><strong>Your contribution</strong></a> doesn't just address a need; it adds cultural value to nature-based solutions, paying homage to Indigenous and nature rights.</p><p><a href=\"https://www.zeffy.com/en-CA/fundraising/ddb91a62-2b47-461b-ab71-953191c84e2b\"><strong>Your involvement</strong></a> in this transformative initiative is crucial. These experimental plots and developmental installations aren't just physical structures; they are catalysts for cross-generational knowledge exchange, creativity, curiosity, and a regenerative education space. Your participation contributes to creating an environment that nurtures both Indigenous and non-Indigenous Youth from the local bioregion to the national and international communities.</p><p>Supporting this extraordinary initiative, <a href=\"https://vetiversansfrontieres.org/\">Vetiver Sans Frontieres (VSF)</a>, has been at the forefront of regenerative agriculture and sustainable land management for years. With this campaign we aim to weave tradition and innovation, creating a brighter, more sustainable future amidst the Ecuadorian volcanic foothills.</p><div style=\"position: relative; overflow: hidden; width: 100%; height: 1200px; padding-top: 100%;\"><iframe style=\"position: absolute; border: 0; top: 0; left: 0; bottom: 0; right: 0; width: 100%; height: 100%;\" title=\"Donation form powered by Zeffy\" src=\"https://www.zeffy.com/en-CA/embed/donation-form/ddb91a62-2b47-461b-ab71-953191c84e2b\"></iframe></div><p><!-- notionvc: e35405b5-c4dc-444b-a7d1-e29dc4da6d40 --></p><p><!-- notionvc: 21c0adc1-7380-4820-92d6-eedf244e3125 --></p>",
+                "_element_width": "initial",
+                "_element_custom_width": {
+                  "unit": "%",
+                  "size": 100.112
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "911e30b",
+      "elType": "section",
+      "settings": [],
+      "elements": [
+        {
+          "id": "354594e",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "58d669f",
+              "elType": "widget",
+              "settings": {
+                "__dynamic__": {
+                  "image": "[elementor-tag id=\"\" name=\"post-featured-image\" settings=\"%7B%22fallback%22%3A%7B%22url%22%3A%22https%3A%2F%2Fvetiversansfrontieres.org%2Fwp-content%2Fuploads%2F2023%2F11%2FOrig-of-Heritage-Food-System-6.png%22%2C%22id%22%3A2088%2C%22size%22%3A%22%22%2C%22alt%22%3A%22%22%2C%22source%22%3A%22library%22%7D%7D\"]"
+                }
+              },
+              "elements": [],
+              "widgetType": "theme-post-featured-image"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ],
+  "fileName": "unknown-2102-post-2102.json"
+}

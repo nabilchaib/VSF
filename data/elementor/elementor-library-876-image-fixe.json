@@ -1,0 +1,83 @@
+{
+  "postId": 876,
+  "postType": "elementor_library",
+  "status": "publish",
+  "title": "image fixe",
+  "slug": "?elementor_library=image-fixe-2",
+  "link": "https://vetiversansfrontieres.org/?elementor_library=image-fixe-2",
+  "meta": {
+    "_elementor_template_type": "section",
+    "_elementor_edit_mode": "builder",
+    "_elementor_version": "3.7.8",
+    "_elementor_pro_version": "3.7.7",
+    "_elementor_template_widget_type": "",
+    "_wp_page_template": "default"
+  },
+  "elementorPageSettings": "a:51:{s:22:\"astra_sites_main_color\";s:25:\"var(--ast-global-color-0)\";s:30:\"astra_sites_heading_base_color\";s:25:\"var(--ast-global-color-2)\";s:22:\"astra_sites_link_color\";s:25:\"var(--ast-global-color-0)\";s:28:\"astra_sites_link_hover_color\";s:25:\"var(--ast-global-color-1)\";s:22:\"astra_sites_text_color\";s:25:\"var(--ast-global-color-3)\";s:27:\"astra_sites_body_typography\";s:6:\"custom\";s:26:\"astra_sites_body_font_size\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:15;}s:28:\"astra_sites_body_font_family\";s:10:\"Montserrat\";s:28:\"astra_sites_body_font_weight\";s:3:\"400\";s:31:\"astra_sites_body_text_transform\";s:4:\"none\";s:32:\"astra_sites_heading_1_typography\";s:6:\"custom\";s:31:\"astra_sites_heading_1_font_size\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:70;}s:38:\"astra_sites_heading_1_font_size_tablet\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:42;}s:38:\"astra_sites_heading_1_font_size_mobile\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:28;}s:39:\"astra_sites_default_heading_font_family\";s:24:\"'Montserrat', sans-serif\";s:33:\"astra_sites_heading_1_font_family\";s:12:\"'Montserrat'\";s:33:\"astra_sites_heading_1_font_weight\";s:3:\"700\";s:36:\"astra_sites_heading_1_text_transform\";s:9:\"uppercase\";s:32:\"astra_sites_heading_2_typography\";s:6:\"custom\";s:31:\"astra_sites_heading_2_font_size\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:34;}s:38:\"astra_sites_heading_2_font_size_tablet\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:40;}s:38:\"astra_sites_heading_2_font_size_mobile\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:24;}s:33:\"astra_sites_heading_2_line_height\";a:2:{s:4:\"unit\";s:2:\"em\";s:4:\"size\";d:1.1999999999999999555910790149937383830547332763671875;}s:33:\"astra_sites_heading_2_font_family\";s:12:\"'Montserrat'\";s:33:\"astra_sites_heading_2_font_weight\";s:3:\"700\";s:32:\"astra_sites_heading_3_typography\";s:6:\"custom\";s:31:\"astra_sites_heading_3_font_size\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:26;}s:38:\"astra_sites_heading_3_font_size_tablet\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:26;}s:38:\"astra_sites_heading_3_font_size_mobile\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:20;}s:33:\"astra_sites_heading_3_line_height\";a:2:{s:4:\"unit\";s:2:\"em\";s:4:\"size\";d:1.5;}s:33:\"astra_sites_heading_3_font_family\";s:12:\"'Montserrat'\";s:33:\"astra_sites_heading_3_font_weight\";s:3:\"700\";s:32:\"astra_sites_heading_4_typography\";s:6:\"custom\";s:31:\"astra_sites_heading_4_font_size\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:22;}s:38:\"astra_sites_heading_4_font_size_tablet\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:22;}s:38:\"astra_sites_heading_4_font_size_mobile\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:18;}s:33:\"astra_sites_heading_4_font_family\";s:12:\"'Montserrat'\";s:33:\"astra_sites_heading_4_font_weight\";s:3:\"700\";s:32:\"astra_sites_heading_5_typography\";s:6:\"custom\";s:31:\"astra_sites_heading_5_font_size\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:18;}s:38:\"astra_sites_heading_5_font_size_tablet\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:16;}s:38:\"astra_sites_heading_5_font_size_mobile\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:16;}s:33:\"astra_sites_heading_5_font_family\";s:12:\"'Montserrat'\";s:33:\"astra_sites_heading_5_font_weight\";s:3:\"700\";s:32:\"astra_sites_heading_6_typography\";s:6:\"custom\";s:31:\"astra_sites_heading_6_font_size\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:16;}s:38:\"astra_sites_heading_6_font_size_tablet\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:14;}s:38:\"astra_sites_heading_6_font_size_mobile\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:14;}s:33:\"astra_sites_heading_6_font_family\";s:12:\"'Montserrat'\";s:33:\"astra_sites_heading_6_font_weight\";s:3:\"700\";s:31:\"astra_sites_page_setting_enable\";s:0:\"\";}",
+  "elementorData": [
+    {
+      "id": "4c388e55",
+      "elType": "section",
+      "settings": {
+        "gap": "no",
+        "content_position": "middle",
+        "background_background": "classic",
+        "background_image": {
+          "id": 826,
+          "url": "https://vetiversansfrontieres.org/wp-content/uploads/2022/10/renaldo-matamoro-CNHX_CmNJus-unsplash-scaled.jpg",
+          "alt": "",
+          "source": "library"
+        },
+        "background_position": "center center",
+        "background_attachment": "fixed",
+        "background_repeat": "no-repeat",
+        "background_size": "cover",
+        "background_overlay_background": "classic",
+        "padding": {
+          "unit": "px",
+          "top": "250",
+          "right": "0",
+          "bottom": "200",
+          "left": "0",
+          "isLinked": false
+        },
+        "content_width": {
+          "unit": "px",
+          "size": 950
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "200",
+          "right": "25",
+          "bottom": "175",
+          "left": "25",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "150",
+          "right": "20",
+          "bottom": "100",
+          "left": "20",
+          "isLinked": false
+        },
+        "__globals__": {
+          "background_overlay_color": "globals/colors?id=astglobalcolor2"
+        }
+      },
+      "elements": [
+        {
+          "id": "51a2748d",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ],
+  "fileName": "elementor-library-876-image-fixe.json"
+}

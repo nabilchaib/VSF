@@ -1,0 +1,40 @@
+{
+  "postId": 1035,
+  "postType": "unknown",
+  "status": "unknown",
+  "title": "Post 1035",
+  "slug": "",
+  "link": "",
+  "meta": {
+    "_elementor_template_type": "widget",
+    "_elementor_edit_mode": "builder",
+    "_elementor_version": "3.7.8",
+    "_elementor_pro_version": "3.7.7",
+    "_elementor_template_widget_type": "theme-post-featured-image",
+    "_wp_page_template": "default"
+  },
+  "elementorPageSettings": null,
+  "elementorData": [
+    {
+      "id": "867",
+      "elType": "widget",
+      "settings": {
+        "__dynamic__": {
+          "image": "[elementor-tag id=\"\" name=\"post-featured-image\" settings=\"%7B%22fallback%22%3A%7B%22url%22%3A%22https%3A%2F%2Fvetiversansfrontieres.org%2Fwp-content%2Fuploads%2F2022%2F10%2FFacebook-event-cover-1920x1080-1-1.jpg%22%2C%22id%22%3A1024%2C%22alt%22%3A%22%22%2C%22source%22%3A%22library%22%7D%7D\"]"
+        },
+        "image_size": "custom",
+        "image_custom_dimension": {
+          "width": "1140",
+          "height": "500"
+        },
+        "image": {
+          "id": 727,
+          "url": "https://vetiversansfrontieres.org/wp-content/uploads/2022/10/placeholder.png"
+        }
+      },
+      "elements": [],
+      "widgetType": "theme-post-featured-image"
+    }
+  ],
+  "fileName": "unknown-1035-post-1035.json"
+}

@@ -1,0 +1,753 @@
+{
+  "postId": 2295,
+  "postType": "unknown",
+  "status": "unknown",
+  "title": "Post 2295",
+  "slug": "",
+  "link": "",
+  "meta": {
+    "_elementor_template_type": "wp-post",
+    "_elementor_edit_mode": "builder",
+    "_elementor_version": "3.19.0",
+    "_elementor_pro_version": "3.19.0",
+    "_elementor_template_widget_type": "",
+    "_wp_page_template": "default"
+  },
+  "elementorPageSettings": null,
+  "elementorData": [
+    {
+      "id": "c229c3e",
+      "elType": "section",
+      "settings": [],
+      "elements": [
+        {
+          "id": "43f5634",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "684138f",
+              "elType": "widget",
+              "settings": {
+                "__dynamic__": {
+                  "image": "[elementor-tag id=\"\" name=\"post-featured-image\" settings=\"%7B%22fallback%22%3A%7B%22url%22%3A%22https%3A%2F%2Fvetiversansfrontieres.org%2Fwp-content%2Fuploads%2F2023%2F11%2FHeritage-Food-System-Presentation.png%22%2C%22id%22%3A2043%2C%22alt%22%3A%22%22%2C%22source%22%3A%22library%22%2C%22size%22%3A%22%22%7D%7D\"]"
+                },
+                "image_size": "full",
+                "image_custom_dimension": {
+                  "width": "1140",
+                  "height": "550"
+                },
+                "image": {
+                  "id": 727,
+                  "url": "https://vetiversansfrontieres.org/wp-content/uploads/2022/10/placeholder.png"
+                },
+                "link_to": "custom",
+                "link": {
+                  "url": "https://www.zeffy.com/en-CA/fundraising/ddb91a62-2b47-461b-ab71-953191c84e2b",
+                  "is_external": "on",
+                  "nofollow": "",
+                  "custom_attributes": ""
+                }
+              },
+              "elements": [],
+              "widgetType": "theme-post-featured-image"
+            },
+            {
+              "id": "b66bb74",
+              "elType": "widget",
+              "settings": {
+                "source": "custom",
+                "author_avatar": {
+                  "url": "https://vetiversansfrontieres.org/wp-content/uploads/2023/12/1534970113560.jpeg",
+                  "id": 2125,
+                  "size": "",
+                  "alt": "",
+                  "source": "library"
+                },
+                "author_name": "Joshua Hughes",
+                "author_bio": "",
+                "link_text": "All Posts",
+                "layout": "above",
+                "alignment": "center",
+                "image_border": "yes",
+                "image_border_color": "#FFFFFF",
+                "image_border_width": {
+                  "unit": "px",
+                  "size": 8,
+                  "sizes": []
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "-70",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "author_website": {
+                  "url": "https://www.linkedin.com/in/joshua-hughes-68a338169/",
+                  "is_external": "",
+                  "nofollow": "",
+                  "custom_attributes": ""
+                }
+              },
+              "elements": [],
+              "widgetType": "author-box"
+            },
+            {
+              "id": "1c6fc70",
+              "elType": "widget",
+              "settings": {
+                "__dynamic__": {
+                  "title": "[elementor-tag id=\"\" name=\"post-title\" settings=\"%7B%22before%22%3A%22%22%2C%22after%22%3A%22%22%2C%22fallback%22%3A%22%22%7D\"]"
+                },
+                "title": "Add Your Heading Text Here",
+                "header_size": "h2",
+                "align": "center"
+              },
+              "elements": [],
+              "widgetType": "theme-post-title"
+            },
+            {
+              "id": "a5f01a6",
+              "elType": "widget",
+              "settings": {
+                "title": "Verdenergia: Cultivating Sustainable Production in Costa Rica",
+                "header_size": "h4",
+                "align": "center"
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "4cc3509",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p><span style=\"font-weight: 400;\">Costa Rica, a country once dominated by conventional agriculture with sprawling pasture and cacao fields, witnessed a remarkable transformation in the 1990’s. Like its neighboring nations, the encroachment of agriculture had been gradually displacing primary jungles and disrupting animal habitats. However, a green awakening was on the horizon, and regenerative projects began to take root, promising a more sustainable and harmonious future.</span></p><p><!-- notionvc: 17339c47-4e6e-4cec-95f3-7d470520a423 --></p>",
+                "drop_cap": "yes",
+                "_margin": {
+                  "unit": "px",
+                  "top": "10",
+                  "right": "0",
+                  "bottom": "10",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "f048d94",
+              "elType": "widget",
+              "settings": {
+                "image": {
+                  "url": "https://vetiversansfrontieres.org/wp-content/uploads/2024/01/Screen-Shot-2023-12-30-at-7.38.46-PM.png",
+                  "id": 2286,
+                  "size": "",
+                  "source": "library",
+                  "alt": ""
+                },
+                "height": {
+                  "unit": "px",
+                  "size": 394,
+                  "sizes": []
+                },
+                "object-fit": "contain",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "-0",
+                  "bottom": "0",
+                  "left": "-0",
+                  "isLinked": false
+                },
+                "_offset_orientation_v": "end"
+              },
+              "elements": [],
+              "widgetType": "image"
+            },
+            {
+              "id": "b2305dc",
+              "elType": "widget",
+              "settings": {
+                "title": "The Visionaries Behind Verdenergia",
+                "align": "center",
+                "_margin": {
+                  "unit": "px",
+                  "top": "9",
+                  "right": "9",
+                  "bottom": "9",
+                  "left": "9",
+                  "isLinked": true
+                },
+                "link": {
+                  "url": "https://www.kallamp.org",
+                  "is_external": "",
+                  "nofollow": "",
+                  "custom_attributes": ""
+                }
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "aae5bce",
+              "elType": "section",
+              "settings": {
+                "structure": "20"
+              },
+              "elements": [
+                {
+                  "id": "5c8969f",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "f7a9f00",
+                      "elType": "widget",
+                      "settings": {
+                        "image": {
+                          "url": "https://vetiversansfrontieres.org/wp-content/uploads/2023/12/DJI_0297-scaled.jpg",
+                          "id": 2128,
+                          "size": "",
+                          "alt": "",
+                          "source": "library"
+                        },
+                        "image_size": "medium_large"
+                      },
+                      "elements": [],
+                      "widgetType": "image"
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "d99d94d",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "content_position": "center"
+                  },
+                  "elements": [
+                    {
+                      "id": "87ebb3f",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p><span style=\"font-weight: 400;\">At the forefront of this regenerative movement stood Joshua Hughes, a visionary entrepreneur dedicated to redefining ethical modern businesses. </span><a href=\"https://www.linkedin.com/in/joshua-hughes-68a338169/\"><span style=\"font-weight: 400;\">https://www.linkedin.com/in/joshua-hughes-68a338169/</span><span style=\"font-weight: 400;\"><br /></span></a><span style=\"font-weight: 400;\">IG: </span><span style=\"font-weight: 400;\">Joshuahughes_rewild</span></p><p><span style=\"font-weight: 400;\">In 2006, Joshua initiated the creation of Verdenergia, a permaculture farm in Costa Rica with regenerative pratices. Little did he know that this would be the beginning of a transformative journey filled with valuable lessons and profound impact.</span></p>",
+                        "align": "justify",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "2",
+                          "right": "2",
+                          "bottom": "2",
+                          "left": "2",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "801b2f4",
+              "elType": "section",
+              "settings": {
+                "structure": "20"
+              },
+              "elements": [
+                {
+                  "id": "b6b44c5",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "8943956",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Rallying for Reforestation\n",
+                        "header_size": "h3",
+                        "align": "center"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "f3292a5",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p><span style=\"font-weight: 400;\">Verdenergia quickly gained momentum, rallying over 4000 people to join their cause of reforesting a patch of land in Costa Rica. This collective effort not only regenerated the landscape but also improved the local community and inspired others to embark on similar journeys in their own regions.</span></p>",
+                        "_element_width": "initial",
+                        "_element_custom_width": {
+                          "unit": "%",
+                          "size": 100.112
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "25a1d4f",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "27ca015",
+                      "elType": "widget",
+                      "settings": {
+                        "image": {
+                          "url": "https://vetiversansfrontieres.org/wp-content/uploads/2023/12/DJI_0324-scaled.jpg",
+                          "id": 2129,
+                          "size": "",
+                          "alt": "",
+                          "source": "library"
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "image"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "7d81f19",
+              "elType": "section",
+              "settings": {
+                "layout": "full_width",
+                "structure": "20"
+              },
+              "elements": [
+                {
+                  "id": "3384e5f",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": 50,
+                    "space_between_widgets": 0,
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "da6af03",
+                      "elType": "widget",
+                      "settings": {
+                        "image": {
+                          "url": "https://vetiversansfrontieres.org/wp-content/uploads/2023/12/DJI_0311-scaled-e1703952991188.jpg",
+                          "id": 2127,
+                          "size": "",
+                          "alt": "",
+                          "source": "library"
+                        },
+                        "width": {
+                          "unit": "%",
+                          "size": 100,
+                          "sizes": []
+                        },
+                        "space": {
+                          "unit": "%",
+                          "size": 100,
+                          "sizes": []
+                        },
+                        "height": {
+                          "unit": "px",
+                          "size": 394,
+                          "sizes": []
+                        },
+                        "height_tablet": {
+                          "unit": "%",
+                          "size": "",
+                          "sizes": []
+                        },
+                        "height_mobile": {
+                          "unit": "%",
+                          "size": "",
+                          "sizes": []
+                        },
+                        "object-fit": "cover"
+                      },
+                      "elements": [],
+                      "widgetType": "image"
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "efe7ded",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": 50,
+                    "space_between_widgets": 0,
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "ebc7c58",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "From Pasture to Food Jungle Gardens",
+                        "header_size": "h3",
+                        "align": "center",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "11",
+                          "right": "11",
+                          "bottom": "11",
+                          "left": "11",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "82b8a25",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p><span style=\"font-weight: 400;\">One of the standout initiatives of Verdenergia was the regeneration of pasture fields. The focus was on breathing new life into depleted landscapes by implementing sustainable methods of food production. This marked a departure from destructive practices like burning forests to create arable land. In this transformative process, Verdenergia incorporated Vetiver System, a key component that played a crucial role in soil conservation and erosion control. </span></p>",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "18",
+                          "right": "18",
+                          "bottom": "18",
+                          "left": "18",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "0080f7c",
+              "elType": "section",
+              "settings": {
+                "structure": "20"
+              },
+              "elements": [
+                {
+                  "id": "6692de4",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "content_position": "center"
+                  },
+                  "elements": [
+                    {
+                      "id": "b87455b",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p><span style=\"font-weight: 400;\"><strong>Vetiver</strong>, a versatile grass known for its soil-stabilizing and erosion-control properties, has been a constant companion in this journey. Used strategically throughout the projects, Vetiver has played a crucial role in preventing soil erosion while establishing new crops, stabilizing landscapes, and fostering the growth of diverse ecosystems. Walking through their fields, you can see the benefical impact of designing on contour lines. The fertility and depth of soil is overwhelming all around the farm. </span></p>",
+                        "drop_cap": "yes"
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "4b3e3bc",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "b9f7816",
+                      "elType": "widget",
+                      "settings": {
+                        "image": {
+                          "url": "https://vetiversansfrontieres.org/wp-content/uploads/2022/10/Facebook-event-cover-1920x1080-6.jpg",
+                          "id": 1031,
+                          "size": "",
+                          "alt": "",
+                          "source": "library"
+                        },
+                        "height": {
+                          "unit": "px",
+                          "size": 322,
+                          "sizes": []
+                        },
+                        "_padding": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "image"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "7946d47",
+              "elType": "section",
+              "settings": {
+                "structure": "20",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": 0,
+                  "bottom": "11",
+                  "left": 0,
+                  "isLinked": false
+                }
+              },
+              "elements": [
+                {
+                  "id": "51571ba",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": false
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "830040d",
+                      "elType": "widget",
+                      "settings": {
+                        "image": {
+                          "url": "https://vetiversansfrontieres.org/wp-content/uploads/2023/12/Screen-Shot-2023-12-30-at-8.18.53-PM.png",
+                          "id": 2133,
+                          "size": "",
+                          "alt": "",
+                          "source": "library"
+                        },
+                        "height": {
+                          "unit": "px",
+                          "size": 310,
+                          "sizes": []
+                        },
+                        "object-fit": "cover",
+                        "image_size": "medium_large"
+                      },
+                      "elements": [],
+                      "widgetType": "image"
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "04b8725",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null
+                  },
+                  "elements": [
+                    {
+                      "id": "d9e2cd8",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p><span style=\"font-weight: 400;\">Everywhere you dig, you can see a deep dark, earthy smelling soil hosting a myriad of different trees and spieces. Walkin with Steven, Permaculture designer, he explains how he sees Vetiver as a tremendous pionneer spieces for soil regeneration. The Vetiver System, with its deep-rooted and resilient Vetiver grass, not only prevented soil erosion but also acted as a natural barrier against runoff, allowing the land to heal and flourish. Through the strategic use of Vetiver, Verdenergia showcased a harmonious blend of regenerative agriculture and eco-friendly practices, setting a precedent for sustainable land management.</span></p>"
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "c6c01bc",
+              "elType": "widget",
+              "settings": {
+                "title": "Impact on the Community",
+                "align": "center",
+                "_margin": {
+                  "unit": "px",
+                  "top": "10",
+                  "right": "10",
+                  "bottom": "10",
+                  "left": "10",
+                  "isLinked": true
+                }
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "16ea900",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p><span style=\"font-weight: 400;\">The transition from barren pastures to flourishing food jungle gardens stands as a testament to the success of Verdenergia's regenerative projects. By engaging local farmers and the community of Lana, Verdenergia not only reclaimed natural landscapes but also became a beacon of inspiration for sustainable and ethical agricultural practices in the region.</span></p><p><span style=\"font-weight: 400;\">Sixteen years later, Verdenergia stands strong as a top permaculture and agroforestry education centers. Through its initiatives like Rewild Organic, it continues to shape a more harmonious coexistence with nature.</span><span style=\"font-weight: 400;\"><br /></span><span style=\"font-weight: 400;\">Don’t miss the opportunity to learn at one of their Permaculture Design Course. </span></p><p><a href=\"https://verdenergia.org/\"><span style=\"font-weight: 400;\">https://verdenergia.org/</span></a></p><p><span style=\"font-weight: 400;\">As the world grapples with the challenges of sustainability, Verdenergia stands as a shining example of what is possible when communities unite for a common goal – cultivating sustainable futures for generations to come.</span></p>"
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "21d0b30",
+      "elType": "section",
+      "settings": [],
+      "elements": [
+        {
+          "id": "1d2d4f8",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "b6b9b0a",
+              "elType": "widget",
+              "settings": {
+                "title": "If you like this story and want to know more, please share and like below",
+                "header_size": "h3"
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "2fe287e",
+              "elType": "widget",
+              "settings": {
+                "share_buttons": [
+                  {
+                    "_id": "03ca5d0"
+                  },
+                  {
+                    "button": "twitter",
+                    "_id": "4fa4f0c"
+                  },
+                  {
+                    "button": "linkedin",
+                    "_id": "0230a69"
+                  },
+                  {
+                    "_id": "ece1d14",
+                    "button": "email"
+                  }
+                ]
+              },
+              "elements": [],
+              "widgetType": "share-buttons"
+            },
+            {
+              "id": "ba17f37",
+              "elType": "widget",
+              "settings": {
+                "size": "large",
+                "show_share": "yes"
+              },
+              "elements": [],
+              "widgetType": "facebook-button"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ],
+  "fileName": "unknown-2295-post-2295.json"
+}

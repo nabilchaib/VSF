@@ -1,0 +1,485 @@
+{
+  "postId": 872,
+  "postType": "unknown",
+  "status": "unknown",
+  "title": "Post 872",
+  "slug": "",
+  "link": "",
+  "meta": {
+    "_elementor_template_type": "section",
+    "_elementor_edit_mode": "builder",
+    "_elementor_version": "3.7.8",
+    "_elementor_pro_version": "3.7.7",
+    "_elementor_template_widget_type": "",
+    "_wp_page_template": "default"
+  },
+  "elementorPageSettings": null,
+  "elementorData": [
+    {
+      "id": "5b87fed5",
+      "elType": "section",
+      "settings": {
+        "margin": {
+          "unit": "px",
+          "top": "50",
+          "right": 0,
+          "bottom": "50",
+          "left": 0,
+          "isLinked": true
+        },
+        "content_width": {
+          "unit": "px",
+          "size": 880
+        }
+      },
+      "elements": [
+        {
+          "id": "3ad7e37",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "background_color": "#ffffff",
+            "box_shadow_box_shadow": {
+              "horizontal": 0,
+              "vertical": 0,
+              "blur": 34,
+              "spread": 0,
+              "color": "rgba(0,0,0,0.11)"
+            }
+          },
+          "elements": [
+            {
+              "id": "3464584b",
+              "elType": "widget",
+              "settings": {
+                "__dynamic__": {
+                  "image": "[elementor-tag id=\"\" name=\"post-featured-image\" settings=\"%7B%22fallback%22%3A%7B%22url%22%3A%22https%3A%2F%2Fvetiversansfrontieres.org%2Fwp-content%2Fuploads%2F2022%2F10%2FIMG-20220616-WA0002.jpg%22%2C%22id%22%3A573%2C%22alt%22%3A%22%22%2C%22source%22%3A%22library%22%7D%7D\"]"
+                },
+                "image_size": "custom",
+                "image_custom_dimension": {
+                  "width": "1140",
+                  "height": "500"
+                },
+                "image": {
+                  "id": 727,
+                  "url": "https://vetiversansfrontieres.org/wp-content/uploads/2022/10/placeholder.png"
+                }
+              },
+              "elements": [],
+              "widgetType": "global",
+              "templateID": 867
+            },
+            {
+              "id": "595db1a3",
+              "elType": "widget",
+              "settings": {
+                "author_name": "Marcia Gomez",
+                "show_biography": "",
+                "author_bio": "Click edit button to change this text. Lorem ipsum dolor sit amet consectetur adipiscing elit dolor",
+                "link_text": "All Posts",
+                "layout": "above",
+                "alignment": "center",
+                "image_gap": {
+                  "unit": "px",
+                  "size": 0
+                },
+                "image_border": "yes",
+                "image_border_color": "#ffffff",
+                "image_border_width": {
+                  "unit": "px",
+                  "size": 8
+                },
+                "name_color": "#828282",
+                "name_typography_typography": "custom",
+                "name_typography_font_size": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "name_typography_text_transform": "uppercase",
+                "name_typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 2.9
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "-70",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "author_avatar": {
+                  "id": 728,
+                  "url": "https://vetiversansfrontieres.org/wp-content/uploads/2022/10/placeholder-1.png"
+                },
+                "source": "custom"
+              },
+              "elements": [],
+              "widgetType": "author-box"
+            },
+            {
+              "id": "2773d4d6",
+              "elType": "widget",
+              "settings": {
+                "__dynamic__": {
+                  "title": "[elementor-tag id=\"\" name=\"post-title\" settings=\"%7B%22before%22%3A%22%22%2C%22after%22%3A%22%22%2C%22fallback%22%3A%22%22%7D\"]"
+                },
+                "title": "Add Your Heading Text Here",
+                "title_color": "#000000",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 60
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 33
+                },
+                "typography_font_weight": "600",
+                "_margin": {
+                  "unit": "px",
+                  "top": "50",
+                  "right": "0",
+                  "bottom": "30",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "align": "center"
+              },
+              "elements": [],
+              "widgetType": "theme-post-title"
+            },
+            {
+              "id": "5596b194",
+              "elType": "widget",
+              "settings": {
+                "icon_list": [
+                  {
+                    "icon": "fa fa-calendar",
+                    "_id": "ba9c996",
+                    "custom_date_format": "F j, Y",
+                    "custom_time_format": "g:i a",
+                    "comments_custom_strings": "",
+                    "show_icon": "none"
+                  },
+                  {
+                    "type": "time",
+                    "icon": "fa fa-clock-o",
+                    "_id": "d7670a7",
+                    "custom_date_format": "F j, Y",
+                    "custom_time_format": "g:i a",
+                    "text_prefix": ",",
+                    "comments_custom_strings": "",
+                    "show_icon": "none"
+                  },
+                  {
+                    "type": "terms",
+                    "icon": "fa fa-commenting-o",
+                    "_id": "afbda51",
+                    "custom_date_format": "F j, Y",
+                    "custom_time_format": "g:i a",
+                    "taxonomy": "category",
+                    "text_prefix": ",",
+                    "comments_custom_strings": "",
+                    "show_icon": "none"
+                  }
+                ],
+                "space_between": {
+                  "unit": "px",
+                  "size": 0
+                },
+                "space_between_mobile": {
+                  "unit": "px",
+                  "size": 15
+                },
+                "icon_align_mobile": "center",
+                "icon_color": "#54595f",
+                "icon_size_mobile": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "text_indent": {
+                  "unit": "px",
+                  "size": 8
+                },
+                "text_color": "#54595f",
+                "icon_typography_typography": "custom",
+                "icon_typography_font_size": {
+                  "unit": "px",
+                  "size": 13
+                },
+                "icon_typography_font_weight": "300",
+                "icon_size": {
+                  "unit": "px",
+                  "size": 13
+                },
+                "_border_color": "#afafaf",
+                "icon_typography_line_height_mobile": {
+                  "unit": "px",
+                  "size": 27
+                },
+                "icon_align": "center"
+              },
+              "elements": [],
+              "widgetType": "post-info"
+            },
+            {
+              "id": "6c679596",
+              "elType": "widget",
+              "settings": {
+                "__dynamic__": {
+                  "excerpt": "[elementor-tag id=\"\" name=\"post-excerpt\" settings=\"%7B%22before%22%3A%22%22%2C%22after%22%3A%22%22%2C%22fallback%22%3A%22%22%7D\"]"
+                },
+                "title_color": "#54595f",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 19
+                },
+                "typography_font_weight": "500",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.8
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "30",
+                  "right": "0",
+                  "bottom": "30",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "theme-post-excerpt"
+            },
+            {
+              "id": "3faed612",
+              "elType": "widget",
+              "settings": {
+                "title": "Improving the challenges of planting Vetiver"
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "1b9f3c1b",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p><span style=\"font-weight: 400;\">Vetiver is an exceptional plant with features of great interest for bioengineering and phytoremediation applications. When used as a hedgerow placed on level, Vetiver works well against erosion and is then known as the Vetiver System. Somehow, despite it’s great potential, the Vetiver System hasn’t spread as much as it’s needed worldwide. Many reasons could explain this unawareness: lack of funding, insuffisant education and promotion, plant unavailability, unprofitable crop, etc. Still, solutions must be set forth to facilitate access to the Vetiver System and spread its implementation in different parts of the world, including by helping local authorities learn how to apply it to protect their soil, through educational programs for instance.</span></p>\n<p><span style=\"font-weight: 400;\">Very resilient, Vetiver doesn't need much care once established and consequently requires very low human or financial input. Nonetheless, there are valid explanations as to why the implementation of the Vetiver system is not attractive enough for different communities around the world. The main challenge that occurs in the process of the development of the system is during its implantation phase. Indeed, while planting the plant itself is easy, Vetiver needs a fair amount of irrigation in the first stage of its culture to efficiently get started. Yet, it can become difficult to provide the necessary amount of water in remote, poor and water scarce areas of the world.</span></p>\n<p><span style=\"font-weight: 400;\">One of the main goals of our research is to focus on finding efficient and easy techniques to irrigate Vetiver. If we look at the present practice, most people implement Vetiver during the appropriate season: they wait until they’re sure rain is going to dig out the plants in order to multiply them, and then get all the material ready. Even if proper rain is still the best irrigation method, it has many disadvantages. Indeed, it greatly limits the availability and the possibility to implement the system, pushing it into short seasons. Unfortunately, in many climates precipitations are not easily predictable and it can be difficult to start the entire process if it doesn’t rain. There are also many climates when the rain is too heavy for most periods of the rainy seasons to allow small plants to establish strong roots into the wet soil, if they’re not entirely washed out by the runoff. Unreliable rain makes it difficult for complex logistics to function properly as they need to coordinate many elements, and climate change is likely to make precipitation even more unpredictable.</span></p>",
+                "align": "justify",
+                "_margin": {
+                  "unit": "px",
+                  "top": "5",
+                  "right": "5",
+                  "bottom": "5",
+                  "left": "5",
+                  "isLinked": true
+                },
+                "_padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "79393279",
+              "elType": "widget",
+              "settings": {
+                "slides": [
+                  {
+                    "heading": "Slide 1 Heading",
+                    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit dolor",
+                    "button_text": "Click Here",
+                    "background_color": "#833ca3",
+                    "_id": "be63843",
+                    "background_image": {
+                      "url": "https://vetiversansfrontieres.org/wp-content/uploads/2022/10/IMG-20220616-WA0001.jpg",
+                      "id": 574,
+                      "alt": "",
+                      "source": "library"
+                    }
+                  },
+                  {
+                    "heading": "Slide 2 Heading",
+                    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit dolor",
+                    "button_text": "Click Here",
+                    "background_color": "#4054b2",
+                    "_id": "03d43ae",
+                    "background_image": {
+                      "url": "https://vetiversansfrontieres.org/wp-content/uploads/2022/10/IMG-20220616-WA0003.jpg",
+                      "id": 572,
+                      "alt": "",
+                      "source": "library"
+                    }
+                  },
+                  {
+                    "heading": "Slide 3 Heading",
+                    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit dolor",
+                    "button_text": "Click Here",
+                    "background_color": "#1abc9c",
+                    "_id": "ecf6b8a",
+                    "background_image": {
+                      "url": "https://vetiversansfrontieres.org/wp-content/uploads/2022/10/IMG-20220616-WA0007.jpg",
+                      "id": 570,
+                      "alt": "",
+                      "source": "library"
+                    }
+                  }
+                ]
+              },
+              "elements": [],
+              "widgetType": "slides"
+            },
+            {
+              "id": "fdf51e2",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p><span style=\"font-weight: 400;\">Many projects, involving trucks and employees, usually operate different irrigation tools to establish vetiver in the first two weeks of its culture. Some use a drip system, from a tank that they move, but most are irrigating by hand using a watering tank. While it’s still a good solution, few communities have access to a truck that can deliver a water tank as well as a pump and a backhoe long enough to water several dozens meters of hedgerow. </span></p>\n<p><span style=\"font-weight: 400;\">Another reason why it would be very useful to find better ways to irrigate Vetiver is that some of the most important areas to protect from erosion are very difficult to access, especially for vehicles. In fact, in order to properly start restoring a watershed, it would be better to start with the most elevated areas of the watershed, where water accumulates most steering force. Deforested areas are also another important environment where fighting erosion is crucial. </span></p>\n<p><span style=\"font-weight: 400;\">In recent years, various experimental products and innovations have appeared in the irrigation sector. Hydrogel or silica gel, one of these new watering techniques, generates a lot of enthusiasm because of the numerous possibilities it offers. Hydrogel can retain up to 500 times its weight in water and hold it for a period up to several months. When provided with some source of water, it can rehydrate and provide water for a period up to six years. </span></p>\n<p><span style=\"font-weight: 400;\">Spraying water is also quite inefficient because of the loss of water through natural processes, like evaporation, which pushes to irrigate when the sun is not very strong, early in the morning or late in the day. But the most important loss of water occurs through soil infiltration, which is normal, because we don’t want the soil to retain too much water, but causes a great inefficiency in water distribution. Hydrogel offers a great way to provide plants with just the right amount of water they need without losing it in soil infiltration. The amount of water that has to be carried is then greatly reduced, which makes it easier both on the labor force and machinerie.</span></p>",
+                "align": "justify"
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "488c4d3c",
+              "elType": "section",
+              "settings": {
+                "content_position": "middle",
+                "structure": "20",
+                "background_color": "#f4f4f4"
+              },
+              "elements": [
+                {
+                  "id": "2c0d7275",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null
+                  },
+                  "elements": [
+                    {
+                      "id": "2f69f27",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Share this post",
+                        "header_size": "h4",
+                        "title_color": "#000000",
+                        "typography_typography": "custom",
+                        "typography_text_transform": "uppercase"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "3fb92c9b",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null
+                  },
+                  "elements": [
+                    {
+                      "id": "1c6fb12b",
+                      "elType": "widget",
+                      "settings": {
+                        "share_buttons": [
+                          {
+                            "_id": "62d78a5"
+                          },
+                          {
+                            "button": "google",
+                            "_id": "0f55b88"
+                          },
+                          {
+                            "button": "twitter",
+                            "_id": "21de836"
+                          },
+                          {
+                            "button": "linkedin",
+                            "_id": "f780b63"
+                          },
+                          {
+                            "button": "pinterest",
+                            "_id": "050fff4"
+                          },
+                          {
+                            "button": "print",
+                            "_id": "f85468c"
+                          },
+                          {
+                            "button": "email",
+                            "_id": "7b166d6"
+                          }
+                        ],
+                        "row_gap": {
+                          "unit": "px",
+                          "size": ""
+                        },
+                        "row_gap_mobile": {
+                          "unit": "px",
+                          "size": 10
+                        },
+                        "button_size": {
+                          "unit": "px",
+                          "size": 0.8
+                        },
+                        "icon_size": {
+                          "unit": "em",
+                          "size": 1.5
+                        },
+                        "skin": "flat",
+                        "columns_mobile": "1",
+                        "typography_typography": "custom",
+                        "typography_text_transform": "uppercase",
+                        "view": "icon",
+                        "alignment": "right"
+                      },
+                      "elements": [],
+                      "widgetType": "share-buttons"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "299ffb62",
+              "elType": "widget",
+              "settings": {
+                "style": "dotted",
+                "gap": {
+                  "unit": "px",
+                  "size": 28
+                },
+                "text": "Divider"
+              },
+              "elements": [],
+              "widgetType": "divider"
+            },
+            {
+              "id": "5e8482ff",
+              "elType": "widget",
+              "settings": [],
+              "elements": [],
+              "widgetType": "facebook-comments"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ],
+  "fileName": "unknown-872-post-872.json"
+}

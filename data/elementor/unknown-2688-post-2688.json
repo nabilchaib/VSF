@@ -1,0 +1,788 @@
+{
+  "postId": 2688,
+  "postType": "unknown",
+  "status": "unknown",
+  "title": "Post 2688",
+  "slug": "",
+  "link": "",
+  "meta": {
+    "_elementor_template_type": "wp-post",
+    "_elementor_edit_mode": "builder",
+    "_elementor_version": "3.28.4",
+    "_elementor_pro_version": "3.28.3",
+    "_elementor_template_widget_type": "",
+    "_wp_page_template": "default"
+  },
+  "elementorPageSettings": "a:1:{s:10:\"hide_title\";s:3:\"yes\";}",
+  "elementorData": [
+    {
+      "id": "f8d0d5e",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "margin": {
+          "unit": "px",
+          "top": "0",
+          "right": 0,
+          "bottom": "0",
+          "left": 0,
+          "isLinked": true
+        }
+      },
+      "elements": [
+        {
+          "id": "3a058e0",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "2c46bcd",
+              "elType": "widget",
+              "settings": {
+                "image": {
+                  "url": "https://vetiversansfrontieres.org/wp-content/uploads/2025/03/WhatsApp-Image-2025-03-07-at-13.54.00.jpeg",
+                  "id": 2594,
+                  "size": "",
+                  "alt": "",
+                  "source": "library"
+                },
+                "height": {
+                  "unit": "px",
+                  "size": 404,
+                  "sizes": []
+                },
+                "object-fit": "cover"
+              },
+              "elements": [],
+              "widgetType": "image"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "a53a708",
+      "elType": "section",
+      "settings": [],
+      "elements": [
+        {
+          "id": "65a7701",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "57c4868",
+              "elType": "widget",
+              "settings": {
+                "title": "From Fire to Future: Breaking the Cycle of Slash-and-Burn Agriculture",
+                "align": "center",
+                "_margin": {
+                  "unit": "px",
+                  "top": "13",
+                  "right": "13",
+                  "bottom": "13",
+                  "left": "13",
+                  "isLinked": true
+                }
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "94c23f9",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>In the heart of the Congo Basin, a daily battle rages between survival and sustainability. Every sunrise brings farmers face-to-face with an impossible choice: feed their families today or preserve their children's tomorrow. This is the reality of slash-and-burn agriculture – a practice that claims <strong><em>18% of global CO₂ emissions annually</em></strong>. But what if we told you there's a solution that's both economically viable and environmentally transformative?</p>"
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "20ed846",
+              "elType": "section",
+              "settings": {
+                "structure": "20"
+              },
+              "elements": [
+                {
+                  "id": "dfeb546",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null
+                  },
+                  "elements": [
+                    {
+                      "id": "deda76f",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p style=\"text-align: center;\"><strong>🌍 The True Cost of Traditional Farming:</strong></p><p>Slash-and-burn agriculture isn't just an environmental crisis – it's a poverty trap. Here's why:</p><ul><li>Soil degradation forces farmers to clear new land every 2-3 years</li><li>Traditional alternatives cost up to 85% more than sustainable solutions</li><li>Communities lose both immediate income and long-term resources</li><li>Each hectare cleared releases tons of CO₂ into our atmosphere</li></ul><p>The cycle seems unbreakable. Until now.</p>",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "_padding": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "45464a8",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "4e80c97",
+                      "elType": "widget",
+                      "settings": {
+                        "image": {
+                          "url": "https://vetiversansfrontieres.org/wp-content/uploads/2025/03/image-11.webp",
+                          "id": 2593,
+                          "size": "",
+                          "alt": "",
+                          "source": "library"
+                        },
+                        "image_size": "full",
+                        "height": {
+                          "unit": "px",
+                          "size": 405,
+                          "sizes": []
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "image"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "6fcf9ca",
+              "elType": "widget",
+              "settings": {
+                "title": "Enter the Vetiver Solution: Nature's Own Engineer\n",
+                "align": "center",
+                "_margin": {
+                  "unit": "px",
+                  "top": "32",
+                  "right": "32",
+                  "bottom": "32",
+                  "left": "32",
+                  "isLinked": true
+                }
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "8eb196a",
+              "elType": "widget",
+              "settings": {
+                "slides_name": "Mulch Innovation",
+                "slides": [
+                  {
+                    "heading": "Imagine a solution that's:",
+                    "description": "• 85% more cost-effective than traditional methods\n• Reduces soil loss by 90%\n• Cuts water runoff by 70%",
+                    "button_text": "Click Here",
+                    "background_color": "#833ca3",
+                    "_id": "f84de72",
+                    "background_image": {
+                      "url": "https://vetiversansfrontieres.org/wp-content/uploads/2025/03/WhatsApp-Image-2025-03-07-at-13.54.00.jpeg",
+                      "id": 2594,
+                      "size": "",
+                      "alt": "",
+                      "source": "library"
+                    },
+                    "custom_style": "yes",
+                    "repeater_text_shadow_text_shadow_type": "yes",
+                    "repeater_text_shadow_text_shadow": {
+                      "horizontal": 0,
+                      "vertical": 0,
+                      "blur": 10,
+                      "color": "#000000"
+                    }
+                  },
+                  {
+                    "heading": "Mulch instead of Burn",
+                    "description": "Through extensive research and implementation across 100+ countries, we've proven that Vetiver Grass Technology (VGT) offers a revolutionary solution that's both economically viable and environmentally transformative.",
+                    "button_text": "Click Here",
+                    "background_color": "#4054b2",
+                    "_id": "ad03dfb",
+                    "background_image": {
+                      "url": "https://vetiversansfrontieres.org/wp-content/uploads/2025/03/WhatsApp-Image-2025-02-17-at-09.18.18-6.jpeg",
+                      "id": 2597,
+                      "size": "",
+                      "alt": "",
+                      "source": "library"
+                    },
+                    "background_size": "auto",
+                    "custom_style": "yes",
+                    "repeater_text_shadow_text_shadow_type": "yes",
+                    "repeater_text_shadow_text_shadow": {
+                      "horizontal": 0,
+                      "vertical": 0,
+                      "blur": 10,
+                      "color": "rgba(0, 0, 0, 0.94)"
+                    }
+                  },
+                  {
+                    "heading": "The Vetiver Transformation",
+                    "description": "Vetiver Grass Technology (VGT). A proven system that transforms degraded land into productive, sustainable farmland while providing additional income.",
+                    "button_text": "",
+                    "background_color": "#8A8A8A",
+                    "_id": "2b8ef0f",
+                    "background_image": {
+                      "url": "https://vetiversansfrontieres.org/wp-content/uploads/2025/03/WhatsApp-Image-2025-02-17-at-09.18.18-15.jpeg",
+                      "id": 2596,
+                      "size": "",
+                      "alt": "",
+                      "source": "library"
+                    },
+                    "background_overlay": "yes",
+                    "custom_style": "yes",
+                    "repeater_text_shadow_text_shadow_type": "yes",
+                    "repeater_text_shadow_text_shadow": {
+                      "horizontal": 0,
+                      "vertical": 0,
+                      "blur": 10,
+                      "color": "#000000"
+                    }
+                  }
+                ],
+                "slides_height": {
+                  "unit": "px",
+                  "size": 422,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "slides"
+            },
+            {
+              "id": "0df76d1",
+              "elType": "widget",
+              "settings": {
+                "title": "Meet Eric Mpongo – A Changemaker in the Congo",
+                "align": "center",
+                "_margin": {
+                  "unit": "px",
+                  "top": "29",
+                  "right": "29",
+                  "bottom": "29",
+                  "left": "29",
+                  "isLinked": true
+                }
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "6fece22",
+              "elType": "section",
+              "settings": {
+                "structure": "20"
+              },
+              "elements": [
+                {
+                  "id": "397e1c4",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "8a4980f",
+                      "elType": "widget",
+                      "settings": {
+                        "image": {
+                          "url": "https://vetiversansfrontieres.org/wp-content/uploads/2025/03/Screen-Shot-2025-03-15-at-1.35.01-PM.webp",
+                          "id": 2615,
+                          "size": "",
+                          "alt": "",
+                          "source": "library"
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "_padding": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "image"
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "011c1da",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null
+                  },
+                  "elements": [
+                    {
+                      "id": "a5c18ac",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p style=\"text-align: center;\"><strong><em>\"I couldn't believe something so simple could be so powerful,\" </em></strong></p><p>recalls Eric Mpongo, an agronomist and community innovator. He's spearheading a movement that turns crisis into cultivation. Faced with the deeply ingrained practice of slash-and-burn agriculture, Eric developed a Vetiver corridor system that empowers farmers to shift from destructive cycles to regenerative farming.</p><p class=\"\" data-start=\"771\" data-end=\"975\">With over eight regions now adopting his method Eric’s approach uses 10,000–20,000 Vetiver slips per hectare to mulch crops and naturally restore the soil, reduce labor, and increase yields.</p>",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "12",
+                          "right": "12",
+                          "bottom": "12",
+                          "left": "12",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "adbf504",
+              "elType": "section",
+              "settings": {
+                "structure": "20"
+              },
+              "elements": [
+                {
+                  "id": "99caba7",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null
+                  },
+                  "elements": [
+                    {
+                      "id": "68f8d39",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p class=\"\" data-start=\"980\" data-end=\"1205\">But Eric didn’t stop there. To educate farmers, he began building a <strong data-start=\"1109\" data-end=\"1141\">10,000-plant Vetiver nursery</strong>, forming a live training hub for agroecological transformation.</p><p class=\"\" data-start=\"1210\" data-end=\"1377\">Working with a major agricultural group, Eric continues to advocate for systemic change, backed not by speeches, but by <strong data-start=\"1330\" data-end=\"1351\">actionable models</strong> other farmers can follow.</p>"
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "af918f7",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "43066dc",
+                      "elType": "widget",
+                      "settings": {
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "_padding": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "image": {
+                          "url": "https://vetiversansfrontieres.org/wp-content/uploads/2025/04/00000276-PHOTO-2025-04-08-08-09-13.webp",
+                          "id": 2662,
+                          "size": "",
+                          "alt": "",
+                          "source": "library"
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "image"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "b76f1e1",
+              "elType": "section",
+              "settings": {
+                "structure": "20"
+              },
+              "elements": [
+                {
+                  "id": "30a245e",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "17064e2",
+                      "elType": "widget",
+                      "settings": {
+                        "image": {
+                          "url": "https://vetiversansfrontieres.org/wp-content/uploads/2025/04/00000283-PHOTO-2025-04-08-08-10-24.webp",
+                          "id": 2665,
+                          "size": "",
+                          "alt": "",
+                          "source": "library"
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "image"
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "5f1528e",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null
+                  },
+                  "elements": [
+                    {
+                      "id": "85f6de0",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p style=\"padding-left: 40px;\">In just one growing season:</p><ul><li>Soil erosion dropped by 90%</li><li>Crop yields increased by 40%</li><li>Additional income streams emerged </li><li>Zero need for new land clearing</li></ul>"
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "e934e61",
+              "elType": "section",
+              "settings": {
+                "structure": "20"
+              },
+              "elements": [
+                {
+                  "id": "6f9bd02",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null
+                  },
+                  "elements": [
+                    {
+                      "id": "3e4767f",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "How We Make It Happen"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "097de0f",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p><em><strong>\"Before Vetiver, I burned my land every season, watching my soil disappear. Now, my children will inherit fertile ground, not ashes.\"</strong></em></p><p>Eric’s work spans across the Congo, with active projects in:</p><ul><li>Kongo Central (2 sites)</li><li>Mongala (2 sites)</li><li>Équateur (2 sites)</li><li>Tshopo (1 site)</li><li>Tshuapa (1 site)</li></ul><p>This network is creating a living ecosystem of resilience across the country.</p>",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "5",
+                          "right": "5",
+                          "bottom": "5",
+                          "left": "5",
+                          "isLinked": true
+                        },
+                        "paragraph_spacing": {
+                          "unit": "px",
+                          "size": 5,
+                          "sizes": []
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "12b4ec1",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "94d5cca",
+                      "elType": "widget",
+                      "settings": {
+                        "image": {
+                          "url": "https://vetiversansfrontieres.org/wp-content/uploads/2025/03/WhatsApp-Image-2025-03-07-at-13.54.44.webp",
+                          "id": 2604,
+                          "size": "",
+                          "alt": "",
+                          "source": "library"
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "_padding": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "image"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "1a9fa52",
+              "elType": "widget",
+              "settings": {
+                "title": "Transform Land, Transform Lives",
+                "align": "center",
+                "_margin": {
+                  "unit": "px",
+                  "top": "30",
+                  "right": "30",
+                  "bottom": "30",
+                  "left": "30",
+                  "isLinked": true
+                }
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "5ddc175",
+              "elType": "section",
+              "settings": {
+                "structure": "20"
+              },
+              "elements": [
+                {
+                  "id": "243e8ba",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null
+                  },
+                  "elements": [
+                    {
+                      "id": "5b66f51",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p> </p><p class=\"\" data-start=\"1982\" data-end=\"2007\">Your donation helps fund:</p><ul data-start=\"2010\" data-end=\"2128\"><li class=\"\" data-start=\"2010\" data-end=\"2041\"><p class=\"\" data-start=\"2012\" data-end=\"2041\">Vetiver nurseries for farmers</p></li><li class=\"\" data-start=\"2044\" data-end=\"2083\"><p class=\"\" data-start=\"2046\" data-end=\"2083\">Local training with Eric’s board game</p></li><li class=\"\" data-start=\"2086\" data-end=\"2126\"><p class=\"\" data-start=\"2088\" data-end=\"2126\">Tools and supplies for new communities</p></li></ul><p class=\"\" data-start=\"2131\" data-end=\"2223\"><strong data-start=\"2131\" data-end=\"2173\">Donate today and grow a greener Congo.</strong></p><p><span style=\"font-size: 16px;\">Join us in creating a sustainable future. Whether you're a:</span></p><ul><li style=\"text-align: left;\">Farmer seeking solutions</li><li style=\"text-align: left;\">Organization looking to partner</li><li style=\"text-align: left;\">Donor ready to make an impact</li><li>Your contribution matters. Start today.</li></ul><p>▶ <a href=\"https://vetiversansfrontieres.org/get-involved/\">Start Your Project</a><br />▶ <a href=\"https://vetiversansfrontieres.org/get-involved/\">Make a Donation</a><br />▶ <a href=\"https://vetiversansfrontieres.org/about/vetiver-system/\">Learn More</a></p><p>Contact us  to begin your journey toward soil regeneration.</p>"
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "bd58ec2",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null
+                  },
+                  "elements": [
+                    {
+                      "id": "df6bd70",
+                      "elType": "widget",
+                      "settings": {
+                        "image": {
+                          "url": "https://vetiversansfrontieres.org/wp-content/uploads/2025/03/ChatGPT-Image-Mar-31-2025-12_42_02-PM.webp",
+                          "id": 2637,
+                          "size": "",
+                          "alt": "",
+                          "source": "library"
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "image"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "9ea6f3e",
+      "elType": "section",
+      "settings": [],
+      "elements": [
+        {
+          "id": "272b531",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ],
+  "fileName": "unknown-2688-post-2688.json"
+}

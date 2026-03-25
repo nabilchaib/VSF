@@ -1,0 +1,23 @@
+{
+  "nav": {
+    "eyebrow": "Regenerative action",
+    "title": "Vetiver Without Borders",
+    "about": "About",
+    "projects": "Projects",
+    "services": "Services",
+    "stories": "Stories",
+    "contact": "Contact",
+    "donate": "Donate"
+  },
+  "footer": {
+    "eyebrow": "Regenerate with us",
+    "title": "Ecological resilience, one project at a time.",
+    "summary": "Vetiver Without Borders works with communities, farmers, and local partners to restore land, protect water, and build long-term climate resilience.",
+    "explore": "Explore",
+    "follow": "Follow",
+    "about": "About",
+    "projects": "Projects",
+    "involved": "Get involved",
+    "stories": "Stories"
+  }
+}

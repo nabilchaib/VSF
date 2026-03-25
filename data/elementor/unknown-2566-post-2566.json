@@ -1,0 +1,1093 @@
+{
+  "postId": 2566,
+  "postType": "unknown",
+  "status": "unknown",
+  "title": "Post 2566",
+  "slug": "",
+  "link": "",
+  "meta": {
+    "_elementor_template_type": "wp-post",
+    "_elementor_edit_mode": "builder",
+    "_elementor_version": "3.27.6",
+    "_elementor_pro_version": "3.27.4",
+    "_elementor_template_widget_type": "",
+    "_wp_page_template": "default"
+  },
+  "elementorPageSettings": "a:51:{s:22:\"astra_sites_main_color\";s:25:\"var(--ast-global-color-0)\";s:30:\"astra_sites_heading_base_color\";s:25:\"var(--ast-global-color-2)\";s:22:\"astra_sites_link_color\";s:25:\"var(--ast-global-color-0)\";s:28:\"astra_sites_link_hover_color\";s:25:\"var(--ast-global-color-1)\";s:22:\"astra_sites_text_color\";s:25:\"var(--ast-global-color-3)\";s:27:\"astra_sites_body_typography\";s:6:\"custom\";s:26:\"astra_sites_body_font_size\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:15;}s:28:\"astra_sites_body_font_family\";s:10:\"Montserrat\";s:28:\"astra_sites_body_font_weight\";s:3:\"400\";s:31:\"astra_sites_body_text_transform\";s:4:\"none\";s:32:\"astra_sites_heading_1_typography\";s:6:\"custom\";s:31:\"astra_sites_heading_1_font_size\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:70;}s:38:\"astra_sites_heading_1_font_size_tablet\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:42;}s:38:\"astra_sites_heading_1_font_size_mobile\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:28;}s:39:\"astra_sites_default_heading_font_family\";s:24:\"'Montserrat', sans-serif\";s:33:\"astra_sites_heading_1_font_family\";s:12:\"'Montserrat'\";s:33:\"astra_sites_heading_1_font_weight\";s:3:\"700\";s:36:\"astra_sites_heading_1_text_transform\";s:9:\"uppercase\";s:32:\"astra_sites_heading_2_typography\";s:6:\"custom\";s:31:\"astra_sites_heading_2_font_size\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:34;}s:38:\"astra_sites_heading_2_font_size_tablet\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:40;}s:38:\"astra_sites_heading_2_font_size_mobile\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:24;}s:33:\"astra_sites_heading_2_line_height\";a:2:{s:4:\"unit\";s:2:\"em\";s:4:\"size\";d:1.1999999999999999555910790149937383830547332763671875;}s:33:\"astra_sites_heading_2_font_family\";s:12:\"'Montserrat'\";s:33:\"astra_sites_heading_2_font_weight\";s:3:\"700\";s:32:\"astra_sites_heading_3_typography\";s:6:\"custom\";s:31:\"astra_sites_heading_3_font_size\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:26;}s:38:\"astra_sites_heading_3_font_size_tablet\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:26;}s:38:\"astra_sites_heading_3_font_size_mobile\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:20;}s:33:\"astra_sites_heading_3_line_height\";a:2:{s:4:\"unit\";s:2:\"em\";s:4:\"size\";d:1.5;}s:33:\"astra_sites_heading_3_font_family\";s:12:\"'Montserrat'\";s:33:\"astra_sites_heading_3_font_weight\";s:3:\"700\";s:32:\"astra_sites_heading_4_typography\";s:6:\"custom\";s:31:\"astra_sites_heading_4_font_size\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:22;}s:38:\"astra_sites_heading_4_font_size_tablet\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:22;}s:38:\"astra_sites_heading_4_font_size_mobile\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:18;}s:33:\"astra_sites_heading_4_font_family\";s:12:\"'Montserrat'\";s:33:\"astra_sites_heading_4_font_weight\";s:3:\"700\";s:32:\"astra_sites_heading_5_typography\";s:6:\"custom\";s:31:\"astra_sites_heading_5_font_size\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:18;}s:38:\"astra_sites_heading_5_font_size_tablet\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:16;}s:38:\"astra_sites_heading_5_font_size_mobile\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:16;}s:33:\"astra_sites_heading_5_font_family\";s:12:\"'Montserrat'\";s:33:\"astra_sites_heading_5_font_weight\";s:3:\"700\";s:32:\"astra_sites_heading_6_typography\";s:6:\"custom\";s:31:\"astra_sites_heading_6_font_size\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:16;}s:38:\"astra_sites_heading_6_font_size_tablet\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:14;}s:38:\"astra_sites_heading_6_font_size_mobile\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:14;}s:33:\"astra_sites_heading_6_font_family\";s:12:\"'Montserrat'\";s:33:\"astra_sites_heading_6_font_weight\";s:3:\"700\";s:31:\"astra_sites_page_setting_enable\";s:0:\"\";}",
+  "elementorData": [
+    {
+      "id": "8e491de",
+      "elType": "section",
+      "settings": {
+        "gap": "no",
+        "content_position": "middle",
+        "background_background": "classic",
+        "background_image": {
+          "id": 2391,
+          "url": "https://vetiversansfrontieres.org/wp-content/uploads/2024/02/WhatsApp-Image-2024-02-26-at-12.10.03.jpeg",
+          "isLoading": false,
+          "aspectRatio": "4:3",
+          "alt": "",
+          "source": "library",
+          "size": ""
+        },
+        "background_position": "center center",
+        "background_attachment": "fixed",
+        "background_repeat": "no-repeat",
+        "background_size": "auto",
+        "background_overlay_background": "gradient",
+        "padding": {
+          "unit": "px",
+          "top": "75",
+          "right": "0",
+          "bottom": "75",
+          "left": "0",
+          "isLinked": false
+        },
+        "content_width": {
+          "unit": "px",
+          "size": 950
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "200",
+          "right": "25",
+          "bottom": "175",
+          "left": "25",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "150",
+          "right": "20",
+          "bottom": "100",
+          "left": "20",
+          "isLinked": false
+        },
+        "__globals__": {
+          "background_overlay_color": ""
+        },
+        "height": "min-height",
+        "custom_height": {
+          "unit": "px",
+          "size": 334,
+          "sizes": []
+        },
+        "background_overlay_color": "#14261C4F",
+        "background_overlay_color_b": "#00000094"
+      },
+      "elements": [
+        {
+          "id": "fb027eb",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "02d282c",
+              "elType": "widget",
+              "settings": {
+                "title": "Nakivale Vetiver Project\n",
+                "header_size": "h1",
+                "align": "center",
+                "_padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "_padding_mobile": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "_margin_tablet": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "_margin_mobile": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "_padding_tablet": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "__globals__": {
+                  "title_color": "globals/colors?id=secondary",
+                  "typography_typography": "globals/typography?id=primary"
+                },
+                "text_stroke_text_stroke_type": "yes",
+                "text_stroke_text_stroke": {
+                  "unit": "px",
+                  "size": 0.5,
+                  "sizes": []
+                },
+                "typography_typography": "custom",
+                "typography_font_weight": "800",
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": -1.5,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "heading"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "fe8f440",
+      "elType": "section",
+      "settings": [],
+      "elements": [
+        {
+          "id": "271c69e",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "2ff3ed7",
+              "elType": "widget",
+              "settings": {
+                "title": "Empowering Communities, Restoring Landscapes",
+                "align": "center",
+                "_margin": {
+                  "unit": "px",
+                  "top": "20",
+                  "right": "20",
+                  "bottom": "20",
+                  "left": "20",
+                  "isLinked": true
+                },
+                "_padding": {
+                  "unit": "px",
+                  "top": "20",
+                  "right": "20",
+                  "bottom": "20",
+                  "left": "20",
+                  "isLinked": true
+                }
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "bfd0da1",
+              "elType": "section",
+              "settings": {
+                "structure": "20"
+              },
+              "elements": [
+                {
+                  "id": "64912b7",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "content_position": "center"
+                  },
+                  "elements": [
+                    {
+                      "id": "d7e26d3",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p>In Nakivale, amidst the challenges of environmental degradation and food scarcity, the Nakivale Vetiver Project emerges as a beacon of hope. Spearheaded by the passionate environmental advocate Mbilizi Kalombo, this initiative is poised to revolutionize sustainable agriculture and land restoration. By tapping into the resilience of the Vetiver System, we're not just aiming to alter the landscape; we're working to secure a sustainable future for the communities that call this region home.</p>"
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "64f4c3f",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "4d932fe",
+                      "elType": "widget",
+                      "settings": {
+                        "image": {
+                          "url": "https://vetiversansfrontieres.org/wp-content/uploads/2024/02/WhatsApp-Image-2024-02-28-at-15.12.55-1.jpeg",
+                          "id": 2400,
+                          "size": "",
+                          "alt": "",
+                          "source": "library"
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "image"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "4aaa833",
+              "elType": "section",
+              "settings": {
+                "structure": "20"
+              },
+              "elements": [
+                {
+                  "id": "ae81130",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "4e5519e",
+                      "elType": "widget",
+                      "settings": {
+                        "image": {
+                          "url": "https://vetiversansfrontieres.org/wp-content/uploads/2024/02/Before_After.png",
+                          "id": 2377,
+                          "size": "",
+                          "alt": "",
+                          "source": "library"
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "image"
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "fe1873c",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "content_position": "center"
+                  },
+                  "elements": [
+                    {
+                      "id": "548f3fa",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Our Mission",
+                        "align": "center",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "9",
+                          "right": "9",
+                          "bottom": "9",
+                          "left": "9",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "56ef3a0",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p>We are on a quest to leverage the remarkable virtues of the Vetiver System, aiming to counteract land degradation, bolster agricultural yields, and cultivate environmental resilience. This project is more than a conservation effort; it is a lifeline to the Nakivale community, promising a rejuvenated habitat and a self-sufficient future.</p>",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "20",
+                          "right": "20",
+                          "bottom": "20",
+                          "left": "20",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    },
+                    {
+                      "id": "8b6999c",
+                      "elType": "widget",
+                      "settings": {
+                        "social_icon_list": [
+                          {
+                            "social_icon": {
+                              "value": "fab fa-facebook",
+                              "library": "fa-brands"
+                            },
+                            "_id": "c77e7e5",
+                            "link": {
+                              "url": "https://www.facebook.com/people/Vetiver-Sans-Frontieres/61553674826785/",
+                              "is_external": "true",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            }
+                          },
+                          {
+                            "_id": "770be05",
+                            "social_icon": {
+                              "value": "fab fa-linkedin",
+                              "library": "fa-brands"
+                            },
+                            "link": {
+                              "url": "https://www.linkedin.com/company/vetiver-sans-frontieres/",
+                              "is_external": "true",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            }
+                          },
+                          {
+                            "_id": "8adfaef",
+                            "social_icon": {
+                              "value": "fab fa-instagram",
+                              "library": "fa-brands"
+                            },
+                            "link": {
+                              "url": "https://www.instagram.com/vetiversansfrontieres/",
+                              "is_external": "true",
+                              "nofollow": "",
+                              "custom_attributes": ""
+                            }
+                          }
+                        ],
+                        "hover_animation": "grow"
+                      },
+                      "elements": [],
+                      "widgetType": "social-icons"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "b4db1c2",
+              "elType": "section",
+              "settings": {
+                "structure": "20"
+              },
+              "elements": [
+                {
+                  "id": "a78261c",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "content_position": "center"
+                  },
+                  "elements": [
+                    {
+                      "id": "39a86f3",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "The Challenge",
+                        "align": "center",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "18",
+                          "right": "18",
+                          "bottom": "18",
+                          "left": "18",
+                          "isLinked": true
+                        },
+                        "link": {
+                          "url": "#challenge",
+                          "is_external": "",
+                          "nofollow": "",
+                          "custom_attributes": ""
+                        },
+                        "_transform_scale_popover_hover": "transform",
+                        "_transform_scale_effect_hover": {
+                          "unit": "px",
+                          "size": 1.3,
+                          "sizes": []
+                        },
+                        "__dynamic__": []
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "fab681e",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p>The agrarian landscape of Nakivale is marred by the repercussions of unsuitable farming practices and inadequate water conservation strategies, threatening the livelihoods of over three-quarters of our populace who rely on agriculture. The specter of barren soils and unpredictable water access looms large, undermining the community's sustenance.<br /><a href=\"#challenge\">Read more about the Challenges.</a></p>"
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "abb54b7",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "d2601f3",
+                      "elType": "widget",
+                      "settings": {
+                        "image": {
+                          "url": "https://vetiversansfrontieres.org/wp-content/uploads/2024/02/00000073-PHOTO-2024-01-21-07-27-04.jpg",
+                          "id": 2420,
+                          "size": "",
+                          "alt": "",
+                          "source": "library"
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "_padding": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "image"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "9a466fa",
+              "elType": "section",
+              "settings": {
+                "structure": "20"
+              },
+              "elements": [
+                {
+                  "id": "f1c386b",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "8d91f2b",
+                      "elType": "widget",
+                      "settings": {
+                        "image": {
+                          "url": "https://vetiversansfrontieres.org/wp-content/uploads/2024/02/WhatsApp-Image-2024-02-28-at-15.12.49.jpeg",
+                          "id": 2392,
+                          "size": "",
+                          "alt": "",
+                          "source": "library"
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "image"
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "982d94d",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "content_position": "center"
+                  },
+                  "elements": [
+                    {
+                      "id": "034d5b6",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "The Vetiver Solution",
+                        "align": "center",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "10",
+                          "right": "10",
+                          "bottom": "10",
+                          "left": "10",
+                          "isLinked": true
+                        },
+                        "_padding": {
+                          "unit": "px",
+                          "top": "10",
+                          "right": "10",
+                          "bottom": "10",
+                          "left": "10",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "04cca4d",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p>Introducing Vetiver our innovative rendition of ecosystem restoration. This natural marvel, known for its unparalleled soil restoration prowess, stands at the forefront of our battle against erosion, nutrient loss, and water scarcity, embodying nature's resilience.</p>"
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "33c0e89",
+              "elType": "section",
+              "settings": {
+                "structure": "20"
+              },
+              "elements": [
+                {
+                  "id": "405dcb4",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "content_position": "center"
+                  },
+                  "elements": [
+                    {
+                      "id": "1d0d8fe",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Project Overview",
+                        "align": "center",
+                        "header_size": "h3",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "534f8cc",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p>Envisioned to span from 2024 to 2027, the Nakivale Vetiver Project aims to:</p><ul><li><strong>Regenerate Degraded Lands</strong>: Converting barren terrains into arable havens.</li><li><strong>Elevate Food Security</strong>: Providing the community with sustainable agricultural avenues.</li><li><strong>Conserve Biodiversity</strong>: Ensuring the vitality of the Lake Nakivale ecosystem, our communal beacon.</li></ul>"
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "76d0800",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "db79fa9",
+                      "elType": "widget",
+                      "settings": {
+                        "image": {
+                          "url": "https://vetiversansfrontieres.org/wp-content/uploads/2024/02/WhatsApp-Image-2024-02-28-at-15.12.54.jpeg",
+                          "id": 2399,
+                          "size": "",
+                          "alt": "",
+                          "source": "library"
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "image"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "9ded9a0",
+              "elType": "section",
+              "settings": {
+                "structure": "20"
+              },
+              "elements": [
+                {
+                  "id": "6c57c5a",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "cc7de4d",
+                      "elType": "widget",
+                      "settings": {
+                        "image": {
+                          "url": "https://vetiversansfrontieres.org/wp-content/uploads/2024/02/WhatsApp-Image-2024-02-28-at-15.13.02-1.jpeg",
+                          "id": 2405,
+                          "size": "",
+                          "alt": "",
+                          "source": "library"
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "_padding": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "image"
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "106e09d",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "content_position": "center"
+                  },
+                  "elements": [
+                    {
+                      "id": "db03365",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Community at the Core",
+                        "align": "center"
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "2654692",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p>Authentic transformation is rooted in community engagement. This project is infused with a spirit of inclusivity, ensuring community involvement at every turn:</p><ul><li><strong>Tailored Training</strong>: Arming our youth and farmers with the skills to spearhead sustainable farming revolutions.</li><li><strong>Ongoing Dialogue</strong>: Facilitating monthly forums to foster a cohesive community voice.</li><li><strong>Community Structures</strong>: Creating conduits for fluid interaction between the project team and community members.</li></ul>"
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "00fbb9d",
+              "elType": "widget",
+              "settings": {
+                "title": "Impact and Vision",
+                "align": "center",
+                "_margin": {
+                  "unit": "px",
+                  "top": "27",
+                  "right": "27",
+                  "bottom": "27",
+                  "left": "27",
+                  "isLinked": true
+                }
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "606d396",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Our ambitions are lofty but attainable, guided by tangible milestones:</p><ul><li><strong>Soil Revitalization</strong>: Observing our lands reborn with fertility.</li><li><strong>Harvest Abundance</strong>: Reaping the rewards of enhanced agricultural productivity.</li><li><strong>Community Leadership</strong>: Empowering locals to champion eco-conscious practices.</li></ul>"
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "2800b66",
+              "elType": "widget",
+              "settings": {
+                "title": "Join Our Cause",
+                "align": "center",
+                "_margin": {
+                  "unit": "px",
+                  "top": "6",
+                  "right": "6",
+                  "bottom": "6",
+                  "left": "6",
+                  "isLinked": true
+                }
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "37fc437",
+              "elType": "widget",
+              "settings": {
+                "editor": "The Nakivale Vetiver Project is a clarion call to action for a sustainable and resilient Nakivale. We invite you to be part of this transformative journey, through support, collaboration, or advocacy."
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "82217b1",
+              "elType": "widget",
+              "settings": {
+                "title": "Challenge assessment of Nakivale ",
+                "align": "center",
+                "_element_id": "challenge",
+                "__dynamic__": []
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "c501268",
+              "elType": "widget",
+              "settings": {
+                "editor": "<div class=\"gs\"><div class=\"\"><div id=\":ow\" class=\"ii gt\"><div id=\":ov\" class=\"a3s aiL \"><div dir=\"auto\">There is a low resilience among refugee households linked but not limited to limited access to physical productive assets, limited agricultural extension services, shortages of agro-inputs, gender roles, and inequalities. Refuges own less agricultural assets (livestock and land) and produce a smaller range of different crops which results in high levels of food insecurity.<div dir=\"auto\"> </div><div dir=\"auto\">The adoption of negative coping strategies to deal with food shortages, and persistent and high dependency on humanitarian assistance to meet basic needs are some of the already documented key issues. Substantial transfers, both in cash and in kind, do not compensate for the lack of inputs and limited agro-production. Therefore, few studies have documented the contribution of agriculture to the livelihoods of the refugees in the settlements.<div dir=\"auto\"> </div><div dir=\"auto\">Ugandan refugee policy is a self-reliance strategy, a policy that expects refugees to economically support themselves by utilizing a given plot of land to develop a livelihood based on subsistence agriculture. Although many have hailed this policy as being progressive and beneficial for the refugees, others have pointed out the flaws and deficiencies in the policy and its implementation. With a growing influx of refugees in Uganda (Approximately 1.1 million refugees), the refugees' livelihoods in terms of food security, household income levels, health, and nutrition are very low, and thus promoting sustainable food production and resilient livelihoods is critical for the wellbeing of refugees to reduce their dependence on humanitarian aid in the form of food rations and non-food items and to improve on their livelihoods.<div dir=\"auto\"> </div><div dir=\"auto\">Farmers face many challenges in their farming activities but it becomes worse when it comes to the refugees due to limited capacity to absorb the shock. Climate change, diseases, limited land, and low prices for produce are the most serious challenges refugees are facing like other farmers. These challenges drastically reduce the quantity and quality both in crop and livestock production hence affecting household income levels and ultimately negatively affecting the socio-economic status of the refugees. </div><div dir=\"auto\"> </div><div dir=\"auto\">The adoption of up-to-date agricultural technologies such as irrigation guarantees increased production but affordability dictates. This forces refugee farmers to continue operating traditionally since they cannot afford operation costs for irrigation and other climate adaptation measures.Although refugees in Nakivale are given land and mobility rights, their food security remains relatively low, with a high dependency on food aid and this is following the UNHCR and World Vision (2017) report which revealed that 58% of refugees entirely rely on food assistance for survival. A study conducted confirms that refugees go out to purchase food to supplement what is offered to them or what they have produced.The environment in refugee settlements and outlying areas is heavily impacted by refugee hosting. Deforestation is a product of firewood and shelter material collection, and clearing land for habitation and farming. The depletion of natural resources continues to cause friction between refugees and host communities.<div dir=\"auto\"> </div><div dir=\"auto\">Limited knowledge of how to effectively use small plots of the allocated land to increase agriculture production, at the settlement level. Land use and crop yield assessments (LUCYA) were previously carried out by WFP, UNHCR, and partners. When the South Sudanese caseload was voluntarily repatriated, the LUCYA phased out. Improve knowledge and insight into agriculture productivity, as impacted by local factors (e.g. land allocation, soil fertility, agriculture extension services, environmental impact), is needed. OPM's official size of land allocation is 50 m x 100 m per household for both residential and agricultural cultivation. Refugees' agriculture production is intended to contribute towards their self-reliance. In areas, where land availability is impacted, the OPM provides the residential allocation first with the intent of providing agricultural land at a later date. The large influx of refugees during the 2012 Congolese Emergency and 2013 South Sudanese Emergency has meant that some households have reduced land allocations For example, for the old caseload (before mid-December 2013), the plot size distributed was 50*50 sq. meters for residential areas and 50*50 sq. meters for arable land. For the new caseload (after mid-December 2013 and so far), the plot size distributed is 20*30 sq. meters for residential area and 50*50 sq. meters for arable land. The location of arable land towards the residential land varies from one village to the other, the furthest land is 2km while other plots are just next to the residential areasPoor soil fertility is impacting production. Intense, continuous farming, and monocroping over time are resulting in lower yields. Agronomic practice should be trained to ensure sustainable use of land. </div><div dir=\"auto\"> </div><div dir=\"auto\">Agricultural production and productivity are not equal across the settlements. The agricultural productivity of the refugee settlements is impacted by rainfall and soil fertility. Southwest and West Nile Settlements are drought-prone, and many settlements including Nakivale have been under constant habitation for over 50 years. As refugees' crop production is an important part of both household consumption and sold as a cash crop, settlements will need to undertake a land use and crop yield assessment to quantify household production towards self-reliance.</div><div dir=\"auto\"> </div><div dir=\"auto\">Given the Population pressure on land across the settlements, the age of the settlements (some since 1959), and the continued use of most of them, a lot is at stake in terms of forest cover, Soil, and water conservation, lake shores (which are considered fertile) and plant bio-diversity as well as disruption of the ecosystems. Refugees and asylum seekers depend on the existing trees and shrubs for domestic demands including construction and charcoal burning. The soils have continuously been cropped with minimal or no inputs and in some cases, the vulnerable parts of the land like hill slopes and lake shores have been used which has resulted in soil erosion Lake siltation, and water eutrophication. Environmental interventions have been minimal and inconsistent due to the limited and inconsistent resource investment over the years. Additionally, there is no regional operational comprehensive environment intervention strategy that is being consistently followed.</div></div></div></div></div></div></div></div></div>"
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "365bb8c",
+      "elType": "section",
+      "settings": {
+        "structure": "20",
+        "background_background": "classic",
+        "padding": {
+          "unit": "px",
+          "top": "40",
+          "right": "0",
+          "bottom": "40",
+          "left": "0",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "25",
+          "right": "25",
+          "bottom": "25",
+          "left": "25",
+          "isLinked": true
+        },
+        "__globals__": {
+          "background_color": "globals/colors?id=astglobalcolor4"
+        },
+        "content_width": {
+          "unit": "px",
+          "size": 1000,
+          "sizes": []
+        },
+        "content_position": "middle",
+        "padding_mobile": {
+          "unit": "px",
+          "top": "30",
+          "right": "20",
+          "bottom": "30",
+          "left": "20",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "0bc2a91",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50,
+            "_inline_size": 80,
+            "content_position": "center",
+            "_inline_size_tablet": 64,
+            "padding_mobile": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "a8404f2",
+              "elType": "widget",
+              "settings": {
+                "title": "Write us today to learn how you can start your journey",
+                "align": "left",
+                "_padding_tablet": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "_padding_mobile": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "25",
+                  "bottom": "10",
+                  "left": "25",
+                  "isLinked": false
+                },
+                "header_size": "h3",
+                "align_mobile": "center",
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": ""
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": ""
+                },
+                "typography_line_height_tablet": {
+                  "unit": "em",
+                  "size": ""
+                },
+                "typography_line_height_mobile": {
+                  "unit": "em",
+                  "size": ""
+                }
+              },
+              "elements": [],
+              "widgetType": "heading"
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "c6bc2cc",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50,
+            "_inline_size": 20,
+            "_inline_size_tablet": 28,
+            "margin_mobile": {
+              "unit": "px",
+              "top": "30",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": false
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "a9ece18",
+              "elType": "widget",
+              "settings": {
+                "text": "Contact us",
+                "align": "right",
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": ""
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": ""
+                },
+                "_margin_mobile": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "align_mobile": "center",
+                "link": {
+                  "url": "#contact",
+                  "is_external": "",
+                  "nofollow": "",
+                  "custom_attributes": ""
+                }
+              },
+              "elements": [],
+              "widgetType": "button"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ],
+  "fileName": "unknown-2566-post-2566.json"
+}

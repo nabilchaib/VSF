@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --font-heading: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif;
+  --font-body: "Avenir Next", Avenir, "Segoe UI", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body), sans-serif;
+  background:
+    linear-gradient(180deg, rgba(239, 231, 218, 0.92), rgba(239, 231, 218, 1)),
+    linear-gradient(115deg, rgba(166, 201, 106, 0.14), transparent 48%);
+  min-height: 100vh;
+}
+
+.font-body {
+  font-family: var(--font-body), sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading), serif;
+  letter-spacing: -0.03em;
+}
+
+a {
+  @apply transition-colors duration-150;
+}
+
+::selection {
+  background: rgba(166, 201, 106, 0.45);
+}

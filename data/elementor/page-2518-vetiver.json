@@ -1,0 +1,1065 @@
+{
+  "postId": 2518,
+  "postType": "page",
+  "status": "publish",
+  "title": "Vetiver",
+  "slug": "vetiver",
+  "link": "https://vetiversansfrontieres.org/vetiver/",
+  "meta": {
+    "_elementor_template_type": "wp-post",
+    "_elementor_edit_mode": "builder",
+    "_elementor_version": "3.24.5",
+    "_elementor_pro_version": "3.24.3",
+    "_elementor_template_widget_type": "",
+    "_wp_page_template": "default"
+  },
+  "elementorPageSettings": "a:51:{s:22:\"astra_sites_main_color\";s:25:\"var(--ast-global-color-0)\";s:30:\"astra_sites_heading_base_color\";s:25:\"var(--ast-global-color-2)\";s:22:\"astra_sites_link_color\";s:25:\"var(--ast-global-color-0)\";s:28:\"astra_sites_link_hover_color\";s:25:\"var(--ast-global-color-1)\";s:22:\"astra_sites_text_color\";s:25:\"var(--ast-global-color-3)\";s:27:\"astra_sites_body_typography\";s:6:\"custom\";s:26:\"astra_sites_body_font_size\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:15;}s:28:\"astra_sites_body_font_family\";s:10:\"Montserrat\";s:28:\"astra_sites_body_font_weight\";s:3:\"400\";s:31:\"astra_sites_body_text_transform\";s:4:\"none\";s:32:\"astra_sites_heading_1_typography\";s:6:\"custom\";s:31:\"astra_sites_heading_1_font_size\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:70;}s:38:\"astra_sites_heading_1_font_size_tablet\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:42;}s:38:\"astra_sites_heading_1_font_size_mobile\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:28;}s:39:\"astra_sites_default_heading_font_family\";s:24:\"'Montserrat', sans-serif\";s:33:\"astra_sites_heading_1_font_family\";s:12:\"'Montserrat'\";s:33:\"astra_sites_heading_1_font_weight\";s:3:\"700\";s:36:\"astra_sites_heading_1_text_transform\";s:9:\"uppercase\";s:32:\"astra_sites_heading_2_typography\";s:6:\"custom\";s:31:\"astra_sites_heading_2_font_size\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:34;}s:38:\"astra_sites_heading_2_font_size_tablet\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:40;}s:38:\"astra_sites_heading_2_font_size_mobile\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:24;}s:33:\"astra_sites_heading_2_line_height\";a:2:{s:4:\"unit\";s:2:\"em\";s:4:\"size\";d:1.1999999999999999555910790149937383830547332763671875;}s:33:\"astra_sites_heading_2_font_family\";s:12:\"'Montserrat'\";s:33:\"astra_sites_heading_2_font_weight\";s:3:\"700\";s:32:\"astra_sites_heading_3_typography\";s:6:\"custom\";s:31:\"astra_sites_heading_3_font_size\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:26;}s:38:\"astra_sites_heading_3_font_size_tablet\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:26;}s:38:\"astra_sites_heading_3_font_size_mobile\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:20;}s:33:\"astra_sites_heading_3_line_height\";a:2:{s:4:\"unit\";s:2:\"em\";s:4:\"size\";d:1.5;}s:33:\"astra_sites_heading_3_font_family\";s:12:\"'Montserrat'\";s:33:\"astra_sites_heading_3_font_weight\";s:3:\"700\";s:32:\"astra_sites_heading_4_typography\";s:6:\"custom\";s:31:\"astra_sites_heading_4_font_size\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:22;}s:38:\"astra_sites_heading_4_font_size_tablet\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:22;}s:38:\"astra_sites_heading_4_font_size_mobile\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:18;}s:33:\"astra_sites_heading_4_font_family\";s:12:\"'Montserrat'\";s:33:\"astra_sites_heading_4_font_weight\";s:3:\"700\";s:32:\"astra_sites_heading_5_typography\";s:6:\"custom\";s:31:\"astra_sites_heading_5_font_size\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:18;}s:38:\"astra_sites_heading_5_font_size_tablet\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:16;}s:38:\"astra_sites_heading_5_font_size_mobile\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:16;}s:33:\"astra_sites_heading_5_font_family\";s:12:\"'Montserrat'\";s:33:\"astra_sites_heading_5_font_weight\";s:3:\"700\";s:32:\"astra_sites_heading_6_typography\";s:6:\"custom\";s:31:\"astra_sites_heading_6_font_size\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:16;}s:38:\"astra_sites_heading_6_font_size_tablet\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:14;}s:38:\"astra_sites_heading_6_font_size_mobile\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:14;}s:33:\"astra_sites_heading_6_font_family\";s:12:\"'Montserrat'\";s:33:\"astra_sites_heading_6_font_weight\";s:3:\"700\";s:31:\"astra_sites_page_setting_enable\";s:0:\"\";}",
+  "elementorData": [
+    {
+      "id": "688ad38",
+      "elType": "section",
+      "settings": {
+        "gap": "no",
+        "content_position": "middle",
+        "background_background": "classic",
+        "background_image": {
+          "id": 825,
+          "url": "https://vetiversansfrontieres.org/wp-content/uploads/2022/10/dallas-reedy-LWdXKpVFSKg-unsplash-scaled.jpg",
+          "alt": "Vetiver without borders",
+          "source": "library",
+          "size": ""
+        },
+        "background_position": "top left",
+        "background_attachment": "scroll",
+        "background_repeat": "no-repeat",
+        "background_size": "cover",
+        "background_overlay_background": "gradient",
+        "padding": {
+          "unit": "px",
+          "top": "250",
+          "right": "0",
+          "bottom": "150",
+          "left": "0",
+          "isLinked": false
+        },
+        "content_width": {
+          "unit": "px",
+          "size": 950
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "200",
+          "right": "25",
+          "bottom": "175",
+          "left": "25",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "150",
+          "right": "20",
+          "bottom": "100",
+          "left": "20",
+          "isLinked": false
+        },
+        "__globals__": {
+          "background_overlay_color": "",
+          "background_overlay_color_b": ""
+        },
+        "background_overlay_color": "#14261C",
+        "background_overlay_color_b": "#FFFFFF17",
+        "background_overlay_opacity": {
+          "unit": "px",
+          "size": 0.58,
+          "sizes": []
+        },
+        "background_overlay_color_b_stop": {
+          "unit": "%",
+          "size": 85,
+          "sizes": []
+        },
+        "background_color": "#000000E0",
+        "background_overlay_color_stop": {
+          "unit": "%",
+          "size": 27,
+          "sizes": []
+        }
+      },
+      "elements": [
+        {
+          "id": "148e58a",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "background_color": "#D1D9B4A1",
+            "background_color_b": "#D1D9B41A"
+          },
+          "elements": [
+            {
+              "id": "689028b",
+              "elType": "widget",
+              "settings": {
+                "title": "Vetiver",
+                "header_size": "h1",
+                "align": "center",
+                "__globals__": {
+                  "title_color": "globals/colors?id=secondary",
+                  "typography_typography": "globals/typography?id=primary"
+                },
+                "text_stroke_text_stroke_type": "yes",
+                "text_stroke_text_stroke": {
+                  "unit": "px",
+                  "size": 0.5,
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "b2c1d19",
+              "elType": "widget",
+              "settings": {
+                "title": "",
+                "header_size": "h4",
+                "align": "center",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 25,
+                  "sizes": []
+                },
+                "typography_font_weight": "800",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7,
+                  "sizes": []
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 0.1,
+                  "sizes": []
+                },
+                "typography_word_spacing": {
+                  "unit": "em",
+                  "size": 0.1,
+                  "sizes": []
+                },
+                "text_stroke_text_stroke": {
+                  "unit": "px",
+                  "size": 0.3,
+                  "sizes": []
+                },
+                "_padding": {
+                  "unit": "px",
+                  "top": "19",
+                  "right": "19",
+                  "bottom": "19",
+                  "left": "19",
+                  "isLinked": true
+                },
+                "_element_width": "auto",
+                "_element_vertical_align": "center",
+                "__globals__": {
+                  "title_color": "globals/colors?id=c580669"
+                },
+                "text_stroke_text_stroke_type": "yes"
+              },
+              "elements": [],
+              "widgetType": "heading"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "2f8b31a",
+      "elType": "section",
+      "settings": [],
+      "elements": [
+        {
+          "id": "b393ab6",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "5514ad3",
+              "elType": "widget",
+              "settings": {
+                "title": "Vetiver Grass: A Natural Solution for Soil and Water Conservation",
+                "header_size": "h3",
+                "align": "center",
+                "_margin": {
+                  "unit": "px",
+                  "top": "40",
+                  "right": "40",
+                  "bottom": "40",
+                  "left": "40",
+                  "isLinked": true
+                },
+                "_padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "40",
+                  "bottom": "0",
+                  "left": "40",
+                  "isLinked": false
+                },
+                "__globals__": {
+                  "typography_typography": "globals/typography?id=primary"
+                }
+              },
+              "elements": [],
+              "widgetType": "heading"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "7fac8877",
+      "elType": "section",
+      "settings": {
+        "gap": "no",
+        "custom_height": {
+          "unit": "px",
+          "size": 1000
+        },
+        "content_position": "middle",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "100",
+          "right": "25",
+          "bottom": "100",
+          "left": "25",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "50",
+          "right": "20",
+          "bottom": "50",
+          "left": "20",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "1fff2f13",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "6ff1bdb2",
+              "elType": "section",
+              "settings": {
+                "structure": "20",
+                "padding": {
+                  "unit": "px",
+                  "top": "21",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "gap": "no"
+              },
+              "elements": [
+                {
+                  "id": "6c9ec7ef",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "7797d9b7",
+                      "elType": "widget",
+                      "settings": {
+                        "image": {
+                          "id": 2525,
+                          "url": "https://vetiversansfrontieres.org/wp-content/uploads/2024/10/DALL·E-2024-10-01-14.51.12-A-detailed-artistic-illustration-of-a-single-Vetiver-grass-plant-with-very-deep-and-vertical-roots.-The-roots-should-extend-straight-down-into-the-so.webp",
+                          "alt": "",
+                          "source": "library",
+                          "size": ""
+                        },
+                        "height": {
+                          "unit": "px",
+                          "size": 500,
+                          "sizes": []
+                        },
+                        "object-fit": "cover"
+                      },
+                      "elements": [],
+                      "widgetType": "image"
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "63e6ff9a",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "padding": {
+                      "unit": "px",
+                      "top": "15",
+                      "right": "40",
+                      "bottom": "15",
+                      "left": "40",
+                      "isLinked": false
+                    },
+                    "padding_mobile": {
+                      "unit": "px",
+                      "top": "35",
+                      "right": "35",
+                      "bottom": "35",
+                      "left": "35",
+                      "isLinked": true
+                    },
+                    "content_position": "center",
+                    "align": "center",
+                    "margin": {
+                      "unit": "px",
+                      "top": "7",
+                      "right": "7",
+                      "bottom": "7",
+                      "left": "7",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "1b6c58f",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p>At the heart of our foundation's mission is <strong>Vetiver Grass Technology (VGT)</strong>, an eco-friendly system that uses vetiver grass (Vetiveria zizanioides) for a wide range of applications, such as soil and water conservation, slope stabilization, disaster mitigation, land rehabilitation, and pollution control. This innovative solution, known as the <strong>Vetiver System (VS)</strong>, is recognized for its deep-rooted effectiveness in preventing soil erosion and protecting infrastructure from natural disasters like landslides and floods.</p>",
+                        "align": "justify",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "__globals__": {
+                          "text_color": "globals/colors?id=astglobalcolor6",
+                          "typography_typography": ""
+                        },
+                        "_padding": {
+                          "unit": "px",
+                          "top": "9",
+                          "right": "9",
+                          "bottom": "9",
+                          "left": "9",
+                          "isLinked": true
+                        },
+                        "text_color": "#000000",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15,
+                          "sizes": []
+                        },
+                        "typography_font_weight": "400"
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            },
+            {
+              "id": "7679ae0a",
+              "elType": "section",
+              "settings": {
+                "structure": "20",
+                "gap": "no",
+                "content_position": "space-evenly",
+                "reverse_order_mobile": "reverse-mobile",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": 0,
+                  "bottom": "0",
+                  "left": 0,
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                }
+              },
+              "elements": [
+                {
+                  "id": "193622c5",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "padding": {
+                      "unit": "px",
+                      "top": "9",
+                      "right": "20",
+                      "bottom": "5",
+                      "left": "20",
+                      "isLinked": false
+                    },
+                    "padding_mobile": {
+                      "unit": "px",
+                      "top": "35",
+                      "right": "35",
+                      "bottom": "35",
+                      "left": "35",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "c868fca",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p>With its ability to reduce soil loss by up to 90% and runoff by 70%, VGT is a proven, cost-effective, and sustainable technology that has been successfully used in over 100 tropical and subtropical countries worldwide​. Whether restoring degraded land or improving water quality, Vetiver Grass provides a natural and lasting solution for environmental conservation.</p>",
+                        "align": "justify",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "20",
+                          "right": "20",
+                          "bottom": "20",
+                          "left": "20",
+                          "isLinked": true
+                        },
+                        "__globals__": {
+                          "text_color": "globals/colors?id=astglobalcolor6"
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "4c0673df",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null,
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "7bdd52f9",
+                      "elType": "widget",
+                      "settings": {
+                        "image": {
+                          "id": 2524,
+                          "url": "https://vetiversansfrontieres.org/wp-content/uploads/2024/10/DALL·E-2024-10-01-14.32.48-A-lush-green-hillside-with-Vetiver-grass-hedgerows-planted-along-the-contour-spaced-precisely-1.3-meters-apart.-The-hedgerows-form-neat-organized-r.webp",
+                          "alt": "",
+                          "source": "library",
+                          "image": {
+                            "seed": 3308739615,
+                            "image_url": "https://storage.googleapis.com/elementor-ai-prod/images/c5a00365-e1da-4cd8-a925-49db69162bdc.png?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=ai-api%40elementor-website.iam.gserviceaccount.com%2F20231020%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20231020T232535Z&X-Goog-Expires=605&X-Goog-SignedHeaders=host&X-Goog-Signature=a73107db7162b979e2a7aec95fd3158d28127302946826613370979885d6836a886e0fb4cf6e9a90e021485056272b587cf086bdadfb1f5e942e0650f1c5ea5e880c685190bb19a2cbfed0b4e4ef3da6cb3d5e28f6d607e6d4b247d4afae6a1aaf640695cf7364441d5c211a48d1cb16075524cae4a186875f6232755803174575dc5bbc0b9de2976a5ba5c484db6b8d78c84ce4fd26a66f5002c609ae270c2c9714a1e4b4796a4b898e10c975b37aa1b4770e86871ba9e95eb5b61bb6df97f01739f597e00cf58ff4cf3d2c37f427d5c9e8e1f16bb23cd87f6120f3e6d4707a06f146b694efc7427d6b68b41540ea4f76fe39797d13cab2034dcb50d81f3482"
+                          },
+                          "context": {
+                            "documentType": "wp-post",
+                            "elementType": "widget",
+                            "elementId": "7bdd52f9",
+                            "widgetType": "image",
+                            "controlName": "image",
+                            "controlType": "media"
+                          },
+                          "editor_post_id": 1140,
+                          "size": ""
+                        },
+                        "height": {
+                          "unit": "px",
+                          "size": 500,
+                          "sizes": []
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "_padding": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "image_size": "medium_large",
+                        "object-fit": "fill",
+                        "_element_width": "auto"
+                      },
+                      "elements": [],
+                      "widgetType": "image"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "397730e",
+      "elType": "section",
+      "settings": {
+        "gap": "no",
+        "content_position": "middle",
+        "background_background": "classic",
+        "background_image": {
+          "id": 2521,
+          "url": "https://vetiversansfrontieres.org/wp-content/uploads/2024/10/DALL·E-2024-10-01-14.24.48-A-small-rural-community-involved-in-planting-and-harvesting-Vetiver-grass.-Local-farmers-are-working-in-the-fields-cutting-and-bundling-the-grass.-Th.webp",
+          "alt": "",
+          "source": "library",
+          "size": ""
+        },
+        "background_position": "center center",
+        "background_attachment": "fixed",
+        "background_repeat": "no-repeat",
+        "background_size": "cover",
+        "background_overlay_background": "classic",
+        "padding": {
+          "unit": "px",
+          "top": "250",
+          "right": "0",
+          "bottom": "200",
+          "left": "0",
+          "isLinked": false
+        },
+        "content_width": {
+          "unit": "px",
+          "size": 950
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "200",
+          "right": "25",
+          "bottom": "175",
+          "left": "25",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "150",
+          "right": "20",
+          "bottom": "100",
+          "left": "20",
+          "isLinked": false
+        },
+        "__globals__": {
+          "background_overlay_color": "globals/colors?id=astglobalcolor2"
+        },
+        "background_overlay_opacity": {
+          "unit": "px",
+          "size": 0.4,
+          "sizes": []
+        }
+      },
+      "elements": [
+        {
+          "id": "439c87c",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "708a636",
+              "elType": "widget",
+              "settings": {
+                "title": "Vetiver: A Sustainable Solution for Communities and Economies\n",
+                "align": "center",
+                "text_shadow_text_shadow_type": "yes",
+                "text_shadow_text_shadow": {
+                  "horizontal": 0,
+                  "vertical": 0,
+                  "blur": 5,
+                  "color": "rgba(0, 0, 0, 0.97)"
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "19",
+                  "right": "19",
+                  "bottom": "19",
+                  "left": "19",
+                  "isLinked": true
+                },
+                "__globals__": {
+                  "title_color": "globals/colors?id=c580669"
+                }
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "0c2fcb8",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Not only does Vetiver Grass provide unparalleled environmental benefits, but it also supports sustainable livelihoods for communities. By planting and maintaining Vetiver systems, local communities can benefit from its by-products, such as its use in handicrafts, animal feed, and even essential oil production. In countries like India and Vietnam, Vetiver has played a key role in both restoring land and improving the economic resilience of rural populations.</p>",
+                "align": "center",
+                "text_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 25,
+                  "sizes": []
+                },
+                "typography_font_weight": "400",
+                "text_shadow_text_shadow_type": "yes",
+                "text_shadow_text_shadow": {
+                  "horizontal": 2,
+                  "vertical": 0,
+                  "blur": 6,
+                  "color": "#000000"
+                },
+                "__globals__": {
+                  "text_color": "globals/colors?id=c580669",
+                  "typography_typography": ""
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "0c20f4e",
+      "elType": "section",
+      "settings": {
+        "height": "min-height",
+        "custom_height": {
+          "unit": "px",
+          "size": 0,
+          "sizes": []
+        },
+        "column_position": "top",
+        "content_position": "top",
+        "margin": {
+          "unit": "px",
+          "top": "10",
+          "right": 0,
+          "bottom": "10",
+          "left": 0,
+          "isLinked": true
+        }
+      },
+      "elements": [
+        {
+          "id": "a4fe9f1",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null,
+            "content_position": "space-evenly",
+            "align": "center"
+          },
+          "elements": [
+            {
+              "id": "8c10688",
+              "elType": "section",
+              "settings": {
+                "structure": "20"
+              },
+              "elements": [
+                {
+                  "id": "e17e1b0",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null
+                  },
+                  "elements": [
+                    {
+                      "id": "2785db0",
+                      "elType": "widget",
+                      "settings": {
+                        "image": {
+                          "url": "https://vetiversansfrontieres.org/wp-content/uploads/2024/10/DALL·E-2024-10-01-15.50.27-A-realistic-image-of-Vetiver-grass-in-an-arid-environment-emphasizing-its-role-as-an-economic-benefactor.-The-Vetiver-grass-should-be-depicted-with-i.webp",
+                          "id": 2527,
+                          "size": "",
+                          "alt": "",
+                          "source": "library"
+                        },
+                        "height": {
+                          "unit": "%",
+                          "size": "",
+                          "sizes": []
+                        },
+                        "height_tablet": {
+                          "unit": "rem",
+                          "size": "",
+                          "sizes": []
+                        },
+                        "height_mobile": {
+                          "unit": "rem",
+                          "size": "",
+                          "sizes": []
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "image"
+                    }
+                  ],
+                  "isInner": true
+                },
+                {
+                  "id": "8b588ed",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null
+                  },
+                  "elements": [
+                    {
+                      "id": "58cbf96",
+                      "elType": "widget",
+                      "settings": {
+                        "title": "Benefits of Vetiver Grass:\n\n",
+                        "align": "center",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "29",
+                          "right": "29",
+                          "bottom": "29",
+                          "left": "29",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "heading"
+                    },
+                    {
+                      "id": "089ac0a",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p>Vetiver grass offers a range of environmental and economic benefits, including:</p><ul><li><strong>Soil and Water Conservation</strong>: Reduces erosion by up to 90% and enhances water retention.</li><li><strong>Slope Stabilization</strong>: Prevents landslides, protecting infrastructure on steep slopes.</li><li><strong>Disaster Mitigation</strong>: Provides resilience against floods and heavy rainfall.</li><li><strong>Phytoremediation</strong>: Absorbs pollutants like heavy metals, improving soil and water quality.</li><li><strong>Agricultural Improvement</strong>: Boosts crop yields, reduces runoff, and acts as a natural pest barrier.</li><li><strong>Essential Oil Production</strong>: Vetiver oil is valued for its earthy scent and is used in perfumes, skincare, and wellness products.</li><li><strong>Skincare and Cosmetics</strong>: Rich in antioxidants, Vetiver oil helps with anti-aging, moisturizing, and treating acne.</li><li><strong>Aromatherapy</strong>: Promotes relaxation, reduces anxiety, and improves sleep quality.</li><li><strong>Holistic Health</strong>: Supports detoxification, circulation, and emotional well-being.</li><li><strong>Sustainable Handicrafts</strong>: Used in eco-friendly crafts, roofing, and animal fodder, supporting local economies.</li></ul>",
+                        "align": "justify",
+                        "_margin": {
+                          "unit": "px",
+                          "top": "10",
+                          "right": "10",
+                          "bottom": "10",
+                          "left": "10",
+                          "isLinked": true
+                        },
+                        "_padding": {
+                          "unit": "px",
+                          "top": "15",
+                          "right": "15",
+                          "bottom": "15",
+                          "left": "15",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "7a543e8",
+      "elType": "section",
+      "settings": {
+        "structure": "20",
+        "background_background": "classic",
+        "padding": {
+          "unit": "px",
+          "top": "40",
+          "right": "0",
+          "bottom": "40",
+          "left": "0",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "25",
+          "right": "25",
+          "bottom": "25",
+          "left": "25",
+          "isLinked": true
+        },
+        "__globals__": {
+          "background_color": ""
+        },
+        "content_width": {
+          "unit": "px",
+          "size": 1000,
+          "sizes": []
+        },
+        "content_position": "middle",
+        "padding_mobile": {
+          "unit": "px",
+          "top": "30",
+          "right": "20",
+          "bottom": "30",
+          "left": "20",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "5c796f3",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50,
+            "_inline_size": 80,
+            "content_position": "center",
+            "_inline_size_tablet": 64,
+            "padding_mobile": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "53d0d8e",
+              "elType": "widget",
+              "settings": {
+                "title": "Join us today in our fight for a greener world. Sponsor or propose a project here.",
+                "align": "center",
+                "_padding_tablet": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "_padding_mobile": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "25",
+                  "bottom": "10",
+                  "left": "25",
+                  "isLinked": false
+                },
+                "header_size": "h3",
+                "align_mobile": "center",
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": ""
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": ""
+                },
+                "typography_line_height_tablet": {
+                  "unit": "em",
+                  "size": ""
+                },
+                "typography_line_height_mobile": {
+                  "unit": "em",
+                  "size": ""
+                }
+              },
+              "elements": [],
+              "widgetType": "heading"
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "4f97028",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50,
+            "_inline_size": 20,
+            "_inline_size_tablet": 28,
+            "margin_mobile": {
+              "unit": "px",
+              "top": "30",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": false
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "0dcf4a2",
+              "elType": "widget",
+              "settings": {
+                "text": "Contact us",
+                "align": "right",
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": ""
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": ""
+                },
+                "_margin_mobile": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "align_mobile": "center",
+                "link": {
+                  "url": "https://vetiversansfrontieres.org/contact/",
+                  "is_external": "",
+                  "nofollow": "",
+                  "custom_attributes": ""
+                }
+              },
+              "elements": [],
+              "widgetType": "button"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "dc00eff",
+      "elType": "section",
+      "settings": [],
+      "elements": [
+        {
+          "id": "ad3bbab",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "20eb108",
+              "elType": "section",
+              "settings": {
+                "structure": "20"
+              },
+              "elements": [
+                {
+                  "id": "65fe851",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null
+                  },
+                  "elements": [],
+                  "isInner": true
+                },
+                {
+                  "id": "3b355c6",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "_inline_size": null
+                  },
+                  "elements": [],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ],
+  "fileName": "page-2518-vetiver.json"
+}

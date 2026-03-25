@@ -1,0 +1,23 @@
+{
+  "nav": {
+    "eyebrow": "Action regenerative",
+    "title": "Vetiver Sans Frontieres",
+    "about": "A propos",
+    "projects": "Projets",
+    "services": "Services",
+    "stories": "Actualites",
+    "contact": "Contact",
+    "donate": "Faire un don"
+  },
+  "footer": {
+    "eyebrow": "Regenerer avec nous",
+    "title": "Resilience ecologique, projet par projet.",
+    "summary": "Vetiver Sans Frontieres collabore avec les communautes, les agriculteurs et les partenaires locaux pour restaurer les sols, proteger l eau et renforcer la resilience climatique.",
+    "explore": "Explorer",
+    "follow": "Suivre",
+    "about": "A propos",
+    "projects": "Projets",
+    "involved": "Participer",
+    "stories": "Actualites"
+  }
+}

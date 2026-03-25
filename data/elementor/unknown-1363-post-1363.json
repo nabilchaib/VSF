@@ -1,0 +1,423 @@
+{
+  "postId": 1363,
+  "postType": "unknown",
+  "status": "unknown",
+  "title": "Post 1363",
+  "slug": "",
+  "link": "",
+  "meta": {
+    "_elementor_template_type": "wp-post",
+    "_elementor_edit_mode": "builder",
+    "_elementor_version": "3.7.8",
+    "_elementor_pro_version": "3.7.7",
+    "_elementor_template_widget_type": "",
+    "_wp_page_template": "default"
+  },
+  "elementorPageSettings": "a:51:{s:22:\"astra_sites_main_color\";s:25:\"var(--ast-global-color-0)\";s:30:\"astra_sites_heading_base_color\";s:25:\"var(--ast-global-color-2)\";s:22:\"astra_sites_link_color\";s:25:\"var(--ast-global-color-0)\";s:28:\"astra_sites_link_hover_color\";s:25:\"var(--ast-global-color-1)\";s:22:\"astra_sites_text_color\";s:25:\"var(--ast-global-color-3)\";s:27:\"astra_sites_body_typography\";s:6:\"custom\";s:26:\"astra_sites_body_font_size\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:15;}s:28:\"astra_sites_body_font_family\";s:10:\"Montserrat\";s:28:\"astra_sites_body_font_weight\";s:3:\"400\";s:31:\"astra_sites_body_text_transform\";s:4:\"none\";s:32:\"astra_sites_heading_1_typography\";s:6:\"custom\";s:31:\"astra_sites_heading_1_font_size\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:70;}s:38:\"astra_sites_heading_1_font_size_tablet\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:42;}s:38:\"astra_sites_heading_1_font_size_mobile\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:28;}s:39:\"astra_sites_default_heading_font_family\";s:24:\"'Montserrat', sans-serif\";s:33:\"astra_sites_heading_1_font_family\";s:12:\"'Montserrat'\";s:33:\"astra_sites_heading_1_font_weight\";s:3:\"700\";s:36:\"astra_sites_heading_1_text_transform\";s:9:\"uppercase\";s:32:\"astra_sites_heading_2_typography\";s:6:\"custom\";s:31:\"astra_sites_heading_2_font_size\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:34;}s:38:\"astra_sites_heading_2_font_size_tablet\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:40;}s:38:\"astra_sites_heading_2_font_size_mobile\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:24;}s:33:\"astra_sites_heading_2_line_height\";a:2:{s:4:\"unit\";s:2:\"em\";s:4:\"size\";d:1.1999999999999999555910790149937383830547332763671875;}s:33:\"astra_sites_heading_2_font_family\";s:12:\"'Montserrat'\";s:33:\"astra_sites_heading_2_font_weight\";s:3:\"700\";s:32:\"astra_sites_heading_3_typography\";s:6:\"custom\";s:31:\"astra_sites_heading_3_font_size\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:26;}s:38:\"astra_sites_heading_3_font_size_tablet\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:26;}s:38:\"astra_sites_heading_3_font_size_mobile\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:20;}s:33:\"astra_sites_heading_3_line_height\";a:2:{s:4:\"unit\";s:2:\"em\";s:4:\"size\";d:1.5;}s:33:\"astra_sites_heading_3_font_family\";s:12:\"'Montserrat'\";s:33:\"astra_sites_heading_3_font_weight\";s:3:\"700\";s:32:\"astra_sites_heading_4_typography\";s:6:\"custom\";s:31:\"astra_sites_heading_4_font_size\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:22;}s:38:\"astra_sites_heading_4_font_size_tablet\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:22;}s:38:\"astra_sites_heading_4_font_size_mobile\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:18;}s:33:\"astra_sites_heading_4_font_family\";s:12:\"'Montserrat'\";s:33:\"astra_sites_heading_4_font_weight\";s:3:\"700\";s:32:\"astra_sites_heading_5_typography\";s:6:\"custom\";s:31:\"astra_sites_heading_5_font_size\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:18;}s:38:\"astra_sites_heading_5_font_size_tablet\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:16;}s:38:\"astra_sites_heading_5_font_size_mobile\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:16;}s:33:\"astra_sites_heading_5_font_family\";s:12:\"'Montserrat'\";s:33:\"astra_sites_heading_5_font_weight\";s:3:\"700\";s:32:\"astra_sites_heading_6_typography\";s:6:\"custom\";s:31:\"astra_sites_heading_6_font_size\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:16;}s:38:\"astra_sites_heading_6_font_size_tablet\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:14;}s:38:\"astra_sites_heading_6_font_size_mobile\";a:2:{s:4:\"unit\";s:2:\"px\";s:4:\"size\";i:14;}s:33:\"astra_sites_heading_6_font_family\";s:12:\"'Montserrat'\";s:33:\"astra_sites_heading_6_font_weight\";s:3:\"700\";s:31:\"astra_sites_page_setting_enable\";s:0:\"\";}",
+  "elementorData": [
+    {
+      "id": "797db47",
+      "elType": "section",
+      "settings": {
+        "gap": "no",
+        "content_position": "middle",
+        "background_background": "classic",
+        "background_image": {
+          "id": 832,
+          "url": "https://vetiversansfrontieres.org/wp-content/uploads/2022/10/macro-photo-of-wet-green-grass-and-water-droplets-scaled.jpg",
+          "alt": "",
+          "source": "library"
+        },
+        "background_position": "center center",
+        "background_attachment": "fixed",
+        "background_repeat": "no-repeat",
+        "background_size": "cover",
+        "background_overlay_background": "classic",
+        "padding": {
+          "unit": "px",
+          "top": "250",
+          "right": "0",
+          "bottom": "200",
+          "left": "0",
+          "isLinked": false
+        },
+        "content_width": {
+          "unit": "px",
+          "size": 950
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "200",
+          "right": "25",
+          "bottom": "175",
+          "left": "25",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "150",
+          "right": "20",
+          "bottom": "100",
+          "left": "20",
+          "isLinked": false
+        },
+        "__globals__": {
+          "background_overlay_color": "globals/colors?id=astglobalcolor2"
+        }
+      },
+      "elements": [
+        {
+          "id": "b15b336",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "ea3c554",
+              "elType": "widget",
+              "settings": {
+                "title": "Contact",
+                "header_size": "h1",
+                "align": "center",
+                "_padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "_padding_mobile": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "_margin_tablet": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "_margin_mobile": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "_padding_tablet": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "title_color": "#ffffff"
+              },
+              "elements": [],
+              "widgetType": "heading"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "3da3b63",
+      "elType": "section",
+      "settings": {
+        "gap": "no",
+        "content_position": "top",
+        "structure": "20",
+        "background_overlay_position": "center left",
+        "background_overlay_attachment": "scroll",
+        "background_overlay_repeat": "no-repeat",
+        "background_overlay_size": "cover",
+        "background_overlay_opacity": {
+          "unit": "px",
+          "size": 1
+        },
+        "padding": {
+          "unit": "px",
+          "top": "100",
+          "right": "0",
+          "bottom": "100",
+          "left": "0",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "75",
+          "right": "25",
+          "bottom": "75",
+          "left": "25",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "50",
+          "right": "20",
+          "bottom": "50",
+          "left": "20",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "1dc7315",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50,
+            "_inline_size": null,
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "100",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": false
+            },
+            "_inline_size_tablet": 50,
+            "padding_tablet": {
+              "unit": "px",
+              "top": "50",
+              "right": "35",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": false
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "50",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "541de40",
+              "elType": "widget",
+              "settings": {
+                "image": {
+                  "url": "",
+                  "id": ""
+                },
+                "title_text": "Contact Us",
+                "description_text": "",
+                "title_size": "h2",
+                "text_align": "left",
+                "title_bottom_space": {
+                  "unit": "px",
+                  "size": 10,
+                  "sizes": []
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "25",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "image-box"
+            },
+            {
+              "id": "cd442da",
+              "elType": "widget",
+              "settings": {
+                "icon_list": [
+                  {
+                    "text": "info@vetiversansfrontieres.org",
+                    "icon": "fa fa-envelope-o",
+                    "_id": "r5h4k1s",
+                    "link": {
+                      "url": "#",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "selected_icon": {
+                      "value": "far fa-envelope",
+                      "library": "fa-regular"
+                    },
+                    "__fa4_migrated": {
+                      "selected_icon": true
+                    }
+                  },
+                  {
+                    "text": "599 4e rue Québec, Qc, Canada",
+                    "icon": "fa fa-map-marker",
+                    "_id": "7m3mbwa",
+                    "link": {
+                      "url": "#",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "selected_icon": {
+                      "value": "fas fa-map-marker-alt",
+                      "library": "fa-solid"
+                    },
+                    "__fa4_migrated": {
+                      "selected_icon": true
+                    }
+                  },
+                  {
+                    "text": "+1 418 609 1924",
+                    "icon": "fa fa-phone",
+                    "_id": "girjysr",
+                    "link": {
+                      "url": "#",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "selected_icon": {
+                      "value": "fas fa-phone",
+                      "library": "fa-solid"
+                    },
+                    "__fa4_migrated": {
+                      "selected_icon": true
+                    }
+                  }
+                ],
+                "space_between": {
+                  "unit": "px",
+                  "size": 10
+                },
+                "icon_align": "left",
+                "icon_size": {
+                  "unit": "px",
+                  "size": 15
+                },
+                "text_indent": {
+                  "unit": "px",
+                  "size": 15
+                },
+                "__globals__": {
+                  "icon_color": "globals/colors?id=astglobalcolor0",
+                  "icon_color_hover": "globals/colors?id=astglobalcolor2",
+                  "text_color": "globals/colors?id=astglobalcolor0",
+                  "text_color_hover": "globals/colors?id=astglobalcolor2"
+                }
+              },
+              "elements": [],
+              "widgetType": "icon-list"
+            },
+            {
+              "id": "b4db457",
+              "elType": "widget",
+              "settings": {
+                "title": "Follow Us",
+                "header_size": "h3"
+              },
+              "elements": [],
+              "widgetType": "heading"
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "32c2d78",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50,
+            "_inline_size": null,
+            "_inline_size_tablet": 50
+          },
+          "elements": [
+            {
+              "id": "3696d5a",
+              "elType": "widget",
+              "settings": {
+                "shortcode": "[wpforms id=\"10\"]\t"
+              },
+              "elements": [],
+              "widgetType": "shortcode"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "70d8105",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "background_background": "classic",
+        "background_overlay_background": "classic",
+        "background_overlay_color": "#000000",
+        "background_overlay_hover_background": "classic",
+        "background_overlay_hover_color": "#000000"
+      },
+      "elements": [
+        {
+          "id": "8731621",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "0320c04",
+              "elType": "widget",
+              "settings": {
+                "address": "599 4e rue Québec, Qc, Canada",
+                "zoom": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "height": {
+                  "unit": "px",
+                  "size": 400
+                },
+                "prevent_scroll": "",
+                "height_tablet": {
+                  "unit": "px",
+                  "size": 380
+                },
+                "css_filters_blur": {
+                  "unit": "px",
+                  "size": 1.5
+                },
+                "hover_transition": {
+                  "unit": "px",
+                  "size": 1
+                }
+              },
+              "elements": [],
+              "widgetType": "google_maps"
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ],
+  "fileName": "unknown-1363-post-1363.json"
+}
