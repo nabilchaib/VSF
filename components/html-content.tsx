@@ -1,7 +1,7 @@
 import { transformLegacyHtml } from '@/lib/html';
 import type { Locale } from '@/lib/site';
 
-export function HtmlContent({ html, locale }: { html: string; locale: Locale }) {
+export function HtmlContent({ html, locale }: { html?: string; locale: Locale }) {
   const transformed = transformLegacyHtml(html, locale);
 
   return (

@@ -51,8 +51,10 @@ function normalizeInternalLink(url: string, locale: Locale) {
   return path;
 }
 
-export function transformLegacyHtml(html: string, locale: Locale) {
-  return html
+export function transformLegacyHtml(html: string | undefined, locale: Locale) {
+  const safeHtml = html || '';
+
+  return safeHtml
     .replace(/\[wpforms id="10"\]/g, '')
     .replace(/srcset="[^"]*"/g, '')
     .replace(/sizes="[^"]*"/g, '')
