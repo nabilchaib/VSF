@@ -1,7 +1,20 @@
 import type { Metadata } from 'next';
+import localFont from 'next/font/local';
 
 import '@/app/globals.css';
 import { getAbsoluteUrl } from '@/lib/site';
+
+const rubik = localFont({
+  src: [
+    {
+      path: './fonts/rubik-latin.woff2',
+      weight: '300 900',
+      style: 'normal'
+    }
+  ],
+  display: 'swap',
+  variable: '--font-rubik'
+});
 
 export const metadata: Metadata = {
   metadataBase: new URL(getAbsoluteUrl('/')),
@@ -31,7 +44,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className="font-body bg-sand text-ink antialiased">
+      <body className={`${rubik.variable} font-body bg-sand text-ink antialiased`}>
         {children}
       </body>
     </html>

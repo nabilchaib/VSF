@@ -1,9 +1,11 @@
-import Link from 'next/link';
-
-import { FormEmbed } from '@/components/form-embed';
-import { PostCard } from '@/components/post-card';
+import { GetInvolvedSection } from '@/components/get-involved-section';
+import { HeroSection } from '@/components/hero-section';
+import { ImpactSection } from '@/components/impact-section';
+import { MissionSection } from '@/components/mission-section';
+import { NewsletterSection } from '@/components/newsletter-section';
+import { StoriesPreview } from '@/components/stories-preview';
 import type { ContentEntry } from '@/lib/content';
-import { getMediaUrl, type Locale } from '@/lib/site';
+import type { Locale } from '@/lib/site';
 
 type HomePageProps = {
   locale: Locale;
@@ -11,243 +13,197 @@ type HomePageProps = {
 };
 
 export function HomePage({ locale, posts }: HomePageProps) {
-  const t = copy[locale];
+  const copy = homepageCopy[locale];
 
   return (
-    <div className="pb-16">
-      <section className="relative isolate overflow-hidden">
-        <div className="absolute inset-x-0 top-0 h-20 bg-brand-band opacity-90" />
-        <div
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{
-            backgroundImage: `linear-gradient(rgba(20, 38, 28, 0.42), rgba(20, 38, 28, 0.34)), url(${getMediaUrl(
-              '2022/10/macro-photo-of-wet-green-grass-and-water-droplets-768x512.jpg'
-            )})`
-          }}
-        />
-        <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(209,217,180,0.55),rgba(20,38,28,0.25)_70%,rgba(239,231,218,1))]" />
-        <div className="relative mx-auto flex w-full max-w-6xl flex-col gap-12 px-6 pb-16 pt-20 lg:px-10 lg:pb-24 lg:pt-28">
-          <div className="mx-auto max-w-4xl text-center">
-            <p className="brand-label mx-auto inline-block rounded-full px-4 py-2 text-sm font-medium uppercase tracking-[0.28em] shadow-card backdrop-blur">
-              {t.heroEyebrow}
-            </p>
-            <h1 className="mt-6 text-6xl font-black uppercase tracking-[-0.06em] text-secondary [text-shadow:0_2px_8px_rgba(0,0,0,0.4)] sm:text-7xl lg:text-[5.5rem]">
-              Vetiver
-            </h1>
-            <h2 className="mx-auto mt-4 max-w-4xl text-2xl font-semibold leading-tight text-white [text-shadow:0_1px_3px_rgba(0,0,0,0.5)] sm:text-3xl lg:text-4xl">
-              {t.heroTitle}
-            </h2>
-            <p className="mx-auto mt-6 max-w-3xl rounded-[1.5rem] bg-surface/70 px-5 py-4 text-lg font-semibold leading-8 text-white [text-shadow:0_1px_2px_rgba(0,0,0,0.5)]">
-              {t.heroSubtitle}
-            </p>
-            <div className="mt-8 flex justify-center">
-              <Link
-                href={locale === 'fr' ? '/fr/get-involved' : '/get-involved'}
-                className="brand-pill rounded-full border border-bark px-7 py-3 text-sm font-semibold uppercase tracking-[0.18em] shadow-soft hover:bg-clay"
-              >
-                {t.heroCta}
-              </Link>
-            </div>
-          </div>
-
-          <div className="brand-frame grid gap-6 rounded-[2rem] p-5 backdrop-blur md:grid-cols-[1.15fr_0.85fr] lg:p-8">
-            <div className="space-y-5">
-              <p className="text-lg leading-8 text-ink/80">{t.introOne}</p>
-              <p className="text-lg leading-8 text-ink/80">{t.introTwo}</p>
-              <div className="flex flex-wrap gap-3 pt-2">
-                <Link
-                  href={locale === 'fr' ? '/fr/vetiver' : '/vetiver'}
-                  className="brand-pill rounded-full px-5 py-3 text-sm font-semibold uppercase tracking-[0.14em] hover:bg-clay"
-                >
-                  {t.learnMore}
-                </Link>
-                <a
-                  href="https://www.facebook.com/profile.php?id=61553674826785"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="rounded-full border border-bark/15 bg-surface/40 px-5 py-3 text-sm font-medium text-bark hover:border-bark/30"
-                >
-                  Facebook
-                </a>
-                <a
-                  href="https://www.linkedin.com/company/vetiver-sans-frontieres/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="rounded-full border border-bark/15 bg-surface/40 px-5 py-3 text-sm font-medium text-bark hover:border-bark/30"
-                >
-                  LinkedIn
-                </a>
-                <a
-                  href="https://www.instagram.com/vetiversansfrontieres/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="rounded-full border border-bark/15 bg-surface/40 px-5 py-3 text-sm font-medium text-bark hover:border-bark/30"
-                >
-                  Instagram
-                </a>
-              </div>
-            </div>
-            <div className="overflow-hidden rounded-[1.75rem]">
-              <img
-                src={getMediaUrl('2025/03/Vetiver-Highway.jpg')}
-                alt=""
-                className="h-full min-h-[280px] w-full object-cover"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section
-        className="relative isolate overflow-hidden py-20"
-        style={{
-          backgroundImage: `linear-gradient(rgba(20, 38, 28, 0.48), rgba(20, 38, 28, 0.48)), url(${getMediaUrl(
-            '2022/10/dallas-reedy-LWdXKpVFSKg-unsplash-scaled.jpg'
-          )})`
-        }}
-      >
-        <div className="mx-auto flex w-full max-w-4xl flex-col items-center px-6 text-center lg:px-10">
-          <p className="max-w-3xl text-xl leading-9 text-white">{t.donateText}</p>
-          <a
-            href="https://www.zeffy.com/en-CA/donation-form/cbac2a62-15cb-4f94-866c-c860b1cfa606"
-            target="_blank"
-            rel="noreferrer"
-            className="brand-pill mt-8 rounded-full px-8 py-4 text-base font-semibold uppercase tracking-[0.14em] shadow-soft hover:bg-clay"
-          >
-            {t.donateCta}
-          </a>
-        </div>
-      </section>
-
-      <section className="mx-auto w-full max-w-6xl px-6 py-20 lg:px-10">
-        <div className="text-center">
-          <p className="mx-auto inline-block rounded-full bg-surface px-4 py-2 text-xs font-medium uppercase tracking-[0.2em] text-bark">
-            {t.projectsEyebrow}
-          </p>
-          <h2 className="mt-5 text-4xl font-bold uppercase tracking-[-0.05em] text-ink">{t.projectsTitle}</h2>
-          <p className="mt-4 text-lg text-ink/75">{t.projectsSubtitle}</p>
-        </div>
-        <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-          {posts.slice(0, 3).map((post) => (
-            <PostCard key={post.slug} entry={post} locale={locale} />
-          ))}
-        </div>
-      </section>
-
-      <section className="mx-auto grid w-full max-w-6xl gap-8 px-6 py-6 lg:grid-cols-[0.95fr_1.05fr] lg:px-10">
-        <div className="rounded-[2rem] bg-surface p-8 shadow-card">
-          <h2 className="text-4xl font-bold uppercase tracking-[-0.05em] text-ink">{t.involvedTitle}</h2>
-          <p className="mt-6 text-lg leading-8 text-ink/80">{t.involvedBody}</p>
-          <div className="mt-8">
-            <Link
-              href={locale === 'fr' ? '/fr/get-involved' : '/get-involved'}
-              className="brand-pill rounded-full px-6 py-3 text-sm font-semibold uppercase tracking-[0.16em] hover:bg-clay"
-            >
-              {t.involvedCta}
-            </Link>
-          </div>
-        </div>
-        <div className="brand-frame rounded-[2rem] p-8">
-          <h2 className="text-4xl font-bold uppercase tracking-[-0.05em] text-ink">{t.partnerTitle}</h2>
-          <div className="mt-6 grid gap-6 md:grid-cols-[0.85fr_1.15fr]">
-            <img
-              src={getMediaUrl('2022/10/vlcsnap-2022-10-21-14h15m27s059-scaled.jpg')}
-              alt=""
-              className="h-full min-h-[220px] w-full rounded-[1.5rem] object-cover"
-            />
-            <div className="space-y-5">
-              <p className="text-lg leading-8 text-ink/80">{t.partnerBody}</p>
-              <p className="text-base font-semibold uppercase tracking-[0.18em] text-bark/60">{t.followLabel}</p>
-              <div className="flex flex-wrap gap-3">
-                <a href="https://www.facebook.com/profile.php?id=61553674826785" target="_blank" rel="noreferrer" className="rounded-full border border-bark/15 bg-surface/40 px-4 py-2 text-sm text-bark">
-                  Facebook
-                </a>
-                <a href="https://www.linkedin.com/company/vetiver-sans-frontieres/" target="_blank" rel="noreferrer" className="rounded-full border border-bark/15 bg-surface/40 px-4 py-2 text-sm text-bark">
-                  LinkedIn
-                </a>
-                <a href="https://www.instagram.com/vetiversansfrontieres/" target="_blank" rel="noreferrer" className="rounded-full border border-bark/15 bg-surface/40 px-4 py-2 text-sm text-bark">
-                  Instagram
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="mx-auto w-full max-w-5xl px-6 py-16 lg:px-10">
-        <div className="rounded-[2rem] bg-surface p-8 shadow-card">
-          <div className="text-center">
-            <h2 className="text-4xl font-bold uppercase tracking-[-0.05em] text-ink">{t.newsletterTitle}</h2>
-            <p className="mx-auto mt-4 max-w-2xl text-lg leading-8 text-ink/78">{t.newsletterBody}</p>
-          </div>
-          <div className="mt-8">
-            <FormEmbed kind="newsletter" />
-          </div>
-        </div>
-      </section>
+    <div className="pb-16 lg:pb-20">
+      <HeroSection locale={locale} copy={copy.hero} />
+      <MissionSection locale={locale} copy={copy.mission} />
+      <ImpactSection locale={locale} copy={copy.impact} />
+      <StoriesPreview locale={locale} posts={posts} copy={copy.stories} />
+      <GetInvolvedSection locale={locale} copy={copy.getInvolved} />
+      <NewsletterSection locale={locale} copy={copy.newsletter} />
     </div>
   );
 }
 
-const copy = {
+const homepageCopy = {
   en: {
-    heroEyebrow: 'Regenerative action',
-    heroTitle:
-      'At Vetiver Without Borders, we help communities facing climate stress rebuild their land, protect their water, and secure their future.',
-    heroSubtitle:
-      'Using the Vetiver System, we combine science, engineering, and local knowledge to transform proven ecological solutions into real, lasting impact on the ground.',
-    heroCta: 'Support Regenerative Action',
-    introOne:
-      'Vetiver Without Borders is an environmental charity specializing in Vetiver grass technology. Our innovative approach strengthens the earth, purifies water, and drives sustainable land rehabilitation to combat climate change and soil erosion.',
-    introTwo:
-      'Join our efforts to combat climate change by promoting Vetiver grass technology. This cost-effective environmental conservation solution manages rainwater, controls soil erosion, and enhances soil and water quality worldwide.',
-    learnMore: 'Learn More',
-    donateText:
-      'Join VSF in environmental regeneration. Witness the transformation of our ongoing and completed projects, and help create a sustainable future by supporting field action directly.',
-    donateCta: 'Donate here',
-    projectsEyebrow: 'Field stories',
-    projectsTitle: 'Projects',
-    projectsSubtitle: 'Follow our latest stories and stay close to the projects on the ground.',
-    involvedTitle: 'Get Involved, Make a Difference',
-    involvedBody:
-      'We believe in the power of collective action. Whether you want to propose a project, sponsor an initiative, or support our work in any way you can, your participation helps resilient solutions take root.',
-    involvedCta: 'Get involved',
-    partnerTitle: 'Partner with Us',
-    partnerBody:
-      'Collaboration is key to lasting impact. VSF works hand in hand with organizations and stakeholders who share a vision for greener, more resilient communities.',
-    followLabel: 'Follow us to stay updated',
-    newsletterTitle: 'Subscribe to our newsletter',
-    newsletterBody:
-      'Get notified about our latest developments and projects through a hosted sign-up flow configured for the new stack.'
+    hero: {
+      eyebrow: 'Regenerative action',
+      title:
+        'Helping communities restore land, protect water, and build climate resilience.',
+      body:
+        'Vetiver Without Borders works with communities facing climate stress to turn ecological restoration into practical, field-ready action.',
+      supportingBody:
+        'Using the Vetiver System, we pair local knowledge with proven environmental design to stabilize soil, retain water, and support long-term recovery.',
+      donateLabel: 'Donate',
+      involvedLabel: 'Get involved',
+      learnMoreLabel: 'Learn more',
+      imageAlt: 'Vetiver planted along a roadside to stabilize land and protect surrounding soil.',
+      highlight:
+        'Community-led projects that translate ecological science into credible, long-term protection for land and water.'
+    },
+    mission: {
+      eyebrow: 'Our mission',
+      title: 'Practical ecological tools for places under pressure.',
+      bodyOne:
+        'VSF helps partners apply Vetiver grass technology where erosion, runoff, and land degradation threaten livelihoods and local ecosystems.',
+      bodyTwo:
+        'Our approach stays grounded in implementation: train local teams, establish plant material, and build simple systems communities can maintain over time.',
+      points: [
+        {
+          title: 'Soil protection',
+          body: 'Vetiver hedgerows slow runoff, stabilize slopes, and reduce erosion on vulnerable land.'
+        },
+        {
+          title: 'Water retention',
+          body: 'Field layouts improve infiltration and help communities keep more water where it is needed.'
+        },
+        {
+          title: 'Local capacity',
+          body: 'Projects are designed to be taught, replicated, and maintained by local partners.'
+        }
+      ],
+      ctaLabel: 'Learn more',
+      imageAlt: 'A field project showing Vetiver used for land protection and restoration.'
+    },
+    impact: {
+      eyebrow: 'Why support VSF',
+      title: 'Support work that stays useful after the first intervention.',
+      body:
+        'Your support helps VSF build durable systems on the ground, from training and nursery development to project design and implementation support.',
+      pillars: [
+        {
+          title: 'Low-tech, field-ready',
+          body: 'Solutions are designed for real operating conditions, not idealized pilot environments.'
+        },
+        {
+          title: 'Grounded in stewardship',
+          body: 'Projects focus on land care, water security, and practical resilience for local communities.'
+        },
+        {
+          title: 'Built to spread',
+          body: 'Knowledge transfer and local ownership make each project more useful beyond a single site.'
+        }
+      ],
+      donateLabel: 'Donate',
+      supportingLabel: 'Get involved'
+    },
+    stories: {
+      eyebrow: 'Latest stories',
+      title: 'Field stories and lessons from current work.',
+      body:
+        'Recent updates from projects, partners, and regenerative work on the ground.',
+      ctaLabel: 'Read all stories'
+    },
+    getInvolved: {
+      involvedEyebrow: 'Take part',
+      involvedTitle: 'Get involved in the work behind the mission.',
+      involvedBody:
+        'Whether you want to back a project, propose a collaboration, or support implementation, your participation helps credible ecological work move forward.',
+      involvedCta: 'Get involved',
+      partnerTitle: 'Partner with VSF',
+      partnerBody:
+        'We collaborate with organizations, practitioners, and local leaders who want practical, nonprofit-oriented solutions for land and water restoration.',
+      contactLabel: 'Contact us'
+    },
+    newsletter: {
+      eyebrow: 'Newsletter',
+      title: 'Stay close to the projects on the ground.',
+      body:
+        'Receive field updates, project stories, and major milestones from Vetiver Without Borders.',
+      note:
+        'A concise way to follow progress without relying on social media.'
+    }
   },
   fr: {
-    heroEyebrow: 'Action regenerative',
-    heroTitle:
-      'Chez Vetiver Sans Frontieres, nous aidons les communautes confrontees au stress climatique a restaurer leurs terres, proteger leur eau et renforcer leur avenir.',
-    heroSubtitle:
-      'Grace au Systeme Vetiver, nous combinons science, ingenierie et savoir local pour transformer des solutions ecologiques eprouvees en impact durable sur le terrain.',
-    heroCta: 'Soutenir l action regenerative',
-    introOne:
-      'Vetiver Sans Frontieres est un organisme environnemental qui se specialise dans la technologie du vetiver. Notre approche renforce les sols, purifie l eau et soutient la rehabilitation durable des terres.',
-    introTwo:
-      'Rejoignez nos efforts pour lutter contre le changement climatique en favorisant des solutions concretes de conservation et de regeneration des sols et de l eau.',
-    learnMore: 'En savoir plus',
-    donateText:
-      'Participez a la regeneration environnementale avec VSF. Soutenez nos projets de terrain et aidez-nous a construire un futur plus durable.',
-    donateCta: 'Faire un don',
-    projectsEyebrow: 'Actualites terrain',
-    projectsTitle: 'Projets',
-    projectsSubtitle: 'Suivez nos actualites et restez proches des projets sur le terrain.',
-    involvedTitle: 'Impliquez-vous, faites une difference',
-    involvedBody:
-      'Nous croyons au pouvoir de l action collective. Que vous souhaitiez proposer un projet, soutenir une initiative ou contribuer a notre mission, votre participation compte.',
-    involvedCta: 'Participer',
-    partnerTitle: 'Partenaires',
-    partnerBody:
-      'La collaboration est essentielle pour obtenir un impact durable. VSF travaille avec des organisations et des partenaires qui partagent une vision commune de regeneration.',
-    followLabel: 'Suivez-nous',
-    newsletterTitle: 'Abonnez-vous a notre newsletter',
-    newsletterBody:
-      'Recevez nos dernieres actualites et suivez l evolution de nos projets grace a un formulaire heberge configure pour la nouvelle plateforme.'
+    hero: {
+      eyebrow: 'Action regenerative',
+      title:
+        'Aider les communautes a restaurer les sols, proteger l eau et renforcer leur resilience climatique.',
+      body:
+        'Vetiver Sans Frontieres travaille avec des communautes confrontees au stress climatique pour transformer la restauration ecologique en action concrete sur le terrain.',
+      supportingBody:
+        'Avec le Systeme Vetiver, nous combinons savoir local et solutions eprouvees pour stabiliser les sols, retenir l eau et soutenir une rehabilitation durable.',
+      donateLabel: 'Faire un don',
+      involvedLabel: 'Participer',
+      learnMoreLabel: 'En savoir plus',
+      imageAlt: 'Vetiver plante le long d une route pour stabiliser les sols et proteger le terrain.',
+      highlight:
+        'Des projets portes par les communautes qui traduisent la science ecologique en protection durable des sols et de l eau.'
+    },
+    mission: {
+      eyebrow: 'Notre mission',
+      title: 'Des outils ecologiques concrets pour les territoires sous pression.',
+      bodyOne:
+        'VSF aide ses partenaires a deployer la technologie du Vetiver la ou l erosion, le ruissellement et la degradation des terres menacent les moyens de subsistance et les ecosystemes.',
+      bodyTwo:
+        'Notre approche reste axee sur la mise en oeuvre: former les equipes locales, etablir le materiel vegetal et construire des systemes simples qui peuvent etre entretenus dans le temps.',
+      points: [
+        {
+          title: 'Protection des sols',
+          body: 'Les haies de Vetiver ralentissent le ruissellement, stabilisent les pentes et limitent l erosion.'
+        },
+        {
+          title: 'Retention de l eau',
+          body: 'Les amenagements de terrain ameliorent l infiltration et conservent davantage d eau sur place.'
+        },
+        {
+          title: 'Capacite locale',
+          body: 'Les projets sont pensés pour etre transmis, reproduits et maintenus par les partenaires locaux.'
+        }
+      ],
+      ctaLabel: 'En savoir plus',
+      imageAlt: 'Un projet de terrain utilisant le Vetiver pour proteger et restaurer les sols.'
+    },
+    impact: {
+      eyebrow: 'Pourquoi soutenir VSF',
+      title: 'Soutenir un travail utile bien apres la premiere intervention.',
+      body:
+        'Votre soutien aide VSF a construire des systemes durables sur le terrain, de la formation aux pepinieres en passant par la conception et l accompagnement des projets.',
+      pillars: [
+        {
+          title: 'Simple et applicable',
+          body: 'Les solutions sont concues pour les conditions reelles du terrain, pas pour des contextes ideaux.'
+        },
+        {
+          title: 'Ancre dans le territoire',
+          body: 'Les projets priorisent les sols, l eau et la resilience pratique des communautes.'
+        },
+        {
+          title: 'Concu pour se diffuser',
+          body: 'Le transfert de savoir et l appropriation locale donnent plus de portee a chaque projet.'
+        }
+      ],
+      donateLabel: 'Faire un don',
+      supportingLabel: 'Participer'
+    },
+    stories: {
+      eyebrow: 'Dernieres actualites',
+      title: 'Recits de terrain et apprentissages recents.',
+      body:
+        'Des nouvelles recentes des projets, des partenaires et du travail regeneratif sur le terrain.',
+      ctaLabel: 'Voir toutes les actualites'
+    },
+    getInvolved: {
+      involvedEyebrow: 'Passer a l action',
+      involvedTitle: 'Contribuer au travail qui soutient la mission.',
+      involvedBody:
+        'Que vous souhaitiez appuyer un projet, proposer une collaboration ou soutenir la mise en oeuvre, votre participation aide des solutions credibles a avancer.',
+      involvedCta: 'Participer',
+      partnerTitle: 'Collaborer avec VSF',
+      partnerBody:
+        'Nous travaillons avec des organisations, des praticiens et des leaders locaux qui cherchent des solutions concretes et orientees terrain pour restaurer les sols et l eau.',
+      contactLabel: 'Nous contacter'
+    },
+    newsletter: {
+      eyebrow: 'Infolettre',
+      title: 'Restez proches des projets sur le terrain.',
+      body:
+        'Recevez des nouvelles de terrain, des recits de projets et les etapes importantes de Vetiver Sans Frontieres.',
+      note:
+        'Une facon simple de suivre les progres sans dependance aux reseaux sociaux.'
+    }
   }
 } as const;

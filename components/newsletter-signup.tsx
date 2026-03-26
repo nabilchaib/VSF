@@ -10,7 +10,7 @@ export function NewsletterSignup() {
           Subscribe for field updates, regenerative agriculture stories, and major milestones from Vetiver Without Borders.
         </p>
       </div>
-      <FormEmbed kind="newsletter" />
+      <FormEmbed kind="newsletter" locale="en" />
     </section>
   );
 }
