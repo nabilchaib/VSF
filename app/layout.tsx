@@ -7,18 +7,8 @@ import { getAbsoluteUrl } from '@/lib/site';
 const rubik = localFont({
   src: [
     {
-      path: '../extracted/uploads/elementor/google-fonts/fonts/rubik-ijwkbxyifdniv7nbrxw.woff2',
-      weight: '400',
-      style: 'normal'
-    },
-    {
-      path: '../extracted/uploads/elementor/google-fonts/fonts/rubik-ijwkbxyifdniv7nbrxw.woff2',
-      weight: '500',
-      style: 'normal'
-    },
-    {
-      path: '../extracted/uploads/elementor/google-fonts/fonts/rubik-ijwkbxyifdniv7nbrxw.woff2',
-      weight: '700',
+      path: './fonts/rubik-latin.woff2',
+      weight: '300 900',
       style: 'normal'
     }
   ],
