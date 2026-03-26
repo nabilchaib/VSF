@@ -72,16 +72,24 @@ export function getMediaBaseUrl() {
     return configured;
   }
 
-  if (process.env.VERCEL || process.env.NODE_ENV === 'production') {
-    return LEGACY_MEDIA_BASE_URL;
-  }
-
-  return '/media';
+  return LEGACY_MEDIA_BASE_URL;
 }
 
 export function getMediaUrl(path: string) {
   const cleanPath = path.replace(/^\/+/, '');
   return `${getMediaBaseUrl()}/${cleanPath}`;
+}
+
+export function resolveMediaAsset(path: string) {
+  if (path.startsWith('http://') || path.startsWith('https://')) {
+    return path;
+  }
+
+  if (path.startsWith('/media/')) {
+    return getMediaUrl(path.slice('/media/'.length));
+  }
+
+  return path;
 }
 
 export function getAlternatePath(pathname: string, targetLocale: Locale) {

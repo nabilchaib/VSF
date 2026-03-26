@@ -1,4 +1,5 @@
 import { FormEmbed } from '@/components/form-embed';
+import { Container } from '@/components/container';
 import { PageHero } from '@/components/page-hero';
 import type { Locale } from '@/lib/site';
 
@@ -11,31 +12,47 @@ export function ContactPage({ locale }: { locale: Locale }) {
         title={t.title}
         subtitle={t.subtitle}
         image="2022/11/clouds-cloud-bank-high-fog-4979558.jpg"
+        align="left"
       />
-      <section className="mx-auto grid w-full max-w-6xl gap-8 px-6 py-16 lg:grid-cols-[0.8fr_1.2fr] lg:px-10">
-        <div className="rounded-[2rem] bg-surface p-8 shadow-card">
-          <h2 className="text-3xl font-bold uppercase tracking-[-0.04em] text-ink">{t.contactUs}</h2>
-          <ul className="mt-6 space-y-4 text-lg leading-8 text-ink/80">
-            <li><a href="mailto:info@vetiversansfrontieres.org" className="hover:text-bark">info@vetiversansfrontieres.org</a></li>
-            <li>599 4e rue Quebec, Qc, Canada</li>
-            <li><a href="tel:+14186091924" className="hover:text-bark">+1 418 609 1924</a></li>
-          </ul>
-          <div className="mt-8 overflow-hidden rounded-[1.5rem] border border-bark/10">
-            <iframe
-              title="VSF map"
-              src="https://maps.google.com/maps?q=599%204e%20rue%20Qu%C3%A9bec%2C%20Qc%2C%20Canada&t=m&z=14&output=embed&iwloc=near"
-              className="h-[320px] w-full border-0"
-              loading="lazy"
-            />
+      <section className="bg-white/72 py-14 lg:py-20">
+        <Container>
+          <div className="grid gap-8 lg:grid-cols-[0.78fr_1.22fr]">
+            <div className="overflow-hidden rounded-[2.2rem] border border-bark/10 bg-[#eef1e4] shadow-card">
+              <div className="border-b border-bark/8 px-7 py-7 lg:px-8">
+                <h2 className="text-3xl font-semibold tracking-[-0.04em] text-ink">{t.contactUs}</h2>
+                <ul className="mt-6 space-y-4 text-base leading-8 text-ink/76">
+                  <li>
+                    <a href="mailto:info@vetiversansfrontieres.org" className="hover:text-bark">
+                      info@vetiversansfrontieres.org
+                    </a>
+                  </li>
+                  <li>599 4e rue Quebec, Qc, Canada</li>
+                  <li>
+                    <a href="tel:+14186091924" className="hover:text-bark">
+                      +1 418 609 1924
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div className="overflow-hidden">
+                <iframe
+                  title="VSF map"
+                  src="https://maps.google.com/maps?q=599%204e%20rue%20Qu%C3%A9bec%2C%20Qc%2C%20Canada&t=m&z=14&output=embed&iwloc=near"
+                  className="h-[320px] w-full border-0"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+
+            <div className="rounded-[2.2rem] border border-bark/10 bg-white p-7 shadow-card lg:p-8">
+              <div className="mb-6 max-w-2xl">
+                <h2 className="text-3xl font-semibold tracking-[-0.04em] text-ink">{t.formTitle}</h2>
+                <p className="mt-3 text-base leading-8 text-ink/72">{t.formBody}</p>
+              </div>
+              <FormEmbed kind="contact" locale={locale} />
+            </div>
           </div>
-        </div>
-        <div className="brand-frame rounded-[2rem] p-8">
-          <div className="mb-6">
-            <h2 className="text-3xl font-bold uppercase tracking-[-0.04em] text-ink">{t.formTitle}</h2>
-            <p className="mt-3 text-lg leading-8 text-ink/78">{t.formBody}</p>
-          </div>
-          <FormEmbed kind="contact" />
-        </div>
+        </Container>
       </section>
     </div>
   );

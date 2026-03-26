@@ -4,8 +4,8 @@
 
 :root {
   color-scheme: light;
-  --font-heading: "Montserrat", "Avenir Next", "Segoe UI", sans-serif;
-  --font-body: "Montserrat", "Avenir Next", "Segoe UI", sans-serif;
+  --font-heading: var(--font-rubik), "Avenir Next", "Segoe UI", sans-serif;
+  --font-body: var(--font-rubik), "Avenir Next", "Segoe UI", sans-serif;
   --color-primary: #6aa63f;
   --color-secondary: #75be2b;
   --color-surface: #d1d9b4;
@@ -28,6 +28,7 @@ body {
     linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(250, 252, 244, 1));
   min-height: 100vh;
   color: var(--color-accent);
+  line-height: 1.55;
 }
 
 .font-body {
@@ -42,7 +43,7 @@ h5,
 h6 {
   font-family: var(--font-heading), sans-serif;
   letter-spacing: -0.04em;
-  line-height: 1.08;
+  line-height: 1.12;
 }
 
 a {
@@ -85,4 +86,11 @@ a {
 
 .prose :where(a:hover):not(:where([class~="not-prose"] *)) {
   color: var(--color-secondary);
+}
+
+.story-excerpt-clamp {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
 }
