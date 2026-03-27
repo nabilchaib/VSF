@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 import { Button } from '@/components/button';
 import { Section } from '@/components/section';
-import { getMediaUrl, type Locale } from '@/lib/site';
+import { getMediaUrl, localePath, type Locale } from '@/lib/site';
 
 type MissionSectionCopy = {
   eyebrow: string;
@@ -46,7 +46,7 @@ export function MissionSection({
           <p className="max-w-[33rem] text-base leading-8 text-ink/70">{copy.bodyOne}</p>
           <p className="max-w-[33rem] text-base leading-8 text-ink/66">{copy.bodyTwo}</p>
           <Button
-            href={locale === 'fr' ? '/fr/vetiver' : '/vetiver'}
+            href={localePath('/vetiver', locale)}
             variant="tertiary"
             className="text-sm tracking-[0.16em]"
           >

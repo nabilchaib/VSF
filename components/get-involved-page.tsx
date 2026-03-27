@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { Button } from '@/components/button';
 import { Container } from '@/components/container';
 import { PageHero } from '@/components/page-hero';
-import { DONATE_URL, getMediaUrl, type Locale } from '@/lib/site';
+import { DONATE_URL, SOCIAL_LINKS, getMediaUrl, type Locale } from '@/lib/site';
 
 export function GetInvolvedPage({ locale }: { locale: Locale }) {
   const t = copy[locale];
@@ -105,11 +105,7 @@ const copy = {
     shareTitle: 'Stay connected and help amplify the regeneration movement.',
     shareBody:
       'Follow VSF and share our work to help more people discover field-tested responses to erosion, runoff, and climate adaptation.',
-    socials: [
-      { label: 'Facebook', href: 'https://www.facebook.com/profile.php?id=61553674826785' },
-      { label: 'Instagram', href: 'https://www.instagram.com/vetiversansfrontieres/' },
-      { label: 'LinkedIn', href: 'https://www.linkedin.com/company/vetiver-sans-frontieres/' }
-    ]
+    socials: SOCIAL_LINKS
   },
   fr: {
     title: 'Participer',
@@ -161,10 +157,6 @@ const copy = {
     shareTitle: 'Restez connectes et amplifiez le mouvement de regeneration.',
     shareBody:
       'Suivez VSF et partagez notre travail pour aider davantage de personnes a decouvrir des reponses de terrain contre l erosion, le ruissellement et le stress climatique.',
-    socials: [
-      { label: 'Facebook', href: 'https://www.facebook.com/profile.php?id=61553674826785' },
-      { label: 'Instagram', href: 'https://www.instagram.com/vetiversansfrontieres/' },
-      { label: 'LinkedIn', href: 'https://www.linkedin.com/company/vetiver-sans-frontieres/' }
-    ]
+    socials: SOCIAL_LINKS
   }
 } as const;

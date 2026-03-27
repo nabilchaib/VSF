@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 
-import { PostCard } from '@/components/post-card';
+import { StoryCard } from '@/components/story-card';
 import { getEntriesByType } from '@/lib/content';
 import { getAbsoluteUrl } from '@/lib/site';
 
@@ -23,7 +23,7 @@ export default async function StoriesPage() {
       </div>
       <div className="grid gap-6 md:grid-cols-2">
         {posts.map((post) => (
-          <PostCard key={post.slug} entry={post} locale="en" />
+          <StoryCard key={post.slug} entry={post} locale="en" />
         ))}
       </div>
       <link rel="canonical" href={getAbsoluteUrl('/stories')} />

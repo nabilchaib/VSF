@@ -26,7 +26,7 @@ export function StoryCard({
         />
       </div>
       <div className="flex h-full flex-col gap-4 p-6">
-        <p className="text-[11px] font-medium uppercase tracking-[0.18em] text-bark/46">
+        <p className="text-[11px] font-medium uppercase tracking-[0.18em] text-bark/56">
           {formatDate(entry.publishedAt, locale)}
         </p>
         <h2 className="text-[1.55rem] font-semibold leading-[1.12] text-ink">{entry.title}</h2>

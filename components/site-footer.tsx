@@ -5,13 +5,7 @@ import { useTranslations } from 'next-intl';
 import { Button } from '@/components/button';
 import { Container } from '@/components/container';
 import { BRAND } from '@/lib/brand';
-import { DONATE_URL, resolveMediaAsset, type Locale } from '@/lib/site';
-
-const socials = [
-  { label: 'Facebook', href: 'https://www.facebook.com/profile.php?id=61553674826785' },
-  { label: 'Instagram', href: 'https://www.instagram.com/vetiversansfrontieres/' },
-  { label: 'LinkedIn', href: 'https://www.linkedin.com/company/vetiver-sans-frontieres/' }
-];
+import { CONTACT_EMAIL, DONATE_URL, SOCIAL_LINKS, localePath, resolveMediaAsset, type Locale } from '@/lib/site';
 
 export function SiteFooter({ locale }: { locale: Locale }) {
   const t = useTranslations('footer');
@@ -53,10 +47,10 @@ export function SiteFooter({ locale }: { locale: Locale }) {
               {t('explore')}
             </p>
             <div className="flex flex-col gap-2.5">
-              <Link href={locale === 'fr' ? '/fr/about' : '/about'}>{t('about')}</Link>
-              <Link href={locale === 'fr' ? '/fr/projects' : '/projects'}>{t('projects')}</Link>
-              <Link href={locale === 'fr' ? '/fr/get-involved' : '/get-involved'}>{t('involved')}</Link>
-              <Link href={locale === 'fr' ? '/fr/stories' : '/stories'}>{t('stories')}</Link>
+              <Link href={localePath('/about', locale)}>{t('about')}</Link>
+              <Link href={localePath('/projects', locale)}>{t('projects')}</Link>
+              <Link href={localePath('/get-involved', locale)}>{t('involved')}</Link>
+              <Link href={localePath('/stories', locale)}>{t('stories')}</Link>
             </div>
           </div>
 
@@ -65,16 +59,16 @@ export function SiteFooter({ locale }: { locale: Locale }) {
               {t('follow')}
             </p>
             <div className="flex flex-col gap-2.5">
-              {socials.map((social) => (
+              {SOCIAL_LINKS.map((social) => (
                 <a key={social.label} href={social.href} target="_blank" rel="noreferrer">
                   {social.label}
                 </a>
               ))}
-              <a href="mailto:info@vetiversansfrontieres.org">info@vetiversansfrontieres.org</a>
+              <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>
             </div>
           </div>
         </div>
-        <p className="mt-5 text-xs uppercase tracking-[0.16em] text-bark/50">
+        <p className="mt-5 text-xs uppercase tracking-[0.16em] text-bark/58">
           {locale === 'fr' ? 'Organisme sans but lucratif' : 'Nonprofit organization'}
         </p>
       </Container>

@@ -18,6 +18,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      opacity: Object.fromEntries(
+        Array.from({ length: 99 }, (_, i) => [String(i + 1), String((i + 1) / 100)])
+      ),
       colors: {
         bark: brandColors.deepGreen,
         moss: brandColors.secondary,
@@ -29,8 +32,7 @@ const config: Config = {
         secondary: brandColors.secondary,
         surface: brandColors.surfaceMoss,
         surfaceAlt: brandColors.surfaceMossAlt,
-        accent: brandColors.accent,
-        white: brandColors.white
+        accent: brandColors.accent
       },
       boxShadow: {
         soft: '0 24px 60px rgba(35, 35, 35, 0.12)',

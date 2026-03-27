@@ -1,7 +1,7 @@
 import { FormEmbed } from '@/components/form-embed';
 import { Container } from '@/components/container';
 import { PageHero } from '@/components/page-hero';
-import type { Locale } from '@/lib/site';
+import { CONTACT_EMAIL, type Locale } from '@/lib/site';
 
 export function ContactPage({ locale }: { locale: Locale }) {
   const t = locale === 'fr' ? frCopy : enCopy;
@@ -22,8 +22,8 @@ export function ContactPage({ locale }: { locale: Locale }) {
                 <h2 className="text-3xl font-semibold tracking-[-0.04em] text-ink">{t.contactUs}</h2>
                 <ul className="mt-6 space-y-4 text-base leading-8 text-ink/76">
                   <li>
-                    <a href="mailto:info@vetiversansfrontieres.org" className="hover:text-bark">
-                      info@vetiversansfrontieres.org
+                    <a href={`mailto:${CONTACT_EMAIL}`} className="hover:text-bark">
+                      {CONTACT_EMAIL}
                     </a>
                   </li>
                   <li>599 4e rue Quebec, Qc, Canada</li>

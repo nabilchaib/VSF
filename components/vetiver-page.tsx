@@ -3,8 +3,7 @@ import Image from 'next/image';
 import { Button } from '@/components/button';
 import { Container } from '@/components/container';
 import { PageHero } from '@/components/page-hero';
-import type { Locale } from '@/lib/site';
-import { getMediaUrl } from '@/lib/site';
+import { getMediaUrl, localePath, type Locale } from '@/lib/site';
 
 export function VetiverPage({ locale }: { locale: Locale }) {
   const t = copy[locale];
@@ -74,7 +73,7 @@ export function VetiverPage({ locale }: { locale: Locale }) {
             <h2 className="mt-3 max-w-[14ch] text-3xl font-semibold sm:text-4xl">{t.ctaTitle}</h2>
             <p className="mt-4 max-w-2xl text-base leading-8 text-white/78">{t.ctaBody}</p>
             <div className="mt-7">
-              <Button href={locale === 'fr' ? '/fr/contact' : '/about/contact'} variant="primary">
+              <Button href={localePath('/about/contact', locale)} variant="primary">
                 {t.cta}
               </Button>
             </div>

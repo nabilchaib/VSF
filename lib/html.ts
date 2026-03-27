@@ -1,3 +1,5 @@
+import DOMPurify from 'isomorphic-dompurify';
+
 import { LEGACY_REDIRECTS } from '@/lib/redirects';
 import { getMediaBaseUrl, type Locale } from '@/lib/site';
 
@@ -52,9 +54,14 @@ function normalizeInternalLink(url: string, locale: Locale) {
 }
 
 export function transformLegacyHtml(html: string | undefined, locale: Locale) {
-  const safeHtml = html || '';
+  const sanitized = DOMPurify.sanitize(html || '', {
+    ADD_TAGS: ['iframe'],
+    ADD_ATTR: ['loading', 'target', 'rel', 'allow', 'allowfullscreen', 'frameborder'],
+    FORBID_TAGS: ['script', 'style', 'form', 'input', 'textarea', 'select', 'button'],
+    FORBID_ATTR: ['onerror', 'onload', 'onclick', 'onmouseover']
+  });
 
-  return safeHtml
+  return sanitized
     .replace(/\[wpforms id="10"\]/g, '')
     .replace(/srcset="[^"]*"/g, '')
     .replace(/sizes="[^"]*"/g, '')

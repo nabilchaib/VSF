@@ -1,6 +1,6 @@
 import { Button } from '@/components/button';
 import { Section } from '@/components/section';
-import type { Locale } from '@/lib/site';
+import { localePath, type Locale } from '@/lib/site';
 
 type GetInvolvedSectionCopy = {
   involvedEyebrow: string;
@@ -29,7 +29,7 @@ export function GetInvolvedSection({
           <h2 className="mt-3 text-3xl font-semibold text-ink">{copy.involvedTitle}</h2>
           <p className="mt-4 text-base leading-8 text-ink/72">{copy.involvedBody}</p>
           <Button
-            href={locale === 'fr' ? '/fr/get-involved' : '/get-involved'}
+            href={localePath('/get-involved', locale)}
             variant="secondary"
             className="mt-auto"
           >
@@ -41,7 +41,7 @@ export function GetInvolvedSection({
           <h2 className="text-3xl font-semibold text-ink">{copy.partnerTitle}</h2>
           <p className="mt-4 text-base leading-8 text-ink/72">{copy.partnerBody}</p>
           <Button
-            href={locale === 'fr' ? '/fr/contact' : '/about/contact'}
+            href={localePath('/about/contact', locale)}
             variant="tertiary"
             className="mt-auto text-sm tracking-[0.16em]"
           >

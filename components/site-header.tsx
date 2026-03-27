@@ -10,7 +10,7 @@ import { Button } from '@/components/button';
 import { Container } from '@/components/container';
 import { LocaleSwitcher } from '@/components/locale-switcher';
 import { BRAND } from '@/lib/brand';
-import { DONATE_URL, NAV_ITEMS, resolveMediaAsset, type Locale } from '@/lib/site';
+import { DONATE_URL, NAV_ITEMS, localePath, resolveMediaAsset, type Locale } from '@/lib/site';
 import { cn } from '@/lib/utils';
 
 export function SiteHeader({ locale }: { locale: Locale }) {
@@ -27,7 +27,7 @@ export function SiteHeader({ locale }: { locale: Locale }) {
       <Container className="max-w-7xl py-3.5">
         <div className="flex items-center justify-between gap-4">
           <Link
-            href={locale === 'fr' ? '/fr' : '/'}
+            href={localePath('/', locale)}
             className="flex min-w-0 items-center gap-2.5"
           >
             <Image
@@ -39,7 +39,7 @@ export function SiteHeader({ locale }: { locale: Locale }) {
               priority
             />
             <div className="hidden min-w-0 sm:block">
-              <p className="text-[10px] font-medium uppercase tracking-[0.24em] text-bark/50">
+              <p className="text-[10px] font-medium uppercase tracking-[0.24em] text-bark/58">
                 {t('eyebrow')}
               </p>
               <p className="truncate text-[15px] font-semibold text-ink">

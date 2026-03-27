@@ -5,6 +5,12 @@ export const SITE_NAME = 'Vetiver Without Borders';
 export const SITE_DESCRIPTION =
   'Vetiver Without Borders helps communities facing climate stress rebuild land, protect water, and regenerate local resilience through the Vetiver System.';
 export const DONATE_URL = 'https://www.zeffy.com/en-CA/donation-form/cbac2a62-15cb-4f94-866c-c860b1cfa606';
+export const CONTACT_EMAIL = 'info@vetiversansfrontieres.org';
+export const SOCIAL_LINKS = [
+  { label: 'Facebook', href: 'https://www.facebook.com/profile.php?id=61553674826785' },
+  { label: 'Instagram', href: 'https://www.instagram.com/vetiversansfrontieres/' },
+  { label: 'LinkedIn', href: 'https://www.linkedin.com/company/vetiver-sans-frontieres/' }
+] as const;
 const LEGACY_MEDIA_BASE_URL = 'https://vetiversansfrontieres.org/wp-content/uploads';
 
 export const NAV_ITEMS = [
@@ -90,6 +96,12 @@ export function resolveMediaAsset(path: string) {
   }
 
   return path;
+}
+
+export function localePath(enPath: string, locale: Locale): string {
+  if (locale === 'en') return enPath;
+  if (FR_ALIASES[enPath]) return FR_ALIASES[enPath];
+  return enPath === '/' ? '/fr' : `/fr${enPath}`;
 }
 
 export function getAlternatePath(pathname: string, targetLocale: Locale) {
