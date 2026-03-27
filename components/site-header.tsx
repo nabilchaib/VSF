@@ -64,7 +64,7 @@ export function SiteHeader({ locale }: { locale: Locale }) {
             <button
               type="button"
               onClick={() => setIsOpen((open) => !open)}
-              className="inline-flex rounded-full border border-bark/8 bg-white/60 px-3 py-1.5 text-[11px] font-medium uppercase tracking-[0.18em] text-bark/72 hover:border-bark/16 hover:bg-white lg:hidden"
+              className="inline-flex rounded-full border border-bark/8 bg-white/60 px-3 py-1.5 text-[11px] font-semibold uppercase tracking-[0.18em] text-bark/72 hover:border-bark/16 hover:bg-white lg:hidden"
               aria-expanded={isOpen}
               aria-controls="site-nav"
             >
@@ -85,7 +85,7 @@ export function SiteHeader({ locale }: { locale: Locale }) {
               <li key={item.key}>
                 <Link
                   href={item.href[locale]}
-                  className="block rounded-full px-3.5 py-2 text-[12px] font-medium uppercase tracking-[0.16em] text-ink/72 hover:bg-surface/80 hover:text-bark"
+                  className="block rounded-full px-3.5 py-2 text-[12px] font-semibold uppercase tracking-[0.16em] text-ink/72 hover:bg-surface/80 hover:text-bark"
                 >
                   {t(item.key)}
                 </Link>
