@@ -93,7 +93,7 @@ export async function renderEntryPage(entry: ContentEntry, locale: Locale) {
         <Container className="max-w-5xl">
           <article className="rounded-[2.4rem] border border-bark/10 bg-white px-7 py-8 shadow-card lg:px-12 lg:py-12">
             {isPost ? (
-              <div className="mb-8 border-b border-bark/8 pb-5 text-[11px] font-semibold uppercase tracking-[0.18em] text-bark/52">
+              <div className="mb-8 border-b border-bark/8 pb-5 text-[11px] font-semibold uppercase tracking-[0.18em] text-bark/58">
                 {locale === 'fr' ? 'Recit de terrain' : 'Field story'}
               </div>
             ) : null}

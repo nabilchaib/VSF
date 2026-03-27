@@ -16,7 +16,7 @@ const variants = {
   primary:
     'border border-moss bg-moss text-bark shadow-card hover:border-clay hover:bg-clay',
   secondary:
-    'border border-bark/14 bg-white/92 text-bark hover:border-bark/24 hover:bg-surface/65',
+    'border border-bark/22 bg-surface/40 text-bark hover:border-bark/32 hover:bg-surface/65',
   tertiary:
     'rounded-none border-0 bg-transparent px-0 text-bark underline decoration-bark/28 underline-offset-4 hover:text-clay hover:decoration-clay/60'
 } as const;

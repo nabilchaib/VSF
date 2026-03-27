@@ -1,4 +1,5 @@
 import { Button } from '@/components/button';
+import { CONTACT_EMAIL } from '@/lib/site';
 
 type FormKind = 'contact' | 'newsletter';
 
@@ -13,7 +14,7 @@ function getFormConfig(kind: FormKind, locale: 'en' | 'fr') {
           ? 'Envoyez-nous un message et notre equipe reviendra vers vous.'
           : 'Send us a message and our team will get back to you.',
       buttonLabel: locale === 'fr' ? 'Ecrire par courriel' : 'Email us',
-      fallback: 'mailto:info@vetiversansfrontieres.org'
+      fallback: `mailto:${CONTACT_EMAIL}`
     };
   }
 
@@ -26,7 +27,7 @@ function getFormConfig(kind: FormKind, locale: 'en' | 'fr') {
         ? 'Inscrivez-vous pour recevoir des nouvelles de terrain, des recits de projet et les prochaines etapes de VSF.'
         : 'Subscribe for field updates, project stories, and the next steps in VSF work.',
     buttonLabel: locale === 'fr' ? 'S inscrire' : 'Sign up',
-    fallback: 'mailto:info@vetiversansfrontieres.org?subject=Newsletter'
+    fallback: `mailto:${CONTACT_EMAIL}?subject=Newsletter`
   };
 }
 
@@ -47,6 +48,7 @@ export function FormEmbed({
           src={config.embedUrl}
           className="h-[720px] w-full rounded-[1.3rem] border-0"
           loading="lazy"
+          sandbox="allow-scripts allow-same-origin allow-forms allow-popups"
         />
       </div>
     );

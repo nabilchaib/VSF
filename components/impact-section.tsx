@@ -1,6 +1,6 @@
 import { Button } from '@/components/button';
 import { Section } from '@/components/section';
-import { DONATE_URL, type Locale } from '@/lib/site';
+import { DONATE_URL, localePath, type Locale } from '@/lib/site';
 
 type ImpactSectionCopy = {
   eyebrow: string;
@@ -49,7 +49,7 @@ export function ImpactSection({
                   {copy.donateLabel}
                 </Button>
                 <Button
-                  href={locale === 'fr' ? '/fr/get-involved' : '/get-involved'}
+                  href={localePath('/get-involved', locale)}
                   variant="secondary"
                   className="border-white/18 bg-white/10 text-white hover:border-white/28 hover:bg-white/14"
                 >

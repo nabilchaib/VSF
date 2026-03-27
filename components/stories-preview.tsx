@@ -2,7 +2,7 @@ import { Button } from '@/components/button';
 import { Section } from '@/components/section';
 import { StoryCard } from '@/components/story-card';
 import type { ContentEntry } from '@/lib/content';
-import type { Locale } from '@/lib/site';
+import { localePath, type Locale } from '@/lib/site';
 
 type StoriesPreviewCopy = {
   eyebrow: string;
@@ -31,7 +31,7 @@ export function StoriesPreview({
           <p className="text-lg leading-8 text-ink/74">{copy.body}</p>
         </div>
         <Button
-          href={locale === 'fr' ? '/fr/stories' : '/stories'}
+          href={localePath('/stories', locale)}
           variant="tertiary"
           className="w-fit text-sm tracking-[0.16em]"
         >

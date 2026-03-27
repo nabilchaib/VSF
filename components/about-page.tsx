@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { Button } from '@/components/button';
 import { Container } from '@/components/container';
 import { PageHero } from '@/components/page-hero';
-import { DONATE_URL, getMediaUrl, type Locale } from '@/lib/site';
+import { DONATE_URL, getMediaUrl, localePath, type Locale } from '@/lib/site';
 
 export function AboutPage({ locale }: { locale: Locale }) {
   const t = copy[locale];
@@ -21,7 +21,7 @@ export function AboutPage({ locale }: { locale: Locale }) {
               <p className="mt-5 text-base leading-8 text-ink/72">{t.introBodyOne}</p>
               <p className="mt-4 text-base leading-8 text-ink/68">{t.introBodyTwo}</p>
               <div className="mt-7 flex flex-wrap gap-3">
-                <Button href={locale === 'fr' ? '/fr/get-involved' : '/get-involved'} variant="secondary">
+                <Button href={localePath('/get-involved', locale)} variant="secondary">
                   {t.primaryCta}
                 </Button>
                 <Button href={DONATE_URL} external target="_blank" rel="noreferrer">
@@ -97,7 +97,7 @@ export function AboutPage({ locale }: { locale: Locale }) {
               <h2 className="mt-3 max-w-[14ch] text-3xl font-semibold sm:text-4xl">{t.ctaTitle}</h2>
               <p className="mt-5 max-w-2xl text-base leading-8 text-white/78">{t.ctaBody}</p>
               <div className="mt-7 flex flex-wrap gap-3">
-                <Button href={locale === 'fr' ? '/fr/get-involved' : '/get-involved'} variant="secondary" className="border-white/18 bg-white/10 text-white hover:border-white/28 hover:bg-white/14">
+                <Button href={localePath('/get-involved', locale)} variant="secondary" className="border-white/18 bg-white/10 text-white hover:border-white/28 hover:bg-white/14">
                   {t.primaryCta}
                 </Button>
                 <Button href={DONATE_URL} external target="_blank" rel="noreferrer">
@@ -116,7 +116,7 @@ function MetricCard({ value, label }: { value: string; label: string }) {
   return (
     <div className="rounded-[1.6rem] border border-bark/10 bg-white px-5 py-5 shadow-card">
       <p className="text-3xl font-semibold text-bark">{value}</p>
-      <p className="mt-2 text-sm uppercase tracking-[0.18em] text-ink/56">{label}</p>
+      <p className="mt-2 text-sm uppercase tracking-[0.18em] text-ink/62">{label}</p>
     </div>
   );
 }

@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { Button } from '@/components/button';
 import { Container } from '@/components/container';
 import { PageHero } from '@/components/page-hero';
-import { getMediaUrl, type Locale } from '@/lib/site';
+import { getMediaUrl, localePath, type Locale } from '@/lib/site';
 
 export function ProjectsPage({ locale }: { locale: Locale }) {
   const t = copy[locale];
@@ -19,7 +19,7 @@ export function ProjectsPage({ locale }: { locale: Locale }) {
               <p className="text-sm font-semibold uppercase tracking-[0.2em] text-bark/60">{t.introEyebrow}</p>
               <h2 className="mt-3 max-w-[15ch] text-3xl font-semibold text-ink sm:text-4xl">{t.introTitle}</h2>
               <p className="mt-5 text-base leading-8 text-ink/72">{t.introBody}</p>
-              <Button href={locale === 'fr' ? '/fr/contact' : '/about/contact'} variant="secondary" className="mt-7">
+              <Button href={localePath('/about/contact', locale)} variant="secondary" className="mt-7">
                 {t.cta}
               </Button>
             </div>
@@ -47,7 +47,7 @@ export function ProjectsPage({ locale }: { locale: Locale }) {
           <div className="mt-8 grid gap-4 md:grid-cols-3">
             {t.steps.map((step, index) => (
               <div key={step.title} className="rounded-[1.8rem] border border-bark/10 bg-white p-6 shadow-card">
-                <p className="text-sm font-semibold uppercase tracking-[0.2em] text-bark/54">0{index + 1}</p>
+                <p className="text-sm font-semibold uppercase tracking-[0.2em] text-bark/58">0{index + 1}</p>
                 <h3 className="mt-3 text-xl font-semibold text-ink">{step.title}</h3>
                 <p className="mt-3 text-sm leading-7 text-ink/70">{step.body}</p>
               </div>
@@ -66,10 +66,10 @@ export function ProjectsPage({ locale }: { locale: Locale }) {
                 <p className="mt-4 max-w-2xl text-base leading-8 text-white/78">{t.bandBody}</p>
               </div>
               <div className="flex flex-wrap gap-3 lg:justify-end">
-                <Button href={locale === 'fr' ? '/fr/contact' : '/about/contact'} variant="primary">
+                <Button href={localePath('/about/contact', locale)} variant="primary">
                   {t.cta}
                 </Button>
-                <Button href={locale === 'fr' ? '/fr/get-involved' : '/get-involved'} variant="secondary" className="border-white/18 bg-white/10 text-white hover:border-white/28 hover:bg-white/14">
+                <Button href={localePath('/get-involved', locale)} variant="secondary" className="border-white/18 bg-white/10 text-white hover:border-white/28 hover:bg-white/14">
                   {t.secondaryCta}
                 </Button>
               </div>

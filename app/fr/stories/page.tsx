@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 
-import { PostCard } from '@/components/post-card';
+import { StoryCard } from '@/components/story-card';
 import { getEntriesByType } from '@/lib/content';
 
 export const metadata: Metadata = {
@@ -25,7 +25,7 @@ export default async function FrenchStoriesPage() {
       </div>
       <div className="grid gap-6 md:grid-cols-2">
         {posts.map((post) => (
-          <PostCard key={post.slug} entry={post} locale="fr" />
+          <StoryCard key={post.slug} entry={post} locale="fr" />
         ))}
       </div>
     </section>

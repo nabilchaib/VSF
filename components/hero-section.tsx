@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { Button } from '@/components/button';
 import { Section } from '@/components/section';
 import { BRAND } from '@/lib/brand';
-import { DONATE_URL, getMediaUrl, resolveMediaAsset, type Locale } from '@/lib/site';
+import { DONATE_URL, getMediaUrl, localePath, resolveMediaAsset, type Locale } from '@/lib/site';
 
 type HeroSectionCopy = {
   eyebrow: string;
@@ -56,14 +56,14 @@ export function HeroSection({
               {copy.donateLabel}
             </Button>
             <Button
-              href={locale === 'fr' ? '/fr/get-involved' : '/get-involved'}
+              href={localePath('/get-involved', locale)}
               variant="secondary"
               size="lg"
             >
               {copy.involvedLabel}
             </Button>
             <Button
-              href={locale === 'fr' ? '/fr/vetiver' : '/vetiver'}
+              href={localePath('/vetiver', locale)}
               variant="tertiary"
               className="text-sm tracking-[0.16em]"
             >

@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { Button } from '@/components/button';
 import { Container } from '@/components/container';
 import { PageHero } from '@/components/page-hero';
-import { getMediaUrl, type Locale } from '@/lib/site';
+import { getMediaUrl, localePath, type Locale } from '@/lib/site';
 
 export function ServicesPage({ locale }: { locale: Locale }) {
   const t = copy[locale];
@@ -146,10 +146,10 @@ export function ServicesPage({ locale }: { locale: Locale }) {
                 </p>
               </div>
               <div className="flex flex-wrap gap-3 lg:justify-end">
-                <Button href={locale === 'fr' ? '/fr/contact' : '/about/contact'} variant="primary">
+                <Button href={localePath('/about/contact', locale)} variant="primary">
                   {t.cta}
                 </Button>
-                <Button href={locale === 'fr' ? '/fr/vetiver' : '/vetiver'} variant="secondary" className="border-white/18 bg-white/10 text-white hover:border-white/28 hover:bg-white/14">
+                <Button href={localePath('/vetiver', locale)} variant="secondary" className="border-white/18 bg-white/10 text-white hover:border-white/28 hover:bg-white/14">
                   {t.secondaryCta}
                 </Button>
               </div>

@@ -25,7 +25,7 @@ export function PageHero({ title, eyebrow, subtitle, image, align = 'center', ch
           fill
           priority
           className="object-cover"
-          sizes="100vw"
+          sizes="(min-width: 1280px) 1280px, 100vw"
         />
       ) : null}
       <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(17,34,25,0.74),rgba(17,34,25,0.6))]" />

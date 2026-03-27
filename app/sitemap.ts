@@ -6,14 +6,19 @@ import { getAbsoluteUrl } from '@/lib/site';
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const entries = await getAllEntries();
 
+  const posts = entries.filter((e) => e.type === 'post');
+  const latestPostDate = posts.length
+    ? new Date(Math.max(...posts.map((p) => new Date(p.updatedAt || p.publishedAt).getTime())))
+    : new Date();
+
   const items: MetadataRoute.Sitemap = [
     {
       url: getAbsoluteUrl('/stories'),
-      lastModified: new Date()
+      lastModified: latestPostDate
     },
     {
       url: getAbsoluteUrl('/fr/stories'),
-      lastModified: new Date()
+      lastModified: latestPostDate
     }
   ];
 
