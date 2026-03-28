@@ -1,7 +1,7 @@
 import DOMPurify from 'isomorphic-dompurify';
 
 import { LEGACY_REDIRECTS } from '@/lib/redirects';
-import { getMediaBaseUrl, type Locale } from '@/lib/site';
+import { getMediaBaseUrl, localePath, type Locale } from '@/lib/site';
 
 const OLD_SITE = 'https://vetiversansfrontieres.org';
 const OLD_UPLOADS = `${OLD_SITE}/wp-content/uploads/`;
@@ -66,7 +66,7 @@ export function transformLegacyHtml(html: string | undefined, locale: Locale) {
     .replace(/srcset="[^"]*"/g, '')
     .replace(/sizes="[^"]*"/g, '')
     .replace(/<iframe([^>]*)><\/iframe>/g, '<iframe$1 loading="lazy"></iframe>')
-    .replace(/href="#contact"/g, `href="${locale === 'fr' ? '/fr/contact' : '/about/contact'}"`)
+    .replace(/href="#contact"/g, `href="${localePath('/about/contact', locale)}"`)
     .replace(/href="([^"]+)"/g, (_, url) => `href="${normalizeInternalLink(url, locale)}"`)
     .replace(/src="([^"]+)"/g, (_, url) => `src="${replaceOldMedia(url)}"`)
     .replace(/https:\/\/i0\.wp\.com\/vetiversansfrontieres\.org\/wp-content\/uploads\/([^"?]+)(?:\?[^"]*)?/g, (_, suffix) => `${getMediaBaseUrl()}/${suffix}`)

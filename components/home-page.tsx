@@ -3,6 +3,7 @@ import { HeroSection } from '@/components/hero-section';
 import { ImpactSection } from '@/components/impact-section';
 import { MissionSection } from '@/components/mission-section';
 import { NewsletterSection } from '@/components/newsletter-section';
+import { RdcProjectPromo } from '@/components/rdc-project-hub';
 import { StoriesPreview } from '@/components/stories-preview';
 import type { ContentEntry } from '@/lib/content';
 import type { Locale } from '@/lib/site';
@@ -21,6 +22,7 @@ export function HomePage({ locale, posts }: HomePageProps) {
       <MissionSection locale={locale} copy={copy.mission} />
       <ImpactSection locale={locale} copy={copy.impact} />
       <StoriesPreview locale={locale} posts={posts} copy={copy.stories} />
+      <RdcProjectPromo locale={locale} />
       <GetInvolvedSection locale={locale} copy={copy.getInvolved} />
       <NewsletterSection locale={locale} copy={copy.newsletter} />
     </div>

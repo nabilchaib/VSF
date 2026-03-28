@@ -19,6 +19,26 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     {
       url: getAbsoluteUrl('/fr/stories'),
       lastModified: latestPostDate
+    },
+    {
+      url: getAbsoluteUrl('/projects/rdc'),
+      lastModified: new Date(),
+      alternates: {
+        languages: {
+          en: getAbsoluteUrl('/projects/rdc'),
+          fr: getAbsoluteUrl('/fr/projects/rdc')
+        }
+      }
+    },
+    {
+      url: getAbsoluteUrl('/fr/projects/rdc'),
+      lastModified: new Date(),
+      alternates: {
+        languages: {
+          en: getAbsoluteUrl('/projects/rdc'),
+          fr: getAbsoluteUrl('/fr/projects/rdc')
+        }
+      }
     }
   ];
 

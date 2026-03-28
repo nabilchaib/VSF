@@ -10,6 +10,7 @@ import { HomePage } from '@/components/home-page';
 import { HtmlContent } from '@/components/html-content';
 import { NewsletterSignup } from '@/components/newsletter-signup';
 import { PageHero, getHeroImageForEntry } from '@/components/page-hero';
+import { RdcProjectPromo } from '@/components/rdc-project-hub';
 import { ProjectsPage } from '@/components/projects-page';
 import { ServicesPage } from '@/components/services-page';
 import { VetiverPage } from '@/components/vetiver-page';
@@ -101,6 +102,7 @@ export async function renderEntryPage(entry: ContentEntry, locale: Locale) {
           </article>
         </Container>
       </section>
+      {shouldShowRdcPromo(entry) ? <RdcProjectPromo locale={locale} /> : null}
     </>
   );
 }
@@ -115,4 +117,15 @@ function isContactPage(slug: string, locale: Locale) {
   }
 
   return slug === 'contact' || slug === 'about/contact';
+}
+
+function shouldShowRdcPromo(entry: ContentEntry) {
+  if (
+    entry.type === 'post' &&
+    entry.slug === 'from-fire-to-future-understanding-and-breaking-the-cycle-of-slash-and-burn-agriculture'
+  ) {
+    return true;
+  }
+
+  return entry.type === 'page' && (entry.slug === 'projects' || entry.slug === 'get-involved');
 }

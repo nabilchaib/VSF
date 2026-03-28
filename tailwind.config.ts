@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 import type { Config } from 'tailwindcss';
+import typography from '@tailwindcss/typography';
 
 const brandTokens = JSON.parse(fs.readFileSync('./data/brand/tokens.json', 'utf8')) as {
   brand: {
@@ -46,7 +47,7 @@ const config: Config = {
       }
     }
   },
-  plugins: [require('@tailwindcss/typography')]
+  plugins: [typography]
 };
 
 export default config;
