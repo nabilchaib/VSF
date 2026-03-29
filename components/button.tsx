@@ -1,6 +1,13 @@
+'use client';
+
 import type { ComponentPropsWithoutRef, ReactNode } from 'react';
 import Link from 'next/link';
 
+import {
+  inferAnalyticsActionForHref,
+  trackAnalyticsEvent,
+  type AnalyticsAction
+} from '@/lib/analytics';
 import { cn } from '@/lib/utils';
 
 type ButtonProps = {
@@ -10,7 +17,10 @@ type ButtonProps = {
   variant?: 'primary' | 'secondary' | 'tertiary';
   size?: 'sm' | 'md' | 'lg';
   external?: boolean;
-} & Omit<ComponentPropsWithoutRef<'a'>, 'children' | 'className' | 'href'>;
+  analytics?: AnalyticsAction | false;
+} & Omit<ComponentPropsWithoutRef<'a'>, 'children' | 'className' | 'href' | 'onClick'> & {
+  onClick?: ComponentPropsWithoutRef<'a'>['onClick'];
+};
 
 const variants = {
   primary:
@@ -37,6 +47,8 @@ export function Button({
   variant = 'primary',
   size = 'md',
   external = false,
+  analytics,
+  onClick,
   ...props
 }: ButtonProps) {
   const classes = cn(
@@ -45,17 +57,29 @@ export function Button({
     variants[variant],
     className
   );
+  const resolvedAnalytics = analytics === false ? undefined : analytics ?? inferAnalyticsActionForHref(href);
+
+  const handleClick: NonNullable<ComponentPropsWithoutRef<'a'>['onClick']> = (event) => {
+    if (resolvedAnalytics) {
+      trackAnalyticsEvent(resolvedAnalytics.event, {
+        ...resolvedAnalytics.params,
+        link_url: resolvedAnalytics.params?.link_url ?? href
+      });
+    }
+
+    onClick?.(event);
+  };
 
   if (external) {
     return (
-      <a href={href} className={classes} {...props}>
+      <a href={href} className={classes} onClick={handleClick} {...props}>
         {children}
       </a>
     );
   }
 
   return (
-    <Link href={href} className={classes} {...props}>
+    <Link href={href} className={classes} onClick={handleClick} {...props}>
       {children}
     </Link>
   );

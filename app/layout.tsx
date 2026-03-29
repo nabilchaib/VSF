@@ -1,7 +1,10 @@
 import type { Metadata } from 'next';
 import localFont from 'next/font/local';
+import Script from 'next/script';
 
 import '@/app/globals.css';
+import { AnalyticsConsentBanner } from '@/components/analytics-consent-banner';
+import { GoogleTag } from '@/components/google-tag';
 import { getAbsoluteUrl } from '@/lib/site';
 
 const rubik = localFont({
@@ -45,6 +48,23 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`${rubik.variable} font-body bg-sand text-ink antialiased`}>
+        <Script id="analytics-consent-default" strategy="beforeInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            window.gtag = window.gtag || function(){window.dataLayer.push(arguments);};
+            window.gtag('consent', 'default', {
+              analytics_storage: 'denied',
+              ad_storage: 'denied',
+              ad_user_data: 'denied',
+              ad_personalization: 'denied',
+              functionality_storage: 'granted',
+              security_storage: 'granted',
+              wait_for_update: 500
+            });
+          `}
+        </Script>
+        <GoogleTag />
+        <AnalyticsConsentBanner />
         {children}
       </body>
     </html>
