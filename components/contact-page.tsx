@@ -1,6 +1,7 @@
 import { FormEmbed } from '@/components/form-embed';
 import { Container } from '@/components/container';
 import { PageHero } from '@/components/page-hero';
+import { TrackedAnchor } from '@/components/tracked-anchor';
 import { CONTACT_EMAIL, type Locale } from '@/lib/site';
 
 export function ContactPage({ locale }: { locale: Locale }) {
@@ -22,15 +23,15 @@ export function ContactPage({ locale }: { locale: Locale }) {
                 <h2 className="text-3xl font-semibold tracking-[-0.04em] text-ink">{t.contactUs}</h2>
                 <ul className="mt-6 space-y-4 text-base leading-8 text-ink/76">
                   <li>
-                    <a href={`mailto:${CONTACT_EMAIL}`} className="hover:text-bark">
+                    <TrackedAnchor href={`mailto:${CONTACT_EMAIL}`} className="hover:text-bark">
                       {CONTACT_EMAIL}
-                    </a>
+                    </TrackedAnchor>
                   </li>
                   <li>599 4e rue Quebec, Qc, Canada</li>
                   <li>
-                    <a href="tel:+14186091924" className="hover:text-bark">
+                    <TrackedAnchor href="tel:+14186091924" className="hover:text-bark">
                       +1 418 609 1924
-                    </a>
+                    </TrackedAnchor>
                   </li>
                 </ul>
               </div>

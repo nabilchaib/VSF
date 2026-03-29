@@ -4,6 +4,7 @@ import { useTranslations } from 'next-intl';
 
 import { Button } from '@/components/button';
 import { Container } from '@/components/container';
+import { TrackedAnchor } from '@/components/tracked-anchor';
 import { BRAND } from '@/lib/brand';
 import { CONTACT_EMAIL, DONATE_URL, SOCIAL_LINKS, localePath, resolveMediaAsset, type Locale } from '@/lib/site';
 
@@ -64,7 +65,7 @@ export function SiteFooter({ locale }: { locale: Locale }) {
                   {social.label}
                 </a>
               ))}
-              <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>
+              <TrackedAnchor href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</TrackedAnchor>
             </div>
           </div>
         </div>
