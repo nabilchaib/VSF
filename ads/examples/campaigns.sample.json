@@ -1,0 +1,48 @@
+{
+  "account_id": "1234567890",
+  "campaign_name": "SEARCH_CA_H3Y_DONATE_FR_202603_TEST",
+  "channel": "SEARCH",
+  "country": "CA",
+  "language": "FR",
+  "goal": "DONATE",
+  "budget_daily": 25,
+  "bidding_strategy": "MAXIMIZE_CONVERSIONS",
+  "start_date": "2026-03-01",
+  "end_date": "2026-03-31",
+  "geo_targets": [
+    "H3Y",
+    "M4W"
+  ],
+  "negative_keywords": [
+    "jobs",
+    "free"
+  ],
+  "ad_groups": [
+    {
+      "name": "Core Donation Terms",
+      "keywords": [
+        "donate vetiver",
+        "nonprofit donate"
+      ],
+      "ads": [
+        {
+          "headlines": [
+            "Support Regeneration",
+            "Donate to Restore Land"
+          ],
+          "descriptions": [
+            "Help communities restore land and water resilience through vetiver systems."
+          ],
+          "final_url": "https://example.org/donate",
+          "path1": "donate",
+          "path2": "vetiver"
+        }
+      ]
+    }
+  ],
+  "labels": [
+    "nonprofit",
+    "fundraising"
+  ],
+  "dry_run": true
+}
