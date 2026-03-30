@@ -1,0 +1,227 @@
+{
+  "account_id": "6920724799",
+  "budget_cap_daily": 329,
+  "budget_cap_monthly": 10000,
+  "include_us_campaign": false,
+  "site_base_url": "https://vetiversansfrontieres.org",
+  "donate_url": "https://www.zeffy.com/en-CA/donation-form/cbac2a62-15cb-4f94-866c-c860b1cfa606",
+  "pause_existing_campaigns": [
+    "Campaign #1",
+    "Vetiver 1"
+  ],
+  "excluded_geo_targets": [
+    "10014"
+  ],
+  "conversion_checks": [
+    "donations",
+    "newsletter",
+    "contact",
+    "volunteer"
+  ],
+  "campaigns": [
+    {
+      "campaign_name": "SEARCH_CA_QC_DONATE_FR_202603",
+      "channel": "SEARCH",
+      "country": "CA",
+      "language": "FR",
+      "goal": "DONATE",
+      "launch_budget_daily": 30,
+      "target_budget_daily": 110,
+      "bidding_strategy": "MAXIMIZE_CONVERSIONS",
+      "start_date": "2026-03-29",
+      "end_date": "2037-12-30",
+      "geo_targets": [
+        "H2V",
+        "H3P",
+        "H3R",
+        "H3Y",
+        "H3Z",
+        "H4P"
+      ],
+      "landing_pages": [
+        "https://www.zeffy.com/en-CA/donation-form/cbac2a62-15cb-4f94-866c-c860b1cfa606",
+        "https://vetiversansfrontieres.org/fr/contact"
+      ],
+      "negative_keywords": [
+        "jobs",
+        "free",
+        "wiki",
+        "meaning",
+        "pdf",
+        "youtube"
+      ],
+      "labels": [
+        "ad-grants",
+        "search-first",
+        "fr"
+      ],
+      "ad_groups": [
+        {
+          "name": "Dons Vetiver FR",
+          "keywords": [
+            "don vetiver",
+            "faire un don",
+            "soutenir vetiver",
+            "donation environnement"
+          ],
+          "ads": [
+            {
+              "headlines": [
+                "Soutenez la resilience locale",
+                "Faites un don pour la restauration",
+                "Vetiver pour les sols et l'eau",
+                "Aidez des communautes a prosperer"
+              ],
+              "descriptions": [
+                "Aidez des communautes a proteger les sols, l'eau et les revenus locaux.",
+                "Soutenez un projet concret de regeneration avec Vetiver Sans Frontieres.",
+                "Faites un don securise pour renforcer les paysages et les moyens de subsistance."
+              ],
+              "final_url": "https://www.zeffy.com/en-CA/donation-form/cbac2a62-15cb-4f94-866c-c860b1cfa606",
+              "path1": "faire-un-don",
+              "path2": "vetiver"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "campaign_name": "SEARCH_CA_NAT_DONATE_EN_202603",
+      "channel": "SEARCH",
+      "country": "CA",
+      "language": "EN",
+      "goal": "DONATE",
+      "launch_budget_daily": 30,
+      "target_budget_daily": 110,
+      "bidding_strategy": "MAXIMIZE_CONVERSIONS",
+      "start_date": "2026-03-29",
+      "end_date": "2037-12-30",
+      "geo_targets": [
+        "K1M",
+        "M4V",
+        "M4W",
+        "M5P",
+        "T2S",
+        "T2T",
+        "V6R",
+        "V7S",
+        "V7V"
+      ],
+      "landing_pages": [
+        "https://www.zeffy.com/en-CA/donation-form/cbac2a62-15cb-4f94-866c-c860b1cfa606",
+        "https://vetiversansfrontieres.org/about/contact"
+      ],
+      "negative_keywords": [
+        "jobs",
+        "free",
+        "wiki",
+        "meaning",
+        "pdf",
+        "youtube"
+      ],
+      "labels": [
+        "ad-grants",
+        "search-first",
+        "en"
+      ],
+      "ad_groups": [
+        {
+          "name": "Vetiver Donations EN",
+          "keywords": [
+            "vetiver donation",
+            "nonprofit donation",
+            "restore land donation",
+            "climate resilience donation"
+          ],
+          "ads": [
+            {
+              "headlines": [
+                "Support land regeneration",
+                "Donate to restore resilience",
+                "Vetiver helps protect soil",
+                "Help communities grow stronger"
+              ],
+              "descriptions": [
+                "Support a nonprofit project that helps communities rebuild land and water resilience.",
+                "Make a secure donation to help expand Vetiver-based restoration work.",
+                "Turn your support into measurable community and environmental impact."
+              ],
+              "final_url": "https://www.zeffy.com/en-CA/donation-form/cbac2a62-15cb-4f94-866c-c860b1cfa606",
+              "path1": "donate",
+              "path2": "vetiver"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "campaign_name": "SEARCH_CA_NAT_CONTACT_EN_202603",
+      "channel": "SEARCH",
+      "country": "CA",
+      "language": "EN",
+      "goal": "CONTACT",
+      "launch_budget_daily": 20,
+      "target_budget_daily": 109,
+      "bidding_strategy": "MAXIMIZE_CONVERSIONS",
+      "start_date": "2026-03-29",
+      "end_date": "2037-12-30",
+      "geo_targets": [
+        "K1M",
+        "M4V",
+        "M4W",
+        "M5P",
+        "T2S",
+        "T2T",
+        "V6R",
+        "V7S",
+        "V7V"
+      ],
+      "landing_pages": [
+        "https://vetiversansfrontieres.org/about/contact",
+        "https://vetiversansfrontieres.org/about/services"
+      ],
+      "negative_keywords": [
+        "jobs",
+        "free",
+        "wiki",
+        "meaning",
+        "pdf",
+        "youtube"
+      ],
+      "labels": [
+        "ad-grants",
+        "search-first",
+        "en"
+      ],
+      "ad_groups": [
+        {
+          "name": "Project Inquiries EN",
+          "keywords": [
+            "vetiver project support",
+            "climate resilience contact",
+            "regenerative land project",
+            "volunteer nonprofit support"
+          ],
+          "ads": [
+            {
+              "headlines": [
+                "Start a Vetiver project",
+                "Talk to our team today",
+                "Support land resilience work",
+                "Partner on a local solution"
+              ],
+              "descriptions": [
+                "Contact us to explore Vetiver-based solutions for land, water, and resilience.",
+                "Discuss a project, volunteer opportunity, or partnership with our team.",
+                "Use our contact page to start the conversation."
+              ],
+              "final_url": "https://vetiversansfrontieres.org/about/contact",
+              "path1": "contact",
+              "path2": "vetiver"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

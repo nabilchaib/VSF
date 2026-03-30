@@ -8,7 +8,14 @@
     "start": "next start",
     "content:generate": "python3 scripts/generate_content.py",
     "media:manifest": "python3 scripts/generate_media_manifest.py",
-    "media:upload": "node scripts/upload-media-to-r2.mjs"
+    "media:upload": "node scripts/upload-media-to-r2.mjs",
+    "ads:validate": "python3 -m ads.cli validate --config ads/examples/campaigns.sample.json",
+    "ads:plan": "python3 -m ads.cli plan --config ads/examples/campaigns.sample.json",
+    "ads:apply": "python3 -m ads.cli apply --config ads/examples/campaigns.sample.json --confirm-live",
+    "ads:snapshot": "python3 -m ads.cli snapshot --customer-id 6920724799",
+    "ads:cleanup-plan": "python3 -m ads.cli cleanup-plan --config ads/examples/adgrants.cleanup.sample.json",
+    "ads:cleanup-apply": "python3 -m ads.cli cleanup-apply --config ads/examples/adgrants.cleanup.sample.json --confirm-live",
+    "ads:test": "python3 -m unittest discover -s ads/tests -t ."
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.758.0",
