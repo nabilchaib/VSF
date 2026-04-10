@@ -20,6 +20,7 @@ The website is the public surface of a broader VSF operating system:
 Completed in this branch:
 - core public pages rewritten around the donor / partner journey
 - RDC promoted as the primary credibility hub
+- hero and intro CTA hierarchy standardized so education links sit below primary actions
 - visible WordPress leftovers reduced in rendered HTML
 - metadata / SEO frontmatter refreshed for EN and FR pages
 - build verified successfully
@@ -28,6 +29,7 @@ Remaining focus:
 - finish any residual public-facing copy cleanup
 - keep media handling staged unless a specific page needs migration
 - continue tightening article and story paths into the RDC / donor funnel
+- document the clean-restart workflow for Next.js dev when HMR or webpack runtime state breaks local rendering
 
 ## 2026 Strategic Priorities
 
@@ -282,6 +284,17 @@ Codex should leave behind clean handoff documentation covering:
 
 Acceptance criteria:
 - another agent can continue the work without rediscovering the architecture
+
+### 13. Add Local Development Recovery Notes
+Codex should record a short runbook for the local dev server so future work can recover quickly from transient Next.js / HMR failures.
+
+Include:
+- when to restart the dev server
+- when to clear `.next`
+- how to verify the local homepage is returning `200` again
+
+Acceptance criteria:
+- the repo explains how to recover from a bad dev-server render state without guessing
 
 ## Recommended Implementation Order
 
