@@ -101,11 +101,11 @@ export function AboutPage({ locale }: { locale: Locale }) {
               <h2 className="mt-3 max-w-[14ch] text-3xl font-semibold sm:text-4xl">{t.ctaTitle}</h2>
               <p className="mt-5 max-w-2xl text-base leading-8 text-white/78">{t.ctaBody}</p>
               <div className="mt-7 flex flex-wrap gap-3">
-                <Button href={localePath('/get-involved', locale)} variant="secondary" className="border-white/18 bg-white/10 text-white hover:border-white/28 hover:bg-white/14">
-                  {t.supportCta}
-                </Button>
                 <Button href={DONATE_URL} external target="_blank" rel="noreferrer">
                   {t.secondaryCta}
+                </Button>
+                <Button href={localePath('/get-involved', locale)} variant="secondary" className="border-white/18 bg-white/10 text-white hover:border-white/28 hover:bg-white/14">
+                  {t.supportCta}
                 </Button>
               </div>
             </div>
