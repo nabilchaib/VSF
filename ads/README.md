@@ -12,8 +12,9 @@ This directory contains the Google Ads automation subsystem for the nonprofit wo
 - dry-run plan generation
 - report summarization
 - live-mutation guardrails
+- campaign draft creation
 
-Live Google Ads mutations are intentionally not wired yet. The current implementation is dry-run focused.
+Live Google Ads mutations are approval-gated, and draft creation is available through the API without changing serving.
 
 ## Commands
 
@@ -29,17 +30,32 @@ Generate a dry-run plan:
 python3 -m ads.cli plan --config ads/examples/campaigns.sample.json
 ```
 
+Ready-to-use grant sample:
+
+```bash
+python3 -m ads.cli validate --config ads/examples/campaigns.grant.sample.json
+python3 -m ads.cli plan --config ads/examples/campaigns.grant.sample.json
+```
+
 Apply a live campaign mutation after approval:
 
 ```bash
 python3 -m ads.cli apply --config ads/examples/campaigns.sample.json --confirm-live
 ```
 
+Create a draft from an existing campaign:
+
+```bash
+python3 -m ads.cli draft --base-campaign customers/9071089180/campaigns/12345678901 --draft-name "VSF Draft 2026-04-10"
+```
+
 Inspect the live account snapshot:
 
 ```bash
-python3 -m ads.cli snapshot --customer-id 6920724799
+python3 -m ads.cli snapshot --customer-id 9071089180
 ```
+
+The granted Google Ads account currently used by the nonprofit workflow is `9071089180`.
 
 Generate the grant-aware cleanup plan:
 
@@ -97,6 +113,7 @@ If `GOOGLE_ADS_CREDENTIALS_DIR` is set, the loader reads the standard credential
 - `ads/snapshot.py` reads the live account inventory.
 - `ads/campaigns.py` builds dry-run mutation plans.
 - `ads/mutations.py` executes approved live mutations through the Google Ads REST API.
+- `ads/mutations.py` also creates campaign drafts through `campaignDrafts:mutate`.
 - `ads/reporting.py` aggregates performance rows and flags anomalies.
 - `ads/client.py` provides an optional official Google Ads API client loader.
 - `ads/approvals.py` blocks live mutation until explicit approval exists.
@@ -108,4 +125,5 @@ If `GOOGLE_ADS_CREDENTIALS_DIR` is set, the loader reads the standard credential
 - Geo target inputs are normalized before use.
 - Dry-run output is required before any live operation.
 - The `apply` and `cleanup-apply` commands include the plan in their output, check the approval gate, and then execute live mutations when approval is present.
+- The `draft` command is preview-first and only calls the API when `--confirm-create` is provided.
 - Live mutation currently supports paused Search campaigns with max-conversions bidding.

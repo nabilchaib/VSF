@@ -34,7 +34,7 @@ class ClientEnvTest(unittest.TestCase):
             customer_path = Path(tmpdir) / "customer_id"
             token_path.write_text("developer-token\n", encoding="utf-8")
             login_path.write_text("524-817-3049\n", encoding="utf-8")
-            customer_path.write_text("692-072-4799\n", encoding="utf-8")
+            customer_path.write_text("907-108-9180\n", encoding="utf-8")
 
             env = load_google_ads_environment(
                 {
@@ -48,7 +48,7 @@ class ClientEnvTest(unittest.TestCase):
             )
 
             self.assertEqual(env.login_customer_id, "5248173049")
-            self.assertEqual(env.customer_id, "6920724799")
+            self.assertEqual(env.customer_id, "9071089180")
 
     def test_loads_all_credentials_from_directory(self) -> None:
         with tempfile.TemporaryDirectory() as tmpdir:
@@ -58,7 +58,7 @@ class ClientEnvTest(unittest.TestCase):
             (base / "client_secret").write_text("client-secret\n", encoding="utf-8")
             (base / "refresh_token").write_text("refresh-token\n", encoding="utf-8")
             (base / "manager_id").write_text("524-817-3049\n", encoding="utf-8")
-            (base / "customer_id").write_text("692-072-4799\n", encoding="utf-8")
+            (base / "customer_id").write_text("907-108-9180\n", encoding="utf-8")
 
             env = load_google_ads_environment({"GOOGLE_ADS_CREDENTIALS_DIR": tmpdir})
 
@@ -67,7 +67,7 @@ class ClientEnvTest(unittest.TestCase):
             self.assertEqual(env.client_secret, "client-secret")
             self.assertEqual(env.refresh_token, "refresh-token")
             self.assertEqual(env.login_customer_id, "5248173049")
-            self.assertEqual(env.customer_id, "6920724799")
+            self.assertEqual(env.customer_id, "9071089180")
 
 
 if __name__ == "__main__":  # pragma: no cover

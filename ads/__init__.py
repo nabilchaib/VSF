@@ -18,6 +18,7 @@ from .models import (
     AssetGroupSnapshot,
     BudgetSnapshot,
     CampaignConfig,
+    CampaignDraftResult,
     CampaignSnapshot,
     CleanupCampaignConfig,
     CleanupConfig,
@@ -31,6 +32,7 @@ from .models import (
 from .mutations import (
     GoogleAdsLiveMutator,
     execute_campaign_config,
+    execute_campaign_draft,
     execute_cleanup_plan,
 )
 from .snapshot import fetch_account_snapshot, summarize_account_snapshot
@@ -43,6 +45,7 @@ __all__ = [
     "AssetGroupSnapshot",
     "BudgetSnapshot",
     "CampaignConfig",
+    "CampaignDraftResult",
     "CampaignSnapshot",
     "CleanupCampaignConfig",
     "CleanupConfig",
@@ -57,6 +60,7 @@ __all__ = [
     "build_campaign_creation_plan",
     "build_google_ads_client",
     "execute_campaign_config",
+    "execute_campaign_draft",
     "execute_cleanup_plan",
     "GoogleAdsLiveMutator",
     "cleanup_plan_to_dict",

@@ -1,0 +1,92 @@
+{
+  "account_id": "9071089180",
+  "campaign_name": "SEARCH_CA_NAT_DONATE_EN_202604_TEST",
+  "channel": "SEARCH",
+  "country": "CA",
+  "language": "EN",
+  "goal": "DONATE",
+  "budget_daily": 25,
+  "bidding_strategy": "MAXIMIZE_CLICKS",
+  "start_date": "2026-04-15",
+  "end_date": "2026-05-31",
+  "geo_targets": [
+    "K1M",
+    "M4W",
+    "H3Y",
+    "V6R",
+    "V7V"
+  ],
+  "negative_keywords": [
+    "jobs",
+    "job",
+    "free",
+    "wiki",
+    "meaning",
+    "pdf",
+    "youtube",
+    "internship",
+    "career"
+  ],
+  "ad_groups": [
+    {
+      "name": "Donation Terms",
+      "keywords": [
+        "vetiver donation",
+        "nonprofit donation",
+        "support land restoration",
+        "climate resilience donation"
+      ],
+      "ads": [
+        {
+          "headlines": [
+            "Donate to Restore Land",
+            "Support Climate Resilience",
+            "Help Communities Thrive",
+            "Vetiver for Stronger Soils"
+          ],
+          "descriptions": [
+            "Support Vetiver projects that restore land, protect water, and strengthen livelihoods.",
+            "Give today to help communities build long-term climate resilience."
+          ],
+          "final_url": "https://www.zeffy.com/en-CA/donation-form/cbac2a62-15cb-4f94-866c-c860b1cfa606",
+          "path1": "donate",
+          "path2": "vetiver"
+        }
+      ]
+    },
+    {
+      "name": "Project Support Terms",
+      "keywords": [
+        "vetiver project support",
+        "partner with nonprofit",
+        "soil restoration project",
+        "climate resilience help"
+      ],
+      "ads": [
+        {
+          "headlines": [
+            "Start a Vetiver Project",
+            "Partner With Our Team",
+            "Build Local Resilience",
+            "Practical Land Restoration"
+          ],
+          "descriptions": [
+            "Contact us to discuss a Vetiver-based project, partnership, or local initiative.",
+            "Work with a nonprofit team focused on land recovery and community resilience."
+          ],
+          "final_url": "https://vetiversansfrontieres.org/about/contact",
+          "path1": "contact",
+          "path2": "vetiver"
+        }
+      ]
+    }
+  ],
+  "labels": [
+    "nonprofit",
+    "fundraising",
+    "grant",
+    "search"
+  ],
+  "dry_run": false,
+  "status": "PAUSED"
+}

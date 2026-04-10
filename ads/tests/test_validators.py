@@ -3,9 +3,11 @@ from __future__ import annotations
 import unittest
 
 from ads.validators import (
+    campaign_resource_customer_id,
     ValidationError,
     normalize_account_id,
     normalize_campaign_name,
+    normalize_campaign_resource_name,
     normalize_geo_target,
     normalize_geo_targets,
     normalize_language_code,
@@ -45,6 +47,15 @@ class ValidatorsTest(unittest.TestCase):
     def test_invalid_account_id(self) -> None:
         with self.assertRaises(ValidationError):
             normalize_account_id("123")
+
+    def test_campaign_resource_name_validation(self) -> None:
+        resource_name = "customers/9071089180/campaigns/12345678901"
+        self.assertEqual(normalize_campaign_resource_name(resource_name), resource_name)
+        self.assertEqual(campaign_resource_customer_id(resource_name), "9071089180")
+
+    def test_invalid_campaign_resource_name(self) -> None:
+        with self.assertRaises(ValidationError):
+            normalize_campaign_resource_name("campaigns/123")
 
 
 if __name__ == "__main__":  # pragma: no cover

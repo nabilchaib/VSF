@@ -10,7 +10,7 @@ from ads.validators import ValidationError
 
 def _sample_snapshot() -> AccountSnapshot:
     return AccountSnapshot(
-        customer_id="6920724799",
+        customer_id="9071089180",
         campaigns=[
             CampaignSnapshot(
                 id="23696589819",
@@ -31,14 +31,14 @@ def _sample_snapshot() -> AccountSnapshot:
         ],
         budgets=[
             BudgetSnapshot(
-                resource_name="customers/6920724799/campaignBudgets/15461019977",
+                resource_name="customers/9071089180/campaignBudgets/15461019977",
                 name="Campaign #1",
                 amount_micros=50780000,
                 delivery_method="STANDARD",
                 status="ENABLED",
             ),
             BudgetSnapshot(
-                resource_name="customers/6920724799/campaignBudgets/15470972284",
+                resource_name="customers/9071089180/campaignBudgets/15470972284",
                 name="Vetiver 1",
                 amount_micros=6520000,
                 delivery_method="STANDARD",
@@ -75,7 +75,7 @@ class CleanupPlanTest(unittest.TestCase):
         plan = build_cleanup_plan(config, _sample_snapshot())
         payload = cleanup_plan_to_dict(plan)
 
-        self.assertEqual(payload["account_id"], "6920724799")
+        self.assertEqual(payload["account_id"], "9071089180")
         self.assertEqual(len(payload["campaigns"]), 3)
         self.assertEqual(len(payload["pause_actions"]), 2)
         self.assertEqual(payload["budget_summary"]["target_budget_total_daily"], 329)
@@ -87,7 +87,7 @@ class CleanupPlanTest(unittest.TestCase):
 
     def test_cleanup_config_rejects_single_word_positive_keywords(self) -> None:
         bad_config = {
-            "account_id": "6920724799",
+            "account_id": "9071089180",
             "campaigns": [
                 {
                     "campaign_name": "SEARCH_CA_QC_DONATE_FR_202603",
