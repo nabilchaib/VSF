@@ -20,7 +20,13 @@ export function VetiverExplainerSection({ locale }: { locale: Locale }) {
               <Button href={localePath('/vetiver', locale)} variant="secondary">
                 {copy.primaryCta}
               </Button>
-              <Button href={localePath('/projects/rdc', locale)} variant="tertiary" className="text-sm tracking-[0.16em]">
+            </div>
+            <div className="pt-3">
+              <Button
+                href={localePath('/projects/rdc', locale)}
+                variant="tertiary"
+                className="text-sm tracking-[0.16em]"
+              >
                 {copy.secondaryCta}
               </Button>
             </div>

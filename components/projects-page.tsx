@@ -20,10 +20,16 @@ export function ProjectsPage({ locale }: { locale: Locale }) {
               <h2 className="mt-3 max-w-[15ch] text-3xl font-semibold text-ink sm:text-4xl">{t.introTitle}</h2>
               <p className="mt-5 text-base leading-8 text-ink/72">{t.introBody}</p>
               <div className="mt-7 flex flex-wrap gap-3">
-                <Button href={localePath('/vetiver', locale)} variant="secondary">
+                <Button href={localePath('/vetiver', locale)} variant="primary">
                   {t.introCta}
                 </Button>
-                <Button href={localePath('/projects/rdc', locale)} variant="tertiary" className="text-sm tracking-[0.16em]">
+              </div>
+              <div className="pt-3">
+                <Button
+                  href={localePath('/projects/rdc', locale)}
+                  variant="tertiary"
+                  className="text-sm tracking-[0.16em]"
+                >
                   {t.hubCta}
                 </Button>
               </div>
