@@ -59,7 +59,7 @@ def _campaign_config() -> dict[str, object]:
 
 def _cleanup_snapshot() -> AccountSnapshot:
     return AccountSnapshot(
-        customer_id="6920724799",
+        customer_id="9071089180",
         campaigns=[
             CampaignSnapshot(
                 id="23696589819",
@@ -80,14 +80,14 @@ def _cleanup_snapshot() -> AccountSnapshot:
         ],
         budgets=[
             BudgetSnapshot(
-                resource_name="customers/6920724799/campaignBudgets/15461019977",
+                resource_name="customers/9071089180/campaignBudgets/15461019977",
                 name="Campaign #1",
                 amount_micros=50780000,
                 delivery_method="STANDARD",
                 status="ENABLED",
             ),
             BudgetSnapshot(
-                resource_name="customers/6920724799/campaignBudgets/15470972284",
+                resource_name="customers/9071089180/campaignBudgets/15470972284",
                 name="Vetiver 1",
                 amount_micros=6520000,
                 delivery_method="STANDARD",
@@ -187,13 +187,13 @@ class LiveMutationTest(unittest.TestCase):
             client_secret="client-secret",
             refresh_token="refresh-token",
             login_customer_id="5248173049",
-            customer_id="6920724799",
+            customer_id="9071089180",
             api_version="v22",
         )
         calls: list[tuple[str, str, list[dict[str, object]]]] = []
         legacy_map = {
-            "Campaign #1": "customers/6920724799/campaigns/23696589819",
-            "Vetiver 1": "customers/6920724799/campaigns/23701929560",
+            "Campaign #1": "customers/9071089180/campaigns/23696589819",
+            "Vetiver 1": "customers/9071089180/campaigns/23701929560",
         }
 
         def fake_search(customer_id: str, query: str, *_args: object, **_kwargs: object) -> list[dict[str, object]]:
@@ -244,10 +244,51 @@ class LiveMutationTest(unittest.TestCase):
         )
         result = mutator.execute_cleanup_plan(plan, pause_legacy=True)
 
-        self.assertEqual(result.account_id, "6920724799")
+        self.assertEqual(result.account_id, "9071089180")
         self.assertEqual(result.paused_campaigns, ["Campaign #1", "Vetiver 1"])
         self.assertGreater(len(result.records), 0)
         self.assertTrue(any("cleanup campaign labels are not yet applied" in warning for warning in result.warnings))
+
+    def test_campaign_draft_requests_campaign_drafts_mutate(self) -> None:
+        env = GoogleAdsEnvironment(
+            developer_token="developer-token",
+            client_id="client-id",
+            client_secret="client-secret",
+            refresh_token="refresh-token",
+            login_customer_id="5248173049",
+            customer_id="9071089180",
+            api_version="v22",
+        )
+        calls: list[tuple[str, str, list[dict[str, object]]]] = []
+
+        def fake_request(
+            customer_id: str,
+            service_path: str,
+            operations: list[dict[str, object]],
+            _env: GoogleAdsEnvironment,
+            **_kwargs: object,
+        ) -> dict[str, object]:
+            calls.append((customer_id, service_path, operations))
+            return {"results": [{"resourceName": "customers/9071089180/campaignDrafts/123~456"}]}
+
+        mutator = GoogleAdsLiveMutator(
+            env,
+            access_token="access-token",
+            request_fn=fake_request,
+        )
+        result = mutator.create_campaign_draft(
+            "9071089180",
+            "customers/9071089180/campaigns/12345678901",
+            "VSF Draft 2026-04-10",
+        )
+
+        self.assertEqual(result.account_id, "9071089180")
+        self.assertEqual(result.base_campaign, "customers/9071089180/campaigns/12345678901")
+        self.assertEqual(result.draft_name, "VSF Draft 2026-04-10")
+        self.assertEqual(result.resource_name, "customers/9071089180/campaignDrafts/123~456")
+        self.assertEqual(calls[0][1], "campaignDrafts:mutate")
+        self.assertEqual(calls[0][2][0]["create"]["baseCampaign"], "customers/9071089180/campaigns/12345678901")
+        self.assertEqual(calls[0][2][0]["create"]["name"], "VSF Draft 2026-04-10")
 
 
 if __name__ == "__main__":  # pragma: no cover

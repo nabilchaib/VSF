@@ -12,15 +12,22 @@ from .client import (
 )
 from .models import (
     CampaignConfig,
+    CampaignDraftResult,
     CleanupCampaignConfig,
     CleanupPlan,
     LiveMutationResult,
     MutationRecord,
 )
-from .validators import ValidationError, normalize_geo_target
+from .validators import (
+    ValidationError,
+    campaign_resource_customer_id,
+    normalize_account_id,
+    normalize_campaign_resource_name,
+    normalize_geo_target,
+)
 
 
-SUPPORTED_LIVE_BIDDING_STRATEGIES = {"MAXIMIZE_CONVERSIONS"}
+SUPPORTED_LIVE_BIDDING_STRATEGIES = {"MAXIMIZE_CONVERSIONS", "MAXIMIZE_CLICKS"}
 
 
 def _gaql_quote(value: str) -> str:
@@ -173,6 +180,7 @@ def _create_campaign_operation(
             "advertisingChannelType": config.channel,
             "status": "PAUSED",
             "campaignBudget": budget_resource_name,
+            "containsEuPoliticalAdvertising": "DOES_NOT_CONTAIN_EU_POLITICAL_ADVERTISING",
             "startDate": config.start_date.strftime("%Y%m%d"),
             "endDate": config.end_date.strftime("%Y%m%d"),
             "networkSettings": {
@@ -185,10 +193,22 @@ def _create_campaign_operation(
                 "positiveGeoTargetType": "PRESENCE",
                 "negativeGeoTargetType": "PRESENCE",
             },
-            "maximizeConversions": {},
         }
     }
+    if config.bidding_strategy == "MAXIMIZE_CONVERSIONS":
+        body["create"]["maximizeConversions"] = {}
+    elif config.bidding_strategy == "MAXIMIZE_CLICKS":
+        body["create"]["targetSpend"] = {}
     return body
+
+
+def _create_campaign_draft_operation(base_campaign_resource_name: str, draft_name: str) -> dict[str, Any]:
+    return {
+        "create": {
+            "baseCampaign": base_campaign_resource_name,
+            "name": draft_name,
+        }
+    }
 
 
 def _create_campaign_criterion_operation(
@@ -300,7 +320,7 @@ def _validate_live_campaign_config(config: CampaignConfig) -> None:
         raise ValidationError("live mutation layer currently supports SEARCH campaigns only")
     if config.bidding_strategy not in SUPPORTED_LIVE_BIDDING_STRATEGIES:
         raise ValidationError(
-            "live mutation layer currently supports MAXIMIZE_CONVERSIONS campaigns only"
+            "live mutation layer currently supports MAXIMIZE_CONVERSIONS or MAXIMIZE_CLICKS campaigns only"
         )
     for index, group in enumerate(config.ad_groups):
         if not group.keywords:
@@ -309,6 +329,18 @@ def _validate_live_campaign_config(config: CampaignConfig) -> None:
             raise ValidationError(f"ad_groups[{index}].ads must not be empty")
         for ad_index, ad in enumerate(group.ads):
             _validate_responsive_search_ad(ad, f"ad_groups[{index}].ads[{ad_index}]")
+
+
+def _build_campaign_draft_request(base_campaign: str, draft_name: str) -> dict[str, Any]:
+    normalized_base_campaign = normalize_campaign_resource_name(base_campaign)
+    normalized_draft_name = draft_name.strip()
+    if not normalized_draft_name:
+        raise ValidationError("draft_name must be a non-empty string")
+    return {
+        "operations": [_create_campaign_draft_operation(normalized_base_campaign, normalized_draft_name)],
+        "base_campaign": normalized_base_campaign,
+        "draft_name": normalized_draft_name,
+    }
 
 
 def _execute_mutation(
@@ -539,6 +571,56 @@ def _apply_campaign_config(
         )
 
     return LiveMutationResult(account_id=config.account_id, records=records, warnings=warnings)
+
+
+def execute_campaign_draft(
+    account_id: str,
+    base_campaign: str,
+    draft_name: str,
+    env: GoogleAdsEnvironment,
+    *,
+    access_token: str,
+    login_customer_id: str | None,
+    api_version: str | None,
+    insecure_ssl: bool,
+    request_fn: Callable[..., dict[str, Any]] = google_ads_mutate,
+) -> CampaignDraftResult:
+    normalized_account_id = normalize_account_id(account_id)
+    normalized_base_campaign = normalize_campaign_resource_name(base_campaign)
+    normalized_draft_name = draft_name.strip()
+    if not normalized_draft_name:
+        raise ValidationError("draft_name must be a non-empty string")
+
+    base_customer_id = campaign_resource_customer_id(normalized_base_campaign)
+    if base_customer_id != normalized_account_id:
+        raise ValidationError("base_campaign customer ID must match account_id")
+    if env.customer_id and env.customer_id != normalized_account_id:
+        raise ValidationError("GOOGLE_ADS_CUSTOMER_ID does not match the draft account_id")
+
+    request = _build_campaign_draft_request(normalized_base_campaign, normalized_draft_name)
+    response = _execute_mutation(
+        normalized_account_id,
+        "campaignDrafts:mutate",
+        request["operations"][0],
+        env,
+        access_token=access_token,
+        login_customer_id=login_customer_id,
+        api_version=api_version,
+        insecure_ssl=insecure_ssl,
+        request_fn=request_fn,
+    )
+    resource_name = _resource_name(response, "campaignDrafts:mutate")
+    return CampaignDraftResult(
+        account_id=normalized_account_id,
+        base_campaign=normalized_base_campaign,
+        draft_name=normalized_draft_name,
+        resource_name=resource_name,
+        request=request,
+        response=response,
+        warnings=[
+            "Campaign drafts do not change serving until you promote or apply changes to the base campaign."
+        ],
+    )
 
 
 def _apply_cleanup_campaign(
@@ -807,6 +889,19 @@ class GoogleAdsLiveMutator:
             search_fn=self.search_fn,
         )
         return result
+
+    def create_campaign_draft(self, account_id: str, base_campaign: str, draft_name: str) -> CampaignDraftResult:
+        return execute_campaign_draft(
+            account_id,
+            base_campaign,
+            draft_name,
+            self.env,
+            access_token=self.access_token,
+            login_customer_id=self.env.login_customer_id,
+            api_version=self.env.api_version,
+            insecure_ssl=self.insecure_ssl,
+            request_fn=self.request_fn,
+        )
 
     def execute_cleanup_plan(self, plan: CleanupPlan, *, pause_legacy: bool = False) -> LiveMutationResult:
         records: list[MutationRecord] = []

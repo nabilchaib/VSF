@@ -1,9 +1,10 @@
 from __future__ import annotations
 
 import unittest
+from pathlib import Path
 
 from ads.campaigns import build_campaign_creation_plan, plan_to_dict
-from ads.config import parse_campaign_config
+from ads.config import load_campaign_config, parse_campaign_config
 
 
 class CampaignPlanTest(unittest.TestCase):
@@ -47,6 +48,14 @@ class CampaignPlanTest(unittest.TestCase):
         self.assertGreaterEqual(len(payload["actions"]), 5)
         self.assertTrue(any(action["action"] == "create_campaign" for action in payload["actions"]))
         self.assertTrue(any(action["action"] == "create_ad" for action in payload["actions"]))
+
+    def test_grant_sample_config_loads(self) -> None:
+        config_path = Path(__file__).resolve().parents[1] / "examples" / "campaigns.grant.sample.json"
+        config = load_campaign_config(config_path)
+
+        self.assertEqual(config.account_id, "9071089180")
+        self.assertEqual(config.campaign_name, "SEARCH_CA_NAT_DONATE_EN_202604_TEST")
+        self.assertEqual(config.status, "PAUSED")
 
 
 if __name__ == "__main__":  # pragma: no cover

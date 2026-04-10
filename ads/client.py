@@ -134,8 +134,12 @@ def exchange_access_token(env: GoogleAdsEnvironment, *, insecure_ssl: bool = Fal
         data=body,
         headers={"Content-Type": "application/x-www-form-urlencoded"},
     )
-    with urllib.request.urlopen(request, timeout=30, context=context) as response:
-        payload = json.loads(response.read().decode("utf-8"))
+    try:
+        with urllib.request.urlopen(request, timeout=30, context=context) as response:
+            payload = json.loads(response.read().decode("utf-8"))
+    except HTTPError as exc:
+        body_text = exc.read().decode("utf-8")
+        raise RuntimeError(f"OAuth token exchange failed: {exc.code} {body_text}") from exc
     access_token = payload.get("access_token")
     if not isinstance(access_token, str) or not access_token:
         raise RuntimeError("OAuth token exchange did not return an access_token")

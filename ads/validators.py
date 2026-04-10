@@ -15,6 +15,7 @@ CANADIAN_FSA_PATTERN = re.compile(r"^[A-Z]\d[A-Z]$")
 CANADIAN_POSTAL_PATTERN = re.compile(r"^[A-Z]\d[A-Z]\d[A-Z]\d$")
 US_ZIP_PATTERN = re.compile(r"^\d{5}$")
 US_ZIP_PLUS4_PATTERN = re.compile(r"^\d{9}$")
+CAMPAIGN_RESOURCE_PATTERN = re.compile(r"^customers/(?P<customer_id>\d{10})/campaigns/(?P<campaign_id>\d+)$")
 
 
 def normalize_account_id(account_id: str) -> str:
@@ -22,6 +23,25 @@ def normalize_account_id(account_id: str) -> str:
     if not ACCOUNT_ID_PATTERN.fullmatch(digits):
         raise ValidationError("account_id must contain exactly 10 digits")
     return digits
+
+
+def normalize_campaign_resource_name(resource_name: str) -> str:
+    cleaned = resource_name.strip()
+    if not CAMPAIGN_RESOURCE_PATTERN.fullmatch(cleaned):
+        raise ValidationError(
+            "base_campaign must be a campaign resource name like customers/{customer_id}/campaigns/{campaign_id}"
+        )
+    return cleaned
+
+
+def campaign_resource_customer_id(resource_name: str) -> str:
+    cleaned = normalize_campaign_resource_name(resource_name)
+    match = CAMPAIGN_RESOURCE_PATTERN.fullmatch(cleaned)
+    if match is None:  # pragma: no cover - guarded by normalize_campaign_resource_name
+        raise ValidationError(
+            "base_campaign must be a campaign resource name like customers/{customer_id}/campaigns/{campaign_id}"
+        )
+    return match.group("customer_id")
 
 
 def normalize_language_code(language: str) -> str:

@@ -42,6 +42,17 @@ class CampaignConfig:
 
 
 @dataclass(frozen=True)
+class CampaignDraftResult:
+    account_id: str
+    base_campaign: str
+    draft_name: str
+    resource_name: str
+    request: dict[str, Any] = field(default_factory=dict)
+    response: dict[str, Any] = field(default_factory=dict)
+    warnings: list[str] = field(default_factory=list)
+
+
+@dataclass(frozen=True)
 class PlanAction:
     action: str
     resource: str

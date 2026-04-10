@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 from dataclasses import asdict
 import json
+import os
 import sys
 from pathlib import Path
 from typing import Any
@@ -13,9 +14,11 @@ from .cleanup import build_cleanup_plan, cleanup_plan_to_dict, load_cleanup_conf
 from .client import load_google_ads_environment
 from .config import load_campaign_config
 from .models import CampaignConfig
-from .mutations import execute_campaign_config, execute_cleanup_plan
+from .oauth import load_oauth_client, load_oauth_client_from_files, refresh_google_ads_token
+from .mutations import GoogleAdsLiveMutator, execute_campaign_config, execute_cleanup_plan
 from .snapshot import fetch_account_snapshot, summarize_account_snapshot
 from .reporting import summarize_report
+from .validators import campaign_resource_customer_id
 from .validators import ValidationError
 
 
@@ -98,6 +101,28 @@ def build_parser() -> argparse.ArgumentParser:
         action="store_true",
         help="Explicitly confirm live mutation after inspecting the dry-run plan",
     )
+    apply_parser.add_argument(
+        "--insecure-ssl",
+        action="store_true",
+        help="Disable TLS certificate verification for local development only.",
+    )
+
+    draft = subparsers.add_parser("draft", help="Create a campaign draft from an existing base campaign")
+    draft.add_argument(
+        "--base-campaign",
+        required=True,
+        help="Existing campaign resource name, for example customers/9071089180/campaigns/12345678901",
+    )
+    draft.add_argument(
+        "--draft-name",
+        required=True,
+        help="Name for the new draft, for example VSF Draft 2026-04-10",
+    )
+    draft.add_argument(
+        "--confirm-create",
+        action="store_true",
+        help="Actually call the Google Ads API to create the draft",
+    )
 
     report = subparsers.add_parser("report", help="Summarize report rows from JSON")
     report.add_argument("--input", required=True, help="Path to a JSON file containing report rows")
@@ -106,6 +131,39 @@ def build_parser() -> argparse.ArgumentParser:
         type=float,
         default=100.0,
         help="CPA threshold used to flag outliers",
+    )
+
+    oauth = subparsers.add_parser(
+        "oauth-refresh",
+        help="Run the Google OAuth consent flow and write a new refresh token",
+    )
+    oauth.add_argument(
+        "--credentials-dir",
+        help="Path to the local Google Ads credential folder. Defaults to GOOGLE_ADS_CREDENTIALS_DIR.",
+    )
+    oauth.add_argument(
+        "--client-secret-json",
+        help="Path to the downloaded Google OAuth client JSON. Auto-detected from the credential folder if omitted.",
+    )
+    oauth.add_argument(
+        "--refresh-token-file",
+        help="Path to write the new refresh token. Defaults to <credentials-dir>/refresh_token.",
+    )
+    oauth.add_argument("--port", type=int, default=8080, help="Local callback port for the OAuth redirect")
+    oauth.add_argument(
+        "--scope",
+        default="https://www.googleapis.com/auth/adwords",
+        help="OAuth scope to request",
+    )
+    oauth.add_argument(
+        "--no-open-browser",
+        action="store_true",
+        help="Print the consent URL without trying to open the browser automatically.",
+    )
+    oauth.add_argument(
+        "--insecure-ssl",
+        action="store_true",
+        help="Disable TLS certificate verification for the token exchange only.",
     )
 
     return parser
@@ -170,12 +228,50 @@ def command_cleanup_plan(config_path: str, insecure_ssl: bool) -> int:
     return 0
 
 
-def command_apply(config_path: str, confirm_live: bool) -> int:
+def command_apply(config_path: str, confirm_live: bool, insecure_ssl: bool) -> int:
     config = _load_config(config_path)
     plan = build_campaign_creation_plan(config)
     require_live_mutation_approval(config, confirm_live)
-    result = execute_campaign_config(config, confirm_live=confirm_live)
+    result = execute_campaign_config(config, confirm_live=confirm_live, insecure_ssl=insecure_ssl)
     _dump_json({"dry_run_plan": plan_to_dict(plan), "live_result": asdict(result)})
+    return 0
+
+
+def command_draft(base_campaign: str, draft_name: str, confirm_create: bool) -> int:
+    normalized_base_campaign = base_campaign.strip()
+    normalized_draft_name = draft_name.strip()
+    if not normalized_draft_name:
+        raise ValidationError("draft_name must be a non-empty string")
+
+    account_id = campaign_resource_customer_id(normalized_base_campaign)
+    preview = {
+        "account_id": account_id,
+        "base_campaign": normalized_base_campaign,
+        "draft_name": normalized_draft_name,
+        "request": {
+            "operations": [
+                {
+                    "create": {
+                        "baseCampaign": normalized_base_campaign,
+                        "name": normalized_draft_name,
+                    }
+                }
+            ]
+        },
+    }
+    if not confirm_create:
+        preview["status"] = "preview"
+        preview["note"] = "Pass --confirm-create to call the Google Ads API."
+        _dump_json(preview)
+        return 0
+
+    mutator = GoogleAdsLiveMutator.from_environment()
+    result = mutator.create_campaign_draft(
+        account_id,
+        base_campaign,
+        draft_name,
+    )
+    _dump_json({"draft_request": preview["request"], "draft_result": asdict(result)})
     return 0
 
 
@@ -212,6 +308,71 @@ def command_report(input_path: str, cpa_threshold: float) -> int:
     return 0
 
 
+def _find_client_secret_json(credentials_dir: Path) -> Path:
+    candidates = sorted(credentials_dir.glob("client_secret*.json"))
+    if len(candidates) == 1:
+        return candidates[0]
+    if not candidates:
+        raise ValidationError(
+            "no client_secret*.json file found in the credentials directory; pass --client-secret-json"
+        )
+    raise ValidationError(
+        "multiple client_secret*.json files found; pass --client-secret-json to choose one"
+    )
+
+
+def command_oauth_refresh(
+    credentials_dir: str | None,
+    client_secret_json: str | None,
+    refresh_token_file: str | None,
+    port: int,
+    scope: str,
+    no_open_browser: bool,
+    insecure_ssl: bool,
+) -> int:
+    if credentials_dir:
+        resolved_credentials_dir = Path(credentials_dir)
+    else:
+        env_dir = os.environ.get("GOOGLE_ADS_CREDENTIALS_DIR", "").strip()
+        if not env_dir:
+            raise ValidationError(
+                "credentials_dir must be provided either via --credentials-dir or GOOGLE_ADS_CREDENTIALS_DIR"
+            )
+        resolved_credentials_dir = Path(env_dir)
+
+    if client_secret_json:
+        client = load_oauth_client(Path(client_secret_json), f"http://localhost:{port}/")
+    else:
+        plain_client_id = resolved_credentials_dir / "client_id"
+        plain_client_secret = resolved_credentials_dir / "client_secret"
+        if plain_client_id.exists() and plain_client_secret.exists():
+            client = load_oauth_client_from_files(
+                plain_client_id,
+                plain_client_secret,
+                f"http://localhost:{port}/",
+            )
+        else:
+            resolved_client_secret = _find_client_secret_json(resolved_credentials_dir)
+            client = load_oauth_client(resolved_client_secret, f"http://localhost:{port}/")
+
+    resolved_refresh_token_file = (
+        Path(refresh_token_file)
+        if refresh_token_file
+        else resolved_credentials_dir / "refresh_token"
+    )
+
+    payload = refresh_google_ads_token(
+        client=client,
+        refresh_token_file=resolved_refresh_token_file,
+        port=port,
+        scope=scope,
+        insecure_ssl=insecure_ssl,
+        open_browser=not no_open_browser,
+    )
+    _dump_json(payload)
+    return 0
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = build_parser()
     args = parser.parse_args(argv)
@@ -228,9 +389,21 @@ def main(argv: list[str] | None = None) -> int:
         if args.command == "cleanup-apply":
             return command_cleanup_apply(args.config, args.confirm_live, args.pause_legacy, args.insecure_ssl)
         if args.command == "apply":
-            return command_apply(args.config, args.confirm_live)
+            return command_apply(args.config, args.confirm_live, args.insecure_ssl)
+        if args.command == "draft":
+            return command_draft(args.base_campaign, args.draft_name, args.confirm_create)
         if args.command == "report":
             return command_report(args.input, args.cpa_threshold)
+        if args.command == "oauth-refresh":
+            return command_oauth_refresh(
+                args.credentials_dir,
+                args.client_secret_json,
+                args.refresh_token_file,
+                args.port,
+                args.scope,
+                args.no_open_browser,
+                args.insecure_ssl,
+            )
     except (ValidationError, LiveMutationNotAllowed) as exc:
         parser.exit(status=2, message=f"error: {exc}\n")
     except NotImplementedError as exc:
