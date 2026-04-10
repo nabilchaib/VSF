@@ -67,6 +67,7 @@ export function transformLegacyHtml(html: string | undefined, locale: Locale) {
     .replace(/sizes="[^"]*"/g, '')
     .replace(/<iframe([^>]*)><\/iframe>/g, '<iframe$1 loading="lazy"></iframe>')
     .replace(/href="#contact"/g, `href="${localePath('/about/contact', locale)}"`)
+    .replace(/<a[^>]*href="#[^"]*"[^>]*>([\s\S]*?)<\/a>/g, '$1')
     .replace(/href="([^"]+)"/g, (_, url) => `href="${normalizeInternalLink(url, locale)}"`)
     .replace(/src="([^"]+)"/g, (_, url) => `src="${replaceOldMedia(url)}"`)
     .replace(/https:\/\/i0\.wp\.com\/vetiversansfrontieres\.org\/wp-content\/uploads\/([^"?]+)(?:\?[^"]*)?/g, (_, suffix) => `${getMediaBaseUrl()}/${suffix}`)

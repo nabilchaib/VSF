@@ -3,6 +3,8 @@ import Image from 'next/image';
 import { Button } from '@/components/button';
 import { Container } from '@/components/container';
 import { PageHero } from '@/components/page-hero';
+import { VetiverExplainerSection } from '@/components/vetiver-explainer-section';
+import { VetiverProofPoints } from '@/components/vetiver-proof-points';
 import { getMediaUrl, localePath, type Locale } from '@/lib/site';
 
 export function VetiverPage({ locale }: { locale: Locale }) {
@@ -35,6 +37,9 @@ export function VetiverPage({ locale }: { locale: Locale }) {
           </div>
         </Container>
       </section>
+
+      <VetiverExplainerSection locale={locale} />
+      <VetiverProofPoints locale={locale} />
 
       <section className="bg-[#f3ede2] py-14 lg:py-20">
         <Container>
@@ -72,9 +77,12 @@ export function VetiverPage({ locale }: { locale: Locale }) {
             <p className="text-sm font-semibold uppercase tracking-[0.2em] text-surface/76">{t.ctaEyebrow}</p>
             <h2 className="mt-3 max-w-[14ch] text-3xl font-semibold sm:text-4xl">{t.ctaTitle}</h2>
             <p className="mt-4 max-w-2xl text-base leading-8 text-white/78">{t.ctaBody}</p>
-            <div className="mt-7">
+            <div className="mt-7 flex flex-wrap gap-3">
               <Button href={localePath('/about/contact', locale)} variant="primary">
                 {t.cta}
+              </Button>
+              <Button href={localePath('/projects/rdc', locale)} variant="secondary" className="border-white/18 bg-white/10 text-white hover:border-white/28 hover:bg-white/14">
+                {t.secondaryCta}
               </Button>
             </div>
           </div>
@@ -86,59 +94,61 @@ export function VetiverPage({ locale }: { locale: Locale }) {
 
 const copy = {
   en: {
-    title: 'Vetiver',
+    title: 'What is vetiver?',
     subtitle:
-      'A natural solution for soil protection, water retention, slope stabilization, and practical climate adaptation.',
+      'A practical grass for soil protection, water management, slope stability, and land restoration.',
     introEyebrow: 'Why vetiver matters',
-    introTitle: 'A field-ready system for land and water conservation.',
+    introTitle: 'A plain-language guide to what vetiver is and what it can do.',
     introBodyOne:
-      'Vetiver Grass Technology is used for soil and water conservation, slope stabilization, disaster mitigation, land rehabilitation, and pollution control.',
+      'Vetiver is a deep-rooted grass that can slow runoff, hold soil in place, and make fragile landscapes easier to manage.',
     introBodyTwo:
-      'Its deep root structure makes the Vetiver System a proven, cost-effective, and durable response to erosion, runoff, and degraded land.',
+      'The Vetiver System uses that plant in a simple, field-ready way so communities can respond to erosion, runoff, slope instability, and degraded land.',
     benefitsEyebrow: 'Benefits of vetiver grass',
     benefitsTitle: 'Environmental protection with practical local value.',
     benefits: [
       { title: 'Soil and water conservation', body: 'Reduces erosion, improves infiltration, and supports stronger water retention in vulnerable landscapes.' },
       { title: 'Slope stabilization', body: 'Helps protect steep slopes and infrastructure from landslides and surface failure.' },
-      { title: 'Disaster mitigation', body: 'Improves resilience against floods, runoff, and intense rainfall events.' },
-      { title: 'Phytoremediation', body: 'Absorbs pollutants and can help improve contaminated soil and water conditions.' },
-      { title: 'Agricultural improvement', body: 'Supports crop production by reducing runoff, retaining moisture, and improving land condition.' },
-      { title: 'Livelihood value', body: 'Can contribute to local economies through handicrafts, animal feed, and essential oil production.' }
+      { title: 'Runoff control', body: 'Slows moving water so the landscape can absorb more of it instead of losing it.' },
+      { title: 'Land rehabilitation', body: 'Supports recovery on degraded ground where a low-cost, durable approach is needed.' },
+      { title: 'Agricultural resilience', body: 'Supports crop production by protecting soil and helping fields keep moisture longer.' },
+      { title: 'Local value', body: 'Can contribute to local economies through handicrafts, animal feed, and processing pilots.' }
     ],
     imageAltOne: 'Illustration of vetiver grass showing deep vertical roots.',
     imageAltTwo: 'Vetiver grass in a dry landscape demonstrating environmental and economic potential.',
     ctaEyebrow: 'Apply the system',
     ctaTitle: 'Sponsor or propose a project built around the Vetiver System.',
     ctaBody:
-      'If you want to discuss how Vetiver could help protect land, water, or infrastructure in a specific context, contact us and we can start from the site conditions.',
-    cta: 'Contact us'
+      'If you want to discuss how vetiver could help protect land, water, or infrastructure in a specific context, contact us and we can start from the site conditions.',
+    cta: 'Contact us',
+    secondaryCta: 'Open RDC hub'
   },
   fr: {
-    title: 'Vetiver',
+    title: 'Qu est-ce que le vetiver ?',
     subtitle:
-      'Une solution naturelle pour la protection des sols, la retention de l eau, la stabilisation des pentes et l adaptation climatique.',
+      'Une graminee pratique pour proteger les sols, mieux gerer l eau, stabiliser les pentes et restaurer les terres.',
     introEyebrow: 'Pourquoi le vetiver compte',
-    introTitle: 'Un systeme concret pour conserver les sols et l eau.',
+    introTitle: 'Un guide simple pour comprendre le vetiver et ce qu il peut faire.',
     introBodyOne:
-      'La technologie du Vetiver est utilisee pour la conservation des sols et de l eau, la stabilisation des pentes, la reduction des risques, la rehabilitation des terres et la depollution.',
+      'Le vetiver est une graminee a racines profondes qui peut ralentir le ruissellement, retenir les sols et rendre les paysages fragiles plus faciles a gerer.',
     introBodyTwo:
-      'Sa structure racinaire profonde fait du Systeme Vetiver une reponse eprouvee, economique et durable contre l erosion, le ruissellement et la degradation des terres.',
+      'Le Systeme Vetiver utilise cette plante de facon simple et de terrain pour aider les communautes a repondre a l erosion, au ruissellement, a l instabilite des pentes et a la degradation des terres.',
     benefitsEyebrow: 'Benefices du vetiver',
     benefitsTitle: 'Une protection environnementale avec une valeur locale concrete.',
     benefits: [
       { title: 'Conservation des sols et de l eau', body: 'Reduit l erosion, ameliore l infiltration et aide a conserver davantage d eau sur les terrains sensibles.' },
       { title: 'Stabilisation des pentes', body: 'Aide a proteger les pentes et les infrastructures contre les glissements et les ruptures de surface.' },
-      { title: 'Reduction des risques', body: 'Renforce la resilience face aux inondations, au ruissellement et aux pluies intenses.' },
-      { title: 'Phytoremediation', body: 'Absorbe certains polluants et peut contribuer a ameliorer la qualite des sols et de l eau.' },
-      { title: 'Amelioration agricole', body: 'Soutient la production en reduisant le ruissellement, en conservant l humidite et en ameliorant l etat des terres.' },
-      { title: 'Valeur economique locale', body: 'Peut contribuer aux economies locales par l artisanat, l alimentation animale et certaines huiles essentielles.' }
+      { title: 'Controle du ruissellement', body: 'Ralentit l eau qui circule pour qu une plus grande partie puisse etre absorbee par le paysage.' },
+      { title: 'Rehabilitation des terres', body: 'Soutient la remise en etat des sols degrades quand une solution peu couteuse et durable est necessaire.' },
+      { title: 'Resilience agricole', body: 'Soutient la production en protegeant les sols et en aidant les champs a garder l humidite plus longtemps.' },
+      { title: 'Valeur locale', body: 'Peut contribuer aux economies locales par l artisanat, l alimentation animale et des pistes de transformation.' }
     ],
     imageAltOne: 'Illustration du vetiver montrant son enracinement profond.',
     imageAltTwo: 'Vetiver dans un paysage sec montrant son potentiel environnemental et economique.',
     ctaEyebrow: 'Mettre en oeuvre le systeme',
     ctaTitle: 'Parrainez ou proposez un projet autour du Systeme Vetiver.',
     ctaBody:
-      'Si vous souhaitez discuter de l usage du Vetiver pour proteger des sols, de l eau ou des infrastructures, contactez-nous et nous partirons des conditions du site.',
-    cta: 'Contactez-nous'
+      'Si vous souhaitez discuter de l usage du vetiver pour proteger des sols, de l eau ou des infrastructures, contactez-nous et nous partirons des conditions du site.',
+    cta: 'Contactez-nous',
+    secondaryCta: 'Ouvrir le hub RDC'
   }
 } as const;

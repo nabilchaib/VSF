@@ -60,17 +60,17 @@ export function ContactPage({ locale }: { locale: Locale }) {
 }
 
 const enCopy = {
-  title: 'Contact',
-  subtitle: 'Support a project, propose a collaboration, or start a conversation with Vetiver Without Borders.',
-  contactUs: 'Contact Us',
+  title: 'Contact VSF',
+  subtitle: 'Start here for vetiver questions, project proposals, partnerships, donations, media requests, or general questions.',
+  contactUs: 'Contact details',
   formTitle: 'Write us today',
-  formBody: 'Use the hosted contact form configured for the new stack, or reach out directly by email or phone.'
+  formBody: 'Use the hosted contact form configured for the new stack, or reach out directly by email or phone if that is easier. Tell us what you are trying to solve and we will route it to the right person.'
 };
 
 const frCopy = {
-  title: 'Contact',
-  subtitle: 'Soutenez un projet, proposez une collaboration ou commencez une conversation avec Vetiver Sans Frontieres.',
-  contactUs: 'Contactez-nous',
+  title: 'Contact VSF',
+  subtitle: 'Commencez ici pour une question sur le vetiver, un projet, un partenariat, un don, une demande media ou une question generale.',
+  contactUs: 'Coordonnees',
   formTitle: 'Ecrivez-nous',
-  formBody: 'Utilisez le formulaire heberge configure pour la nouvelle plateforme, ou contactez-nous directement par email ou telephone.'
+  formBody: 'Utilisez le formulaire heberge configure pour la nouvelle plateforme, ou contactez-nous directement par email ou telephone si c est plus simple. Dites-nous ce que vous cherchez a resoudre et nous orienterons la demande.'
 };

@@ -9,7 +9,8 @@ type GetInvolvedSectionCopy = {
   involvedCta: string;
   partnerTitle: string;
   partnerBody: string;
-  contactLabel: string;
+  partnerCta: string;
+  partnerHref: string;
 };
 
 export function GetInvolvedSection({
@@ -41,11 +42,11 @@ export function GetInvolvedSection({
           <h2 className="text-3xl font-semibold text-ink">{copy.partnerTitle}</h2>
           <p className="mt-4 text-base leading-8 text-ink/72">{copy.partnerBody}</p>
           <Button
-            href={localePath('/about/contact', locale)}
+            href={localePath(copy.partnerHref, locale)}
             variant="tertiary"
             className="mt-auto text-sm tracking-[0.16em]"
           >
-            {copy.contactLabel}
+            {copy.partnerCta}
           </Button>
         </div>
       </div>
