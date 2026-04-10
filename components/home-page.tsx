@@ -1,7 +1,8 @@
+import { VetiverExplainerSection } from '@/components/vetiver-explainer-section';
+import { VetiverProofPoints } from '@/components/vetiver-proof-points';
 import { GetInvolvedSection } from '@/components/get-involved-section';
 import { HeroSection } from '@/components/hero-section';
 import { ImpactSection } from '@/components/impact-section';
-import { MissionSection } from '@/components/mission-section';
 import { NewsletterSection } from '@/components/newsletter-section';
 import { RdcProjectPromo } from '@/components/rdc-project-hub';
 import { StoriesPreview } from '@/components/stories-preview';
@@ -19,10 +20,11 @@ export function HomePage({ locale, posts }: HomePageProps) {
   return (
     <div className="pb-16 lg:pb-20">
       <HeroSection locale={locale} copy={copy.hero} />
-      <MissionSection locale={locale} copy={copy.mission} />
+      <VetiverExplainerSection locale={locale} />
+      <VetiverProofPoints locale={locale} />
       <ImpactSection locale={locale} copy={copy.impact} />
-      <StoriesPreview locale={locale} posts={posts} copy={copy.stories} />
       <RdcProjectPromo locale={locale} />
+      <StoriesPreview locale={locale} posts={posts} copy={copy.stories} />
       <GetInvolvedSection locale={locale} copy={copy.getInvolved} />
       <NewsletterSection locale={locale} copy={copy.newsletter} />
     </div>
@@ -32,61 +34,37 @@ export function HomePage({ locale, posts }: HomePageProps) {
 const homepageCopy = {
   en: {
     hero: {
-      eyebrow: 'Regenerative action',
-      title:
-        'Helping communities restore land, protect water, and build climate resilience.',
+      eyebrow: 'What is vetiver?',
+      title: 'A remarkable plant for soil, water, and community resilience.',
       body:
-        'Vetiver Without Borders works with communities facing climate stress to turn ecological restoration into practical, field-ready action.',
+        'Vetiver is a deep-rooted grass used to slow runoff, hold soil in place, and make fragile landscapes easier to work with.',
       supportingBody:
-        'Using the Vetiver System, we pair local knowledge with proven environmental design to stabilize soil, retain water, and support long-term recovery.',
+        'Vetiver Without Borders helps communities learn, test, and apply vetiver-based solutions through field work, technical support, partnerships, and public evidence.',
       donateLabel: 'Donate',
       involvedLabel: 'Get involved',
-      learnMoreLabel: 'Learn more',
+      learnMoreLabel: 'Learn what vetiver is',
+      learnMoreHref: '/vetiver',
       imageAlt: 'Vetiver planted along a roadside to stabilize land and protect surrounding soil.',
       highlight:
-        'Community-led projects that translate ecological science into credible, long-term protection for land and water.'
-    },
-    mission: {
-      eyebrow: 'Our mission',
-      title: 'Practical ecological tools for places under pressure.',
-      bodyOne:
-        'VSF helps partners apply Vetiver grass technology where erosion, runoff, and land degradation threaten livelihoods and local ecosystems.',
-      bodyTwo:
-        'Our approach stays grounded in implementation: train local teams, establish plant material, and build simple systems communities can maintain over time.',
-      points: [
-        {
-          title: 'Soil protection',
-          body: 'Vetiver hedgerows slow runoff, stabilize slopes, and reduce erosion on vulnerable land.'
-        },
-        {
-          title: 'Water retention',
-          body: 'Field layouts improve infiltration and help communities keep more water where it is needed.'
-        },
-        {
-          title: 'Local capacity',
-          body: 'Projects are designed to be taught, replicated, and maintained by local partners.'
-        }
-      ],
-      ctaLabel: 'Learn more',
-      imageAlt: 'A field project showing Vetiver used for land protection and restoration.'
+        'A practical plant-based technology becomes durable when communities can understand it, trust it, and maintain it locally.'
     },
     impact: {
-      eyebrow: 'Why support VSF',
-      title: 'Support work that stays useful after the first intervention.',
+      eyebrow: 'How VSF helps',
+      title: 'Turn understanding into practical field action.',
       body:
-        'Your support helps VSF build durable systems on the ground, from training and nursery development to project design and implementation support.',
+        'Your support helps VSF move from education to implementation: site planning, local training, pilot support, and the evidence needed to keep the work credible.',
       pillars: [
         {
-          title: 'Low-tech, field-ready',
-          body: 'Solutions are designed for real operating conditions, not idealized pilot environments.'
+          title: 'Learn',
+          body: 'Visitors start with a plain-language explanation of vetiver before they are asked to support anything.'
         },
         {
-          title: 'Grounded in stewardship',
-          body: 'Projects focus on land care, water security, and practical resilience for local communities.'
+          title: 'Test',
+          body: 'Projects are shaped around site conditions so the solution fits the problem rather than forcing a generic template.'
         },
         {
-          title: 'Built to spread',
-          body: 'Knowledge transfer and local ownership make each project more useful beyond a single site.'
+          title: 'Support',
+          body: 'Donors and partners can back field work, evidence gathering, and long-term follow-through.'
         }
       ],
       donateLabel: 'Donate',
@@ -94,21 +72,22 @@ const homepageCopy = {
     },
     stories: {
       eyebrow: 'Latest stories',
-      title: 'Field stories and lessons from current work.',
+      title: 'Field stories, project evidence, and practical vetiver lessons.',
       body:
-        'Recent updates from projects, partners, and regenerative work on the ground.',
+        'Recent updates from projects, partners, and the practical work of turning vetiver into action.',
       ctaLabel: 'Read all stories'
     },
     getInvolved: {
       involvedEyebrow: 'Take part',
-      involvedTitle: 'Get involved in the work behind the mission.',
+      involvedTitle: 'Choose the next step that fits your interest.',
       involvedBody:
-        'Whether you want to back a project, propose a collaboration, or support implementation, your participation helps credible ecological work move forward.',
+        'Whether you want to donate, sponsor a project, propose a collaboration, or simply learn more first, there is a path for you.',
       involvedCta: 'Get involved',
-      partnerTitle: 'Partner with VSF',
+      partnerTitle: 'Sponsor the RDC hub',
       partnerBody:
-        'We collaborate with organizations, practitioners, and local leaders who want practical, nonprofit-oriented solutions for land and water restoration.',
-      contactLabel: 'Contact us'
+        'Review the Congo Basin project path, then contact us if you want to support a specific initiative or the evidence work behind it.',
+      partnerCta: 'Open RDC hub',
+      partnerHref: '/projects/rdc'
     },
     newsletter: {
       eyebrow: 'Newsletter',
@@ -121,61 +100,38 @@ const homepageCopy = {
   },
   fr: {
     hero: {
-      eyebrow: 'Action regenerative',
+      eyebrow: 'Qu est-ce que le vetiver ?',
       title:
-        'Aider les communautes a restaurer les sols, proteger l eau et renforcer leur resilience climatique.',
+        'Une plante remarquable pour les sols, l eau et la resilience communautaire.',
       body:
-        'Vetiver Sans Frontieres travaille avec des communautes confrontees au stress climatique pour transformer la restauration ecologique en action concrete sur le terrain.',
+        'Le vetiver est une graminee a racines profondes utilisee pour ralentir le ruissellement, retenir les sols et rendre les paysages fragiles plus faciles a travailler.',
       supportingBody:
-        'Avec le Systeme Vetiver, nous combinons savoir local et solutions eprouvees pour stabiliser les sols, retenir l eau et soutenir une rehabilitation durable.',
+        'Vetiver Sans Frontieres aide les communautes a apprendre, tester et appliquer des solutions basees sur le vetiver grace au terrain, au soutien technique, aux partenariats et aux preuves publiques.',
       donateLabel: 'Faire un don',
       involvedLabel: 'Participer',
-      learnMoreLabel: 'En savoir plus',
+      learnMoreLabel: 'Decouvrir le vetiver',
+      learnMoreHref: '/vetiver',
       imageAlt: 'Vetiver plante le long d une route pour stabiliser les sols et proteger le terrain.',
       highlight:
-        'Des projets portes par les communautes qui traduisent la science ecologique en protection durable des sols et de l eau.'
-    },
-    mission: {
-      eyebrow: 'Notre mission',
-      title: 'Des outils ecologiques concrets pour les territoires sous pression.',
-      bodyOne:
-        'VSF aide ses partenaires a deployer la technologie du Vetiver la ou l erosion, le ruissellement et la degradation des terres menacent les moyens de subsistance et les ecosystemes.',
-      bodyTwo:
-        'Notre approche reste axee sur la mise en oeuvre: former les equipes locales, etablir le materiel vegetal et construire des systemes simples qui peuvent etre entretenus dans le temps.',
-      points: [
-        {
-          title: 'Protection des sols',
-          body: 'Les haies de Vetiver ralentissent le ruissellement, stabilisent les pentes et limitent l erosion.'
-        },
-        {
-          title: 'Retention de l eau',
-          body: 'Les amenagements de terrain ameliorent l infiltration et conservent davantage d eau sur place.'
-        },
-        {
-          title: 'Capacite locale',
-          body: 'Les projets sont pensés pour etre transmis, reproduits et maintenus par les partenaires locaux.'
-        }
-      ],
-      ctaLabel: 'En savoir plus',
-      imageAlt: 'Un projet de terrain utilisant le Vetiver pour proteger et restaurer les sols.'
+        'Une technologie pratique devient durable quand les communautes peuvent la comprendre, lui faire confiance et la maintenir localement.'
     },
     impact: {
-      eyebrow: 'Pourquoi soutenir VSF',
-      title: 'Soutenir un travail utile bien apres la premiere intervention.',
+      eyebrow: 'Comment VSF aide',
+      title: 'Transformer la comprehension en action concrete sur le terrain.',
       body:
-        'Votre soutien aide VSF a construire des systemes durables sur le terrain, de la formation aux pepinieres en passant par la conception et l accompagnement des projets.',
+        'Votre soutien aide VSF a passer de l education a la mise en oeuvre : planification du site, formation locale, appui aux projets pilotes et preuves necessaires pour garder la credibilite.',
       pillars: [
         {
-          title: 'Simple et applicable',
-          body: 'Les solutions sont concues pour les conditions reelles du terrain, pas pour des contextes ideaux.'
+          title: 'Apprendre',
+          body: 'Les visiteurs commencent par une explication simple du vetiver avant qu on leur demande de soutenir quoi que ce soit.'
         },
         {
-          title: 'Ancre dans le territoire',
-          body: 'Les projets priorisent les sols, l eau et la resilience pratique des communautes.'
+          title: 'Tester',
+          body: 'Les projets sont adaptes aux conditions du site pour que la solution corresponde au probleme.'
         },
         {
-          title: 'Concu pour se diffuser',
-          body: 'Le transfert de savoir et l appropriation locale donnent plus de portee a chaque projet.'
+          title: 'Soutenir',
+          body: 'Donateurs et partenaires peuvent appuyer le terrain, les preuves et le suivi dans le temps.'
         }
       ],
       donateLabel: 'Faire un don',
@@ -183,21 +139,22 @@ const homepageCopy = {
     },
     stories: {
       eyebrow: 'Dernieres actualites',
-      title: 'Recits de terrain et apprentissages recents.',
+      title: 'Recits de terrain, preuves de projet et lecons pratiques sur le vetiver.',
       body:
-        'Des nouvelles recentes des projets, des partenaires et du travail regeneratif sur le terrain.',
+        'Des nouvelles recentes des projets, des partenaires et du travail concret qui transforme le vetiver en action.',
       ctaLabel: 'Voir toutes les actualites'
     },
     getInvolved: {
       involvedEyebrow: 'Passer a l action',
-      involvedTitle: 'Contribuer au travail qui soutient la mission.',
+      involvedTitle: 'Choisir la prochaine etape qui vous correspond.',
       involvedBody:
-        'Que vous souhaitiez appuyer un projet, proposer une collaboration ou soutenir la mise en oeuvre, votre participation aide des solutions credibles a avancer.',
+        'Que vous souhaitiez donner, parrainer un projet, proposer une collaboration ou commencer par comprendre la plante, il existe un chemin pour vous.',
       involvedCta: 'Participer',
-      partnerTitle: 'Collaborer avec VSF',
+      partnerTitle: 'Parrainer le hub RDC',
       partnerBody:
-        'Nous travaillons avec des organisations, des praticiens et des leaders locaux qui cherchent des solutions concretes et orientees terrain pour restaurer les sols et l eau.',
-      contactLabel: 'Nous contacter'
+        'Consultez la trajectoire du projet Congo, puis contactez-nous si vous souhaitez soutenir une initiative precise ou le travail de preuves.',
+      partnerCta: 'Ouvrir le hub RDC',
+      partnerHref: '/projects/rdc'
     },
     newsletter: {
       eyebrow: 'Infolettre',

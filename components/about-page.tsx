@@ -3,6 +3,7 @@ import Image from 'next/image';
 import { Button } from '@/components/button';
 import { Container } from '@/components/container';
 import { PageHero } from '@/components/page-hero';
+import { VetiverProofPoints } from '@/components/vetiver-proof-points';
 import { DONATE_URL, getMediaUrl, localePath, type Locale } from '@/lib/site';
 
 export function AboutPage({ locale }: { locale: Locale }) {
@@ -21,11 +22,16 @@ export function AboutPage({ locale }: { locale: Locale }) {
               <p className="mt-5 text-base leading-8 text-ink/72">{t.introBodyOne}</p>
               <p className="mt-4 text-base leading-8 text-ink/68">{t.introBodyTwo}</p>
               <div className="mt-7 flex flex-wrap gap-3">
-                <Button href={localePath('/get-involved', locale)} variant="secondary">
-                  {t.primaryCta}
-                </Button>
                 <Button href={DONATE_URL} external target="_blank" rel="noreferrer">
-                  {t.secondaryCta}
+                  {t.donateCta}
+                </Button>
+                <Button href={localePath('/get-involved', locale)} variant="secondary">
+                  {t.involvedCta}
+                </Button>
+              </div>
+              <div className="pt-3">
+                <Button href={localePath('/vetiver', locale)} variant="tertiary" className="text-sm tracking-[0.16em]">
+                  {t.introCta}
                 </Button>
               </div>
             </div>
@@ -42,14 +48,12 @@ export function AboutPage({ locale }: { locale: Locale }) {
                   />
                 </div>
               </div>
-              <div className="grid gap-4 sm:grid-cols-2">
-                <MetricCard value="0" label={t.metricOne} />
-                <MetricCard value="0" label={t.metricTwo} />
-              </div>
             </div>
           </div>
         </Container>
       </section>
+
+      <VetiverProofPoints locale={locale} />
 
       <section className="bg-[#f3ede2] py-14 lg:py-20">
         <Container>
@@ -97,11 +101,11 @@ export function AboutPage({ locale }: { locale: Locale }) {
               <h2 className="mt-3 max-w-[14ch] text-3xl font-semibold sm:text-4xl">{t.ctaTitle}</h2>
               <p className="mt-5 max-w-2xl text-base leading-8 text-white/78">{t.ctaBody}</p>
               <div className="mt-7 flex flex-wrap gap-3">
-                <Button href={localePath('/get-involved', locale)} variant="secondary" className="border-white/18 bg-white/10 text-white hover:border-white/28 hover:bg-white/14">
-                  {t.primaryCta}
-                </Button>
                 <Button href={DONATE_URL} external target="_blank" rel="noreferrer">
                   {t.secondaryCta}
+                </Button>
+                <Button href={localePath('/get-involved', locale)} variant="secondary" className="border-white/18 bg-white/10 text-white hover:border-white/28 hover:bg-white/14">
+                  {t.supportCta}
                 </Button>
               </div>
             </div>
@@ -112,92 +116,85 @@ export function AboutPage({ locale }: { locale: Locale }) {
   );
 }
 
-function MetricCard({ value, label }: { value: string; label: string }) {
-  return (
-    <div className="rounded-[1.6rem] border border-bark/10 bg-white px-5 py-5 shadow-card">
-      <p className="text-3xl font-semibold text-bark">{value}</p>
-      <p className="mt-2 text-sm uppercase tracking-[0.18em] text-ink/62">{label}</p>
-    </div>
-  );
-}
-
 const copy = {
   en: {
-    title: 'About',
+    title: 'About VSF',
     subtitle:
-      'Empowering communities for sustainable change through practical land regeneration, climate adaptation, and field support.',
-    introEyebrow: 'About VSF',
-    introTitle: 'Environmental regeneration with communities at the center.',
+      'Why VSF exists, how vetiver works, and how we turn practical plant knowledge into field action.',
+    introEyebrow: 'Why VSF exists',
+    introTitle: 'Vetiver first, then the organization.',
     introBodyOne:
-      'Vetiver Without Borders is a Canadian registered charity working locally and internationally to strengthen resilience against climate stress.',
+      'Vetiver Without Borders exists to help communities understand vetiver and use it for soil, water, and land resilience.',
     introBodyTwo:
-      'We develop and share practical applications of the Vetiver System through innovation, research, technical support, and long-term environmental stewardship.',
-    primaryCta: 'Get involved',
+      'We support that work with education, technical guidance, project support, and public evidence that donors and partners can trust.',
+    introCta: 'Learn vetiver',
+    donateCta: 'Donate',
+    involvedCta: 'Get involved',
     secondaryCta: 'Donate',
+    supportCta: 'Get involved',
     imageAltOne: 'VSF team and community members in a field setting.',
-    metricOne: 'Trained students',
-    metricTwo: 'Completed projects',
     valuesEyebrow: 'Our values',
-    valuesTitle: 'Partnerships, inclusion, and durable environmental impact.',
+    valuesTitle: 'Partnerships, evidence, and local ownership.',
     values: [
       {
-        title: 'Powerful partnerships',
-        body: 'We collaborate with organizations and local stakeholders to expand reach, deepen expertise, and support durable outcomes.'
+        title: 'Partnerships',
+        body: 'We collaborate with organizations and local stakeholders so projects are rooted in real needs and real capacity.'
       },
       {
-        title: 'Inclusion',
-        body: 'We aim to involve women, girls, and diverse local participants so knowledge, skills, and regeneration techniques can be truly shared and reused.'
+        title: 'Evidence',
+        body: 'We use practical proof points, project stories, and field learning to show what is working and why.'
       },
       {
-        title: 'Environmental leadership',
-        body: 'VSF keeps pushing practical regeneration methods that can help communities protect land, water, and long-term resilience.'
+        title: 'Local ownership',
+        body: 'We design work that local teams can understand, maintain, and adapt after the first intervention.'
       }
     ],
     goalsEyebrow: 'Shared priorities',
-    goals: ['Water', 'Climate adaptation', 'Land restoration', 'Inclusive participation', 'Community resilience'],
+    goals: ['Water', 'Climate adaptation', 'Land restoration', 'Evidence', 'Community resilience'],
     imageAltTwo: 'People gathering outdoors to support regenerative environmental work.',
-    ctaEyebrow: 'Join the movement',
-    ctaTitle: 'Build a greener and more resilient future with VSF.',
+    ctaEyebrow: 'Join the work',
+    ctaTitle: 'Help turn vetiver knowledge into practical action.',
     ctaBody:
-      'Real change begins with collective action. Support projects, sponsor field work, or help us extend technical support where it is most needed.'
+      'Support projects, sponsor field work, or help us extend technical support where it is most needed.'
   },
   fr: {
-    title: 'A propos',
+    title: 'A propos de VSF',
     subtitle:
-      'Renforcer les communautes pour un changement durable grace a la regeneration des terres, l adaptation climatique et l accompagnement de terrain.',
-    introEyebrow: 'A propos de VSF',
-    introTitle: 'Une regeneration environnementale ancree dans les communautes.',
+      'Pourquoi VSF existe, comment le vetiver fonctionne et comment nous transformons ce savoir en action de terrain.',
+    introEyebrow: 'Pourquoi VSF existe',
+    introTitle: 'Le vetiver d abord, l organisation ensuite.',
     introBodyOne:
-      'Vetiver Sans Frontieres est un organisme caritatif canadien qui travaille au niveau local et international pour renforcer la resilience face au stress climatique.',
+      'Vetiver Sans Frontieres existe pour aider les communautes a comprendre le vetiver et a l utiliser pour renforcer les sols, l eau et les paysages.',
     introBodyTwo:
-      'Nous developpons et diffusons des usages concrets du Systeme Vetiver par l innovation, la recherche, le soutien technique et une approche durable de la conservation.',
-    primaryCta: 'Participer',
+      'Nous soutenons ce travail par la formation, l accompagnement technique, l appui aux projets et des preuves publiques fiables pour les donateurs et partenaires.',
+    introCta: 'Decouvrir le vetiver',
+    donateCta: 'Faire un don',
+    involvedCta: 'Participer',
     secondaryCta: 'Faire un don',
+    supportCta: 'Participer',
     imageAltOne: 'Equipe VSF et membres de la communaute sur le terrain.',
-    metricOne: 'Etudiants formes',
-    metricTwo: 'Projets realises',
     valuesEyebrow: 'Nos valeurs',
-    valuesTitle: 'Partenariats, inclusion et impact environnemental durable.',
+    valuesTitle: 'Partenariats, preuves et appropriation locale.',
     values: [
       {
-        title: 'Partenariats solides',
-        body: 'Nous collaborons avec des organisations et des acteurs locaux pour elargir la portee des projets et soutenir des resultats durables.'
+        title: 'Partenariats',
+        body: 'Nous collaborons avec des organisations et des acteurs locaux pour que les projets reposent sur de vrais besoins et de vraies capacites.'
       },
       {
-        title: 'Inclusion',
-        body: 'Nous cherchons a impliquer les femmes, les filles et une grande diversite de participants afin que les savoirs puissent etre appropries et retransmis.'
+        title: 'Preuves',
+        body: 'Nous utilisons des reperes publics, des recits de projets et l apprentissage de terrain pour montrer ce qui fonctionne.'
       },
       {
-        title: 'Leadership environnemental',
-        body: 'VSF poursuit des approches concretes de regeneration pour aider les communautes a proteger les sols, l eau et leur resilience.'
+        title: 'Appropriation locale',
+        body: 'Nous concevons des actions que les equipes locales peuvent comprendre, entretenir et adapter apres la premiere intervention.'
       }
     ],
     goalsEyebrow: 'Priorites partagees',
-    goals: ['Eau', 'Adaptation climatique', 'Restauration des terres', 'Participation inclusive', 'Resilience communautaire'],
+    goals: ['Eau', 'Adaptation climatique', 'Restauration des terres', 'Preuves', 'Resilience communautaire'],
     imageAltTwo: 'Personnes rassemblees a l exterieur autour d un travail de regeneration.',
-    ctaEyebrow: 'Rejoindre le mouvement',
-    ctaTitle: 'Construire avec VSF un avenir plus vert et plus resilient.',
+    ctaEyebrow: 'Rejoindre le travail',
+    ctaTitle: 'Aidez a transformer le savoir sur le vetiver en action concrete.',
     ctaBody:
-      'Le changement commence par l action collective. Soutenez des projets, appuyez le travail de terrain ou aidez-nous a etendre notre accompagnement technique.'
+      'Soutenez des projets, appuyez le travail de terrain ou aidez-nous a etendre notre accompagnement technique.'
   }
 } as const;

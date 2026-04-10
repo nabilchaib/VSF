@@ -13,6 +13,7 @@ type HeroSectionCopy = {
   donateLabel: string;
   involvedLabel: string;
   learnMoreLabel: string;
+  learnMoreHref?: string;
   imageAlt: string;
   highlight: string;
 };
@@ -62,8 +63,10 @@ export function HeroSection({
             >
               {copy.involvedLabel}
             </Button>
+          </div>
+          <div className="pt-3">
             <Button
-              href={localePath('/vetiver', locale)}
+              href={localePath(copy.learnMoreHref ?? '/vetiver', locale)}
               variant="tertiary"
               className="text-sm tracking-[0.16em]"
             >

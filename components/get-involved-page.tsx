@@ -56,10 +56,20 @@ export function GetInvolvedPage({ locale }: { locale: Locale }) {
 
 const copy = {
   en: {
-    title: 'Get involved',
+    title: 'Get involved with vetiver work',
     subtitle:
-      'Choose how you want to contribute, from proposing a project to supporting field action or helping practical solutions spread.',
+      'Start with vetiver, then choose how you want to contribute: propose a project, sponsor the RDC flagship, donate, or help the stories spread.',
     cards: [
+      {
+        eyebrow: 'Learn first',
+        title: 'Understand vetiver before you choose a next step.',
+        body: 'If you are new to the topic, start with the plain-language vetiver explainer and see what the plant can do before you decide how to help.',
+        cta: 'Learn about vetiver',
+        href: '/vetiver',
+        external: false,
+        variant: 'secondary' as const,
+        image: '2026/02/Gemini_Generated_Image_7fcdjg7fcdjg7fcd-scaled.webp'
+      },
       {
         eyebrow: 'Propose a project',
         title: 'Bring a local need or idea to the conversation.',
@@ -68,7 +78,17 @@ const copy = {
         href: '/about/contact',
         external: false,
         variant: 'secondary' as const,
-        image: '2026/02/Gemini_Generated_Image_7fcdjg7fcdjg7fcd-scaled.webp'
+        image: '2026/02/Gemini_Generated_Image_m5evwqm5evwqm5ev-scaled.webp'
+      },
+      {
+        eyebrow: 'Sponsor a project',
+        title: 'Support an initiative that already resonates with you.',
+        body: 'Project leaders often need targeted support to bring strong initiatives to completion. Review the RDC hub to see the current flagship and the support paths around it.',
+        cta: 'Open RDC hub',
+        href: '/projects/rdc',
+        external: false,
+        variant: 'secondary' as const,
+        image: '2026/02/Gemini_Generated_Image_e3g0qde3g0qde3g0-scaled.webp'
       },
       {
         eyebrow: 'Support field action',
@@ -79,26 +99,6 @@ const copy = {
         external: true,
         variant: 'primary' as const,
         image: '2026/02/Gemini_Generated_Image_xgk3a6xgk3a6xgk3-scaled.webp'
-      },
-      {
-        eyebrow: 'Sponsor a project',
-        title: 'Support an initiative that already resonates with you.',
-        body: 'Project leaders often need targeted support to bring strong initiatives to completion. Contact us to discuss ongoing work that matches your interest.',
-        cta: 'Explore projects',
-        href: '/projects',
-        external: false,
-        variant: 'secondary' as const,
-        image: '2026/02/Gemini_Generated_Image_e3g0qde3g0qde3g0-scaled.webp'
-      },
-      {
-        eyebrow: 'Spread the word',
-        title: 'Help more people discover practical climate responses.',
-        body: 'Sharing our work is a practical form of support. It helps communities, partners, and donors find concrete responses to environmental challenges.',
-        cta: 'Contact us',
-        href: '/about/contact',
-        external: false,
-        variant: 'tertiary' as const,
-        image: '2026/02/Gemini_Generated_Image_m5evwqm5evwqm5ev-scaled.webp'
       }
     ],
     shareEyebrow: 'Share the work',
@@ -108,10 +108,20 @@ const copy = {
     socials: SOCIAL_LINKS
   },
   fr: {
-    title: 'Participer',
+    title: 'Participer au travail sur le vetiver',
     subtitle:
-      'Choisissez comment contribuer, qu il s agisse de proposer un projet, soutenir le terrain ou aider des solutions concretes a se diffuser.',
+      'Commencez par le vetiver, puis choisissez comment contribuer : proposer un projet, parrainer le projet phare RDC, donner ou relayer les recits.',
     cards: [
+      {
+        eyebrow: 'Apprendre d abord',
+        title: 'Comprendre le vetiver avant de choisir la suite.',
+        body: 'Si vous decouvrez le sujet, commencez par le guide simple sur le vetiver et voyez ce que la plante peut faire avant de decider comment aider.',
+        cta: 'Decouvrir le vetiver',
+        href: '/fr/vetiver',
+        external: false,
+        variant: 'secondary' as const,
+        image: '2026/02/Gemini_Generated_Image_7fcdjg7fcdjg7fcd-scaled.webp'
+      },
       {
         eyebrow: 'Proposer un projet',
         title: 'Apporter un besoin local ou une idee a la discussion.',
@@ -120,7 +130,17 @@ const copy = {
         href: '/fr/contact',
         external: false,
         variant: 'secondary' as const,
-        image: '2026/02/Gemini_Generated_Image_7fcdjg7fcdjg7fcd-scaled.webp'
+        image: '2026/02/Gemini_Generated_Image_m5evwqm5evwqm5ev-scaled.webp'
+      },
+      {
+        eyebrow: 'Parrainer un projet',
+        title: 'Soutenir directement une initiative qui vous parle.',
+        body: 'Les porteurs de projet ont souvent besoin d un soutien cible pour faire aboutir leur travail. Consultez le hub RDC pour voir le projet phare et les voies de soutien.',
+        cta: 'Ouvrir le hub RDC',
+        href: '/fr/projects/rdc',
+        external: false,
+        variant: 'secondary' as const,
+        image: '2026/02/Gemini_Generated_Image_e3g0qde3g0qde3g0-scaled.webp'
       },
       {
         eyebrow: 'Soutenir l action',
@@ -131,26 +151,6 @@ const copy = {
         external: true,
         variant: 'primary' as const,
         image: '2026/02/Gemini_Generated_Image_xgk3a6xgk3a6xgk3-scaled.webp'
-      },
-      {
-        eyebrow: 'Parrainer un projet',
-        title: 'Soutenir directement une initiative qui vous parle.',
-        body: 'Les porteurs de projet ont souvent besoin d un soutien cible pour faire aboutir leur travail. Contactez-nous pour parler des projets en cours.',
-        cta: 'Voir les projets',
-        href: '/fr/projects',
-        external: false,
-        variant: 'secondary' as const,
-        image: '2026/02/Gemini_Generated_Image_e3g0qde3g0qde3g0-scaled.webp'
-      },
-      {
-        eyebrow: 'Faire circuler',
-        title: 'Aider davantage de personnes a decouvrir des reponses pratiques.',
-        body: 'Partager notre travail est deja une forme d action. Cela aide les communautes, partenaires et donateurs a trouver des reponses concretes.',
-        cta: 'Nous contacter',
-        href: '/fr/contact',
-        external: false,
-        variant: 'tertiary' as const,
-        image: '2026/02/Gemini_Generated_Image_m5evwqm5evwqm5ev-scaled.webp'
       }
     ],
     shareEyebrow: 'Diffuser le travail',

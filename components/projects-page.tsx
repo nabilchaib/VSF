@@ -19,9 +19,20 @@ export function ProjectsPage({ locale }: { locale: Locale }) {
               <p className="text-sm font-semibold uppercase tracking-[0.2em] text-bark/60">{t.introEyebrow}</p>
               <h2 className="mt-3 max-w-[15ch] text-3xl font-semibold text-ink sm:text-4xl">{t.introTitle}</h2>
               <p className="mt-5 text-base leading-8 text-ink/72">{t.introBody}</p>
-              <Button href={localePath('/about/contact', locale)} variant="secondary" className="mt-7">
-                {t.cta}
-              </Button>
+              <div className="mt-7 flex flex-wrap gap-3">
+                <Button href={localePath('/vetiver', locale)} variant="primary">
+                  {t.introCta}
+                </Button>
+              </div>
+              <div className="pt-3">
+                <Button
+                  href={localePath('/projects/rdc', locale)}
+                  variant="tertiary"
+                  className="text-sm tracking-[0.16em]"
+                >
+                  {t.hubCta}
+                </Button>
+              </div>
             </div>
             <div className="relative overflow-hidden rounded-[2.2rem] border border-bark/10 bg-[#f2ecdf] p-3 shadow-card">
               <div className="relative aspect-[16/11] overflow-hidden rounded-[1.6rem]">
@@ -67,7 +78,7 @@ export function ProjectsPage({ locale }: { locale: Locale }) {
               </div>
               <div className="flex flex-wrap gap-3 lg:justify-end">
                 <Button href={localePath('/about/contact', locale)} variant="primary">
-                  {t.cta}
+                  {t.bandCta}
                 </Button>
                 <Button href={localePath('/get-involved', locale)} variant="secondary" className="border-white/18 bg-white/10 text-white hover:border-white/28 hover:bg-white/14">
                   {t.secondaryCta}
@@ -83,67 +94,71 @@ export function ProjectsPage({ locale }: { locale: Locale }) {
 
 const copy = {
   en: {
-    title: 'Projects',
+    title: 'Vetiver projects',
     subtitle:
-      'Present a project, explain the local need, and explore how VSF can support resilient action on the ground.',
+      'See how vetiver turns into practical projects, evidence, and partnership opportunities.',
     introEyebrow: 'Project intake',
-    introTitle: 'Turn a local need into a credible project proposal.',
+    introTitle: 'Show vetiver in action.',
     introBody:
-      'It is simple to present a project to our foundation. Committees review submissions based on their potential impact on the community and the clarity of the local leadership behind them.',
-    cta: 'Contact us',
+      'Projects are where a plain-language understanding of vetiver becomes a site plan, a field pilot, or a credible support path for donors and partners.',
+    introCta: 'Learn vetiver',
+    hubCta: 'Open RDC hub',
     imageAlt: 'Landscape showing a site where a land regeneration project could begin.',
-    processEyebrow: 'How it works',
-    processTitle: 'A straightforward path from idea to field support.',
+    processEyebrow: 'Portfolio logic',
+    processTitle: 'A straightforward path from vetiver basics to project support.',
     steps: [
       {
-        title: 'Describe the local challenge',
-        body: 'Explain the land, water, or resilience issue your community or organization is trying to address.'
+        title: 'Understand the plant',
+        body: 'Start with vetiver as a practical tool for soil, water, slope stability, and land recovery.'
       },
       {
-        title: 'Share the project context',
-        body: 'Tell us who is involved, what support already exists, and how the work could be implemented responsibly.'
+        title: 'Match it to the problem',
+        body: 'Each project should connect a real site condition to a vetiver-based response that can be maintained locally.'
       },
       {
-        title: 'Discuss fit with VSF',
-        body: 'We review the impact potential and explore whether the project aligns with VSF field action and technical capacity.'
+        title: 'Turn it into action',
+        body: 'The result can be a pilot, a flagship project, or a support path that donors and partners can understand.'
       }
     ],
     bandEyebrow: 'Start the conversation',
-    bandTitle: 'Write us today to discuss how your project could move forward.',
+    bandTitle: 'Bring us the site or the problem, and we start with vetiver.',
     bandBody:
-      'If you are ready to propose a project or want to test whether an idea is viable, contact us and we can begin with the local context and expected impact.',
+      'If you are ready to propose a project or want to sponsor existing work, start with the vetiver explainer or the RDC hub and contact us from there.',
+    bandCta: 'Contact us',
     secondaryCta: 'Get involved'
   },
   fr: {
-    title: 'Projets',
+    title: 'Projets vetiver',
     subtitle:
-      'Presentez un projet, decrivez le besoin local et voyez comment VSF peut soutenir une action resiliente sur le terrain.',
+      'Voyez comment le vetiver se transforme en projets pratiques, en preuves et en opportunites de partenariat.',
     introEyebrow: 'Depot de projet',
-    introTitle: 'Transformer un besoin local en proposition de projet credible.',
+    introTitle: 'Montrer le vetiver en action.',
     introBody:
-      'Il est simple de presenter un projet a notre fondation. Les comites examinent les propositions selon leur impact potentiel sur la communaute et la clarte du leadership local.',
-    cta: 'Contactez-nous',
+      'Les projets sont l endroit ou la comprehension simple du vetiver devient un plan de site, un projet pilote ou un chemin de soutien credible pour les donateurs et partenaires.',
+    introCta: 'Decouvrir le vetiver',
+    hubCta: 'Ouvrir le hub RDC',
     imageAlt: 'Paysage montrant un site ou un projet de regeneration pourrait commencer.',
-    processEyebrow: 'Comment cela fonctionne',
-    processTitle: 'Un chemin simple de l idee au soutien de terrain.',
+    processEyebrow: 'Logique du portefeuille',
+    processTitle: 'Un chemin simple des bases du vetiver au soutien de projet.',
     steps: [
       {
-        title: 'Decrire le defi local',
-        body: 'Expliquez le probleme de sol, d eau ou de resilience que votre communaute ou organisation cherche a traiter.'
+        title: 'Comprendre la plante',
+        body: 'Commencez par le vetiver comme outil pratique pour les sols, l eau, la stabilite des pentes et la restauration des terres.'
       },
       {
-        title: 'Partager le contexte du projet',
-        body: 'Precisez les acteurs impliques, les ressources deja presentes et les conditions de mise en oeuvre.'
+        title: 'Lier au probleme',
+        body: 'Chaque projet doit relier une condition de site a une reponse basee sur le vetiver et maintenable localement.'
       },
       {
-        title: 'Evaluer l adequation avec VSF',
-        body: 'Nous examinons le potentiel d impact et la compatibilite du projet avec notre action de terrain et notre appui technique.'
+        title: 'Passer a l action',
+        body: 'Le resultat peut etre un pilote, un projet phare ou un chemin de soutien que donateurs et partenaires comprennent.'
       }
     ],
     bandEyebrow: 'Commencer la discussion',
-    bandTitle: 'Ecrivez-nous des aujourd hui pour faire avancer votre projet.',
+    bandTitle: 'Apportez-nous le site ou le probleme, et nous commencons par le vetiver.',
     bandBody:
-      'Si vous etes pret a proposer un projet ou a verifier si une idee est realiste, contactez-nous pour commencer par le contexte local et l impact attendu.',
+      'Si vous etes pret a proposer un projet ou a parrainer un travail deja en cours, commencez par le vetiver ou le hub RDC puis contactez-nous.',
+    bandCta: 'Contactez-nous',
     secondaryCta: 'Participer'
   }
 } as const;

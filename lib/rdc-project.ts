@@ -143,12 +143,12 @@ export const RDC_PROJECT: Record<Locale, RdcLocaleContent> = {
       'A public hub for VSF’s RDC work: low-input vetiver systems as an alternative to costly, import-dependent agriculture in the Congo Basin.',
     introTitle: 'What this hub does',
     introBody:
-      'This hub translates a real field initiative into a public-facing system. It connects mission, evidence themes, editorial storytelling, and support pathways—while keeping sensitive operating details in the working docs.',
+      'This hub turns a real field initiative into a public path for donors and partners. It keeps the story, evidence, and support routes together while sensitive operating details stay in working docs.',
     primaryCta: 'Support the project',
     secondaryCta: 'Explore the overview',
     storyCta: 'Read the flagship story',
     whyTitle: 'Why this matters now',
-    whySubtitle: 'The cost of imported agriculture is rising. This project explores a lower-input path rooted in local resilience.',
+    whySubtitle: 'Imported-input agriculture is fragile and expensive. This project explores a lower-input path rooted in local resilience.',
     whyCards: [
       {
         title: 'Rising input costs',
@@ -156,7 +156,7 @@ export const RDC_PROJECT: Record<Locale, RdcLocaleContent> = {
       },
       {
         title: 'Low-input alternative',
-        body: 'Vetiver supports a no-till, lower-input pathway that may reduce pressure on soils, labor, and external purchases.'
+        body: 'Vetiver supports a no-till, lower-input pathway that can reduce pressure on soils, labor, and external purchases.'
       },
       {
         title: 'Local value creation',
@@ -408,7 +408,7 @@ export const RDC_PROJECT: Record<Locale, RdcLocaleContent> = {
     ],
     footerTitle: 'Support a grounded alternative',
     footerBody:
-      'This hub is designed to keep the public story connected to real field work. Support helps VSF document evidence, strengthen the public case, and test practical next steps in RDC.'
+      'This hub keeps the public story connected to real field work. Support helps VSF document evidence, strengthen the public case, and test practical next steps in RDC.'
   },
   fr: {
     eyebrow: 'Hub projet RDC',
@@ -418,62 +418,62 @@ export const RDC_PROJECT: Record<Locale, RdcLocaleContent> = {
       'Un hub public pour le travail RDC de VSF : des systèmes vétiver à faibles intrants comme alternative à une agriculture coûteuse et dépendante des importations.',
     introTitle: 'Ce que fait ce hub',
     introBody:
-      'Ce hub transforme une initiative de terrain réelle en système public. Il relie la mission, les thèmes de preuve, le récit éditorial et les voies de soutien, tout en gardant les détails sensibles dans les documents de travail.',
+      'Ce hub transforme une initiative de terrain réelle en voie publique pour les donateurs et les partenaires. Il relie le recit, les preuves et les voies de soutien, tout en gardant les details sensibles dans les documents de travail.',
     primaryCta: 'Soutenir le projet',
     secondaryCta: 'Découvrir la vue d’ensemble',
     storyCta: 'Lire le récit phare',
     whyTitle: 'Pourquoi cela compte maintenant',
     whySubtitle:
-      'Le coût d’une agriculture dépendante des importations augmente. Ce projet explore une voie à moindres intrants ancrée dans la résilience locale.',
+      'Une agriculture dependante des importations est fragile et couteuse. Ce projet explore une voie a moindres intrants ancree dans la resilience locale.',
     whyCards: [
       {
         title: 'Hausse des coûts d’intrants',
-        body: 'La guerre, la volatilité du prix du pétrole, le coût des engrais et la dépendance aux importations rendent l’agriculture conventionnelle plus fragile et plus chère.'
+        body: 'La guerre, la volatilite du prix du petrole, le cout des engrais et la dependance aux importations rendent l agriculture conventionnelle plus fragile et plus chere.'
       },
       {
         title: 'Alternative à faibles intrants',
-        body: 'Le vétiver soutient une voie sans labour et à faibles intrants qui peut réduire la pression sur les sols, la main-d’œuvre et les achats externes.'
+        body: 'Le vetiver soutient une voie sans labour et a faibles intrants qui peut reduire la pression sur les sols, la main-d oeuvre et les achats externes.'
       },
       {
         title: 'Création de valeur locale',
-        body: 'Au-delà de la gestion des parcelles, le vétiver peut ouvrir des pistes de produits locaux, comme le savon et de futurs pilotes de transformation.'
+        body: 'Au dela de la gestion des parcelles, le vetiver peut ouvrir des pistes de produits locaux, comme le savon et de futurs pilotes de transformation.'
       }
     ],
     layersTitle: 'Axes publics',
-    layersSubtitle: 'Ces thèmes doivent être compris sans exposer les détails opérationnels internes.',
+    layersSubtitle: 'Ces themes doivent etre compris sans exposer les details operationnels internes.',
     layers: [
       {
         title: 'Preuves terrain',
-        body: 'Documenter la performance du vétiver en conditions réelles à travers l’apprentissage par site, les mesures et les preuves visuelles.'
+        body: 'Documenter la performance du vetiver en conditions reelles a travers l apprentissage par site, les mesures et les preuves visuelles.'
       },
       {
         title: 'Résilience agricole',
-        body: 'Montrer comment le vétiver peut soutenir la restauration des terres, la réduction de l’érosion, la baisse de la pression de travail et une production plus stable.'
+        body: 'Montrer comment le vetiver peut soutenir la restauration des terres, la reduction de l erosion, la baisse de la pression de travail et une production plus stable.'
       },
       {
         title: 'Narration éditoriale',
-        body: 'Publier une série publique en sept temps qui explique le problème, l’alternative et la logique de terrain dans un langage accessible.'
+        body: 'Publier une serie publique en sept temps qui explique le probleme, l alternative et la logique de terrain dans un langage accessible.'
       },
       {
         title: 'Voies d’action',
-        body: 'Transformer la compréhension publique en soutien : financer les preuves, les hectares, les produits pilotes et le travail de plaidoyer.'
+        body: 'Transformer la comprehension publique en soutien : financer les preuves, les hectares, les produits pilotes et le travail de plaidoyer.'
       }
     ],
     geographyTitle: 'Ancré dans des lieux réels',
     geographySubtitle:
-      'Ce travail est déjà relié à plusieurs lieux en RDC, avec des notes de terrain, des points de passage et des groupes de sites émergents.',
+      'Ce travail est deja relie a plusieurs lieux en RDC, avec des notes de terrain, des points de passage et des groupes de sites emergents.',
     geographyCards: [
       {
         title: 'Apprentissage multi-sites',
-        body: 'Le projet est relié à plusieurs provinces et lieux de terrain en RDC, ce qui aide à garder l’apprentissage ancré dans des conditions réelles.'
+        body: 'Le projet est relie a plusieurs provinces et lieux de terrain en RDC, ce qui aide a garder l apprentissage ancre dans des conditions reelles.'
       },
       {
         title: 'Validation de sites en cours',
-        body: 'Certains lieux sont déjà documentés par des déplacements terrain, des relevés GPS et des rapports de site.'
+        body: 'Certains lieux sont deja documentes par des deplacements terrain, des releves GPS et des rapports de site.'
       },
       {
         title: 'La géographie comme gage de confiance',
-        body: 'À mesure que la validation progresse, la géographie publique peut devenir plus précise sans exposer les détails sensibles.'
+        body: 'A mesure que la validation progresse, la geographie publique peut devenir plus precise sans exposer les details sensibles.'
       }
     ],
     fieldAnchorTitle: 'Ancre terrain',
@@ -481,24 +481,24 @@ export const RDC_PROJECT: Record<Locale, RdcLocaleContent> = {
     fieldAnchorBody:
       'Le travail d’Eric Mpongo sur le terrain donne à ce projet son ancrage pratique. Le hub public doit relier les récits, l’apprentissage des sites et les thèmes de preuve aux conditions réelles du terrain plutôt qu’à des affirmations abstraites.',
     fieldAnchorQuote:
-      'La validation terrain vient d’abord. Le récit public doit rester lié à ce qui se passe réellement sur le terrain.',
+      'La validation terrain vient d abord. Le recit public doit rester lie a ce qui se passe reellement sur le terrain.',
     timelineTitle: 'Feuille de route publique',
-    timelineSubtitle: 'Une vue simple en trois phases des prochaines étapes.',
+    timelineSubtitle: 'Une vue simple en trois phases des prochaines etapes.',
     timeline: [
       {
         period: 'Phase 1',
         title: 'Clarifier le cas public',
-        body: 'Affiner l’argument public autour du brûlis, du sans labour, des faibles intrants et de la résilience.'
+        body: 'Affiner l argument public autour du brulis, du sans labour, des faibles intrants et de la resilience.'
       },
       {
         period: 'Phase 2',
         title: 'Publier des thèmes de preuve crédibles',
-        body: 'Diffuser le récit phare et les textes de soutien qui relient la logique de terrain, la pratique agricole et l’intérêt des donateurs.'
+        body: 'Diffuser le recit phare et les textes de soutien qui relient la logique de terrain, la pratique agricole et l interet des donateurs.'
       },
       {
         period: 'Phase 3',
         title: 'Convertir le soutien en capacité d’action',
-        body: 'Utiliser le hub, le flux d’articles et les pages de don pour financer les preuves, la validation et les premiers pilotes.'
+        body: 'Utiliser le hub, le flux d articles et les pages de don pour financer les preuves, la validation et les premiers pilotes.'
       }
     ],
     ownersTitle: 'Planification interne',
@@ -630,32 +630,32 @@ export const RDC_PROJECT: Record<Locale, RdcLocaleContent> = {
       }
     ],
     dataTitle: 'Ce que nous suivons publiquement',
-    dataSubtitle: 'Des indicateurs généraux qui gardent le récit ancré dans le réel.',
+    dataSubtitle: 'Des indicateurs generaux qui gardent le recit ancre dans le reel.',
     dataIntro:
-      'Nous publions des indicateurs de haut niveau seulement lorsqu’ils peuvent être expliqués clairement et reliés à des conditions de terrain observées.',
+      'Nous publions des indicateurs de haut niveau seulement lorsqu ils peuvent etre expliques clairement et relies a des conditions de terrain observees.',
     fieldMetrics: [
       {
         label: 'Rendement',
         unit: 'kg/ha ou nombre de cultures',
-        howMeasured: 'Comparer les parcelles gérées avec vétiver au niveau de base conventionnel.'
+        howMeasured: 'Comparer les parcelles gerees avec vetiver au niveau de base conventionnel.'
       },
       {
         label: 'Coût évité',
         unit: 'CAD/ha',
-        howMeasured: 'Suivre les intrants, le défrichage ou les coûts liés à l’érosion qui ne doivent plus être payés.'
+        howMeasured: 'Suivre les intrants, le defrichage ou les couts lies a l erosion qui ne doivent plus etre payes.'
       },
       {
         label: 'Réduction de la main-d’œuvre',
         unit: 'heures/ha',
-        howMeasured: 'Mesurer le désherbage manuel, la préparation du sol et le temps d’entretien avant/après.'
+        howMeasured: 'Mesurer le desherbage manuel, la preparation du sol et le temps d entretien avant/apres.'
       },
       {
         label: 'Comparaison avec le conventionnel',
         unit: 'qualitatif + numérique',
-        howMeasured: 'Comparer la pratique conventionnelle actuelle avec l’approche vétiver, en notant les différences mesurées et observées.'
+        howMeasured: 'Comparer la pratique conventionnelle actuelle avec l approche vetiver, en notant les differences mesurees et observees.'
       }
     ],
-    dataTemplate: 'Enregistrer l’indicateur, le point de comparaison, le changement observé et une note courte.',
+    dataTemplate: 'Enregistrer l indicateur, le point de comparaison, le changement observe et une note courte.',
     pilotsTitle: 'Idées produits en revue',
     pilotsSubtitle: 'Garder les idées produit disciplinées et modestes tant que les preuves de terrain et la faisabilité de base ne justifient pas un investissement plus poussé.',
     pilots: [
@@ -684,7 +684,7 @@ export const RDC_PROJECT: Record<Locale, RdcLocaleContent> = {
     ],
     footerTitle: 'Soutenir une alternative ancrée',
     footerBody:
-      'Ce hub est conçu pour garder le récit public relié au travail de terrain. Le soutien aide VSF à documenter les preuves, renforcer le cas public et tester les prochaines étapes pratiques en RDC.'
+      'Ce hub est conçu pour garder le recit public relie au travail de terrain. Le soutien aide VSF a documenter les preuves, renforcer le cas public et tester les prochaines etapes pratiques en RDC.'
   }
 };
 
