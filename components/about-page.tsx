@@ -22,14 +22,16 @@ export function AboutPage({ locale }: { locale: Locale }) {
               <p className="mt-5 text-base leading-8 text-ink/72">{t.introBodyOne}</p>
               <p className="mt-4 text-base leading-8 text-ink/68">{t.introBodyTwo}</p>
               <div className="mt-7 flex flex-wrap gap-3">
-                <Button href={localePath('/vetiver', locale)} variant="secondary">
-                  {t.introCta}
-                </Button>
-                <Button href={localePath('/projects/rdc', locale)} variant="tertiary" className="text-sm tracking-[0.16em]">
-                  {t.hubCta}
-                </Button>
                 <Button href={DONATE_URL} external target="_blank" rel="noreferrer">
-                  {t.secondaryCta}
+                  {t.donateCta}
+                </Button>
+                <Button href={localePath('/get-involved', locale)} variant="secondary">
+                  {t.involvedCta}
+                </Button>
+              </div>
+              <div className="pt-3">
+                <Button href={localePath('/vetiver', locale)} variant="tertiary" className="text-sm tracking-[0.16em]">
+                  {t.introCta}
                 </Button>
               </div>
             </div>
@@ -126,7 +128,8 @@ const copy = {
     introBodyTwo:
       'We support that work with education, technical guidance, project support, and public evidence that donors and partners can trust.',
     introCta: 'Learn vetiver',
-    hubCta: 'Open RDC hub',
+    donateCta: 'Donate',
+    involvedCta: 'Get involved',
     secondaryCta: 'Donate',
     supportCta: 'Get involved',
     imageAltOne: 'VSF team and community members in a field setting.',
@@ -165,7 +168,8 @@ const copy = {
     introBodyTwo:
       'Nous soutenons ce travail par la formation, l accompagnement technique, l appui aux projets et des preuves publiques fiables pour les donateurs et partenaires.',
     introCta: 'Decouvrir le vetiver',
-    hubCta: 'Ouvrir le hub RDC',
+    donateCta: 'Faire un don',
+    involvedCta: 'Participer',
     secondaryCta: 'Faire un don',
     supportCta: 'Participer',
     imageAltOne: 'Equipe VSF et membres de la communaute sur le terrain.',

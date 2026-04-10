@@ -63,6 +63,8 @@ export function HeroSection({
             >
               {copy.involvedLabel}
             </Button>
+          </div>
+          <div className="pt-3">
             <Button
               href={localePath(copy.learnMoreHref ?? '/vetiver', locale)}
               variant="tertiary"
