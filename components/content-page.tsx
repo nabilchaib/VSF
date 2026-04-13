@@ -5,6 +5,7 @@ import { AboutPage } from '@/components/about-page';
 import { ContactPage } from '@/components/contact-page';
 import { Container } from '@/components/container';
 import { FormEmbed } from '@/components/form-embed';
+import { ArticleEndCta } from '@/components/article-end-cta';
 import { GetInvolvedPage } from '@/components/get-involved-page';
 import { HomePage } from '@/components/home-page';
 import { HtmlContent } from '@/components/html-content';
@@ -102,6 +103,7 @@ export async function renderEntryPage(entry: ContentEntry, locale: Locale) {
           </article>
         </Container>
       </section>
+      {isPost ? <ArticleEndCta locale={locale} intent={entry.intent} /> : null}
       {shouldShowRdcPromo(entry) ? <RdcProjectPromo locale={locale} /> : null}
     </>
   );
@@ -120,12 +122,5 @@ function isContactPage(slug: string, locale: Locale) {
 }
 
 function shouldShowRdcPromo(entry: ContentEntry) {
-  if (
-    entry.type === 'post' &&
-    entry.slug === 'from-fire-to-future-understanding-and-breaking-the-cycle-of-slash-and-burn-agriculture'
-  ) {
-    return true;
-  }
-
   return entry.type === 'page' && (entry.slug === 'projects' || entry.slug === 'get-involved');
 }

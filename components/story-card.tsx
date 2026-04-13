@@ -3,6 +3,7 @@ import Image from 'next/image';
 import { Button } from '@/components/button';
 import { getHeroImageForEntry } from '@/components/page-hero';
 import { getEntryPath, type ContentEntry } from '@/lib/content';
+import { getArticleIntentLabel } from '@/lib/article-routing';
 import { formatDate, getMediaUrl, type Locale } from '@/lib/site';
 
 export function StoryCard({
@@ -26,6 +27,9 @@ export function StoryCard({
         />
       </div>
       <div className="flex h-full flex-col gap-4 p-6">
+        <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-bark/56">
+          {getArticleIntentLabel(locale, entry.intent)}
+        </p>
         <p className="text-[11px] font-medium uppercase tracking-[0.18em] text-bark/56">
           {formatDate(entry.publishedAt, locale)}
         </p>

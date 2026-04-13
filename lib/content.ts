@@ -19,6 +19,12 @@ const contentSchema = z.object({
   seoTitle: z.string().optional(),
   seoDescription: z.string().optional(),
   ogImage: z.string().optional(),
+  intent: z.union([
+    z.literal('education'),
+    z.literal('field_evidence'),
+    z.literal('active_project'),
+    z.literal('services_or_partnership')
+  ]).optional(),
   publishedAt: z.string(),
   updatedAt: z.string().optional(),
   tags: z.array(z.string()).default([]),
