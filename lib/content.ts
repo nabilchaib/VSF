@@ -19,6 +19,21 @@ const contentSchema = z.object({
   seoTitle: z.string().optional(),
   seoDescription: z.string().optional(),
   ogImage: z.string().optional(),
+  intent: z.union([
+    z.literal('education'),
+    z.literal('field_evidence'),
+    z.literal('active_project'),
+    z.literal('services_or_partnership')
+  ]).optional(),
+  ctaTarget: z.union([
+    z.literal('vetiver'),
+    z.literal('projects'),
+    z.literal('get-involved'),
+    z.literal('rdc'),
+    z.literal('san-rafael'),
+    z.literal('services'),
+    z.literal('contact')
+  ]).optional(),
   publishedAt: z.string(),
   updatedAt: z.string().optional(),
   tags: z.array(z.string()).default([]),
