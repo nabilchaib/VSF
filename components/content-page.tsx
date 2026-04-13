@@ -103,7 +103,7 @@ export async function renderEntryPage(entry: ContentEntry, locale: Locale) {
           </article>
         </Container>
       </section>
-      {isPost ? <ArticleEndCta locale={locale} intent={entry.intent} /> : null}
+      {isPost ? <ArticleEndCta locale={locale} intent={entry.intent} ctaTarget={entry.ctaTarget} /> : null}
       {shouldShowRdcPromo(entry) ? <RdcProjectPromo locale={locale} /> : null}
     </>
   );

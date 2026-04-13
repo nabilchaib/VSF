@@ -2,18 +2,22 @@ import { Button } from '@/components/button';
 import { Container } from '@/components/container';
 import {
   getArticleEndCtaCopy,
+  getLocalizedArticleHref,
+  type ArticleCtaTarget,
   type ArticleIntent
 } from '@/lib/article-routing';
 import { type Locale } from '@/lib/site';
 
 export function ArticleEndCta({
   locale,
-  intent
+  intent,
+  ctaTarget
 }: {
   locale: Locale;
   intent?: ArticleIntent;
+  ctaTarget?: ArticleCtaTarget;
 }) {
-  const copy = getArticleEndCtaCopy(locale, intent);
+  const copy = getArticleEndCtaCopy(locale, intent, ctaTarget);
 
   return (
     <section className="bg-[#f3ede2] py-14 lg:py-20">
@@ -24,7 +28,7 @@ export function ArticleEndCta({
           <p className="mt-4 max-w-2xl text-base leading-8 text-white/78">{copy.body}</p>
           <div className="mt-6 flex flex-wrap gap-3">
             <Button
-              href={copy.primary.href}
+              href={getLocalizedArticleHref(copy.primary.href, locale)}
               external={copy.primary.external}
               target={copy.primary.external ? '_blank' : undefined}
               rel={copy.primary.external ? 'noreferrer' : undefined}
@@ -33,7 +37,7 @@ export function ArticleEndCta({
               {copy.primary.label}
             </Button>
             <Button
-              href={copy.secondary.href}
+              href={getLocalizedArticleHref(copy.secondary.href, locale)}
               external={copy.secondary.external}
               target={copy.secondary.external ? '_blank' : undefined}
               rel={copy.secondary.external ? 'noreferrer' : undefined}
@@ -43,7 +47,7 @@ export function ArticleEndCta({
               {copy.secondary.label}
             </Button>
             <Button
-              href={copy.tertiary.href}
+              href={getLocalizedArticleHref(copy.tertiary.href, locale)}
               external={copy.tertiary.external}
               target={copy.tertiary.external ? '_blank' : undefined}
               rel={copy.tertiary.external ? 'noreferrer' : undefined}
