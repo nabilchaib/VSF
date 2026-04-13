@@ -1,6 +1,7 @@
 import type { MetadataRoute } from 'next';
 
 import { getAllEntries, getEntryPath } from '@/lib/content';
+import { PROJECT_PATHS } from '@/lib/projects';
 import { getAbsoluteUrl } from '@/lib/site';
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
@@ -21,22 +22,62 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       lastModified: latestPostDate
     },
     {
-      url: getAbsoluteUrl('/projects/rdc'),
+      url: getAbsoluteUrl(PROJECT_PATHS.rdc.en),
       lastModified: new Date(),
       alternates: {
         languages: {
-          en: getAbsoluteUrl('/projects/rdc'),
-          fr: getAbsoluteUrl('/fr/projects/rdc')
+          en: getAbsoluteUrl(PROJECT_PATHS.rdc.en),
+          fr: getAbsoluteUrl(PROJECT_PATHS.rdc.fr)
         }
       }
     },
     {
-      url: getAbsoluteUrl('/fr/projects/rdc'),
+      url: getAbsoluteUrl(PROJECT_PATHS.sanRafael.en),
       lastModified: new Date(),
       alternates: {
         languages: {
-          en: getAbsoluteUrl('/projects/rdc'),
-          fr: getAbsoluteUrl('/fr/projects/rdc')
+          en: getAbsoluteUrl(PROJECT_PATHS.sanRafael.en),
+          fr: getAbsoluteUrl(PROJECT_PATHS.sanRafael.fr)
+        }
+      }
+    },
+    {
+      url: getAbsoluteUrl(PROJECT_PATHS.propose.en),
+      lastModified: new Date(),
+      alternates: {
+        languages: {
+          en: getAbsoluteUrl(PROJECT_PATHS.propose.en),
+          fr: getAbsoluteUrl(PROJECT_PATHS.propose.fr)
+        }
+      }
+    },
+    {
+      url: getAbsoluteUrl(PROJECT_PATHS.rdc.fr),
+      lastModified: new Date(),
+      alternates: {
+        languages: {
+          en: getAbsoluteUrl(PROJECT_PATHS.rdc.en),
+          fr: getAbsoluteUrl(PROJECT_PATHS.rdc.fr)
+        }
+      }
+    },
+    {
+      url: getAbsoluteUrl(PROJECT_PATHS.sanRafael.fr),
+      lastModified: new Date(),
+      alternates: {
+        languages: {
+          en: getAbsoluteUrl(PROJECT_PATHS.sanRafael.en),
+          fr: getAbsoluteUrl(PROJECT_PATHS.sanRafael.fr)
+        }
+      }
+    },
+    {
+      url: getAbsoluteUrl(PROJECT_PATHS.propose.fr),
+      lastModified: new Date(),
+      alternates: {
+        languages: {
+          en: getAbsoluteUrl(PROJECT_PATHS.propose.en),
+          fr: getAbsoluteUrl(PROJECT_PATHS.propose.fr)
         }
       }
     }

@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { Button } from '@/components/button';
 import { Container } from '@/components/container';
 import { PageHero } from '@/components/page-hero';
-import { DONATE_URL, SOCIAL_LINKS, getMediaUrl, type Locale } from '@/lib/site';
+import { DONATE_URL, SOCIAL_LINKS, getMediaUrl, localePath, type Locale } from '@/lib/site';
 
 export function GetInvolvedPage({ locale }: { locale: Locale }) {
   const t = copy[locale];
@@ -18,13 +18,26 @@ export function GetInvolvedPage({ locale }: { locale: Locale }) {
             {t.cards.map((card) => (
               <div key={card.title} className="overflow-hidden rounded-[2.1rem] border border-bark/10 bg-white shadow-card">
                 <div className="relative aspect-[16/10]">
-                  <Image src={getMediaUrl(card.image)} alt={card.title} fill className="object-cover" sizes="(min-width: 1024px) 42vw, 100vw" />
+                  <Image
+                    src={getMediaUrl(card.image)}
+                    alt={card.title}
+                    fill
+                    className="object-cover"
+                    sizes="(min-width: 1024px) 42vw, 100vw"
+                  />
                 </div>
                 <div className="p-6 lg:p-7">
                   <p className="text-sm font-semibold uppercase tracking-[0.2em] text-bark/58">{card.eyebrow}</p>
                   <h2 className="mt-3 text-2xl font-semibold text-ink lg:text-3xl">{card.title}</h2>
                   <p className="mt-4 text-base leading-8 text-ink/72">{card.body}</p>
-                  <Button href={card.href} external={card.external} target={card.external ? '_blank' : undefined} rel={card.external ? 'noreferrer' : undefined} variant={card.variant} className="mt-6">
+                  <Button
+                    href={card.external ? card.href : localePath(card.href, locale)}
+                    external={card.external}
+                    target={card.external ? '_blank' : undefined}
+                    rel={card.external ? 'noreferrer' : undefined}
+                    variant={card.variant}
+                    className="mt-6"
+                  >
                     {card.cta}
                   </Button>
                 </div>
@@ -75,7 +88,7 @@ const copy = {
         title: 'Bring a local need or idea to the conversation.',
         body: 'If your community needs stronger resilience against climate pressure, propose an initiative and explore how the Vetiver System can support long-term impact.',
         cta: 'Propose a project',
-        href: '/about/contact',
+        href: '/projects/propose',
         external: false,
         variant: 'secondary' as const,
         image: '2026/02/Gemini_Generated_Image_m5evwqm5evwqm5ev-scaled.webp'
@@ -117,7 +130,7 @@ const copy = {
         title: 'Comprendre le vetiver avant de choisir la suite.',
         body: 'Si vous decouvrez le sujet, commencez par le guide simple sur le vetiver et voyez ce que la plante peut faire avant de decider comment aider.',
         cta: 'Decouvrir le vetiver',
-        href: '/fr/vetiver',
+        href: '/vetiver',
         external: false,
         variant: 'secondary' as const,
         image: '2026/02/Gemini_Generated_Image_7fcdjg7fcdjg7fcd-scaled.webp'
@@ -127,7 +140,7 @@ const copy = {
         title: 'Apporter un besoin local ou une idee a la discussion.',
         body: 'Si votre communaute a besoin d une meilleure resilience face au climat, proposez une initiative et voyez comment le Systeme Vetiver peut soutenir un impact durable.',
         cta: 'Proposer un projet',
-        href: '/fr/contact',
+        href: '/projects/propose',
         external: false,
         variant: 'secondary' as const,
         image: '2026/02/Gemini_Generated_Image_m5evwqm5evwqm5ev-scaled.webp'
@@ -137,7 +150,7 @@ const copy = {
         title: 'Soutenir directement une initiative qui vous parle.',
         body: 'Les porteurs de projet ont souvent besoin d un soutien cible pour faire aboutir leur travail. Consultez le hub RDC pour voir le projet phare et les voies de soutien.',
         cta: 'Ouvrir le hub RDC',
-        href: '/fr/projects/rdc',
+        href: '/projects/rdc',
         external: false,
         variant: 'secondary' as const,
         image: '2026/02/Gemini_Generated_Image_e3g0qde3g0qde3g0-scaled.webp'

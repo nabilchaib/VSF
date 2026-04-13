@@ -1,7 +1,10 @@
 import type { Metadata } from 'next';
 
+import { Button } from '@/components/button';
+import { Container } from '@/components/container';
 import { StoryCard } from '@/components/story-card';
 import { getEntriesByType } from '@/lib/content';
+import { localePath } from '@/lib/site';
 import { getAbsoluteUrl } from '@/lib/site';
 
 export const metadata: Metadata = {
@@ -26,6 +29,26 @@ export default async function StoriesPage() {
           <StoryCard key={post.slug} entry={post} locale="en" />
         ))}
       </div>
+      <Container>
+        <div className="rounded-[2.2rem] border border-bark/10 bg-white px-7 py-8 shadow-card lg:px-9">
+          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-bark/60">Looking for a next step?</p>
+          <h2 className="mt-3 text-3xl font-semibold text-ink sm:text-4xl">Choose the path that matches the story.</h2>
+          <p className="mt-4 max-w-3xl text-base leading-8 text-ink/72">
+            Stories point to learning, project support, partnership, and new ideas. Pick the route that fits what you want to do next.
+          </p>
+          <div className="mt-6 flex flex-wrap gap-3">
+            <Button href={localePath('/projects', 'en')} variant="secondary">
+              Browse projects
+            </Button>
+            <Button href={localePath('/get-involved', 'en')} variant="secondary">
+              Get involved
+            </Button>
+            <Button href={localePath('/about/contact', 'en')} variant="tertiary">
+              Contact VSF
+            </Button>
+          </div>
+        </div>
+      </Container>
       <link rel="canonical" href={getAbsoluteUrl('/stories')} />
     </section>
   );
