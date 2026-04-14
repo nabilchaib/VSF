@@ -15,21 +15,33 @@ The website is the public surface of a broader VSF operating system:
 - content engine
 - automation and AI leverage
 
-## Status Update
+## Current Launch State
 
-Completed in this branch:
-- core public pages rewritten around the donor / partner journey
-- RDC promoted as the primary credibility hub
-- hero and intro CTA hierarchy standardized so education links sit below primary actions
+As of mid-April 2026, the website migration is **past the major architecture phase** and now in the **launch-readiness / cutover phase**.
+
+Completed or substantially completed:
+- core public pages rewritten around a clearer donor / partner journey
+- vetiver-first homepage and public narrative in place
+- CTA hierarchy standardized so education sits below primary support paths
+- EN and FR metadata / SEO refreshed across core pages
 - visible WordPress leftovers reduced in rendered HTML
-- metadata / SEO frontmatter refreshed for EN and FR pages
-- build verified successfully
+- Projects layer rebuilt into a portfolio gateway
+- public project paths now include RDC, San Rafael, and a proposal route
+- story and article pages now use intent-based CTA routing
+- content-level CTA targeting added so posts can point to the right next step
+- Google Ads operating flow upgraded with OAuth refresh, draft creation, and approval-gated live changes
 
-Remaining focus:
-- finish any residual public-facing copy cleanup
-- keep media handling staged unless a specific page needs migration
-- continue tightening article and story paths into the RDC / donor funnel
-- document the clean-restart workflow for Next.js dev when HMR or webpack runtime state breaks local rendering
+This means the site is no longer blocked by broad architecture or messaging work.
+The main work left is final validation, cleanup, and cutover confidence.
+
+## Current Remaining Launch-Critical Work
+
+1. Finish residual public-facing copy cleanup.
+2. Review public proof-point claims before broad promotion.
+3. Confirm final donation and contact paths on live pages.
+4. Validate bilingual internal routing and key CTA destinations in a final launch pass.
+5. Decide and document the launch stance for media dependencies that still remain staged.
+6. Add the local development recovery note for Next.js / HMR failures.
 
 ## 2026 Strategic Priorities
 
@@ -38,189 +50,163 @@ Remaining focus:
 3. **Use AI and automation aggressively** where useful and low-friction.
 4. **Preserve and expose real field credibility**, especially RDC evidence and reporting.
 5. **Make the site reflect current VSF reality**, not inherited WordPress copy.
-6. **Support grants and donor conversion**, starting with CFLI and RDC-related public trust assets.
+6. **Support grants and donor conversion** through clear project, donation, and partnership paths.
 
-## Immediate Reality Check
+## Current Operating Model
 
-The new Next.js site is already the right platform, but it is not yet ready to replace WordPress fully.
+The public model should now be understood as:
+- **one message and multiple destinations**
+- not one message and one destination
 
-Main gaps still to resolve before replacement:
-- rewrite the core public pages: Home, Projects, About, Services, Contact, Get Involved
-- remove migration leftovers like WordPress shortcodes and placeholder links
-- replace absolute WordPress internal links with proper internal routes
-- decide whether media stays temporarily on WordPress uploads or gets fully moved to R2
-- confirm contact/newsletter form handling
-- make sure the site reflects current VSF reality, not legacy site text
+That means:
+- Home teaches vetiver first
+- Vetiver explains the plant in plain language
+- Projects acts as the portfolio gateway
+- RDC acts as a flagship proof hub
+- San Rafael acts as an active field path when campaign-ready
+- stories route into the right next step instead of ending cold
+- Contact / Services / Get involved remain valid conversion paths depending on intent
 
 ## Program Streams
 
-Codex should think in parallel streams, not a single backlog.
+Codex should still think in parallel streams, but their current maturity is different.
 
 ### Stream A — Operating Site Launch
 Goal: ship a public-facing site that accurately represents VSF and can support donor growth.
 
+**Status:** In final launch-readiness phase.
+
 ### Stream B — Content and Conversion Engine
 Goal: turn articles, case studies, and project pages into donor-facing entry points.
+
+**Status:** Core structure in place; needs final QA and continued editorial use.
 
 ### Stream C — RDC Evidence and Credibility Layer
 Goal: surface trustworthy field evidence and policy/reporting credibility without making the site feel academic or bureaucratic.
 
+**Status:** Public hub established; continue strengthening proof discipline and article connection.
+
 ### Stream D — Growth / Automation / AI
 Goal: reduce manual work in publishing, lead capture, CRM updates, and campaign operations.
+
+**Status:** Ads workflow improved; broader automation still mostly ahead.
 
 ### Stream E — Foundation Structure
 Goal: make the site and repo usable as the public layer of a broader operating system.
 
-## Phase 1 — Launch Blocking Fixes
+**Status:** Directionally in place; continue documentation and low-friction operational scaffolding.
 
-### 1. Rewrite Core Pages
-Priority pages:
+## Phase 1 — Launch-Blocking Validation and Cleanup
+
+### 1. Final Launch-Readiness Audit
+Review all launch-critical public routes:
 - Home
+- Vetiver
 - Projects
-- About
-- Services
+- RDC
+- San Rafael
+- Propose a project
+- Get involved
 - Contact
-- Get Involved
-
-Requirements:
-- reflect current VSF priorities, not legacy broad generic messaging
-- emphasize field work, credibility, partnership, and practical outcomes
-- create clean CTA paths: donate, sponsor a project, partner, propose a project, contact
-- align EN and FR structures
+- Services
+- Stories listing
+- representative article pages in EN and FR
 
 Acceptance criteria:
-- no page reads like a direct WordPress carryover
-- no thin placeholder copy
-- every major page has a clear role in the donor/partner journey
-- copy supports credibility and conversion without sounding like corporate marketing fluff
+- all launch-critical routes reviewed
+- no broken primary CTA paths remain
+- no obvious dead-end pages remain
 
-### 2. Remove Migration Leftovers
+### 2. Final CTA and Routing Verification
+Validate that visible CTAs route correctly for:
+- donate
+- contact
+- get involved
+- projects
+- RDC
+- San Rafael
+- propose a project
+- services
+
+Acceptance criteria:
+- donation and contact paths are correct
+- EN/FR localization is correct
+- article-end CTAs point to the right destinations
+
+### 3. Remove Remaining Migration Leftovers
 Audit and fix:
-- WP shortcodes
-- absolute WordPress internal links
-- `href="#"` and dead placeholder links
-- pages that still depend on legacy uploads or WP-only constructs
+- remaining WordPress artifacts
+- dead placeholder links
+- broken internal routes
+- any visible legacy text remnants on launch-critical pages
 
 Acceptance criteria:
-- no visible WordPress artifacts in production-facing content
-- no dead internal CTA links
-- all internal navigation uses proper localized routes
+- no visible WordPress leftovers remain on launch-critical pages
+- internal navigation uses proper localized routes
+- no dead CTA links remain
 
-### 3. Resolve Media Strategy
+### 4. Decide and Document Media Launch Stance
 Decision needed:
-- temporary hybrid using existing WordPress-hosted media
-- or full migration to Cloudflare R2
+- continue hybrid use of existing WordPress-hosted media for launch
+- or move specific launch-critical dependencies now
 
 Codex should:
-- inventory current media dependencies
-- identify the pages/posts still tied to WP-hosted media
-- recommend a pragmatic cutover path
-
-Preferred default:
-- use a staged approach if full migration delays launch
-- but keep a clear path to full R2 ownership
+- identify which launch-critical pages still rely on staged media
+- classify each dependency as launch-safe, pre-launch required, or post-launch cleanup
+- document the chosen launch stance clearly
 
 Acceptance criteria:
-- media plan is explicit and documented
+- media strategy is explicit and documented
 - launch is not blocked by vague media uncertainty
 
-### 4. Confirm Form Handling
-Needed forms:
+### 5. Confirm Form Handling and Key Conversion Paths
+Needed flows:
 - contact
 - newsletter / donor updates
-- possibly propose-a-project intake
+- propose-a-project intake if exposed publicly
 
 Codex should:
-- confirm current provider-agnostic form configuration
-- ensure there is a working implementation path
-- connect forms to a simple lead capture structure if possible
+- confirm the current form implementation path
+- verify that each visible form CTA is functional or intentionally disabled
+- document what is wired versus staged
 
 Acceptance criteria:
-- every visible form CTA has a working endpoint or is intentionally disabled
 - contact and newsletter flows are testable end-to-end
+- public intake paths are clear and not misleading
 
-## Phase 2 — Foundation Operating Site Positioning
+### 6. Add Local Development Recovery Notes
+Codex should record a short runbook for the local dev server so future work can recover quickly from transient Next.js / HMR failures.
 
-### 5. Rebuild the Projects Layer
-Projects page should not be a generic archive.
-It should become a portfolio entry point.
-
-Required structure:
-- active flagship projects
-- credible precedent / archive projects
-- room for incoming projects
-- project cards with explicit role: evidence, pilot, partnership, donor opportunity
-
-Initial emphasis:
-- RDC
-- CFLI / El Salvador if useful publicly after deadline logic is handled
-- Colombia when better documented
-- selected precedent assets such as Nakivale where useful for credibility
+Include:
+- when to restart the dev server
+- when to clear `.next`
+- how to verify the local homepage is returning `200` again
 
 Acceptance criteria:
-- the Projects page reflects how VSF actually works now
-- projects are not presented as isolated one-off stories
-- each project can support a next action
+- the repo explains how to recover from a bad dev-server render state without guessing
 
-### 6. Build the Public Narrative from Existing Assets
-Drive analysis indicates underused public-facing material that should inform the new site:
-- old mission and strategy copy
-- Ethiopia campaign concept material
-- Nakivale partnership and project history
-- case-study style content like VersoGaia
-- corporate partnership tiers for 2025
-- social media strategy material
+## Phase 2 — Public Credibility and Launch Safety
 
-Codex should:
-- identify which assets belong in public pages vs case-study content vs donor materials
-- convert the strongest materials into reusable page or section modules
+### 7. Review Public Proof-Point Claims
+Codex should review proof-point language used across the public site and flag claims that need validation, softening, or clearer sourcing before broad promotion.
 
 Acceptance criteria:
-- legacy material is curated and transformed, not copy-pasted
-- the site feels like a coherent organization, not a pile of migrated content
+- public-facing claims are donor-safe and field-grounded
+- questionable figures are either corrected, softened, or explicitly documented for later review
 
-## Phase 3 — RDC Credibility and Content Engine
+### 8. Keep the Editorial System Tied to Real Actions
+The routing system is now in place. The next step is to use it well.
 
-### 7. Create an RDC Project Hub
-The RDC work is a core credibility pillar and should not live only as scattered docs and articles.
-
-The hub should connect:
-- project overview
-- field logic
-- evidence layer
-- donor relevance
-- report / policy credibility
-- future value-chain logic (soap, essential oil, etc.)
-
-Codex should design the RDC hub as the canonical public entry point for that work.
+Codex should ensure:
+- article intent and CTA target metadata remain clean
+- new stories continue to route toward the right project or action path
+- no new public article becomes a dead end
 
 Acceptance criteria:
-- RDC is understandable to donors and partners in one path
-- evidence is surfaced clearly but accessibly
-- articles connect into the hub instead of floating as detached blog posts
+- editorial additions follow the routing model without regressions
+- content system remains understandable to future contributors
 
-### 8. Build the Editorial Pipeline as a Conversion System
-Current and planned content should support project-level action.
-
-Immediate content priorities include:
-- slash-and-burn article cleanup / positioning
-- war and fertilizer price article
-- fertilizer dependence / sovereignty framing
-- no-till and vetiver explanation pieces
-- evidence-driven project updates
-
-Codex should treat every article as part of a system:
-- article
-- linked project hub
-- linked CTA
-- linked donation or support goal
-
-Acceptance criteria:
-- every article has a project destination
-- no major editorial asset is a dead-end
-- article templates support CTAs cleanly without feeling manipulative
-
-## Phase 4 — Donor Growth and AI / Automation
+## Phase 3 — Donor Growth and AI / Automation
 
 ### 9. Build a Practical Donor Funnel
 Site should support multiple paths:
@@ -230,7 +216,7 @@ Site should support multiple paths:
 - inquiry / contact
 - newsletter subscriber
 
-Codex should identify and implement:
+Codex should identify and strengthen:
 - primary CTAs
 - supporting micro-CTAs
 - donation entry points from projects and articles
@@ -259,11 +245,11 @@ Acceptance criteria:
 - automation candidates are documented by effort/impact
 - at least 1–2 low-risk automations are implemented or scaffolded
 
-## Phase 5 — Repo and Content System Hygiene
+## Phase 4 — Repo and Content System Hygiene
 
 ### 11. Standardize Public Content Structure
-Codex should review current content architecture and ensure it supports:
-- page rewrites
+Codex should continue reviewing content architecture to ensure it supports:
+- core public pages
 - project hubs
 - stories/articles
 - donor support pages
@@ -285,44 +271,32 @@ Codex should leave behind clean handoff documentation covering:
 Acceptance criteria:
 - another agent can continue the work without rediscovering the architecture
 
-### 13. Add Local Development Recovery Notes
-Codex should record a short runbook for the local dev server so future work can recover quickly from transient Next.js / HMR failures.
-
-Include:
-- when to restart the dev server
-- when to clear `.next`
-- how to verify the local homepage is returning `200` again
-
-Acceptance criteria:
-- the repo explains how to recover from a bad dev-server render state without guessing
-
 ## Recommended Implementation Order
 
-### Immediate (this week)
-1. Audit and rewrite Home / Projects / Get Involved / Contact
-2. Remove obvious migration leftovers
-3. Resolve forms path
-4. Decide media cutover path
-5. Build an RDC hub outline and article-to-hub connection model
+### Immediate
+1. Run the final launch-readiness audit
+2. Verify donation, contact, bilingual routing, and key CTA paths
+3. Remove any remaining migration leftovers
+4. Decide and document the staged media launch stance
+5. Add the local dev recovery runbook
 
-### Near-term (next 2–3 weeks)
-6. Rewrite About / Services
-7. Rebuild Projects page into portfolio logic
-8. Publish or scaffold first RDC credibility content path
-9. Connect article templates to donation/support paths
-10. Add simple lead capture / automation support
+### Near-term
+6. Review public proof-point claims
+7. Confirm forms and intake flows
+8. Strengthen donor funnel visibility and measurement
+9. Add low-friction automation where useful
 
 ### After launch
-11. Expand project hubs and case studies
-12. Improve donor funnel and analytics
-13. Use the repo as the canonical public content system for VSF operations
+10. Expand project hubs and case studies
+11. Improve donor funnel and analytics
+12. Use the repo as the canonical public content system for VSF operations
 
 ## Non-Goals / Guardrails
 
 Codex should avoid:
-- treating the work as a cosmetic redesign only
+- treating the remaining work as another broad site rewrite
 - importing old WordPress copy without reinterpretation
-- overengineering CRM/automation before the site is coherent
+- overengineering CRM/automation before launch quality is secure
 - building a generic nonprofit site disconnected from field realities
 - burying evidence under marketing language
 
@@ -334,13 +308,13 @@ This roadmap succeeds if:
 - donors and partners have obvious, credible paths to engage
 - RDC credibility is visible and usable
 - content, projects, and CTAs feel like one coherent system
-- future projects can enter the structure without creating chaos
+- launch blockers are reduced to known, documented, manageable items rather than vague unknowns
 
 ## Suggested Follow-Up Tasks for Codex
 
-1. Produce a page-by-page rewrite plan with acceptance criteria.
-2. Produce a migration cleanup checklist mapped to actual files.
-3. Propose the final information architecture for pages, project hubs, and stories.
-4. Identify the exact files to edit first in the repo.
-5. Create a launch blocker list and classify each blocker by severity.
-6. Propose 3 realistic AI/automation wins for the first release cycle.
+1. Produce a final launch-readiness checklist mapped to actual files and routes.
+2. Validate all primary CTA paths in EN and FR.
+3. Document the staged media stance for launch.
+4. Add the local development recovery note.
+5. Review public proof-point claims for donor-safe wording.
+6. Propose 3 realistic AI/automation wins for the first post-launch cycle.
