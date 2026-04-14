@@ -3,7 +3,14 @@ import Image from 'next/image';
 import { Button } from '@/components/button';
 import { Container } from '@/components/container';
 import { PageHero } from '@/components/page-hero';
-import { DONATE_URL, SOCIAL_LINKS, getMediaUrl, localePath, type Locale } from '@/lib/site';
+import { DONATE_URL, getMediaUrl, localePath, type Locale } from '@/lib/site';
+
+type ActionLink = {
+  label: string;
+  href: string;
+  external?: boolean;
+  variant: 'primary' | 'secondary' | 'tertiary';
+};
 
 export function GetInvolvedPage({ locale }: { locale: Locale }) {
   const t = copy[locale];
@@ -50,13 +57,20 @@ export function GetInvolvedPage({ locale }: { locale: Locale }) {
       <section className="bg-[#f3ede2] py-14 lg:py-20">
         <Container>
           <div className="rounded-[2.2rem] border border-bark/10 bg-white px-7 py-8 shadow-card lg:px-9">
-            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-bark/60">{t.shareEyebrow}</p>
-            <h2 className="mt-3 max-w-[14ch] text-3xl font-semibold text-ink sm:text-4xl">{t.shareTitle}</h2>
-            <p className="mt-4 max-w-2xl text-base leading-8 text-ink/72">{t.shareBody}</p>
+            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-bark/60">{t.nextEyebrow}</p>
+            <h2 className="mt-3 max-w-[14ch] text-3xl font-semibold text-ink sm:text-4xl">{t.nextTitle}</h2>
+            <p className="mt-4 max-w-2xl text-base leading-8 text-ink/72">{t.nextBody}</p>
             <div className="mt-6 flex flex-wrap gap-3">
-              {t.socials.map((social) => (
-                <Button key={social.label} href={social.href} external target="_blank" rel="noreferrer" variant="secondary">
-                  {social.label}
+              {t.nextLinks.map((link) => (
+                <Button
+                  key={link.label}
+                  href={link.external ? link.href : localePath(link.href, locale)}
+                  external={link.external}
+                  target={link.external ? '_blank' : undefined}
+                  rel={link.external ? 'noreferrer' : undefined}
+                  variant={link.variant}
+                >
+                  {link.label}
                 </Button>
               ))}
             </div>
@@ -71,12 +85,12 @@ const copy = {
   en: {
     title: 'Get involved with vetiver work',
     subtitle:
-      'Start with vetiver, then choose how you want to contribute: propose a project, sponsor the RDC flagship, donate, or help the stories spread.',
+      'Start with vetiver, then choose the path that fits: learn, support, partner, or propose.',
     cards: [
       {
         eyebrow: 'Learn first',
-        title: 'Understand vetiver before you choose a next step.',
-        body: 'If you are new to the topic, start with the plain-language vetiver explainer and see what the plant can do before you decide how to help.',
+        title: 'Start with the vetiver explainer.',
+        body: 'If you are new to the topic, read the plain-language overview before you decide what to do next.',
         cta: 'Learn about vetiver',
         href: '/vetiver',
         external: false,
@@ -84,51 +98,70 @@ const copy = {
         image: '2026/02/Gemini_Generated_Image_7fcdjg7fcdjg7fcd-scaled.webp'
       },
       {
-        eyebrow: 'Propose a project',
-        title: 'Bring a local need or idea to the conversation.',
-        body: 'If your community needs stronger resilience against climate pressure, propose an initiative and explore how the Vetiver System can support long-term impact.',
-        cta: 'Propose a project',
-        href: '/projects/propose',
-        external: false,
-        variant: 'secondary' as const,
-        image: '2026/02/Gemini_Generated_Image_m5evwqm5evwqm5ev-scaled.webp'
-      },
-      {
-        eyebrow: 'Sponsor a project',
-        title: 'Support an initiative that already resonates with you.',
-        body: 'Project leaders often need targeted support to bring strong initiatives to completion. Review the RDC hub to see the current flagship and the support paths around it.',
-        cta: 'Open RDC hub',
-        href: '/projects/rdc',
-        external: false,
-        variant: 'secondary' as const,
-        image: '2026/02/Gemini_Generated_Image_e3g0qde3g0qde3g0-scaled.webp'
-      },
-      {
-        eyebrow: 'Support field action',
-        title: 'Help fund implementation and local partners.',
-        body: 'By donating to Vetiver Without Borders, you help fund projects, support local teams, and sustain credible ecological work on the ground.',
+        eyebrow: 'Support field work',
+        title: 'Help fund projects and follow-through.',
+        body: 'Your donation helps support field work, local follow-through, and the practical work behind each project.',
         cta: 'Donate',
         href: DONATE_URL,
         external: true,
         variant: 'primary' as const,
         image: '2026/02/Gemini_Generated_Image_xgk3a6xgk3a6xgk3-scaled.webp'
+      },
+      {
+        eyebrow: 'Partner with VSF',
+        title: 'Discuss a collaboration or fit check.',
+        body: 'Use the contact page to talk through a project idea, a partnership, or a specific question about the work.',
+        cta: 'Contact VSF',
+        href: '/about/contact',
+        external: false,
+        variant: 'secondary' as const,
+        image: '2026/02/Gemini_Generated_Image_e3g0qde3g0qde3g0-scaled.webp'
+      },
+      {
+        eyebrow: 'Propose a project',
+        title: 'Share a local need or new idea.',
+        body: 'If you have a site, a problem, or a new initiative in mind, send the basics and we can look at the next step together.',
+        cta: 'Propose a project',
+        href: '/projects/propose',
+        external: false,
+        variant: 'secondary' as const,
+        image: '2026/02/Gemini_Generated_Image_m5evwqm5evwqm5ev-scaled.webp'
       }
     ],
-    shareEyebrow: 'Share the work',
-    shareTitle: 'Stay connected and help amplify the regeneration movement.',
-    shareBody:
-      'Follow VSF and share our work to help more people discover field-tested responses to erosion, runoff, and climate adaptation.',
-    socials: SOCIAL_LINKS
+    nextEyebrow: 'Need help choosing?',
+    nextTitle: 'Start with vetiver, then decide what fits.',
+    nextBody:
+      'If you are not sure where to begin, the vetiver explainer is the best first step. You can also contact VSF to talk through the right next move.',
+    nextLinks: [
+      {
+        label: 'Learn about vetiver',
+        href: '/vetiver',
+        external: false,
+        variant: 'secondary' as const
+      },
+      {
+        label: 'Contact VSF',
+        href: '/about/contact',
+        external: false,
+        variant: 'primary' as const
+      },
+      {
+        label: 'Browse projects',
+        href: '/projects',
+        external: false,
+        variant: 'tertiary' as const
+      }
+    ] satisfies ActionLink[]
   },
   fr: {
     title: 'Participer au travail sur le vetiver',
     subtitle:
-      'Commencez par le vetiver, puis choisissez comment contribuer : proposer un projet, parrainer le projet phare RDC, donner ou relayer les recits.',
+      'Commencez par le vetiver, puis choisissez la voie qui convient : apprendre, soutenir, collaborer ou proposer.',
     cards: [
       {
         eyebrow: 'Apprendre d abord',
-        title: 'Comprendre le vetiver avant de choisir la suite.',
-        body: 'Si vous decouvrez le sujet, commencez par le guide simple sur le vetiver et voyez ce que la plante peut faire avant de decider comment aider.',
+        title: 'Commencez par le guide vetiver.',
+        body: 'Si vous decouvrez le sujet, lisez le guide simple avant de choisir la suite.',
         cta: 'Decouvrir le vetiver',
         href: '/vetiver',
         external: false,
@@ -136,40 +169,59 @@ const copy = {
         image: '2026/02/Gemini_Generated_Image_7fcdjg7fcdjg7fcd-scaled.webp'
       },
       {
-        eyebrow: 'Proposer un projet',
-        title: 'Apporter un besoin local ou une idee a la discussion.',
-        body: 'Si votre communaute a besoin d une meilleure resilience face au climat, proposez une initiative et voyez comment le Systeme Vetiver peut soutenir un impact durable.',
-        cta: 'Proposer un projet',
-        href: '/projects/propose',
-        external: false,
-        variant: 'secondary' as const,
-        image: '2026/02/Gemini_Generated_Image_m5evwqm5evwqm5ev-scaled.webp'
-      },
-      {
-        eyebrow: 'Parrainer un projet',
-        title: 'Soutenir directement une initiative qui vous parle.',
-        body: 'Les porteurs de projet ont souvent besoin d un soutien cible pour faire aboutir leur travail. Consultez le hub RDC pour voir le projet phare et les voies de soutien.',
-        cta: 'Ouvrir le hub RDC',
-        href: '/projects/rdc',
-        external: false,
-        variant: 'secondary' as const,
-        image: '2026/02/Gemini_Generated_Image_e3g0qde3g0qde3g0-scaled.webp'
-      },
-      {
-        eyebrow: 'Soutenir l action',
-        title: 'Aider a financer la mise en oeuvre et les partenaires locaux.',
-        body: 'En faisant un don a Vetiver Sans Frontieres, vous aidez a financer les projets, soutenir les equipes locales et maintenir un travail ecologique credible.',
+        eyebrow: 'Soutenir le terrain',
+        title: 'Aider a financer les projets et le suivi.',
+        body: 'Votre don aide a soutenir le travail de terrain, le suivi local et l appui pratique autour de chaque projet.',
         cta: 'Faire un don',
         href: DONATE_URL,
         external: true,
         variant: 'primary' as const,
         image: '2026/02/Gemini_Generated_Image_xgk3a6xgk3a6xgk3-scaled.webp'
+      },
+      {
+        eyebrow: 'Collaborer avec VSF',
+        title: 'Discuter d un partenariat ou d une adequation.',
+        body: 'Utilisez la page contact pour parler d un projet, d un partenariat ou d une question precise sur le travail.',
+        cta: 'Contacter VSF',
+        href: '/about/contact',
+        external: false,
+        variant: 'secondary' as const,
+        image: '2026/02/Gemini_Generated_Image_e3g0qde3g0qde3g0-scaled.webp'
+      },
+      {
+        eyebrow: 'Proposer un projet',
+        title: 'Partager un besoin local ou une nouvelle idee.',
+        body: 'Si vous avez un site, un probleme ou une initiative en tete, envoyez les bases et nous pouvons voir la suite ensemble.',
+        cta: 'Proposer un projet',
+        href: '/projects/propose',
+        external: false,
+        variant: 'secondary' as const,
+        image: '2026/02/Gemini_Generated_Image_m5evwqm5evwqm5ev-scaled.webp'
       }
     ],
-    shareEyebrow: 'Diffuser le travail',
-    shareTitle: 'Restez connectes et amplifiez le mouvement de regeneration.',
-    shareBody:
-      'Suivez VSF et partagez notre travail pour aider davantage de personnes a decouvrir des reponses de terrain contre l erosion, le ruissellement et le stress climatique.',
-    socials: SOCIAL_LINKS
+    nextEyebrow: 'Besoin d aide pour choisir ?',
+    nextTitle: 'Commencez par le vetiver, puis decidez de la suite.',
+    nextBody:
+      'Si vous ne savez pas par ou commencer, le guide vetiver est le meilleur point de depart. Vous pouvez aussi contacter VSF pour parler de la prochaine etape.',
+    nextLinks: [
+      {
+        label: 'Decouvrir le vetiver',
+        href: '/vetiver',
+        external: false,
+        variant: 'secondary' as const
+      },
+      {
+        label: 'Contacter VSF',
+        href: '/about/contact',
+        external: false,
+        variant: 'primary' as const
+      },
+      {
+        label: 'Parcourir les projets',
+        href: '/projects',
+        external: false,
+        variant: 'tertiary' as const
+      }
+    ] satisfies ActionLink[]
   }
 } as const;

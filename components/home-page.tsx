@@ -35,24 +35,24 @@ const homepageCopy = {
   en: {
     hero: {
       eyebrow: 'What is vetiver?',
-      title: 'A remarkable plant for soil, water, and community resilience.',
+      title: 'A practical grass for soil, water, and land.',
       body:
-        'Vetiver is a deep-rooted grass used to slow runoff, hold soil in place, and make fragile landscapes easier to work with.',
+        'Vetiver is a deep-rooted grass used to slow runoff, hold soil in place, and make fragile ground easier to manage.',
       supportingBody:
-        'Vetiver Without Borders helps communities learn, test, and apply vetiver-based solutions through field work, technical support, partnerships, and public evidence.',
+        'Vetiver Without Borders helps communities learn, test, and apply vetiver-based solutions through field support, project partnerships, and public project pages.',
       donateLabel: 'Donate',
       involvedLabel: 'Get involved',
       learnMoreLabel: 'Learn what vetiver is',
       learnMoreHref: '/vetiver',
       imageAlt: 'Vetiver planted along a roadside to stabilize land and protect surrounding soil.',
       highlight:
-        'A practical plant-based technology becomes durable when communities can understand it, trust it, and maintain it locally.'
+        'Vetiver lasts when communities can understand it, try it in the field, and keep using it locally.'
     },
     impact: {
       eyebrow: 'How VSF helps',
       title: 'Turn understanding into practical field action.',
       body:
-        'Your support helps VSF move from education to implementation: site planning, local training, pilot support, and the evidence needed to keep the work credible.',
+        'Your support helps VSF move from education to field delivery: site planning, local training, pilot support, and follow-through.',
       pillars: [
         {
           title: 'Learn',
@@ -64,7 +64,7 @@ const homepageCopy = {
         },
         {
           title: 'Support',
-          body: 'Donors and partners can back field work, evidence gathering, and long-term follow-through.'
+          body: 'Donors and partners can back field work, project visibility, and long-term follow-through.'
         }
       ],
       donateLabel: 'Donate',
@@ -72,20 +72,20 @@ const homepageCopy = {
     },
     stories: {
       eyebrow: 'Latest stories',
-      title: 'Field stories, project evidence, and practical vetiver lessons.',
+      title: 'Field stories, project updates, and practical vetiver lessons.',
       body:
-        'Recent updates from projects, partners, and the practical work of turning vetiver into action.',
+        'Recent updates from projects and partners show how the work is moving on the ground.',
       ctaLabel: 'Read all stories'
     },
     getInvolved: {
       involvedEyebrow: 'Take part',
-      involvedTitle: 'Choose the next step that fits your interest.',
+      involvedTitle: 'Choose the next step that fits.',
       involvedBody:
-        'Whether you want to donate, sponsor a project, propose a collaboration, or simply learn more first, there is a path for you.',
+        'If you want to learn, donate, partner, or propose a project, there is a clear path for you.',
       involvedCta: 'Get involved',
-      partnerTitle: 'Sponsor the RDC hub',
+      partnerTitle: 'Support the RDC hub',
       partnerBody:
-        'Review the Congo Basin project path, then contact us if you want to support a specific initiative or the evidence work behind it.',
+        'Review the Congo Basin project, then contact us if you want to support a specific initiative or the work behind it.',
       partnerCta: 'Open RDC hub',
       partnerHref: '/projects/rdc'
     },
@@ -102,24 +102,24 @@ const homepageCopy = {
     hero: {
       eyebrow: 'Qu est-ce que le vetiver ?',
       title:
-        'Une plante remarquable pour les sols, l eau et la resilience communautaire.',
+        'Une graminee pratique pour les sols, l eau et les terres.',
       body:
-        'Le vetiver est une graminee a racines profondes utilisee pour ralentir le ruissellement, retenir les sols et rendre les paysages fragiles plus faciles a travailler.',
+        'Le vetiver est une graminee a racines profondes utilisee pour ralentir le ruissellement, retenir les sols et rendre les terres fragiles plus faciles a gerer.',
       supportingBody:
-        'Vetiver Sans Frontieres aide les communautes a apprendre, tester et appliquer des solutions basees sur le vetiver grace au terrain, au soutien technique, aux partenariats et aux preuves publiques.',
+        'Vetiver Sans Frontieres aide les communautes a apprendre, tester et appliquer des solutions basees sur le vetiver grace au soutien de terrain, aux partenariats de projet et a des pages de projet publiques.',
       donateLabel: 'Faire un don',
       involvedLabel: 'Participer',
       learnMoreLabel: 'Decouvrir le vetiver',
       learnMoreHref: '/vetiver',
       imageAlt: 'Vetiver plante le long d une route pour stabiliser les sols et proteger le terrain.',
       highlight:
-        'Une technologie pratique devient durable quand les communautes peuvent la comprendre, lui faire confiance et la maintenir localement.'
+        'Le vetiver dure quand les communautes peuvent le comprendre, l essayer sur le terrain et continuer a l utiliser localement.'
     },
     impact: {
       eyebrow: 'Comment VSF aide',
       title: 'Transformer la comprehension en action concrete sur le terrain.',
       body:
-        'Votre soutien aide VSF a passer de l education a la mise en oeuvre : planification du site, formation locale, appui aux projets pilotes et preuves necessaires pour garder la credibilite.',
+        'Votre soutien aide VSF a passer de la formation a la mise en oeuvre : planification du site, appui local, soutien aux projets pilotes et suivi.',
       pillars: [
         {
           title: 'Apprendre',
@@ -131,7 +131,7 @@ const homepageCopy = {
         },
         {
           title: 'Soutenir',
-          body: 'Donateurs et partenaires peuvent appuyer le terrain, les preuves et le suivi dans le temps.'
+          body: 'Donateurs et partenaires peuvent appuyer le terrain, la visibilite des projets et le suivi dans le temps.'
         }
       ],
       donateLabel: 'Faire un don',
@@ -139,20 +139,20 @@ const homepageCopy = {
     },
     stories: {
       eyebrow: 'Dernieres actualites',
-      title: 'Recits de terrain, preuves de projet et lecons pratiques sur le vetiver.',
+      title: 'Recits de terrain, mises a jour de projets et lecons pratiques sur le vetiver.',
       body:
-        'Des nouvelles recentes des projets, des partenaires et du travail concret qui transforme le vetiver en action.',
+        'Des nouvelles recentes des projets et des partenaires montrent comment le travail avance sur le terrain.',
       ctaLabel: 'Voir toutes les actualites'
     },
     getInvolved: {
       involvedEyebrow: 'Passer a l action',
-      involvedTitle: 'Choisir la prochaine etape qui vous correspond.',
+      involvedTitle: 'Choisir la prochaine etape qui convient.',
       involvedBody:
-        'Que vous souhaitiez donner, parrainer un projet, proposer une collaboration ou commencer par comprendre la plante, il existe un chemin pour vous.',
+        'Si vous voulez apprendre, donner, collaborer ou proposer un projet, il existe une voie claire pour vous.',
       involvedCta: 'Participer',
-      partnerTitle: 'Parrainer le hub RDC',
+      partnerTitle: 'Soutenir le hub RDC',
       partnerBody:
-        'Consultez la trajectoire du projet Congo, puis contactez-nous si vous souhaitez soutenir une initiative precise ou le travail de preuves.',
+        'Consultez le projet Congo, puis contactez-nous si vous souhaitez soutenir une initiative precise ou le travail qui l accompagne.',
       partnerCta: 'Ouvrir le hub RDC',
       partnerHref: '/projects/rdc'
     },

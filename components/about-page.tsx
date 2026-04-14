@@ -120,37 +120,37 @@ const copy = {
   en: {
     title: 'About VSF',
     subtitle:
-      'Why VSF exists, how vetiver works, and how we turn practical plant knowledge into field action.',
+      'Why vetiver matters, why VSF exists, and how the work becomes field action.',
     introEyebrow: 'Why VSF exists',
     introTitle: 'Vetiver first, then the organization.',
     introBodyOne:
-      'Vetiver Without Borders exists to help communities understand vetiver and use it for soil, water, and land resilience.',
+      'Vetiver Without Borders exists to help communities understand vetiver and use it for soil, water, and land protection.',
     introBodyTwo:
-      'We support that work with education, technical guidance, project support, and public evidence that donors and partners can trust.',
+      'We support that work with education, field guidance, project support, and public project pages people can trust.',
     introCta: 'Learn vetiver',
     donateCta: 'Donate',
     involvedCta: 'Get involved',
     secondaryCta: 'Donate',
     supportCta: 'Get involved',
     imageAltOne: 'VSF team and community members in a field setting.',
-    valuesEyebrow: 'Our values',
-    valuesTitle: 'Partnerships, evidence, and local ownership.',
+    valuesEyebrow: 'How VSF works',
+    valuesTitle: 'Education, guidance, and project support.',
     values: [
       {
-        title: 'Partnerships',
-        body: 'We collaborate with organizations and local stakeholders so projects are rooted in real needs and real capacity.'
+        title: 'Education',
+        body: 'We help people understand vetiver before asking them to act on it.'
       },
       {
-        title: 'Evidence',
-        body: 'We use practical proof points, project stories, and field learning to show what is working and why.'
+        title: 'Field guidance',
+        body: 'We shape work around site conditions and local capacity so the solution fits the problem.'
       },
       {
-        title: 'Local ownership',
-        body: 'We design work that local teams can understand, maintain, and adapt after the first intervention.'
+        title: 'Project support',
+        body: 'We support follow-through so projects stay credible and useful after the first step.'
       }
     ],
-    goalsEyebrow: 'Shared priorities',
-    goals: ['Water', 'Climate adaptation', 'Land restoration', 'Evidence', 'Community resilience'],
+    goalsEyebrow: 'Where it applies',
+    goals: ['Soil', 'Water', 'Slopes', 'Fields', 'Roads'],
     imageAltTwo: 'People gathering outdoors to support regenerative environmental work.',
     ctaEyebrow: 'Join the work',
     ctaTitle: 'Help turn vetiver knowledge into practical action.',
@@ -160,37 +160,37 @@ const copy = {
   fr: {
     title: 'A propos de VSF',
     subtitle:
-      'Pourquoi VSF existe, comment le vetiver fonctionne et comment nous transformons ce savoir en action de terrain.',
+      'Pourquoi le vetiver compte, pourquoi VSF existe et comment le travail devient action de terrain.',
     introEyebrow: 'Pourquoi VSF existe',
     introTitle: 'Le vetiver d abord, l organisation ensuite.',
     introBodyOne:
-      'Vetiver Sans Frontieres existe pour aider les communautes a comprendre le vetiver et a l utiliser pour renforcer les sols, l eau et les paysages.',
+      'Vetiver Sans Frontieres existe pour aider les communautes a comprendre le vetiver et a l utiliser pour proteger les sols, l eau et les terres.',
     introBodyTwo:
-      'Nous soutenons ce travail par la formation, l accompagnement technique, l appui aux projets et des preuves publiques fiables pour les donateurs et partenaires.',
+      'Nous soutenons ce travail par la formation, le soutien de terrain, l appui aux projets et des pages de projet publiques fiables.',
     introCta: 'Decouvrir le vetiver',
     donateCta: 'Faire un don',
     involvedCta: 'Participer',
     secondaryCta: 'Faire un don',
     supportCta: 'Participer',
     imageAltOne: 'Equipe VSF et membres de la communaute sur le terrain.',
-    valuesEyebrow: 'Nos valeurs',
-    valuesTitle: 'Partenariats, preuves et appropriation locale.',
+    valuesEyebrow: 'Comment VSF travaille',
+    valuesTitle: 'Formation, accompagnement et soutien de projet.',
     values: [
       {
-        title: 'Partenariats',
-        body: 'Nous collaborons avec des organisations et des acteurs locaux pour que les projets reposent sur de vrais besoins et de vraies capacites.'
+        title: 'Formation',
+        body: 'Nous aidons les gens a comprendre le vetiver avant de leur demander d agir.'
       },
       {
-        title: 'Preuves',
-        body: 'Nous utilisons des reperes publics, des recits de projets et l apprentissage de terrain pour montrer ce qui fonctionne.'
+        title: 'Soutien de terrain',
+        body: 'Nous adaptons le travail aux conditions du site et aux capacites locales pour que la solution corresponde au probleme.'
       },
       {
-        title: 'Appropriation locale',
-        body: 'Nous concevons des actions que les equipes locales peuvent comprendre, entretenir et adapter apres la premiere intervention.'
+        title: 'Soutien de projet',
+        body: 'Nous soutenons le suivi pour que les projets restent credibles et utiles apres la premiere etape.'
       }
     ],
-    goalsEyebrow: 'Priorites partagees',
-    goals: ['Eau', 'Adaptation climatique', 'Restauration des terres', 'Preuves', 'Resilience communautaire'],
+    goalsEyebrow: 'Domaines d application',
+    goals: ['Sols', 'Eau', 'Pentes', 'Champs', 'Routes'],
     imageAltTwo: 'Personnes rassemblees a l exterieur autour d un travail de regeneration.',
     ctaEyebrow: 'Rejoindre le travail',
     ctaTitle: 'Aidez a transformer le savoir sur le vetiver en action concrete.',

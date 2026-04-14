@@ -24,10 +24,10 @@ const copy: Record<'fr', ProjectDetailCopy> = {
     title: 'Proposer un projet',
     subtitle: 'Utilisez cette voie pour une nouvelle idee vetiver, un besoin local ou une initiative en debut de parcours.',
     image: '2022/10/IMG-20220616-WA0000-1024x768.jpg',
-    summaryEyebrow: 'Depot de projet',
-    summaryTitle: 'Une voie publique simple pour le premier contact.',
+    summaryEyebrow: 'Entree publique',
+    summaryTitle: 'Une voie simple pour le premier contact.',
     summaryBody:
-      'Cette page garde le depot clair. Envoyez les elements essentiels, et VSF pourra voir quelle suite convient.',
+      'Cette page garde le premier contact clair. Envoyez les elements essentiels, et VSF pourra voir quelle suite convient.',
     whyEyebrow: 'Pourquoi c est important',
     whyTitle: 'Pourquoi une voie de proposition aide.',
     whyPoints: [
@@ -47,7 +47,7 @@ const copy: Record<'fr', ProjectDetailCopy> = {
     nextEyebrow: 'Ce qu il faut inclure',
     nextTitle: 'Envoyez d abord les bases.',
     nextBody:
-      'Un premier message court nous aide a comprendre si l idee correspond a VSF et quelle suite lui donner.',
+      'Un premier message court nous aide a comprendre le site, le besoin et le soutien que vous recherchez.',
     nextSteps: [
       'Decrivez le lieu et le besoin local.',
       'Nommez les personnes ou le groupe qui porte le travail.',
@@ -58,12 +58,12 @@ const copy: Record<'fr', ProjectDetailCopy> = {
     ctaHref: localePath('/about/contact', 'fr'),
     supportNote:
       'Cette voie sert au premier contact. Nous pouvons guider la suite a partir de la.',
-    footerTitle: 'Gardez les propositions simples, publiques et lisibles.',
+    footerTitle: 'Gardez les propositions simples et lisibles.',
     footerBody:
-      'Le but n est pas de remplacer une conception rigoureuse de projet. C est de rendre la premiere etape claire pour que les nouvelles idees entrent dans le portefeuille sans confusion.',
+      'Le but n est pas de remplacer une conception rigoureuse de projet. C est de rendre la premiere etape claire pour que les nouvelles idees entrent sans confusion.',
     footerLinks: [
       {
-        label: 'Voir le portail du portefeuille',
+        label: 'Voir les projets',
         href: localePath('/projects', 'fr')
       },
       {

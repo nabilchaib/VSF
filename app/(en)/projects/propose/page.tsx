@@ -24,10 +24,10 @@ const copy: Record<'en', ProjectDetailCopy> = {
     title: 'Propose a project',
     subtitle: 'Use this route for a new vetiver idea, local need, or early-stage initiative.',
     image: '2022/10/IMG-20220616-WA0000-1024x768.jpg',
-    summaryEyebrow: 'Project intake',
-    summaryTitle: 'A simple public route for first contact.',
+    summaryEyebrow: 'Public entry',
+    summaryTitle: 'A simple route for first contact.',
     summaryBody:
-      'This page keeps intake clear. Send the basics, and VSF can decide what fits next.',
+      'This page keeps first contact clear. Send the basics, and VSF can decide what fits next.',
     whyEyebrow: 'Why it matters',
     whyTitle: 'Why a proposal route helps.',
     whyPoints: [
@@ -46,7 +46,7 @@ const copy: Record<'en', ProjectDetailCopy> = {
     ],
     nextEyebrow: 'What to include',
     nextTitle: 'Send the basics first.',
-    nextBody: 'A short first message helps us understand whether the idea fits VSF and where it should go next.',
+    nextBody: 'A short first message helps us understand the site, the need, and what support you are looking for.',
     nextSteps: [
       'Describe the location and local need.',
       'Name the people or group leading the work.',
@@ -56,12 +56,12 @@ const copy: Record<'en', ProjectDetailCopy> = {
     ctaLabel: 'Contact VSF',
     ctaHref: localePath('/about/contact', 'en'),
     supportNote: 'This route is for first contact. We can guide the next step from there.',
-    footerTitle: 'Keep proposals simple, public, and readable.',
+    footerTitle: 'Keep proposals simple and readable.',
     footerBody:
-      'The goal is not to replace careful project design. It is to make the first step clear so new ideas can enter the portfolio without confusion.',
+      'The goal is not to replace careful project design. It is to make the first step clear so new ideas can enter without confusion.',
     footerLinks: [
       {
-        label: 'View the portfolio gateway',
+        label: 'View projects',
         href: localePath('/projects', 'en')
       },
       {

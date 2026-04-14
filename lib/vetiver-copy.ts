@@ -31,14 +31,14 @@ type VetiverProofPointsCopy = {
 export const VETIVER_EXPLAINER: Record<Locale, VetiverExplainerCopy> = {
   en: {
     eyebrow: 'What is vetiver?',
-    title: 'A deep-rooted grass that helps communities slow water and hold soil.',
+    title: 'A deep-rooted grass for soil and water protection.',
     bodyOne:
-      'Vetiver is a practical plant used around the world to protect land and manage water. When planted in contour hedgerows, it helps slow runoff, keep soil in place, and make fragile places easier to work with.',
+      'Vetiver is a practical grass used around the world to slow runoff, hold soil in place, and make fragile ground easier to manage.',
     bodyTwo:
-      'VSF helps communities learn, test, and scale vetiver-based solutions through field work, technical support, partnerships, and public evidence.',
+      'VSF helps communities learn, test, and apply vetiver-based solutions through field support, project partnerships, and clear public examples.',
     cards: [
       {
-        title: 'Why it is remarkable',
+        title: 'Why it stands out',
         body: 'It is low-cost, resilient, and adaptable across many soils and climates, so the idea can travel without heavy infrastructure.'
       },
       {
@@ -47,7 +47,7 @@ export const VETIVER_EXPLAINER: Record<Locale, VetiverExplainerCopy> = {
       },
       {
         title: 'How VSF helps',
-        body: 'We support education, site design, planting, and the evidence needed to make the work credible.'
+        body: 'We support education, site design, planting, and the follow-through needed to make the work stick.'
       },
       {
         title: 'What comes next',
@@ -59,14 +59,14 @@ export const VETIVER_EXPLAINER: Record<Locale, VetiverExplainerCopy> = {
   },
   fr: {
     eyebrow: 'Qu est-ce que le vetiver ?',
-    title: 'Une graminee a racines profondes qui aide a ralentir l eau et retenir les sols.',
+    title: 'Une graminee a racines profondes pour proteger les sols et l eau.',
     bodyOne:
-      'Le vetiver est une plante pratique utilisee dans le monde entier pour proteger les terres et gerer l eau. Plante en haies de contour, il aide a ralentir le ruissellement, maintenir les sols en place et rendre les espaces fragiles plus faciles a travailler.',
+      'Le vetiver est une graminee pratique utilisee dans le monde entier pour ralentir le ruissellement, retenir les sols et rendre les terres fragiles plus faciles a gerer.',
     bodyTwo:
-      'VSF aide les communautes a apprendre, tester et developper des solutions basees sur le vetiver grace au terrain, au soutien technique, aux partenariats et aux preuves publiques.',
+      'VSF aide les communautes a apprendre, tester et appliquer des solutions basees sur le vetiver grace au soutien de terrain, aux partenariats de projet et a des exemples publics clairs.',
     cards: [
       {
-        title: 'Pourquoi il compte',
+        title: 'Pourquoi il se distingue',
         body: 'Il est peu couteux, resilient et adaptable a de nombreux sols et climats, ce qui permet de diffuser l idee sans infrastructure lourde.'
       },
       {
@@ -75,7 +75,7 @@ export const VETIVER_EXPLAINER: Record<Locale, VetiverExplainerCopy> = {
       },
       {
         title: 'Comment VSF aide',
-        body: 'Nous soutenons la formation, la conception du site, la plantation et les preuves qui rendent le travail credible.'
+        body: 'Nous soutenons la formation, la conception du site, la plantation et le suivi qui permet au travail de durer.'
       },
       {
         title: 'Et ensuite',

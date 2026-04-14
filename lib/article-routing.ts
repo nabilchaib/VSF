@@ -64,16 +64,16 @@ const TARGET_LABELS: Record<Locale, Record<ArticleCtaTarget, string>> = {
 
 const INTENT_LABELS: Record<Locale, Record<ArticleIntent, string>> = {
   en: {
-    education: 'Education',
-    field_evidence: 'Field evidence',
-    active_project: 'Active project',
-    services_or_partnership: 'Services or partnership'
+    education: 'Learn',
+    field_evidence: 'Project proof',
+    active_project: 'Live project',
+    services_or_partnership: 'Partnership'
   },
   fr: {
     education: 'Apprentissage',
-    field_evidence: 'Preuves de terrain',
-    active_project: 'Projet actif',
-    services_or_partnership: 'Services ou partenariat'
+    field_evidence: 'Preuves du projet',
+    active_project: 'Projet en cours',
+    services_or_partnership: 'Partenariat'
   }
 };
 
@@ -81,36 +81,36 @@ const ARTICLE_END_CTA: Record<Locale, Record<ArticleIntent, ArticleEndCtaCopy>> 
   en: {
     education: {
       eyebrow: 'Next step',
-      title: 'Keep learning, then choose a path.',
+      title: 'Keep learning, then choose what fits.',
       body:
-        'This story is a starting point. Use the links below to learn more, review the projects layer, or get involved.',
+        'This story is a starting point. Learn more, browse projects, or get involved.',
       primary: { label: 'Learn about vetiver', href: '/vetiver', variant: 'primary' },
       secondary: { label: 'Browse projects', href: '/projects', variant: 'secondary' },
       tertiary: { label: 'Get involved', href: '/get-involved', variant: 'tertiary' }
     },
     field_evidence: {
-      eyebrow: 'Evidence path',
-      title: 'See the flagship proof layer.',
+      eyebrow: 'Project proof',
+      title: 'See the RDC project.',
       body:
-        'This story points to field evidence. The next step is the RDC hub, where public proof stays connected to the work on the ground.',
+        'This story connects to public proof. The RDC hub keeps the work and the explanation together.',
       primary: { label: 'Open RDC hub', href: '/projects/rdc', variant: 'primary' },
       secondary: { label: 'View projects', href: '/projects', variant: 'secondary' },
       tertiary: { label: 'Support the work', href: '/get-involved', variant: 'tertiary' }
     },
     active_project: {
-      eyebrow: 'Active project',
-      title: 'Follow the live project path.',
+      eyebrow: 'Project update',
+      title: 'Follow the live project.',
       body:
-        'This story connects to an active field route. Open the project page if you want to understand, support, or follow the work.',
+        'Open the project page to understand, support, or follow the work.',
       primary: { label: 'Browse projects', href: '/projects', variant: 'primary' },
       secondary: { label: 'Contact VSF', href: '/about/contact', variant: 'secondary' },
       tertiary: { label: 'Get involved', href: '/get-involved', variant: 'tertiary' }
     },
     services_or_partnership: {
-      eyebrow: 'Partnership path',
-      title: 'Continue through services or contact.',
+      eyebrow: 'Partnership',
+      title: 'Continue with services or contact.',
       body:
-        'This story points to collaboration. Choose the next step that fits your role and what you want to discuss.',
+        'Choose the next step that fits your role and what you want to discuss.',
       primary: { label: 'See services', href: '/about/services', variant: 'primary' },
       secondary: { label: 'Contact VSF', href: '/about/contact', variant: 'secondary' },
       tertiary: { label: 'Browse projects', href: '/projects', variant: 'tertiary' }
@@ -119,27 +119,27 @@ const ARTICLE_END_CTA: Record<Locale, Record<ArticleIntent, ArticleEndCtaCopy>> 
   fr: {
     education: {
       eyebrow: 'Prochaine etape',
-      title: 'Continuer a apprendre, puis choisir une voie.',
+      title: 'Continuer a apprendre, puis choisir ce qui convient.',
       body:
-        'Ce recit est un point de depart. Utilisez les liens ci-dessous pour decouvrir le vetiver, parcourir les projets ou passer a l action.',
+        'Ce recit est un point de depart. Decouvrez le vetiver, parcourez les projets ou passez a l action.',
       primary: { label: 'Decouvrir le vetiver', href: '/vetiver', variant: 'primary' },
       secondary: { label: 'Parcourir les projets', href: '/projects', variant: 'secondary' },
       tertiary: { label: 'Participer', href: '/get-involved', variant: 'tertiary' }
     },
     field_evidence: {
-      eyebrow: 'Chemin de preuves',
-      title: 'Voir la couche de preuve phare.',
+      eyebrow: 'Preuves du projet',
+      title: 'Voir le projet RDC.',
       body:
-        'Ce recit pointe vers les preuves de terrain. La prochaine etape est le hub RDC, ou les preuves publiques restent reliees au travail sur le terrain.',
+        'Ce recit renvoie aux preuves publiques. Le hub RDC garde le travail et l explication ensemble.',
       primary: { label: 'Ouvrir le hub RDC', href: '/projects/rdc', variant: 'primary' },
       secondary: { label: 'Voir les projets', href: '/projects', variant: 'secondary' },
       tertiary: { label: 'Soutenir le travail', href: '/get-involved', variant: 'tertiary' }
     },
     active_project: {
-      eyebrow: 'Projet actif',
-      title: 'Suivre un projet en cours.',
+      eyebrow: 'Mise a jour de projet',
+      title: 'Suivre le projet en cours.',
       body:
-        'Ce recit est lie a une voie de terrain active. Ouvrez la page du projet si vous voulez comprendre, soutenir ou suivre le travail.',
+        'Ouvrez la page du projet pour comprendre, soutenir ou suivre le travail.',
       primary: { label: 'Parcourir les projets', href: '/projects', variant: 'primary' },
       secondary: { label: 'Contacter VSF', href: '/about/contact', variant: 'secondary' },
       tertiary: { label: 'Participer', href: '/get-involved', variant: 'tertiary' }
@@ -148,7 +148,7 @@ const ARTICLE_END_CTA: Record<Locale, Record<ArticleIntent, ArticleEndCtaCopy>> 
       eyebrow: 'Partenariat',
       title: 'Continuer par les services ou le contact.',
       body:
-        'Ce recit pointe vers la collaboration. Choisissez la prochaine etape qui correspond a votre role et a ce que vous souhaitez discuter.',
+        'Choisissez la prochaine etape qui correspond a votre role et a ce que vous souhaitez discuter.',
       primary: { label: 'Voir les services', href: '/about/services', variant: 'primary' },
       secondary: { label: 'Contacter VSF', href: '/about/contact', variant: 'secondary' },
       tertiary: { label: 'Parcourir les projets', href: '/projects', variant: 'tertiary' }

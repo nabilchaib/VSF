@@ -143,7 +143,7 @@ export const RDC_PROJECT: Record<Locale, RdcLocaleContent> = {
       'A public hub for VSF’s RDC work: low-input vetiver systems as an alternative to costly, import-dependent agriculture in the Congo Basin.',
     introTitle: 'What this hub does',
     introBody:
-      'This hub turns a real field initiative into a public path for donors and partners. It keeps the story, evidence, and support routes together while sensitive operating details stay in working docs.',
+      'This hub turns a real field initiative into a public home for donors and partners. It keeps the story and support together while sensitive operating details stay in working docs.',
     primaryCta: 'Support the project',
     secondaryCta: 'Explore the overview',
     storyCta: 'Read the flagship story',
@@ -164,10 +164,10 @@ export const RDC_PROJECT: Record<Locale, RdcLocaleContent> = {
       }
     ],
     layersTitle: 'Public focus areas',
-    layersSubtitle: 'These are the themes visitors should understand without exposing internal operating detail.',
+    layersSubtitle: 'These are the themes visitors should understand without needing internal detail.',
     layers: [
       {
-        title: 'Field evidence',
+        title: 'Field learning',
         body: 'Document how vetiver performs in real conditions through site learning, measurements, and visual proof.'
       },
       {
@@ -225,8 +225,8 @@ export const RDC_PROJECT: Record<Locale, RdcLocaleContent> = {
         body: 'Use the project hub, article flow, and donation pages to fund evidence gathering, validation, and early pilots.'
       }
     ],
-    ownersTitle: 'Internal planning',
-    ownersSubtitle: 'Working details stay in the project docs.',
+    ownersTitle: 'Who is involved',
+    ownersSubtitle: 'Public roles on the project.',
     owners: [
       {
         role: 'Editorial and web',
@@ -249,31 +249,31 @@ export const RDC_PROJECT: Record<Locale, RdcLocaleContent> = {
         responsibility: 'Adds specialized input when needed.'
       }
     ],
-    budgetTitle: 'Internal planning',
-    budgetSubtitle: 'Not shown publicly.',
+    budgetTitle: 'Funding priorities',
+    budgetSubtitle: 'High-level support areas for the public hub.',
     budget: [
-      { item: 'Public storytelling', amount: 'TBD', note: 'Managed in working docs' },
-      { item: 'Field validation', amount: 'TBD', note: 'Managed in working docs' }
+      { item: 'Public storytelling', amount: 'TBD', note: 'Tracked in working docs' },
+      { item: 'Field validation', amount: 'TBD', note: 'Tracked in working docs' }
     ],
     budgetTotal: 'TBD',
-    decisionsTitle: 'Internal planning',
-    decisionsSubtitle: 'Not shown publicly.',
+    decisionsTitle: 'Project notes',
+    decisionsSubtitle: 'High-level choices that shape the public hub.',
     decisions: [
       {
-        date: 'Internal',
+        date: 'Current',
         decision: 'Keep the public hub narrative-led.',
         reason: 'It should bridge evidence, stories, and support.'
       }
     ],
-    editorialTitle: 'Editorial pipeline',
+    editorialTitle: 'Editorial plan',
     editorialSubtitle: 'Seven articles, one clear action each.',
     editorial: [
       {
         title: 'From Fire to Future: Breaking the Cycle of Slash-and-Burn Agriculture',
         status: 'published',
         owner: 'Eric and Nabil',
-        donationObjective: 'Fund field evidence and public storytelling',
-        cta: 'Fund field evidence',
+        donationObjective: 'Support field learning and public storytelling',
+        cta: 'Support field learning',
         path: RDC_FLAGSHIP_STORY_PATH.en
       },
       {
@@ -296,8 +296,8 @@ export const RDC_PROJECT: Record<Locale, RdcLocaleContent> = {
         title: 'What the First Field Numbers Tell Us',
         status: 'draft',
         owner: 'VSF',
-        donationObjective: 'Support the measured evidence',
-        cta: 'Support one hectare',
+        donationObjective: 'Support the measurements',
+        cta: 'Support the measurements',
         path: RDC_PROJECT_PATH.en
       },
       {
@@ -325,14 +325,14 @@ export const RDC_PROJECT: Record<Locale, RdcLocaleContent> = {
         path: RDC_PROJECT_PATH.en
       }
     ],
-    funnelTitle: 'Donor funnel',
-    funnelSubtitle: 'Every article should point to a distinct funding object.',
+    funnelTitle: 'Support paths',
+    funnelSubtitle: 'Every article should point to a distinct support object.',
     funnel: [
       {
         article: 'Flagship slash-and-burn story',
         landing: 'RDC hub overview',
-        donationObjective: 'Fund field evidence and public storytelling',
-        cta: 'Fund the evidence'
+        donationObjective: 'Support field learning and storytelling',
+        cta: 'Support the story'
       },
       {
         article: 'Field numbers article',
@@ -381,7 +381,7 @@ export const RDC_PROJECT: Record<Locale, RdcLocaleContent> = {
     ],
     dataTemplate: 'Record the indicator, the comparison point, the observed change, and a short note.',
     pilotsTitle: 'Product ideas under review',
-    pilotsSubtitle: 'Keep product ideas disciplined and small until field evidence and basic feasibility justify deeper investment.',
+    pilotsSubtitle: 'Keep product ideas disciplined and small until field learning and basic feasibility justify deeper investment.',
     pilots: [
       {
         title: 'Soap MVP',
@@ -396,19 +396,19 @@ export const RDC_PROJECT: Record<Locale, RdcLocaleContent> = {
         nextStep: 'List the constraints, sample the plant material, and ask an external reviewer to sanity-check the model.'
       }
     ],
-    sitesTitle: 'Provisional site register',
-    sitesSubtitle: 'Internal planning only.',
+    sitesTitle: 'Project sites',
+    sitesSubtitle: 'Sites connected to the public hub.',
     sites: [
       {
         site: 'RDC multi-site work',
         status: 'internal',
         coordinates: 'Withheld',
-        validation: 'Documented in working notes'
+        validation: 'Tracked in working notes'
       }
     ],
     footerTitle: 'Support a grounded alternative',
     footerBody:
-      'This hub keeps the public story connected to real field work. Support helps VSF document evidence, strengthen the public case, and test practical next steps in RDC.'
+      'This hub keeps the public story connected to real field work. Support helps VSF document results, strengthen the public case, and test practical next steps in RDC.'
   },
   fr: {
     eyebrow: 'Hub projet RDC',
@@ -418,7 +418,7 @@ export const RDC_PROJECT: Record<Locale, RdcLocaleContent> = {
       'Un hub public pour le travail RDC de VSF : des systèmes vétiver à faibles intrants comme alternative à une agriculture coûteuse et dépendante des importations.',
     introTitle: 'Ce que fait ce hub',
     introBody:
-      'Ce hub transforme une initiative de terrain réelle en voie publique pour les donateurs et les partenaires. Il relie le recit, les preuves et les voies de soutien, tout en gardant les details sensibles dans les documents de travail.',
+      'Ce hub transforme une initiative de terrain réelle en espace public pour les donateurs et les partenaires. Il relie le recit et le soutien, tout en gardant les details sensibles dans les documents de travail.',
     primaryCta: 'Soutenir le projet',
     secondaryCta: 'Découvrir la vue d’ensemble',
     storyCta: 'Lire le récit phare',
@@ -440,10 +440,10 @@ export const RDC_PROJECT: Record<Locale, RdcLocaleContent> = {
       }
     ],
     layersTitle: 'Axes publics',
-    layersSubtitle: 'Ces themes doivent etre compris sans exposer les details operationnels internes.',
+    layersSubtitle: 'Ces themes doivent etre compris sans avoir besoin de details internes.',
     layers: [
       {
-        title: 'Preuves terrain',
+        title: 'Apprentissage de terrain',
         body: 'Documenter la performance du vetiver en conditions reelles a travers l apprentissage par site, les mesures et les preuves visuelles.'
       },
       {
@@ -501,8 +501,8 @@ export const RDC_PROJECT: Record<Locale, RdcLocaleContent> = {
         body: 'Utiliser le hub, le flux d articles et les pages de don pour financer les preuves, la validation et les premiers pilotes.'
       }
     ],
-    ownersTitle: 'Planification interne',
-    ownersSubtitle: 'Les détails de travail restent dans les documents du projet.',
+    ownersTitle: 'Qui est impliqué',
+    ownersSubtitle: 'Roles publics sur le projet.',
     owners: [
       {
         role: 'Éditorial et web',
@@ -525,31 +525,31 @@ export const RDC_PROJECT: Record<Locale, RdcLocaleContent> = {
         responsibility: 'Apporte un appui spécialisé au besoin.'
       }
     ],
-    budgetTitle: 'Planification interne',
-    budgetSubtitle: 'Non affiché publiquement.',
+    budgetTitle: 'Priorites de financement',
+    budgetSubtitle: 'Des domaines de soutien a haut niveau pour le hub public.',
     budget: [
-      { item: 'Récit public', amount: 'À déterminer', note: 'Géré dans les documents de travail' },
-      { item: 'Validation terrain', amount: 'À déterminer', note: 'Géré dans les documents de travail' }
+      { item: 'Recit public', amount: 'À déterminer', note: 'Suivi dans les documents de travail' },
+      { item: 'Validation terrain', amount: 'À déterminer', note: 'Suivi dans les documents de travail' }
     ],
     budgetTotal: 'À déterminer',
-    decisionsTitle: 'Planification interne',
-    decisionsSubtitle: 'Non affiché publiquement.',
+    decisionsTitle: 'Notes de projet',
+    decisionsSubtitle: 'Des choix de haut niveau qui orientent le hub public.',
     decisions: [
       {
-        date: 'Interne',
+        date: 'Actuel',
         decision: 'Garder le hub centré sur le récit.',
         reason: 'Il doit relier les preuves, les histoires et le soutien.'
       }
     ],
-    editorialTitle: 'Pipeline éditorial',
+    editorialTitle: 'Plan editorial',
     editorialSubtitle: 'Sept articles, une seule action claire par article.',
     editorial: [
       {
         title: 'Du feu à l’avenir : briser le cycle du brûlis',
         status: 'published',
         owner: 'Eric et Nabil',
-        donationObjective: 'Financer les preuves terrain et le récit public',
-        cta: 'Lire l’article phare',
+        donationObjective: 'Soutenir l apprentissage de terrain et le recit public',
+        cta: 'Soutenir le recit',
         path: RDC_FLAGSHIP_STORY_PATH.fr
       },
       {
@@ -572,8 +572,8 @@ export const RDC_PROJECT: Record<Locale, RdcLocaleContent> = {
         title: 'Ce que les premières données de terrain nous disent',
         status: 'draft',
         owner: 'VSF',
-        donationObjective: 'Soutenir les preuves mesurées',
-        cta: 'Soutenir un hectare',
+        donationObjective: 'Soutenir les mesures',
+        cta: 'Soutenir les mesures',
         path: RDC_PROJECT_PATH.fr
       },
       {
@@ -601,14 +601,14 @@ export const RDC_PROJECT: Record<Locale, RdcLocaleContent> = {
         path: RDC_PROJECT_PATH.fr
       }
     ],
-    funnelTitle: 'Tunnel donateur',
-    funnelSubtitle: 'Chaque article doit mener à un objet de financement distinct.',
+    funnelTitle: 'Voies de soutien',
+    funnelSubtitle: 'Chaque article doit mener à un objet de soutien distinct.',
     funnel: [
       {
         article: 'Récit phare sur le brûlis',
         landing: 'Vue d’ensemble du hub RDC',
-        donationObjective: 'Financer les preuves terrain et le récit public',
-        cta: 'Financer les preuves'
+        donationObjective: 'Soutenir l apprentissage de terrain et le recit',
+        cta: 'Soutenir le recit'
       },
       {
         article: 'Article sur les chiffres de terrain',
@@ -657,7 +657,7 @@ export const RDC_PROJECT: Record<Locale, RdcLocaleContent> = {
     ],
     dataTemplate: 'Enregistrer l indicateur, le point de comparaison, le changement observe et une note courte.',
     pilotsTitle: 'Idées produits en revue',
-    pilotsSubtitle: 'Garder les idées produit disciplinées et modestes tant que les preuves de terrain et la faisabilité de base ne justifient pas un investissement plus poussé.',
+    pilotsSubtitle: 'Garder les idées produit disciplinées et modestes tant que l apprentissage de terrain et la faisabilité de base ne justifient pas un investissement plus poussé.',
     pilots: [
       {
         title: 'MVP savon',
@@ -672,19 +672,19 @@ export const RDC_PROJECT: Record<Locale, RdcLocaleContent> = {
         nextStep: 'Lister les contraintes, échantillonner la matière première et demander un avis externe.'
       }
     ],
-    sitesTitle: 'Registre provisoire des sites',
-    sitesSubtitle: 'Planification interne seulement.',
+    sitesTitle: 'Sites du projet',
+    sitesSubtitle: 'Sites lies au hub public.',
     sites: [
       {
         site: 'Travail multi-sites en RDC',
         status: 'interne',
         coordinates: 'Non publié',
-        validation: 'Documenté dans les notes de travail'
+        validation: 'Suivi dans les notes de travail'
       }
     ],
     footerTitle: 'Soutenir une alternative ancrée',
     footerBody:
-      'Ce hub est conçu pour garder le recit public relie au travail de terrain. Le soutien aide VSF a documenter les preuves, renforcer le cas public et tester les prochaines etapes pratiques en RDC.'
+      'Ce hub est conçu pour garder le recit public relie au travail de terrain. Le soutien aide VSF a documenter les resultats, renforcer le cas public et tester les prochaines etapes pratiques en RDC.'
   }
 };
 
