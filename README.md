@@ -50,11 +50,16 @@ Copy `.env.example` to `.env.local` and fill in:
 
 - `NEXT_PUBLIC_SITE_URL`
 - `NEXT_PUBLIC_MEDIA_BASE_URL`
-- contact/newsletter hosted form URLs
+- `NEXT_PUBLIC_CONTACT_FORM_EMBED_URL`
+- `NEXT_PUBLIC_CONTACT_FORM_URL`
+- `NEXT_PUBLIC_NEWSLETTER_EMBED_URL`
+- `NEXT_PUBLIC_NEWSLETTER_URL`
 - R2 credentials if you want to run the uploader
 - `GOOGLE_ADS_CREDENTIALS_DIR` if you want the Ads tooling to read local credential files
 - `GOOGLE_ADS_ALLOW_LIVE_MUTATION=true` if you want to execute live Ads mutations
 - `GOOGLE_ADS_ALLOW_LIVE_MUTATION=true` if you want to execute live Ads mutations
+
+If the hosted form variables are missing, the site falls back to email links instead of failing closed. Media can also fall back to the legacy WordPress uploads host until `NEXT_PUBLIC_MEDIA_BASE_URL` is set.
 
 The draft command is a safe API wrapper around `campaignDrafts:mutate`. It needs a real base campaign resource to succeed; the example above uses a placeholder campaign ID.
 
@@ -64,6 +69,7 @@ The draft command is a safe API wrapper around `campaignDrafts:mutate`. It needs
 - French is served under `/fr`.
 - Legacy `/en/...` routes redirect to root English routes.
 - Contact and newsletter forms are intentionally provider-agnostic and controlled by environment variables.
+- See `docs/launch-readiness.md` for the explicit launch stance on forms, media, homepage metadata, proof points, and local dev recovery.
 - `CLAUDE.md` is the website operating guide.
 - `ads/AGENTS.md` is the Google Ads automation operating guide.
 - The Ads cleanup workflow is dry-run first and does not mutate campaigns until explicit approval is added.

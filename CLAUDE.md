@@ -97,6 +97,13 @@ Use `localePath(enPath, locale)` from `@/lib/site` for all internal links. Do NO
 
 Legacy HTML rendered via `dangerouslySetInnerHTML` in `html-content.tsx` is sanitized with `isomorphic-dompurify` before rendering. Always sanitize HTML from external/legacy sources.
 
+### Launch behavior
+
+- Contact and newsletter forms use `NEXT_PUBLIC_CONTACT_FORM_EMBED_URL`, `NEXT_PUBLIC_CONTACT_FORM_URL`, `NEXT_PUBLIC_NEWSLETTER_EMBED_URL`, and `NEXT_PUBLIC_NEWSLETTER_URL`.
+- If the hosted form env vars are missing, the UI falls back to email links instead of breaking the page.
+- Media falls back to legacy WordPress uploads until `NEXT_PUBLIC_MEDIA_BASE_URL` is configured.
+- Homepage metadata should follow the live homepage component strategy, not the legacy MDX frontmatter.
+
 ### Images
 
 - Use Next.js `<Image>` with appropriate `sizes` attribute — never just `sizes="100vw"`.

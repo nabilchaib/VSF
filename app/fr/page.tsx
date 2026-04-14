@@ -1,9 +1,9 @@
-import { buildEntryMetadata, getContentEntry } from '@/lib/content';
+import { getContentEntry } from '@/lib/content';
+import { buildHomepageMetadata } from '@/lib/homepage';
 import { renderEntryPage } from '@/components/content-page';
 
 export async function generateMetadata() {
-  const entry = await getContentEntry('fr', []);
-  return buildEntryMetadata(entry, 'fr');
+  return buildHomepageMetadata('fr');
 }
 
 export default async function FrenchHomePage() {
