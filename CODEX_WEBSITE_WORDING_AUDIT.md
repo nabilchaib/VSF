@@ -2,17 +2,28 @@
 
 ## Purpose
 
-This document replaces the older `CORTEX_WORDING_BRIEF.md` as the **working source of truth for OpenAI tools**, especially **Codex**.
+This document is the repo-aware wording audit for the public VSF website.
 
-The old file was useful as a strategic prompt, but it was not specific enough for implementation. This audit is meant to help Codex understand:
-- what is already working
+It should help Codex understand:
+- what has improved
+- what is now complete enough to protect
 - what still reads poorly in the public site
 - which pages need tightening versus full rewrites
-- which wording patterns should be removed
-- what "done" looks like page by page
+- what the next wording priority is
 
 This is not a generic brand memo.
-This is a **repo-aware execution brief for the public website copy**.
+It is a working execution brief for public website copy.
+
+---
+
+## Progress Update — April 14, 2026
+
+Two major public-page wording rewrites are now merged:
+- **Get Involved** now acts as a real support-routing hub.
+- **About** now acts as a trust and positioning page instead of a generic mission/values page.
+
+That means the remaining wording gap is no longer broad architecture.
+It is now a more focused set of page-level cleanups and refinements.
 
 ---
 
@@ -20,22 +31,20 @@ This is a **repo-aware execution brief for the public website copy**.
 
 The wording migration is **partly successful, but not finished**.
 
-The site is now much better than the legacy WordPress version at introducing vetiver first. The strongest improvement is that the site no longer starts purely with NGO identity language. That shift is correct.
-
-However, the wording is still uneven.
+The site is much better than the legacy WordPress version at introducing vetiver first. The strongest improvement is that the site no longer starts purely with NGO identity language.
 
 ### Current reality
 - **Home is directionally strong** and should be tightened, not rebuilt from scratch.
 - **The reusable vetiver explainer is strong** and should remain a core source of truth.
-- **About is serviceable but still too institutional** and still explains VSF more through values than through practical proof.
-- **Get Involved is still weak** and reads too much like migrated WordPress / legacy NGO copy.
-- **Some project pages still use internal-facing language** that should never appear on a public site.
+- **Get Involved is now directionally aligned** and mostly needs QA and refinement, not a major rewrite.
+- **About is now directionally aligned** and mostly needs QA and refinement, not a major rewrite.
+- **San Rafael still uses internal-facing language** and is now the clearest high-priority wording gap.
 
 ### Most important conclusion
 The remaining work is **not** to rewrite everything.
 The remaining work is to:
 1. protect the parts that already work
-2. remove internal / vague / inherited language
+2. remove internal / vague / inherited language where it still appears
 3. rewrite the pages that are still clearly unfinished
 4. keep every page understandable to a cold visitor who has never heard of vetiver
 
@@ -44,16 +53,16 @@ The remaining work is to:
 ## What Is Already Working
 
 ### 1. Vetiver-first framing
-The new site is strongest when it begins with the plant, its use, and the practical problem it solves.
+The site is strongest when it begins with the plant, its use, and the practical problem it solves.
 
 That strategic direction is correct and should be preserved.
 
-### 2. The reusable vetiver explanation layer
+### 2. Reusable vetiver explanation layer
 The repo already contains strong reusable wording in `lib/vetiver-copy.ts`.
 
-This matters because Codex should **reuse and refine** this copy rather than inventing a new explanation on every page.
+Codex should **reuse and refine** this copy rather than inventing a new explanation on every page.
 
-### 3. The home page structure
+### 3. Home page structure
 The home page already follows the right order:
 - What is vetiver?
 - Why it matters
@@ -70,9 +79,15 @@ The site is increasingly moving toward clearer paths:
 - support
 - partner
 - propose
+- stay connected
 
 That is the right model.
-The remaining problem is that some pages still explain these paths weakly or in legacy language.
+
+### 5. About and Get Involved now fit their roles
+- About now reads much more like a trust page.
+- Get Involved now reads much more like a decision and routing page.
+
+Those pages should now be protected and refined, not re-opened as major rewrites.
 
 ---
 
@@ -81,17 +96,14 @@ The remaining problem is that some pages still explain these paths weakly or in 
 ### 1. Internal language leaking into public copy
 Some pages still sound like repo notes, internal stakeholder language, or operational summaries.
 
-Examples of phrases or patterns that should be removed from public-facing copy:
+Examples of phrases that should be removed from public-facing copy:
 - `donor-safe`
 - `public evidence`
 - `pilot path`
 - `field path`
 - `support route`
-- `project intake` when used as visible page wording
+- `project intake` when used visibly
 - `stays readable without exposing sensitive field detail`
-
-These may be acceptable in internal docs.
-They are not good public website language.
 
 ### 2. NGO-general wording replacing concrete explanation
 Some sections still say broad things like:
@@ -101,7 +113,7 @@ Some sections still say broad things like:
 - support our work
 - community resilience
 
-These are not wrong, but they become weak when they are not tied to a visible land, water, slope, farming, or infrastructure problem.
+These are weak when they are not tied to visible land, water, slope, farming, or infrastructure problems.
 
 VSF becomes more persuasive when the copy says what vetiver actually helps do:
 - slow runoff
@@ -111,31 +123,15 @@ VSF becomes more persuasive when the copy says what vetiver actually helps do:
 - reduce dependency on costly agricultural inputs
 - help communities test practical solutions locally
 
-### 3. Legacy WordPress content still visible in wording quality
+### 3. Remaining migration feel
 A page can technically work but still feel migrated.
 
-Signals of unfinished migrated copy include:
+Signals include:
 - generic headings
-- repetitive calls to “support our work”
+- repetitive support language
 - awkward HTML-heavy structure
-- filler sections like “Spread the word” with no strategic depth
+- filler sections that do not improve understanding or conversion
 - language that sounds like a nonprofit brochure instead of a clear public website
-
-### 4. Too much institutional self-description
-Whenever the site starts talking too early about:
-- our values
-- our mission
-- our approach
-- our partnerships
-
-before proving why the visitor should care about vetiver, the copy weakens.
-
-The correct order remains:
-1. problem
-2. practical plant-based solution
-3. what becomes possible
-4. why VSF exists
-5. how to engage
 
 ---
 
@@ -148,13 +144,13 @@ The correct order remains:
 **Keep and tighten. Do not rebuild from scratch.**
 
 ### What is good
-- Strong hero sequence
-- Vetiver introduced early
-- Clear practical framing
+- strong hero sequence
+- vetiver introduced early
+- clear practical framing
 - CTA structure is mostly correct
 
 ### What still needs work
-The page still contains phrases that sound a bit too internal, abstract, or strategic rather than public-facing.
+The page still contains phrases that sound too internal, abstract, or strategic rather than public-facing.
 
 Examples to tighten:
 - `public evidence`
@@ -162,60 +158,21 @@ Examples to tighten:
 - `plant-based technology`
 - `technical support, partnerships, and public evidence`
 
-These ideas are valid, but the phrasing should become more human and more concrete.
-
-### Preferred direction
-Make the visitor feel:
-- this plant is surprisingly useful
-- this organization helps real communities apply it
-- I understand why this matters in practical terms
-
-### Acceptance criteria
-Home succeeds when a first-time visitor can understand in a few seconds:
-- what vetiver is
-- what it helps do
-- why VSF exists
-- where to click next
-
 ---
 
 ## About
 **File:** `components/about-page.tsx`
 
 ### Status
-**Needs partial rewrite.**
+**Merged and directionally aligned. Protect and refine.**
 
-### Main problem
-The page is better than legacy copy, but it still leans too much on organizational framing.
+### What changed
+The page now behaves much more like a trust and positioning page.
 
-It explains VSF through:
-- values
-- shared priorities
-- partnership language
-
-more than through:
-- the practical problem
-- what vetiver makes possible
-- why VSF had to exist to move this work forward
-
-### What Codex should do
-Rebuild the page around this sequence:
-1. why vetiver matters
-2. why a group like VSF is needed
-3. what VSF actually does in practice
-4. how evidence, education, and project support fit together
-
-### What to reduce
-Reduce the emotional and visual weight of generic values cards unless each one is tied to a visible example.
-
-### Acceptance criteria
-The About page should answer:
-- Why does VSF exist?
-- Why vetiver?
-- What does VSF actually do?
-- Why should a donor or partner trust the approach?
-
-It should not feel like a standard nonprofit About page.
+### Remaining focus
+- keep tone warm and public-facing
+- protect the trust-page role
+- avoid drifting back into generic values-led nonprofit copy
 
 ---
 
@@ -223,41 +180,15 @@ It should not feel like a standard nonprofit About page.
 **File:** `content/en/pages/get-involved.mdx`
 
 ### Status
-**Major rewrite required. This remains one of the weakest pages in the public site.**
+**Merged and directionally aligned. Protect and refine.**
 
-### Main problem
-This page still reads like migrated WordPress content.
+### What changed
+The page now behaves much more like a support-routing hub.
 
-It contains several signs of unfinished copy migration:
-- legacy HTML blob structure
-- generic headings
-- weak section hierarchy
-- soft NGO language
-- filler CTA logic
-- old-style image blocks
-
-### What Codex should do
-Rewrite the page around **clear visitor paths**, not generic participation language.
-
-Recommended structure:
-1. Start with one sentence that reconnects the visitor to vetiver
-2. Offer four clear paths:
-   - Learn about vetiver
-   - Donate / support field work
-   - Partner with VSF
-   - Propose a project
-3. Make each path concrete
-4. Remove filler sections that do not help conversion or understanding
-
-### What to remove or replace
-Replace weak sections like:
-- “Spread the word” as a major content block
-- vague climate-action phrasing
-- repetitive support language
-
-### Acceptance criteria
-This page should feel like a **decision page**, not a brochure.
-A visitor should immediately understand which path fits them.
+### Remaining focus
+- keep the routing clear
+- maintain the newsletter / stay-connected logic
+- avoid reintroducing brochure-style filler
 
 ---
 
@@ -269,25 +200,12 @@ A visitor should immediately understand which path fits them.
 ### Status
 **Directionally improved, but still needs wording discipline.**
 
-### What is good
-The gateway logic is much stronger than before:
-- flagship proof hub
-- live project path
-- proposal path
-
-That is a strong information architecture for VSF.
-
-### What still needs work
-The wording should stay public and plain.
-Whenever the page starts sounding like internal portfolio classification language, it gets colder.
-
 ### Codex focus
 Keep the structure, but make sure every card answers:
 - what this page/project is
 - why it matters publicly
 - what the user can do next
 
-### Acceptance criteria
 The projects layer should feel like a public portfolio gateway, not an internal taxonomy.
 
 ---
@@ -296,7 +214,7 @@ The projects layer should feel like a public portfolio gateway, not an internal 
 **File:** `app/(en)/projects/san-rafael/page.tsx`
 
 ### Status
-**Needs wording cleanup.**
+**Needs wording cleanup. Highest current page-level priority.**
 
 ### Main problem
 This page still contains internal-facing wording that is not appropriate for a public website.
@@ -307,23 +225,17 @@ Examples:
 - `pilot path`
 - `stays concrete enough to support and disciplined enough to learn from`
 
-This reads like internal comms, not a donor-facing or public-facing project page.
-
 ### What Codex should do
 Rewrite this page so it sounds like:
 - a real field project
 - a clear public explanation
 - a credible invitation to follow or support the work
 
-### Better direction
-Instead of explaining how the page is managed internally, explain:
+Instead of explaining internal handling logic, explain:
 - what the project is trying to do
 - why the site matters
 - what supporters can understand from it
 - how this work could inform future replication
-
-### Acceptance criteria
-A public visitor should never feel they are reading internal portfolio management language.
 
 ---
 
@@ -333,21 +245,11 @@ A public visitor should never feel they are reading internal portfolio managemen
 ### Status
 **Strong base. Refine, do not replace.**
 
-### What Codex should do
-Use this file as a source of truth for consistent wording across pages.
-
 ### Improvement direction
-Reduce abstract phrases when a clearer version is available.
-For example:
 - prefer practical benefit language over internal organizational language
 - keep explanations short and visual
 - keep proof points concrete and easy to reuse
-
-### Acceptance criteria
-This file should remain the cleanest reusable source for:
-- what vetiver is
-- what it can do
-- why VSF matters
+- reduce over-reliance on RDC as the default next step
 
 ---
 
@@ -358,28 +260,15 @@ This file should remain the cleanest reusable source for:
 - individual post frontmatter and post templates
 
 ### Status
-**Improving, but wording still needs discipline.**
-
-### What is good
-The site is moving toward routing stories into clearer next steps.
-That is correct.
+**Improving, but wording and routing still need discipline.**
 
 ### What still needs work
 Stories should not end in vague inspiration.
 They should route readers toward a clear next step without sounding mechanical.
 
-### Acceptance criteria
-Every article should leave the reader with one obvious next action:
-- learn more
-- view a project
-- support work
-- contact VSF
-
 ---
 
 ## Copy Patterns Codex Should Remove
-
-Codex should actively look for and remove these patterns from public-facing copy:
 
 ### Internal / operational phrases
 - donor-safe
@@ -387,7 +276,7 @@ Codex should actively look for and remove these patterns from public-facing copy
 - field path
 - support route
 - intake route
-- portfolio gateway when overused in visible copy
+- portfolio gateway when overused visibly
 - readable without exposing sensitive detail
 
 ### Weak nonprofit filler
@@ -398,51 +287,19 @@ Codex should actively look for and remove these patterns from public-facing copy
 - climate action
 - environmental and social impact
 
-These can sometimes remain in limited places, but they should never carry the main burden of explanation.
-
 ### Generic language that hides the real value
 - sustainable solutions
 - long-term impact
 - practical possibilities
-
-These phrases are acceptable only when followed by something specific.
-
----
-
-## Preferred Wording Patterns
-
-Codex should prefer language like this:
-
-### Explaining vetiver
-- Vetiver is a deep-rooted grass used to slow runoff and hold soil in place.
-- When planted in lines, vetiver helps stabilize slopes, protect land, and retain water where it is needed.
-- It is a low-cost, practical tool that can be used in many climates and landscapes.
-
-### Explaining what VSF does
-- VSF helps communities learn how to use vetiver in real conditions.
-- VSF supports education, site-level guidance, field testing, and project visibility.
-- VSF helps turn plant knowledge into practical action on the ground.
-
-### Explaining projects
-- This project shows how vetiver can be used in a real site.
-- This page explains the local problem, the practical response, and the next step for support or partnership.
-- What is learned here can inform other projects facing similar land and water challenges.
-
-### Explaining support
-- Support the field work
-- Follow a live project
-- Back practical proof
-- Propose a new initiative
-- Partner around a specific need
 
 ---
 
 ## Exact Files Codex Should Review Next
 
 ### Highest priority
-- `content/en/pages/get-involved.mdx`
-- `components/about-page.tsx`
 - `app/(en)/projects/san-rafael/page.tsx`
+- `components/vetiver-page.tsx`
+- `components/services-page.tsx`
 
 ### Tightening priority
 - `components/home-page.tsx`
@@ -487,13 +344,13 @@ The wording work is done when:
 
 ## Final Direction For Codex
 
-Codex should think about the remaining wording work in three buckets:
+Codex should think about the remaining work in three buckets:
 
 ### Bucket 1 — Protect what already works
-Do not destroy the good vetiver-first structure already established on Home and in the reusable explainer.
+Do not destroy the good vetiver-first structure already established on Home, About, Get Involved, and in the reusable explainer.
 
 ### Bucket 2 — Rewrite what is still obviously unfinished
-Treat `Get Involved` and parts of `About` and `San Rafael` as still unfinished public copy.
+Treat San Rafael as the clearest unfinished public page, then continue with Vetiver, Services, and cross-page consistency work.
 
 ### Bucket 3 — Remove internal language everywhere it appears
 The final polish is not only about grammar or elegance.
