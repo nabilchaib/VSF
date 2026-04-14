@@ -17,7 +17,7 @@ export function NewsletterSection({
   copy: NewsletterSectionCopy;
 }) {
   return (
-    <Section className="bg-white/72 py-14 lg:py-20">
+    <Section id="newsletter" className="bg-white/72 py-14 lg:py-20">
       <div className="grid gap-8 rounded-[2.5rem] border border-bark/10 bg-[#fbf8f1] px-6 py-7 shadow-card lg:grid-cols-[0.82fr_1.18fr] lg:px-8">
         <div className="space-y-4 rounded-[1.8rem] bg-white/72 p-6 lg:p-7">
           <p className="text-sm font-semibold uppercase tracking-[0.2em] text-bark/60">

@@ -7,6 +7,7 @@ type RouteAction = {
   label: string;
   href: string;
   external?: boolean;
+  localized?: boolean;
   variant: 'primary' | 'secondary' | 'tertiary';
 };
 
@@ -90,7 +91,7 @@ function RouteCardView({ locale, route }: { locale: Locale; route: RouteCard }) 
         {route.actions.map((action) => (
           <Button
             key={action.label}
-            href={action.external ? action.href : localePath(action.href, locale)}
+            href={action.external ? action.href : action.localized === false ? action.href : localePath(action.href, locale)}
             external={action.external}
             target={action.external ? '_blank' : undefined}
             rel={action.external ? 'noreferrer' : undefined}
@@ -172,7 +173,7 @@ const copy: Record<Locale, PageCopy> = {
       {
         eyebrow: 'Follow and learn',
         title: 'Learn the vetiver system before you act.',
-        body: 'Use this route if you want context first. Read the vetiver guide, then follow field stories and updates.',
+        body: 'Use this route if you want context first. Read the vetiver guide, follow field stories, and join the email list for updates.',
         actions: [
           {
             label: 'Learn about vetiver',
@@ -183,6 +184,12 @@ const copy: Record<Locale, PageCopy> = {
             label: 'Read stories',
             href: '/stories',
             variant: 'tertiary'
+          },
+          {
+            label: 'Get email updates',
+            href: '/#newsletter',
+            localized: false,
+            variant: 'primary'
           }
         ]
       }
@@ -250,7 +257,7 @@ const copy: Record<Locale, PageCopy> = {
       {
         eyebrow: 'Suivre et apprendre',
         title: 'Comprendre le systeme vetiver avant d agir.',
-        body: 'Utilisez cette voie si vous voulez d abord du contexte. Lisez le guide vetiver, puis suivez les recits et les mises a jour.',
+        body: 'Utilisez cette voie si vous voulez d abord du contexte. Lisez le guide vetiver, suivez les recits et inscrivez-vous pour recevoir les mises a jour par courriel.',
         actions: [
           {
             label: 'Decouvrir le vetiver',
@@ -261,6 +268,12 @@ const copy: Record<Locale, PageCopy> = {
             label: 'Lire les recits',
             href: '/stories',
             variant: 'tertiary'
+          },
+          {
+            label: 'Recevoir les mises a jour',
+            href: '/fr#newsletter',
+            localized: false,
+            variant: 'primary'
           }
         ]
       }
