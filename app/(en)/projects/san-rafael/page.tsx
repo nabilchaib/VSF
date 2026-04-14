@@ -9,7 +9,7 @@ export function generateMetadata(): Metadata {
     locale: 'en',
     path: PROJECT_PATHS.sanRafael,
     title: 'San Rafael | Vetiver Without Borders',
-    description: 'San Rafael is an active field pilot and donor-ready path for vetiver work.',
+    description: 'San Rafael is a public field project for vetiver work.',
     image: '2022/10/DSCF0117.jpeg'
   });
 }
@@ -22,14 +22,14 @@ const copy: Record<'en', ProjectDetailCopy> = {
   en: {
     eyebrow: 'Active field pilot',
     title: 'San Rafael',
-    subtitle: 'A live vetiver path on the ground.',
+    subtitle: 'A live vetiver project on the ground.',
     image: '2022/10/DSCF0117.jpeg',
     summaryEyebrow: 'Public overview',
-    summaryTitle: 'A field pilot with a clear support path.',
+    summaryTitle: 'A field project with a clear public explanation.',
     summaryBody:
-      'San Rafael shows vetiver in a working site. The public page stays donor-safe while still making the pilot easy to understand.',
+      'San Rafael shows vetiver in a working site. The page explains the work in public terms without exposing more detail than a visitor needs.',
     whyEyebrow: 'Why it matters',
-    whyTitle: 'Why this is a separate project path.',
+    whyTitle: 'Why this project stands on its own.',
     whyPoints: [
       {
         title: 'Real-site learning',
@@ -37,31 +37,31 @@ const copy: Record<'en', ProjectDetailCopy> = {
       },
       {
         title: 'Visible progress',
-        body: 'Supporters can understand what the pilot is trying to do.'
+        body: 'Supporters can understand what the project is trying to do.'
       },
       {
         title: 'Useful for replication',
         body: 'What is learned here can inform future field work.'
       }
     ],
-    nextEyebrow: 'Support route',
-    nextTitle: 'Back the pilot or open the broader portfolio.',
-    nextBody: 'If you want to support field learning, the next step is direct and public.',
+    nextEyebrow: 'How to engage',
+    nextTitle: 'Support the project or keep browsing.',
+    nextBody: 'If you want to follow the project, the next step is direct and public.',
     nextSteps: [
-      'Review the pilot as a public field project.',
-      'Support implementation through the donation path.',
+      'Review the project as a public field example.',
+      'Support implementation through the donation link.',
       'Use the contact page for partnership questions.'
     ],
     ctaLabel: 'Support San Rafael',
     ctaHref: DONATE_URL,
     ctaExternal: true,
     supportNote: 'For partnership questions, use the contact page before contributing.',
-    footerTitle: 'A pilot path that stays public.',
+    footerTitle: 'A public field project.',
     footerBody:
-      'San Rafael is meant to be readable without exposing sensitive field detail. It stays concrete enough to support and disciplined enough to learn from.',
+      'San Rafael is meant to be readable without exposing sensitive field detail. It stays concrete enough to support and clear enough to learn from.',
     footerLinks: [
       {
-        label: 'Open the portfolio gateway',
+        label: 'Open the projects page',
         href: localePath('/projects', 'en')
       },
       {
