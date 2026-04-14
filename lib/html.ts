@@ -58,7 +58,7 @@ export function transformLegacyHtml(html: string | undefined, locale: Locale) {
     ADD_TAGS: ['iframe'],
     ADD_ATTR: ['loading', 'target', 'rel', 'allow', 'allowfullscreen', 'frameborder'],
     FORBID_TAGS: ['script', 'style', 'form', 'input', 'textarea', 'select', 'button', 'link'],
-    FORBID_ATTR: ['onerror', 'onload', 'onclick', 'onmouseover', 'style']
+    FORBID_ATTR: ['onerror', 'onload', 'onclick', 'onmouseover']
   });
 
   const withoutLeadMedia = sanitized
