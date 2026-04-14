@@ -57,8 +57,8 @@ export function transformLegacyHtml(html: string | undefined, locale: Locale) {
   const sanitized = DOMPurify.sanitize(html || '', {
     ADD_TAGS: ['iframe'],
     ADD_ATTR: ['loading', 'target', 'rel', 'allow', 'allowfullscreen', 'frameborder'],
-    FORBID_TAGS: ['script', 'style', 'form', 'input', 'textarea', 'select', 'button'],
-    FORBID_ATTR: ['onerror', 'onload', 'onclick', 'onmouseover']
+    FORBID_TAGS: ['script', 'style', 'form', 'input', 'textarea', 'select', 'button', 'link'],
+    FORBID_ATTR: ['onerror', 'onload', 'onclick', 'onmouseover', 'style']
   });
 
   const withoutLeadMedia = sanitized
