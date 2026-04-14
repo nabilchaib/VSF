@@ -86,7 +86,7 @@ export function ProjectDetailPage({ locale, copy }: { locale: Locale; copy: Proj
 
               <div className="rounded-[1.8rem] border border-white/12 bg-white/8 p-6">
                 <p className="text-sm font-semibold uppercase tracking-[0.2em] text-surface/72">
-                  {locale === 'fr' ? 'Prochaine etape' : 'Next step'}
+                  {locale === 'fr' ? 'Prochaine étape' : 'Next step'}
                 </p>
                 <Button
                   href={copy.ctaHref}

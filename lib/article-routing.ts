@@ -52,7 +52,7 @@ const TARGET_LABELS: Record<Locale, Record<ArticleCtaTarget, string>> = {
     contact: 'Contact VSF'
   },
   fr: {
-    vetiver: 'Decouvrir le vetiver',
+    vetiver: 'Découvrir le vétiver',
     projects: 'Parcourir les projets',
     'get-involved': 'Participer',
     rdc: 'Ouvrir le hub RDC',
@@ -118,11 +118,11 @@ const ARTICLE_END_CTA: Record<Locale, Record<ArticleIntent, ArticleEndCtaCopy>> 
   },
   fr: {
     education: {
-      eyebrow: 'Prochaine etape',
-      title: 'Continuer a apprendre, puis choisir une voie.',
+      eyebrow: 'Prochaine étape',
+      title: 'Continuer à apprendre, puis choisir une voie.',
       body:
-        'Ce recit est un point de depart. Decouvrez le vetiver, parcourez les projets ou participez.',
-      primary: { label: 'Decouvrir le vetiver', href: '/vetiver', variant: 'primary' },
+        'Ce récit est un point de départ. Découvrez le vétiver, parcourez les projets ou participez.',
+      primary: { label: 'Découvrir le vétiver', href: '/vetiver', variant: 'primary' },
       secondary: { label: 'Parcourir les projets', href: '/projects', variant: 'secondary' },
       tertiary: { label: 'Participer', href: '/get-involved', variant: 'tertiary' }
     },
@@ -130,13 +130,13 @@ const ARTICLE_END_CTA: Record<Locale, Record<ArticleIntent, ArticleEndCtaCopy>> 
       eyebrow: 'Preuves du projet',
       title: 'Ouvrir le hub RDC.',
       body:
-        'Ce recit renvoie aux preuves publiques. Ouvrez RDC, puis parcourez les projets ou soutenez le travail si vous voulez le contexte plus large.',
+        'Ce récit renvoie aux preuves publiques. Ouvrez RDC, puis parcourez les projets ou soutenez le travail si vous voulez le contexte plus large.',
       primary: { label: 'Ouvrir le hub RDC', href: '/projects/rdc', variant: 'primary' },
       secondary: { label: 'Voir les projets', href: '/projects', variant: 'secondary' },
       tertiary: { label: 'Soutenir le travail', href: '/get-involved', variant: 'tertiary' }
     },
     active_project: {
-      eyebrow: 'Mise a jour de projet',
+      eyebrow: 'Mise à jour de projet',
       title: 'Suivre le projet en cours.',
       body:
         'Ouvrez la page du projet pour comprendre, soutenir ou suivre le travail.',

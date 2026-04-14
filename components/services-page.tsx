@@ -233,7 +233,7 @@ const copy = {
     secondaryCta: 'View projects'
   },
   fr: {
-    title: 'Services vetiver',
+    title: 'Services vétiver',
     subtitle:
       "Soutien pratique basé sur le vétiver pour l'évaluation du site, la mise en œuvre et le travail de terrain porté par des partenaires.",
     introEyebrow: 'Ce que nous proposons',
@@ -242,13 +242,13 @@ const copy = {
       'Nous partons du problème sur le terrain - érosion, ruissellement, instabilité des pentes ou dégradation des terres - pour construire une réponse pratique autour du vétiver.',
     summaryPoints: [
       'Évaluation et planification du site',
-      'Protection des pentes et contrôle de l érosion',
+      'Protection des pentes et contrôle de l’érosion',
       'Gestion des eaux de pluie',
       'Formation et transfert',
       'Appui à la mise en œuvre par les partenaires',
-      'Planification de l entretien à long terme'
+      'Planification de l’entretien à long terme'
     ],
-    imageAlt: 'Conditions de site montrant où des services basés sur le Vétiver peuvent être appliqués.',
+    imageAlt: 'Conditions de site montrant où des services basés sur le vétiver peuvent être appliqués.',
     servicesEyebrow: 'Domaines de service',
     servicesTitle: 'Comment le vétiver peut soutenir un site ou un partenariat.',
     serviceCards: [
@@ -269,11 +269,11 @@ const copy = {
         body: 'Nous accompagnons les porteurs de projet et les équipes qui souhaitent mettre en œuvre le vétiver de façon pratique sur le terrain.'
       },
       {
-        title: 'Qui cela sert',
+        title: 'À qui cela s’adresse',
         body: 'Toute personne ou organisation qui agit sur le paysage peut en bénéficier, des initiatives locales aux institutions et organisations communautaires.'
       },
       {
-        title: 'Planification de l entretien',
+        title: 'Planification de l’entretien',
         body: 'Nous aidons à intégrer le vétiver dans des cadres de planification réalistes, maintenables et évolutifs.'
       }
     ],

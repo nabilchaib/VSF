@@ -346,7 +346,7 @@ const copy = {
         title: 'RDC',
         summary:
           'Le projet du bassin du Congo. Il donne au travail phare un lieu public.',
-        whyLabel: 'Pourquoi c est important',
+        whyLabel: 'Pourquoi c’est important',
         why: 'Il garde le récit principal facile à trouver sans devenir la seule entrée.',
         cta: 'Ouvrir le hub RDC',
         href: PROJECT_PATHS.rdc.fr,
@@ -358,7 +358,7 @@ const copy = {
         title: 'San Rafael',
         summary:
           'Un site vétiver actif à El Juego avec la première plantation déjà en place. Il donne aux soutiens un projet concret à suivre.',
-        whyLabel: 'Pourquoi c est important',
+        whyLabel: 'Pourquoi c’est important',
         why: 'Il montre ce que le travail donne dans un site réel et ce que la prochaine phase peut construire.',
         cta: 'Voir San Rafael',
         href: PROJECT_PATHS.sanRafael.fr,
@@ -370,7 +370,7 @@ const copy = {
         title: 'Proposer un projet',
         summary:
           'Une voie pour les nouvelles idées, les besoins locaux et les projets en début de parcours.',
-        whyLabel: 'Pourquoi c est important',
+        whyLabel: 'Pourquoi c’est important',
         why: 'Elle garde le premier contact simple et donne aux nouveaux travaux une entrée claire.',
         cta: 'Commencer une proposition',
         href: PROJECT_PATHS.propose.fr,
@@ -382,7 +382,7 @@ const copy = {
     footerTitle: 'Choisissez la prochaine étape qui convient.',
     footerBody:
       'Que vous veniez pour apprendre, soutenir, collaborer ou proposer, la prochaine étape doit être claire.',
-    learnCta: 'Decouvrir le vetiver',
+    learnCta: 'Découvrir le vétiver',
     supportCta: 'Faire un don',
     partnerCta: 'Contacter VSF',
     proposeCta: 'Proposer un projet'

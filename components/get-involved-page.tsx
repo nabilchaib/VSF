@@ -256,7 +256,7 @@ const copy: Record<Locale, PageCopy> = {
       },
       {
         eyebrow: 'Suivre et apprendre',
-        title: 'Comprendre le système vétiver avant d agir.',
+        title: 'Comprendre le système vétiver avant d’agir.',
         body: "Utilisez cette voie si vous voulez d'abord du contexte. Lisez le guide vétiver, suivez les récits et les projets, et inscrivez-vous pour recevoir les mises à jour par courriel.",
         actions: [
           {

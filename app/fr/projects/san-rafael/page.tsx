@@ -28,7 +28,7 @@ const copy: Record<'fr', ProjectDetailCopy> = {
     summaryTitle: 'Un pilote public avec une première plantation en place.',
     summaryBody:
       'San Rafael montre le vétiver dans un site en activité à El Juego. Les 250 premiers plants de vétiver ont déjà été plantés, et cette page explique le problème, la réponse et la prochaine phase en termes publics.',
-    whyEyebrow: 'Pourquoi c est important',
+    whyEyebrow: 'Pourquoi c’est important',
     whyTitle: 'Pourquoi ce projet compte.',
     whyPoints: [
       {
@@ -58,7 +58,7 @@ const copy: Record<'fr', ProjectDetailCopy> = {
     ctaExternal: true,
     supportNote:
       'Pour les questions de partenariat ou de suivi local, utilisez la page contact avant de contribuer.',
-    footerTitle: 'Un pilote public avec la plantation deja en place.',
+    footerTitle: 'Un pilote public avec la plantation déjà en place.',
     footerBody:
       "San Rafael est pensé pour rester lisible sans exposer les détails sensibles du terrain. Il donne assez de contexte pour comprendre ce qui s'est passé, ce qui vient ensuite et pourquoi le projet compte.",
     footerLinks: [

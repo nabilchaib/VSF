@@ -136,8 +136,8 @@ const copy = {
     introBodyOne:
       'Le vétiver est une graminée à racines profondes qui peut ralentir le ruissellement, retenir les sols et rendre les paysages fragiles plus faciles à gérer.',
     introBodyTwo:
-      'Le Système Vetiver utilise cette plante de façon simple et de terrain pour aider les communautés à répondre à l’érosion, au ruissellement, à l’instabilité des pentes et à la dégradation des terres.',
-    benefitsEyebrow: 'Benefices du vetiver',
+      'Le système vétiver utilise cette plante de façon simple et de terrain pour aider les communautés à répondre à l’érosion, au ruissellement, à l’instabilité des pentes et à la dégradation des terres.',
+    benefitsEyebrow: 'Bénéfices du vétiver',
     benefitsTitle: 'Une protection environnementale avec une valeur locale concrète.',
     benefits: [
       { title: 'Conservation des sols et de l’eau', body: 'Réduit l’érosion, améliore l’infiltration et aide à conserver davantage d’eau sur les terrains sensibles.' },
@@ -149,7 +149,7 @@ const copy = {
     ],
     imageAltOne: 'Illustration du vétiver montrant son enracinement profond.',
     imageAltTwo: 'Vétiver dans un paysage sec montrant son potentiel environnemental et économique.',
-    ctaEyebrow: 'Mettre en oeuvre le systeme',
+    ctaEyebrow: 'Mettre en œuvre le système',
     ctaTitle: "Comprenez d'abord le vétiver avant de choisir la prochaine étape.",
     ctaBody:
       "Si vous souhaitez discuter de l'usage du vétiver pour protéger des sols, de l'eau ou des infrastructures, contactez-nous et nous partirons des conditions du site. Si vous voulez continuer à explorer, les pages projets et soutien sont les meilleures étapes suivantes.",

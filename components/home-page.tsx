@@ -112,7 +112,7 @@ const homepageCopy = {
         involvedLabel: 'Participer',
       learnMoreLabel: 'Découvrir le vetiver',
         learnMoreHref: '/vetiver',
-      imageAlt: 'Vetiver planté le long d une route pour stabiliser les sols et protéger le terrain.',
+      imageAlt: 'Vétiver planté le long d’une route pour stabiliser les sols et protéger le terrain.',
         highlight:
         "Le vétiver dure quand les communautés peuvent le comprendre, l'essayer sur le terrain et continuer à l'utiliser localement."
       },
@@ -140,13 +140,13 @@ const homepageCopy = {
     },
     stories: {
       eyebrow: 'Dernières actualités',
-      title: 'Récits de terrain, mises à jour de projets et leçons pratiques sur le vetiver.',
+      title: 'Récits de terrain, mises à jour de projets et leçons pratiques sur le vétiver.',
       body:
         'Des nouvelles récentes des projets et des partenaires montrent comment le travail avance sur le terrain.',
       ctaLabel: 'Voir toutes les actualités'
     },
     getInvolved: {
-      hubEyebrow: 'Passer à l action',
+      hubEyebrow: 'Passer à l’action',
       hubTitle: 'Choisir la voie de soutien qui vous convient.',
       hubBody:
         'Le hub de soutien couvre cinq voies : soutenir VSF, appuyer une initiative de terrain, collaborer, proposer ou suivre et apprendre.',
@@ -154,7 +154,7 @@ const homepageCopy = {
       projectsEyebrow: 'Travail actuel',
       projectsTitle: 'Consulter les initiatives de terrain en cours.',
       projectsBody:
-      'Les projets sont des preuves et des éléments de campagne, pas toute la stratégie. Utilisez-les pour voir ce qui est actif maintenant.',
+      'Les projets sont des pages de preuve et de campagne, pas toute la stratégie. Utilisez-les pour voir ce qui est actif maintenant.',
       projectsCta: 'Voir les projets',
       projectsHref: '/projects'
     },
