@@ -144,7 +144,7 @@ const copy = {
   en: {
     title: 'About VSF',
     subtitle:
-      'Why vetiver matters, why VSF exists, what we actually do, and why partners can trust the work.',
+      'Why vetiver matters, why VSF exists, what the work looks like, and why partners can trust it.',
     introEyebrow: 'Why VSF exists',
     introTitle: 'Vetiver first, then the organization.',
     introBodyOne:
@@ -164,13 +164,13 @@ const copy = {
     learnCta: 'Learn vetiver',
     projectsCta: 'See projects',
     focusEyebrow: 'Why VSF exists',
-    focusTitle: 'A guide, not just a name.',
+    focusTitle: 'Where the work starts.',
     focusBody:
-      'VSF exists to reduce the distance between vetiver knowledge and real field work. That means helping people choose the right site, explain the method clearly, and keep the work visible enough for others to trust it.',
+      'VSF sits between vetiver knowledge and the field. We help people choose the right site, explain the method clearly, and keep the work visible enough for others to trust it.',
     workEyebrow: 'What VSF does',
-    workTitle: 'The organization turns interest into usable field support.',
+    workTitle: 'What VSF actually helps with.',
     workBody:
-      'Donors and partners should be able to see what support actually covers. VSF focuses on a small number of concrete tasks that move projects forward.',
+      'If you are a donor or partner, this is the part of the work your support makes possible.',
     workSteps: [
       {
         index: '01',
@@ -189,44 +189,44 @@ const copy = {
       },
       {
         index: '04',
-        title: 'Show',
-        body: 'Use public project pages and updates so the work stays visible, accountable, and easy to understand.'
+        title: 'Share',
+        body: 'Keep public project pages and updates in view so people can see what is happening and what support helps maintain.'
       }
     ],
     evidenceEyebrow: 'Why people can trust VSF',
     evidence: [
       {
-        title: 'Field logic first',
-        body: 'Recommendations are shaped by site conditions, local capacity, and the problem at hand instead of a generic template.'
+        title: 'Site conditions first',
+        body: 'Recommendations are shaped by the terrain, the problem, and the people who will maintain the work.'
       },
       {
-        title: 'Public work',
-        body: 'Projects, proposals, and support routes stay visible so donors and partners can see where the organization is active.'
+        title: 'Open about the work',
+        body: 'Projects, proposals, and support routes stay visible so donors and partners can see where VSF is active.'
       },
       {
-        title: 'Practical ownership',
+        title: 'Built for local ownership',
         body: 'The goal is not dependency. It is local use, local understanding, and enough support for the work to continue.'
       }
     ],
     overviewEyebrow: 'Where the work applies',
     overviewTags: ['Soil', 'Water', 'Slopes', 'Fields', 'Roads'],
     overviewBody:
-      'This is a practical organization built around field results. It is credible when it stays close to local conditions, keeps the method understandable, and follows through after the first step.',
+      'Vetiver work makes the most sense when it stays close to the ground: local conditions, local judgment, and local follow-through.',
     imageAltOne: 'VSF team and community members in a field setting.',
     imageAltTwo: 'People gathering outdoors to support regenerative environmental work.',
     ctaEyebrow: 'Join the work',
-    ctaTitle: 'Choose the next step that fits your role.',
+    ctaTitle: 'Choose the next step that fits you.',
     ctaBody:
-      'Review current projects, choose how to take part, or contact VSF to discuss a site, partnership, or project idea.',
+      'Review current projects, get involved, or contact VSF if you want to talk through a site, partnership, or idea.',
     involvedCta: 'Get involved',
     contactCta: 'Contact VSF'
   },
   fr: {
     title: 'A propos de VSF',
     subtitle:
-      'Pourquoi le vetiver compte, pourquoi VSF existe, ce que nous faisons concrètement et pourquoi des partenaires peuvent faire confiance au travail.',
+      'Pourquoi le vetiver compte, pourquoi VSF existe, ce que nous faisons concretement et pourquoi des partenaires peuvent faire confiance au travail.',
     introEyebrow: 'Pourquoi VSF existe',
-    introTitle: 'Le vetiver d abord, l organisation ensuite.',
+    introTitle: 'Le vetiver avant l organisation.',
     introBodyOne:
       'Vetiver Sans Frontieres existe pour rendre le vetiver utile la ou les sols, l eau et les terres ont besoin d une protection pratique. L enjeu n est pas seulement la plante : c est le resultat de terrain qui suit quand les gens comprennent la methode, l essaient localement et continuent a l utiliser.',
     introBodyTwo:
@@ -244,13 +244,13 @@ const copy = {
     learnCta: 'Decouvrir le vetiver',
     projectsCta: 'Voir les projets',
     focusEyebrow: 'Pourquoi VSF existe',
-    focusTitle: 'Un guide, pas seulement un nom.',
+    focusTitle: 'La ou le travail commence.',
     focusBody:
-      'VSF existe pour reduire la distance entre le savoir sur le vetiver et le travail reel sur le terrain. Cela veut dire aider a choisir le bon site, expliquer la methode clairement et garder le travail suffisamment visible pour inspirer confiance.',
+      'VSF se place entre le savoir sur le vetiver et le terrain. Nous aidons a choisir le bon site, a expliquer la methode clairement et a garder le travail assez visible pour inspirer confiance.',
     workEyebrow: 'Ce que VSF fait',
-    workTitle: 'L organisation transforme l interet en soutien concret au terrain.',
+    workTitle: 'Ce que VSF aide vraiment a faire.',
     workBody:
-      'Les donateurs et les partenaires doivent pouvoir voir ce que le soutien finance vraiment. VSF se concentre sur quelques taches concretes qui font avancer les projets.',
+      'Si vous soutenez VSF, voici ce que ce soutien rend possible sur le terrain.',
     workSteps: [
       {
         index: '01',
@@ -269,33 +269,33 @@ const copy = {
       },
       {
         index: '04',
-        title: 'Montrer',
-        body: 'Utiliser des pages de projet publiques et des mises a jour pour que le travail reste visible, responsable et facile a comprendre.'
+        title: 'Partager',
+        body: 'Garder les pages de projet publiques et les mises a jour en vue pour montrer ce qui avance et ce que le soutien permet.'
       }
     ],
     evidenceEyebrow: 'Pourquoi faire confiance a VSF',
     evidence: [
       {
-        title: 'La logique de terrain d abord',
-        body: 'Les recommandations sont fondees sur les conditions du site, les capacites locales et le probleme a resoudre, pas sur un modele generique.'
+        title: 'Les conditions du site d abord',
+        body: 'Les recommandations suivent le terrain, le probleme et les personnes qui vont entretenir le travail.'
       },
       {
-        title: 'Travail public',
-        body: 'Les projets, les propositions et les voies de soutien restent visibles pour que donateurs et partenaires voient ou l organisation est active.'
+        title: 'Travail ouvert',
+        body: 'Les projets, les propositions et les voies de soutien restent visibles pour que donateurs et partenaires voient ou VSF agit.'
       },
       {
-        title: 'Appropriation pratique',
+        title: 'Pour une appropriation locale',
         body: 'L objectif n est pas de creer une dependance. C est de permettre un usage local, une comprehension locale et assez de soutien pour continuer.'
       }
     ],
     overviewEyebrow: 'Ou le travail s applique',
     overviewTags: ['Sols', 'Eau', 'Pentes', 'Champs', 'Routes'],
     overviewBody:
-      'Il s agit d une organisation pratique construite autour de resultats de terrain. Elle inspire confiance lorsqu elle reste proche des conditions locales, garde la methode compréhensible et assure le suivi apres la premiere etape.',
+      'Le travail sur le vetiver a le plus de sens quand il reste proche du terrain : conditions locales, jugement local et suivi local.',
     imageAltOne: 'Equipe VSF et membres de la communaute sur le terrain.',
     imageAltTwo: 'Personnes rassemblees a l exterieur autour d un travail de regeneration.',
     ctaEyebrow: 'Rejoindre le travail',
-    ctaTitle: 'Choisissez la prochaine etape qui correspond a votre role.',
+    ctaTitle: 'Choisissez la prochaine etape qui vous correspond.',
     ctaBody:
       'Consultez les projets en cours, choisissez comment participer ou contactez VSF pour parler d un site, d un partenariat ou d une idee de projet.',
     involvedCta: 'Participer',
