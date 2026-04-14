@@ -173,7 +173,7 @@ const copy: Record<Locale, PageCopy> = {
       {
         eyebrow: 'Follow and learn',
         title: 'Learn the vetiver system before you act.',
-        body: 'Use this route if you want context first. Read the vetiver guide, follow field stories, and join the email list for updates.',
+        body: 'Use this route if you want context first. Read the vetiver guide, follow field stories and projects, and join the email list for updates.',
         actions: [
           {
             label: 'Learn about vetiver',
@@ -257,7 +257,7 @@ const copy: Record<Locale, PageCopy> = {
       {
         eyebrow: 'Suivre et apprendre',
         title: 'Comprendre le systeme vetiver avant d agir.',
-        body: 'Utilisez cette voie si vous voulez d abord du contexte. Lisez le guide vetiver, suivez les recits et inscrivez-vous pour recevoir les mises a jour par courriel.',
+        body: 'Utilisez cette voie si vous voulez d abord du contexte. Lisez le guide vetiver, suivez les recits et les projets, et inscrivez-vous pour recevoir les mises a jour par courriel.',
         actions: [
           {
             label: 'Decouvrir le vetiver',

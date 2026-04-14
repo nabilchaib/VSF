@@ -201,7 +201,7 @@ const copy = {
       },
       {
         title: 'Open about the work',
-        body: 'Projects, proposals, and support routes stay visible so donors and partners can see where VSF is active.'
+        body: 'Projects, proposals, and contact paths stay visible so donors and partners can see where VSF is active.'
       },
       {
         title: 'Built for local ownership',

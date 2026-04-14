@@ -7,7 +7,7 @@ export function NewsletterSignup() {
         <p className="text-xs font-medium uppercase tracking-[0.22em] text-bark/70">Newsletter</p>
         <h2 className="text-3xl font-semibold uppercase tracking-[-0.04em]">Stay close to the projects on the ground.</h2>
         <p className="text-sm leading-7 text-ink/78">
-          Subscribe for field updates, regenerative agriculture stories, and major milestones from Vetiver Without Borders.
+          Subscribe for field updates, project stories, and important milestones from Vetiver Without Borders.
         </p>
       </div>
       <FormEmbed kind="newsletter" locale="en" />

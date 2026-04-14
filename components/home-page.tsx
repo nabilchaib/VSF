@@ -94,7 +94,7 @@ const homepageCopy = {
       eyebrow: 'Newsletter',
       title: 'Stay close to the projects on the ground.',
       body:
-        'Receive field updates, project stories, and major milestones from Vetiver Without Borders.',
+        'Receive field updates, project stories, and important milestones from Vetiver Without Borders.',
       note:
         'A concise way to follow progress without relying on social media.'
     }

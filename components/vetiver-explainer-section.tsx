@@ -23,7 +23,7 @@ export function VetiverExplainerSection({ locale }: { locale: Locale }) {
             </div>
             <div className="pt-3">
               <Button
-                href={localePath('/projects/rdc', locale)}
+                href={localePath('/projects', locale)}
                 variant="tertiary"
                 className="text-sm tracking-[0.16em]"
               >

@@ -55,7 +55,7 @@ export const VETIVER_EXPLAINER: Record<Locale, VetiverExplainerCopy> = {
       }
     ],
     primaryCta: 'Learn about vetiver',
-    secondaryCta: 'Open the RDC hub'
+    secondaryCta: 'See current projects'
   },
   fr: {
     eyebrow: 'Qu est-ce que le vetiver ?',
@@ -83,7 +83,7 @@ export const VETIVER_EXPLAINER: Record<Locale, VetiverExplainerCopy> = {
       }
     ],
     primaryCta: 'Decouvrir le vetiver',
-    secondaryCta: 'Ouvrir le hub RDC'
+    secondaryCta: 'Voir les projets'
   }
 };
 
@@ -92,7 +92,7 @@ export const VETIVER_PROOF_POINTS: Record<Locale, VetiverProofPointsCopy> = {
     eyebrow: 'Proof points',
     title: 'Working references VSF uses to explain why vetiver can help.',
     note:
-      'Treat these as working references from donor and project materials until source links or validation are attached. Do not present them as final donor-safe claims until they are verified.',
+      'Treat these as working references from donor and project materials until source links or validation are attached. Do not present them as final public claims until they are verified.',
     points: [
       {
         value: '90%',
@@ -115,7 +115,7 @@ export const VETIVER_PROOF_POINTS: Record<Locale, VetiverProofPointsCopy> = {
     eyebrow: 'Preuves publiques',
     title: 'Des references de travail que VSF utilise pour expliquer le vetiver.',
     note:
-      'Considerez-les comme des reperes de travail, pas comme des affirmations finales, jusqu a ce que les sources soient ajoutees. Ne les presentez pas comme des affirmations finales pour les donateurs tant qu elles ne sont pas verifiees.',
+      'Considerez-les comme des reperes de travail, pas comme des affirmations finales, jusqu a ce que les sources soient ajoutees. Ne les presentez pas comme des affirmations publiques finales tant qu elles ne sont pas verifiees.',
     points: [
       {
         value: '90%',

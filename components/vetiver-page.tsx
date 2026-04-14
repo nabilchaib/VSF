@@ -12,7 +12,12 @@ export function VetiverPage({ locale }: { locale: Locale }) {
 
   return (
     <div>
-      <PageHero title={t.title} subtitle={t.subtitle} image="2024/10/DALL·E-2024-10-01-14.24.48-A-small-rural-community-involved-in-planting-and-harvesting-Vetiver-grass.-Local-farmers-are-working-in-the-fields-cutting-and-bundling-the-grass.-Th.webp" align="left" />
+      <PageHero
+        title={t.title}
+        subtitle={t.subtitle}
+        image="2024/10/DALL·E-2024-10-01-14.24.48-A-small-rural-community-involved-in-planting-and-harvesting-Vetiver-grass.-Local-farmers-are-working-in-the-fields-cutting-and-bundling-the-grass.-Th.webp"
+        align="left"
+      />
 
       <section className="bg-white/72 py-14 lg:py-20">
         <Container>
@@ -81,7 +86,7 @@ export function VetiverPage({ locale }: { locale: Locale }) {
               <Button href={localePath('/about/contact', locale)} variant="primary">
                 {t.cta}
               </Button>
-              <Button href={localePath('/projects/rdc', locale)} variant="secondary" className="border-white/18 bg-white/10 text-white hover:border-white/28 hover:bg-white/14">
+              <Button href={localePath('/get-involved', locale)} variant="secondary" className="border-white/18 bg-white/10 text-white hover:border-white/28 hover:bg-white/14">
                 {t.secondaryCta}
               </Button>
             </div>
@@ -116,11 +121,11 @@ const copy = {
     imageAltOne: 'Illustration of vetiver grass showing deep vertical roots.',
     imageAltTwo: 'Vetiver grass in a dry landscape demonstrating environmental and economic potential.',
     ctaEyebrow: 'Apply the system',
-    ctaTitle: 'Sponsor or propose a project built around the Vetiver System.',
+    ctaTitle: 'Choose the next route after learning the basics.',
     ctaBody:
-      'If you want to discuss how vetiver could help protect land, water, or infrastructure in a specific context, contact us and we can start from the site conditions.',
+      'If you want to discuss how vetiver could help protect land, water, or infrastructure in a specific context, contact us and we can start from the site conditions. If you want to keep browsing, the projects and support pages are the next best routes.',
     cta: 'Contact us',
-    secondaryCta: 'Open RDC hub'
+    secondaryCta: 'Get involved'
   },
   fr: {
     title: 'Qu est-ce que le vetiver ?',
@@ -145,10 +150,10 @@ const copy = {
     imageAltOne: 'Illustration du vetiver montrant son enracinement profond.',
     imageAltTwo: 'Vetiver dans un paysage sec montrant son potentiel environnemental et economique.',
     ctaEyebrow: 'Mettre en oeuvre le systeme',
-    ctaTitle: 'Parrainez ou proposez un projet autour du Systeme Vetiver.',
+    ctaTitle: 'Choisissez la prochaine voie apres avoir compris le vetiver.',
     ctaBody:
-      'Si vous souhaitez discuter de l usage du vetiver pour proteger des sols, de l eau ou des infrastructures, contactez-nous et nous partirons des conditions du site.',
+      'Si vous souhaitez discuter de l usage du vetiver pour proteger des sols, de l eau ou des infrastructures, contactez-nous et nous partirons des conditions du site. Si vous voulez continuer a explorer, les pages projets et soutien sont les meilleures prochaines etapes.',
     cta: 'Contactez-nous',
-    secondaryCta: 'Ouvrir le hub RDC'
+    secondaryCta: 'Participer'
   }
 } as const;

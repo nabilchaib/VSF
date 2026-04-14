@@ -9,7 +9,7 @@ import { localePath } from '@/lib/site';
 export const metadata: Metadata = {
   title: 'Actualites',
   description:
-    'Articles de Vetiver Without Borders sur la regeneration des sols, l adaptation climatique et les projets de terrain.'
+    'Articles de Vetiver Sans Frontieres sur le terrain, les projets et les prochaines etapes selon chaque recit.'
 };
 
 export default async function FrenchStoriesPage() {
@@ -20,10 +20,10 @@ export default async function FrenchStoriesPage() {
       <div className="max-w-3xl space-y-4">
         <p className="text-sm font-semibold uppercase tracking-[0.24em] text-bark/70">Actualites</p>
         <h1 className="text-4xl font-semibold text-bark md:text-5xl">
-          Recits de terrain et enseignements pour la regeneration.
+          Des recits qui pointent vers une prochaine etape.
         </h1>
         <p className="max-w-2xl text-lg leading-8 text-ink/75">
-          Articles de Vetiver Without Borders sur la regeneration des sols, l adaptation climatique, et les projets communautaires.
+          Articles de Vetiver Sans Frontieres sur le travail de terrain, les projets et la voie la plus utile apres la lecture.
         </p>
       </div>
       <div className="grid gap-6 md:grid-cols-2">
@@ -39,14 +39,14 @@ export default async function FrenchStoriesPage() {
             Les recits orientent vers l apprentissage, le soutien des projets, le partenariat et les nouvelles idees. Choisissez la suite qui vous convient.
           </p>
           <div className="mt-6 flex flex-wrap gap-3">
+            <Button href={localePath('/vetiver', 'fr')} variant="secondary">
+              Decouvrir le vetiver
+            </Button>
             <Button href={localePath('/projects', 'fr')} variant="secondary">
               Parcourir les projets
             </Button>
             <Button href={localePath('/get-involved', 'fr')} variant="secondary">
               Participer
-            </Button>
-            <Button href={localePath('/about/contact', 'fr')} variant="tertiary">
-              Contacter VSF
             </Button>
           </div>
         </div>

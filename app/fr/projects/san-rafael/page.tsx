@@ -9,7 +9,7 @@ export function generateMetadata(): Metadata {
     locale: 'fr',
     path: PROJECT_PATHS.sanRafael,
     title: 'San Rafael | Vetiver Sans Frontieres',
-    description: 'San Rafael est un projet de terrain public pour le vetiver.',
+    description: 'San Rafael est un pilote vetiver actif a El Juego, San Rafael, Antioquia, Colombie.',
     image: '2022/10/DSCF0117.jpeg'
   });
 }
@@ -22,12 +22,12 @@ const copy: Record<'fr', ProjectDetailCopy> = {
   fr: {
     eyebrow: 'Pilote de terrain actif',
     title: 'San Rafael',
-    subtitle: 'Un projet vetiver vivant sur le terrain.',
+    subtitle: 'Un pilote vetiver vivant a El Juego, San Rafael, Antioquia, Colombie.',
     image: '2022/10/DSCF0117.jpeg',
     summaryEyebrow: 'Vue publique',
-    summaryTitle: 'Un projet de terrain avec une explication publique claire.',
+    summaryTitle: 'Un pilote public avec une plantation deja en place.',
     summaryBody:
-      'San Rafael montre le vetiver dans un site en activite. La page explique le travail en termes publics sans exposer plus de details que necessaire.',
+      'San Rafael montre le vetiver dans un site en activite a El Juego. Les 250 premiers plantules de vetiver ont deja ete plantes, et cette page explique le probleme, la reponse et la prochaine phase en termes publics.',
     whyEyebrow: 'Pourquoi c est important',
     whyTitle: 'Pourquoi ce projet tient seul.',
     whyPoints: [
@@ -37,30 +37,30 @@ const copy: Record<'fr', ProjectDetailCopy> = {
       },
       {
         title: 'Progression visible',
-        body: 'Les soutiens peuvent comprendre ce que le projet cherche a faire.'
+        body: 'Le soutien aide a developper, documenter et renforcer ce qui a deja commence.'
       },
       {
         title: 'Utile pour la replication',
-        body: 'Ce qui est appris ici peut informer de futurs travaux de terrain.'
+        body: 'Ce qui est appris ici peut informer de futurs travaux de terrain et de futures expansions.'
       }
     ],
     nextEyebrow: 'Comment participer',
-    nextTitle: 'Soutenir le projet ou continuer a parcourir le site.',
+    nextTitle: 'Soutenir la prochaine phase ou continuer a parcourir le site.',
     nextBody:
-      'Si vous voulez suivre le projet, la prochaine etape est directe et publique.',
+      'Si vous voulez suivre le pilote, la prochaine etape est directe et publique.',
     nextSteps: [
       'Revoir le projet comme exemple public de terrain.',
-      'Soutenir la mise en oeuvre via le lien de don.',
-      'Utiliser la page contact pour les questions de partenariat.'
+      'Soutenir la prochaine phase de plantation via le lien de don.',
+      'Utiliser la page contact pour les questions de partenariat ou de site.'
     ],
     ctaLabel: 'Soutenir San Rafael',
     ctaHref: DONATE_URL,
     ctaExternal: true,
     supportNote:
-      'Pour les questions de partenariat, utilisez la page contact avant de contribuer.',
-    footerTitle: 'Un projet de terrain public.',
+      'Pour les questions de partenariat ou de suivi local, utilisez la page contact avant de contribuer.',
+    footerTitle: 'Un pilote public avec la plantation deja en place.',
     footerBody:
-      'San Rafael est pense pour rester lisible sans exposer les details sensibles du terrain. Il reste assez concret pour etre soutenu et assez clair pour etre compris.',
+      'San Rafael est pense pour rester lisible sans exposer les details sensibles du terrain. Il donne assez de contexte pour comprendre ce qui s est passe, ce qui vient ensuite et pourquoi le projet compte.',
     footerLinks: [
       {
         label: 'Ouvrir la page projets',
