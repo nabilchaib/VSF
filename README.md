@@ -57,7 +57,6 @@ Copy `.env.example` to `.env.local` and fill in:
 - R2 credentials if you want to run the uploader
 - `GOOGLE_ADS_CREDENTIALS_DIR` if you want the Ads tooling to read local credential files
 - `GOOGLE_ADS_ALLOW_LIVE_MUTATION=true` if you want to execute live Ads mutations
-- `GOOGLE_ADS_ALLOW_LIVE_MUTATION=true` if you want to execute live Ads mutations
 
 If the hosted form variables are missing, the site falls back to email links instead of failing closed. Media can also fall back to the legacy WordPress uploads host until `NEXT_PUBLIC_MEDIA_BASE_URL` is set.
 
