@@ -190,7 +190,7 @@ const copy = {
     gatewayEyebrow: 'Project gateway',
     gatewayTitle: 'Three public project paths.',
     gatewayBody:
-      'RDC is the flagship proof hub. San Rafael is a live field project. New ideas start with a simple proposal.',
+      'RDC is the flagship proof hub. San Rafael is an active pilot with 250 vetiver slips already planted. New ideas start with a simple proposal.',
     gatewayLinks: [
       {
         label: 'Open RDC hub',
@@ -244,9 +244,9 @@ const copy = {
         eyebrow: 'Live field project',
         title: 'San Rafael',
         summary:
-          'A live vetiver site on the ground. It gives supporters a concrete project to follow.',
+          'A live vetiver site in El Juego with the first planting already in the ground. It gives supporters a concrete project to follow.',
         whyLabel: 'Why it matters',
-        why: 'It shows what the work looks like in a real site.',
+        why: 'It shows what the work looks like in a real site and what the next phase can build on.',
         cta: 'View San Rafael',
         href: PROJECT_PATHS.sanRafael.en,
         external: false,
@@ -277,7 +277,7 @@ const copy = {
   fr: {
     title: 'Projets',
     subtitle:
-      'Voir comment le vetiver devient des projets publics, du travail de terrain et de nouvelles idees.',
+      'Voir comment le vétiver devient des projets publics, du travail de terrain, du soutien et de nouvelles idées.',
     quickLinks: [
       {
         label: 'Apprendre',
@@ -301,9 +301,9 @@ const copy = {
       }
     ] satisfies QuickLink[],
     gatewayEyebrow: 'Portail des projets',
-    gatewayTitle: 'Trois voies publiques pour les projets.',
+    gatewayTitle: 'Voir les projets publics et la suite possible.',
     gatewayBody:
-      'La RDC est le hub public de preuve phare. San Rafael est un projet de terrain actif. Les nouvelles idees commencent par une proposition simple.',
+      'La RDC est le hub public de preuve phare. San Rafael est un pilote actif avec 250 plantules de vétiver déjà plantées. Les nouvelles idées commencent par une proposition simple.',
     gatewayLinks: [
       {
         label: 'Ouvrir le hub RDC',
@@ -317,11 +317,11 @@ const copy = {
       }
     ] satisfies QuickLink[],
     intentEyebrow: 'Ce que les visiteurs peuvent faire',
-    intentTitle: 'Choisir la prochaine etape.',
+    intentTitle: 'Choisir la prochaine étape.',
     intentPoints: [
       {
         title: 'Apprendre',
-        body: 'Commencez par le guide vetiver si le sujet est nouveau pour vous.'
+        body: 'Commencez par le guide vétiver si le sujet est nouveau pour vous.'
       },
       {
         title: 'Soutenir',
@@ -329,25 +329,25 @@ const copy = {
       },
       {
         title: 'Collaborer',
-        body: 'Utilisez la page contact pour parler de collaboration ou d adequation.'
+        body: "Utilisez la page contact pour parler de collaboration ou d'adéquation."
       },
       {
         title: 'Proposer',
-        body: 'Envoyez un besoin local ou une nouvelle idee pour examen.'
+        body: 'Envoyez un besoin local ou une nouvelle idée pour examen.'
       }
     ] satisfies IntentPoint[],
     portfolioEyebrow: 'Projets mis en avant',
     portfolioTitle: 'Trois pages de projet publiques.',
     portfolioBody:
-      'Chaque carte donne un bref resume, explique pourquoi elle compte et indique une prochaine etape claire.',
+      'Chaque carte donne un bref résumé, explique pourquoi elle compte et indique une prochaine étape claire.',
     portfolio: [
       {
         eyebrow: 'Hub public de preuve',
         title: 'RDC',
         summary:
           'Le projet du bassin du Congo. Il donne au travail phare un lieu public.',
-        whyLabel: 'Pourquoi c est important',
-        why: 'Il garde le recit principal facile a trouver sans devenir la seule entree.',
+        whyLabel: 'Pourquoi c’est important',
+        why: 'Il garde le récit principal facile à trouver sans devenir la seule entrée.',
         cta: 'Ouvrir le hub RDC',
         href: PROJECT_PATHS.rdc.fr,
         external: false,
@@ -357,9 +357,9 @@ const copy = {
         eyebrow: 'Projet de terrain actif',
         title: 'San Rafael',
         summary:
-          'Un site vetiver en activite sur le terrain. Il donne aux soutiens un projet concret a suivre.',
-        whyLabel: 'Pourquoi c est important',
-        why: 'Il montre ce que le travail donne dans un site reel.',
+          'Un site vétiver actif à El Juego avec la première plantation déjà en place. Il donne aux soutiens un projet concret à suivre.',
+        whyLabel: 'Pourquoi c’est important',
+        why: 'Il montre ce que le travail donne dans un site réel et ce que la prochaine phase peut construire.',
         cta: 'Voir San Rafael',
         href: PROJECT_PATHS.sanRafael.fr,
         external: false,
@@ -369,9 +369,9 @@ const copy = {
         eyebrow: 'Nouvelles idees',
         title: 'Proposer un projet',
         summary:
-          'Une voie pour les nouvelles idees, les besoins locaux et les projets en debut de parcours.',
-        whyLabel: 'Pourquoi c est important',
-        why: 'Elle garde le premier contact simple et donne aux nouveaux travaux une entree claire.',
+          'Une voie pour les nouvelles idées, les besoins locaux et les projets en début de parcours.',
+        whyLabel: 'Pourquoi c’est important',
+        why: 'Elle garde le premier contact simple et donne aux nouveaux travaux une entrée claire.',
         cta: 'Commencer une proposition',
         href: PROJECT_PATHS.propose.fr,
         external: false,
@@ -379,10 +379,10 @@ const copy = {
       }
     ],
     footerEyebrow: 'Et ensuite',
-    footerTitle: 'Choisissez la prochaine etape qui convient.',
+    footerTitle: 'Choisissez la prochaine étape qui convient.',
     footerBody:
-      'Que vous veniez pour apprendre, soutenir, collaborer ou proposer, la prochaine etape doit etre claire.',
-    learnCta: 'Decouvrir le vetiver',
+      'Que vous veniez pour apprendre, soutenir, collaborer ou proposer, la prochaine étape doit être claire.',
+    learnCta: 'Découvrir le vétiver',
     supportCta: 'Faire un don',
     partnerCta: 'Contacter VSF',
     proposeCta: 'Proposer un projet'

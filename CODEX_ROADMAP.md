@@ -30,6 +30,13 @@ The remaining migration work is now more focused:
 - production-path QA
 - stricter task and documentation hygiene
 
+PR 18 was later merged as a legacy cleanup and bridge-page polish change set. It reduced launch noise, but it did not complete the roadmap:
+- legacy FAQ cleanup in EN and FR
+- legacy Vetiver System bridge-page cleanup in EN and FR
+- tighter legacy HTML sanitization for noisier old markup
+- stronger proof-point caution language
+- local Next.js / HMR recovery note added to the repo
+
 ---
 
 ## Current Launch State
@@ -43,6 +50,8 @@ Completed or substantially completed:
 - About rewritten into a trust and organizational-positioning page
 - EN and FR metadata / SEO refreshed across core pages
 - visible WordPress leftovers reduced in rendered HTML
+- legacy FAQ and Vetiver System bridge pages cleaned up in EN and FR
+- local development recovery note added for Next.js / HMR failures
 - Projects layer rebuilt into a portfolio gateway
 - public project paths now include RDC, San Rafael, and a proposal route
 - story and article pages now use intent-based CTA routing
@@ -65,6 +74,16 @@ The main work left is targeted page execution, validation, cleanup, and cutover 
 7. Decide and document the launch stance for staged media dependencies.
 8. Add the local development recovery note for Next.js / HMR failures.
 9. Close, merge, or remove stale migration tasks and docs that no longer change execution.
+
+---
+
+## Task and Documentation Hygiene
+
+From here, keep roadmap maintenance lean:
+- fold status updates into this file instead of keeping standalone duplicate update docs
+- close or merge stale migration tasks once their outcomes are reflected here
+- treat reference notes as reference only unless they change implementation
+- avoid creating a new roadmap-adjacent document for cleanup work that is already captured
 
 ---
 

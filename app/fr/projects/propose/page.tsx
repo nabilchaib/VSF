@@ -28,7 +28,7 @@ const copy: Record<'fr', ProjectDetailCopy> = {
     summaryTitle: 'Une voie simple pour le premier contact.',
     summaryBody:
       'Cette page garde le premier contact clair. Envoyez les elements essentiels, et VSF pourra voir quelle suite convient.',
-    whyEyebrow: 'Pourquoi c est important',
+    whyEyebrow: 'Pourquoi c’est important',
     whyTitle: 'Pourquoi une voie de proposition aide.',
     whyPoints: [
       {
@@ -67,7 +67,7 @@ const copy: Record<'fr', ProjectDetailCopy> = {
         href: localePath('/projects', 'fr')
       },
       {
-        label: 'Decouvrir le vetiver',
+        label: 'Découvrir le vétiver',
         href: localePath('/vetiver', 'fr')
       }
     ]

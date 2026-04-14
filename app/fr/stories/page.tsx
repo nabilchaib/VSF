@@ -7,9 +7,9 @@ import { getEntriesByType } from '@/lib/content';
 import { localePath } from '@/lib/site';
 
 export const metadata: Metadata = {
-  title: 'Actualites',
+  title: 'Actualités',
   description:
-    'Articles de Vetiver Without Borders sur la regeneration des sols, l adaptation climatique et les projets de terrain.'
+    'Articles de Vetiver Sans Frontieres sur le terrain, les projets et les prochaines étapes selon chaque récit.'
 };
 
 export default async function FrenchStoriesPage() {
@@ -18,12 +18,12 @@ export default async function FrenchStoriesPage() {
   return (
     <section className="mx-auto flex w-full max-w-6xl flex-col gap-10 px-6 py-16 lg:px-10">
       <div className="max-w-3xl space-y-4">
-        <p className="text-sm font-semibold uppercase tracking-[0.24em] text-bark/70">Actualites</p>
+        <p className="text-sm font-semibold uppercase tracking-[0.24em] text-bark/70">Actualités</p>
         <h1 className="text-4xl font-semibold text-bark md:text-5xl">
-          Recits de terrain et enseignements pour la regeneration.
+          Des récits qui ouvrent sur une prochaine étape.
         </h1>
         <p className="max-w-2xl text-lg leading-8 text-ink/75">
-          Articles de Vetiver Without Borders sur la regeneration des sols, l adaptation climatique, et les projets communautaires.
+          Articles de Vetiver Sans Frontieres sur le travail de terrain, les projets et la voie la plus utile après la lecture.
         </p>
       </div>
       <div className="grid gap-6 md:grid-cols-2">
@@ -34,11 +34,14 @@ export default async function FrenchStoriesPage() {
       <Container>
         <div className="rounded-[2.2rem] border border-bark/10 bg-white px-7 py-8 shadow-card lg:px-9">
           <p className="text-sm font-semibold uppercase tracking-[0.2em] text-bark/60">Vous cherchez la suite ?</p>
-          <h2 className="mt-3 text-3xl font-semibold text-ink sm:text-4xl">Choisissez la voie qui correspond au recit.</h2>
+          <h2 className="mt-3 text-3xl font-semibold text-ink sm:text-4xl">Choisissez la voie qui correspond au récit.</h2>
           <p className="mt-4 max-w-3xl text-base leading-8 text-ink/72">
-            Les recits orientent vers l apprentissage, le soutien des projets, le partenariat et les nouvelles idees. Choisissez la suite qui vous convient.
+            Les récits orientent vers l'apprentissage, le soutien des projets, le partenariat et les nouvelles idées. Choisissez la suite qui vous convient.
           </p>
           <div className="mt-6 flex flex-wrap gap-3">
+            <Button href={localePath('/vetiver', 'fr')} variant="secondary">
+              Découvrir le vétiver
+            </Button>
             <Button href={localePath('/projects', 'fr')} variant="secondary">
               Parcourir les projets
             </Button>

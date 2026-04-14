@@ -173,7 +173,7 @@ const copy: Record<Locale, PageCopy> = {
       {
         eyebrow: 'Follow and learn',
         title: 'Learn the vetiver system before you act.',
-        body: 'Use this route if you want context first. Read the vetiver guide, follow field stories, and join the email list for updates.',
+        body: 'Use this route if you want context first. Read the vetiver guide, follow field stories and projects, and join the email list for updates.',
         actions: [
           {
             label: 'Learn about vetiver',
@@ -198,16 +198,16 @@ const copy: Record<Locale, PageCopy> = {
   fr: {
     title: 'Choisissez comment participer',
     subtitle:
-      'Commencez par la voie qui correspond a votre role. Ce hub oriente le soutien, les partenariats, les idees de projet et l apprentissage sans dependre d un seul projet.',
+      "Commencez par la voie qui correspond à votre rôle. Ce hub oriente le soutien, les partenariats, les idées de projet et l'apprentissage sans dépendre d'un seul projet.",
     routesEyebrow: 'Cinq voies',
-    routesTitle: 'Un hub, cinq prochaines etapes claires.',
+    routesTitle: 'Un hub, cinq prochaines étapes claires.',
     routesBody:
       'Soutenez VSF, appuyez une initiative de terrain, collaborez, proposez un projet, ou commencez par suivre et apprendre.',
     routes: [
       {
         eyebrow: 'Soutenir VSF',
-        title: 'Faire un don pour le travail lui-meme.',
-        body: 'Utilisez cette voie si vous voulez soutenir directement l organisation et aider le travail de terrain a avancer.',
+        title: 'Faire un don pour le travail lui-même.',
+        body: "Utilisez cette voie si vous voulez soutenir directement l'organisation et aider le travail de terrain à avancer.",
         featured: true,
         actions: [
           {
@@ -221,7 +221,7 @@ const copy: Record<Locale, PageCopy> = {
       {
         eyebrow: 'Soutenir une initiative de terrain',
         title: 'Consulter les projets en cours.',
-        body: 'Utilisez cette voie si vous voulez appuyer un effort precis sur le terrain ou voir ce qui est actif maintenant.',
+        body: 'Utilisez cette voie si vous voulez appuyer un effort précis sur le terrain ou voir ce qui est actif maintenant.',
         actions: [
           {
             label: 'Voir les initiatives',
@@ -233,7 +233,7 @@ const copy: Record<Locale, PageCopy> = {
       {
         eyebrow: 'Collaborer avec VSF',
         title: 'Lancer une discussion de collaboration.',
-        body: 'Utilisez cette voie pour un soutien institutionnel, un echange technique ou verifier l adequation d un partenariat.',
+        body: "Utilisez cette voie pour un soutien institutionnel, un échange technique ou vérifier l'adéquation d'un partenariat.",
         actions: [
           {
             label: 'Contacter VSF',
@@ -244,8 +244,8 @@ const copy: Record<Locale, PageCopy> = {
       },
       {
         eyebrow: 'Proposer un projet',
-        title: 'Partager un besoin local ou une idee de site.',
-        body: 'Utilisez cette voie si vous avez un lieu, un probleme ou un concept de projet que VSF doit examiner.',
+        title: 'Partager un besoin local ou une idée de site.',
+        body: 'Utilisez cette voie si vous avez un lieu, un problème ou un concept de projet que VSF doit examiner.',
         actions: [
           {
             label: 'Proposer un projet',
@@ -256,21 +256,21 @@ const copy: Record<Locale, PageCopy> = {
       },
       {
         eyebrow: 'Suivre et apprendre',
-        title: 'Comprendre le systeme vetiver avant d agir.',
-        body: 'Utilisez cette voie si vous voulez d abord du contexte. Lisez le guide vetiver, suivez les recits et inscrivez-vous pour recevoir les mises a jour par courriel.',
+        title: 'Comprendre le système vétiver avant d’agir.',
+        body: "Utilisez cette voie si vous voulez d'abord du contexte. Lisez le guide vétiver, suivez les récits et les projets, et inscrivez-vous pour recevoir les mises à jour par courriel.",
         actions: [
           {
-            label: 'Decouvrir le vetiver',
+            label: 'Découvrir le vétiver',
             href: '/vetiver',
             variant: 'secondary'
           },
           {
-            label: 'Lire les recits',
+            label: 'Lire les récits',
             href: '/stories',
             variant: 'tertiary'
           },
           {
-            label: 'Recevoir les mises a jour',
+            label: 'Recevoir les mises à jour',
             href: '/fr#newsletter',
             localized: false,
             variant: 'primary'

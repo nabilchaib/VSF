@@ -12,7 +12,12 @@ export function VetiverPage({ locale }: { locale: Locale }) {
 
   return (
     <div>
-      <PageHero title={t.title} subtitle={t.subtitle} image="2024/10/DALL·E-2024-10-01-14.24.48-A-small-rural-community-involved-in-planting-and-harvesting-Vetiver-grass.-Local-farmers-are-working-in-the-fields-cutting-and-bundling-the-grass.-Th.webp" align="left" />
+      <PageHero
+        title={t.title}
+        subtitle={t.subtitle}
+        image="2024/10/DALL·E-2024-10-01-14.24.48-A-small-rural-community-involved-in-planting-and-harvesting-Vetiver-grass.-Local-farmers-are-working-in-the-fields-cutting-and-bundling-the-grass.-Th.webp"
+        align="left"
+      />
 
       <section className="bg-white/72 py-14 lg:py-20">
         <Container>
@@ -81,7 +86,7 @@ export function VetiverPage({ locale }: { locale: Locale }) {
               <Button href={localePath('/about/contact', locale)} variant="primary">
                 {t.cta}
               </Button>
-              <Button href={localePath('/projects/rdc', locale)} variant="secondary" className="border-white/18 bg-white/10 text-white hover:border-white/28 hover:bg-white/14">
+              <Button href={localePath('/get-involved', locale)} variant="secondary" className="border-white/18 bg-white/10 text-white hover:border-white/28 hover:bg-white/14">
                 {t.secondaryCta}
               </Button>
             </div>
@@ -116,39 +121,39 @@ const copy = {
     imageAltOne: 'Illustration of vetiver grass showing deep vertical roots.',
     imageAltTwo: 'Vetiver grass in a dry landscape demonstrating environmental and economic potential.',
     ctaEyebrow: 'Apply the system',
-    ctaTitle: 'Sponsor or propose a project built around the Vetiver System.',
+    ctaTitle: 'Learn what vetiver is before choosing the next step.',
     ctaBody:
-      'If you want to discuss how vetiver could help protect land, water, or infrastructure in a specific context, contact us and we can start from the site conditions.',
+      'If you want to discuss how vetiver could help protect land, water, or infrastructure in a specific context, contact us and we can start from the site conditions. If you want to keep browsing, the projects and support pages are the next best places to continue.',
     cta: 'Contact us',
-    secondaryCta: 'Open RDC hub'
+    secondaryCta: 'Get involved'
   },
   fr: {
-    title: 'Qu est-ce que le vetiver ?',
+    title: "Qu'est-ce que le vétiver ?",
     subtitle:
-      'Une graminee pratique pour proteger les sols, mieux gerer l eau, stabiliser les pentes et restaurer les terres.',
+      'Une graminée pratique pour protéger les sols, mieux gérer l’eau, stabiliser les pentes et restaurer les terres.',
     introEyebrow: 'Pourquoi le vetiver compte',
-    introTitle: 'Un guide simple pour comprendre le vetiver et ce qu il peut faire.',
+    introTitle: 'Un guide simple pour comprendre le vétiver et ce qu’il peut faire.',
     introBodyOne:
-      'Le vetiver est une graminee a racines profondes qui peut ralentir le ruissellement, retenir les sols et rendre les paysages fragiles plus faciles a gerer.',
+      'Le vétiver est une graminée à racines profondes qui peut ralentir le ruissellement, retenir les sols et rendre les paysages fragiles plus faciles à gérer.',
     introBodyTwo:
-      'Le Systeme Vetiver utilise cette plante de facon simple et de terrain pour aider les communautes a repondre a l erosion, au ruissellement, a l instabilite des pentes et a la degradation des terres.',
-    benefitsEyebrow: 'Benefices du vetiver',
-    benefitsTitle: 'Une protection environnementale avec une valeur locale concrete.',
+      'Le système vétiver utilise cette plante de façon simple et de terrain pour aider les communautés à répondre à l’érosion, au ruissellement, à l’instabilité des pentes et à la dégradation des terres.',
+    benefitsEyebrow: 'Bénéfices du vétiver',
+    benefitsTitle: 'Une protection environnementale avec une valeur locale concrète.',
     benefits: [
-      { title: 'Conservation des sols et de l eau', body: 'Reduit l erosion, ameliore l infiltration et aide a conserver davantage d eau sur les terrains sensibles.' },
-      { title: 'Stabilisation des pentes', body: 'Aide a proteger les pentes et les infrastructures contre les glissements et les ruptures de surface.' },
-      { title: 'Controle du ruissellement', body: 'Ralentit l eau qui circule pour qu une plus grande partie puisse etre absorbee par le paysage.' },
-      { title: 'Rehabilitation des terres', body: 'Soutient la remise en etat des sols degrades quand une solution peu couteuse et durable est necessaire.' },
-      { title: 'Resilience agricole', body: 'Soutient la production en protegeant les sols et en aidant les champs a garder l humidite plus longtemps.' },
-      { title: 'Valeur locale', body: 'Peut contribuer aux economies locales par l artisanat, l alimentation animale et des pistes de transformation.' }
+      { title: 'Conservation des sols et de l’eau', body: 'Réduit l’érosion, améliore l’infiltration et aide à conserver davantage d’eau sur les terrains sensibles.' },
+      { title: 'Stabilisation des pentes', body: 'Aide à protéger les pentes et les infrastructures contre les glissements et les ruptures de surface.' },
+      { title: 'Contrôle du ruissellement', body: 'Ralentit l’eau qui circule pour qu’une plus grande partie puisse être absorbée par le paysage.' },
+      { title: 'Réhabilitation des terres', body: 'Soutient la remise en état des sols dégradés quand une solution peu coûteuse et durable est nécessaire.' },
+      { title: 'Résilience agricole', body: 'Soutient la production en protégeant les sols et en aidant les champs à garder l’humidité plus longtemps.' },
+      { title: 'Valeur locale', body: 'Peut contribuer aux économies locales par l’artisanat, l’alimentation animale et des pistes de transformation.' }
     ],
-    imageAltOne: 'Illustration du vetiver montrant son enracinement profond.',
-    imageAltTwo: 'Vetiver dans un paysage sec montrant son potentiel environnemental et economique.',
-    ctaEyebrow: 'Mettre en oeuvre le systeme',
-    ctaTitle: 'Parrainez ou proposez un projet autour du Systeme Vetiver.',
+    imageAltOne: 'Illustration du vétiver montrant son enracinement profond.',
+    imageAltTwo: 'Vétiver dans un paysage sec montrant son potentiel environnemental et économique.',
+    ctaEyebrow: 'Mettre en œuvre le système',
+    ctaTitle: "Comprenez d'abord le vétiver avant de choisir la prochaine étape.",
     ctaBody:
-      'Si vous souhaitez discuter de l usage du vetiver pour proteger des sols, de l eau ou des infrastructures, contactez-nous et nous partirons des conditions du site.',
+      "Si vous souhaitez discuter de l'usage du vétiver pour protéger des sols, de l'eau ou des infrastructures, contactez-nous et nous partirons des conditions du site. Si vous voulez continuer à explorer, les pages projets et soutien sont les meilleures étapes suivantes.",
     cta: 'Contactez-nous',
-    secondaryCta: 'Ouvrir le hub RDC'
+    secondaryCta: 'Participer'
   }
 } as const;
