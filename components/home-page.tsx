@@ -78,16 +78,17 @@ const homepageCopy = {
       ctaLabel: 'Read all stories'
     },
     getInvolved: {
-      involvedEyebrow: 'Take part',
-      involvedTitle: 'Choose the next step that fits.',
-      involvedBody:
-        'If you want to learn, donate, partner, or propose a project, there is a clear path for you.',
-      involvedCta: 'Get involved',
-      partnerTitle: 'Support the RDC hub',
-      partnerBody:
-        'Review the Congo Basin project, then contact us if you want to support a specific initiative or the work behind it.',
-      partnerCta: 'Open RDC hub',
-      partnerHref: '/projects/rdc'
+      hubEyebrow: 'Take part',
+      hubTitle: 'Choose the support path that fits you.',
+      hubBody:
+        'The support hub covers five routes: support VSF generally, support a field initiative, partner, propose, or follow and learn.',
+      hubCta: 'Open support hub',
+      projectsEyebrow: 'Current work',
+      projectsTitle: 'Review live field initiatives.',
+      projectsBody:
+        'Projects are proof and campaign assets, not the whole strategy. Use them when you want to see what is active now.',
+      projectsCta: 'See current projects',
+      projectsHref: '/projects'
     },
     newsletter: {
       eyebrow: 'Newsletter',
@@ -145,16 +146,17 @@ const homepageCopy = {
       ctaLabel: 'Voir toutes les actualites'
     },
     getInvolved: {
-      involvedEyebrow: 'Passer a l action',
-      involvedTitle: 'Choisir la prochaine etape qui convient.',
-      involvedBody:
-        'Si vous voulez apprendre, donner, collaborer ou proposer un projet, il existe une voie claire pour vous.',
-      involvedCta: 'Participer',
-      partnerTitle: 'Soutenir le hub RDC',
-      partnerBody:
-        'Consultez le projet Congo, puis contactez-nous si vous souhaitez soutenir une initiative precise ou le travail qui l accompagne.',
-      partnerCta: 'Ouvrir le hub RDC',
-      partnerHref: '/projects/rdc'
+      hubEyebrow: 'Passer a l action',
+      hubTitle: 'Choisir la voie de soutien qui vous convient.',
+      hubBody:
+        'Le hub de soutien couvre cinq voies : soutenir VSF, appuyer une initiative de terrain, collaborer, proposer ou suivre et apprendre.',
+      hubCta: 'Ouvrir le hub de soutien',
+      projectsEyebrow: 'Travail actuel',
+      projectsTitle: 'Consulter les initiatives de terrain en cours.',
+      projectsBody:
+        'Les projets sont des preuves et des assets de campagne, pas toute la strategie. Utilisez-les pour voir ce qui est actif maintenant.',
+      projectsCta: 'Voir les projets',
+      projectsHref: '/projects'
     },
     newsletter: {
       eyebrow: 'Infolettre',
