@@ -7,7 +7,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { z } from 'zod';
 
-import { SITE_NAME, getAbsoluteUrl, type EntryType, type Locale } from '@/lib/site';
+import { SITE_NAME, getAbsoluteUrl, resolveMediaAsset, type EntryType, type Locale } from '@/lib/site';
 import { trimSlashes } from '@/lib/utils';
 
 const contentSchema = z.object({
@@ -139,7 +139,7 @@ export function buildEntryMetadata(entry: ContentEntry, locale: Locale = entry.l
     ...entry,
     locale: locale === 'fr' ? 'en' : 'fr'
   });
-  const ogImage = entry.ogImage?.startsWith('http') ? entry.ogImage : entry.ogImage ? getAbsoluteUrl(entry.ogImage) : undefined;
+  const ogImage = entry.ogImage ? resolveMediaAsset(entry.ogImage) : undefined;
 
   return {
     title,

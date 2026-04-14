@@ -61,7 +61,12 @@ export function transformLegacyHtml(html: string | undefined, locale: Locale) {
     FORBID_ATTR: ['onerror', 'onload', 'onclick', 'onmouseover']
   });
 
-  return sanitized
+  const withoutLeadMedia = sanitized
+    .replace(/^\s*(?:<p>\s*)?<img\b[^>]*\/?>(?:\s*<\/p>)?\s*/i, '')
+    .replace(/^\s*<figure>[\s\S]*?<\/figure>\s*/i, '')
+    .replace(/^\s*(?:<p>\s*(?:&nbsp;|\u00a0)?\s*<\/p>\s*)+/i, '');
+
+  return withoutLeadMedia
     .replace(/\[wpforms id="10"\]/g, '')
     .replace(/srcset="[^"]*"/g, '')
     .replace(/sizes="[^"]*"/g, '')

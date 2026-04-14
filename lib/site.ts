@@ -13,6 +13,7 @@ export const SOCIAL_LINKS = [
   { label: 'LinkedIn', href: 'https://www.linkedin.com/company/vetiver-sans-frontieres/' }
 ] as const;
 const LEGACY_MEDIA_BASE_URL = 'https://vetiversansfrontieres.org/wp-content/uploads';
+const LEGACY_MEDIA_I0_PREFIX = 'https://i0.wp.com/vetiversansfrontieres.org/wp-content/uploads/';
 
 export const NAV_ITEMS = [
   {
@@ -87,16 +88,33 @@ export function getMediaUrl(path: string) {
   return `${getMediaBaseUrl()}/${cleanPath}`;
 }
 
+function normalizeLegacyMediaUrl(path: string) {
+  if (path.startsWith(LEGACY_MEDIA_BASE_URL)) {
+    return getMediaUrl(path.slice(`${LEGACY_MEDIA_BASE_URL}/`.length));
+  }
+
+  if (path.startsWith(LEGACY_MEDIA_I0_PREFIX)) {
+    const suffix = path.slice(LEGACY_MEDIA_I0_PREFIX.length).split('?')[0];
+    return getMediaUrl(suffix);
+  }
+
+  if (path.startsWith('/wp-content/uploads/')) {
+    return getMediaUrl(path.slice('/wp-content/uploads/'.length));
+  }
+
+  return path;
+}
+
 export function resolveMediaAsset(path: string) {
   if (path.startsWith('http://') || path.startsWith('https://')) {
-    return path;
+    return normalizeLegacyMediaUrl(path);
   }
 
   if (path.startsWith('/media/')) {
     return getMediaUrl(path.slice('/media/'.length));
   }
 
-  return path;
+  return getMediaUrl(path);
 }
 
 export function localePath(enPath: string, locale: Locale): string {
