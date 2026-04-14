@@ -25,6 +25,14 @@ const mdxComponents: MDXComponents = {
 };
 
 async function renderEntryBody(entry: ContentEntry, locale: Locale) {
+  if (entry.type === 'post') {
+    const legacyHtml = extractLegacyStoryHtml(entry.body);
+
+    if (legacyHtml) {
+      return <HtmlContent html={legacyHtml} locale={locale} />;
+    }
+  }
+
   const result = await compileMDX({
     source: entry.body,
     options: {
@@ -111,6 +119,14 @@ export async function renderEntryPage(entry: ContentEntry, locale: Locale) {
 
 function LinkHint({ path }: { path: string }) {
   return <span className="font-mono text-xs tracking-normal text-sand/72">{path}</span>;
+}
+
+function extractLegacyStoryHtml(source: string) {
+  const match = source
+    .trim()
+    .match(/^<HtmlContent\s+html=\{`([\s\S]*?)`\}\s*\/>\s*$/);
+
+  return match?.[1] ?? null;
 }
 
 function isContactPage(slug: string, locale: Locale) {
