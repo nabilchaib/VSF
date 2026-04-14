@@ -2,18 +2,16 @@
 
 ## Purpose
 
-This roadmap turns the VSF analysis into an implementation-ready execution plan for Codex.
+This roadmap is the execution guide for the remaining VSF website migration work.
 
-VSF should **not** be treated as a simple website migration. The current priority is a **foundation operating site launch** tied to donor growth, project credibility, and long-term operational scale.
+At this stage, VSF should **not** be treated as a broad website rethink. The architecture direction is already set. The remaining work is to:
+- finish the highest-value page rewrites
+- validate live conversion paths
+- remove migration leftovers
+- launch with confidence
+- keep tasks and docs lean enough that execution does not slow down
 
-The website is the public surface of a broader VSF operating system:
-- active projects and incoming projects
-- evidence and reporting
-- donor conversion
-- grant readiness
-- partner memory
-- content engine
-- automation and AI leverage
+The site remains the public surface of a broader VSF operating system, but the roadmap below is intentionally biased toward **shipping the migration**.
 
 ---
 
@@ -24,11 +22,13 @@ Two major page-role PRs are now merged:
 - **PR 16** — About trust positioning
 
 This matters because the site is no longer blocked on those two core public-page rewrites.
-The new remaining work is more focused:
+
+The remaining migration work is now more focused:
 - San Rafael rewrite and cleanup
 - Vetiver / Services / Stories refinement
 - final launch-readiness validation
 - production-path QA
+- stricter task and documentation hygiene
 
 ---
 
@@ -54,7 +54,7 @@ The main work left is targeted page execution, validation, cleanup, and cutover 
 
 ---
 
-## Current Remaining Launch-Critical Work
+## Current Remaining Migration-Critical Work
 
 1. Rewrite and clean up San Rafael.
 2. Strengthen Vetiver as the clearest education page on the site.
@@ -64,17 +64,28 @@ The main work left is targeted page execution, validation, cleanup, and cutover 
 6. Confirm final donation, contact, and newsletter behavior on live pages.
 7. Decide and document the launch stance for staged media dependencies.
 8. Add the local development recovery note for Next.js / HMR failures.
+9. Close, merge, or remove stale migration tasks and docs that no longer change execution.
 
 ---
 
-## 2026 Strategic Priorities
+## Execution Discipline
 
-1. **Launch the new website** as the canonical public platform.
-2. **Improve online presence and donor acquisition**.
-3. **Use AI and automation aggressively** where useful and low-friction.
-4. **Preserve and expose real field credibility** without letting projects define the whole site.
-5. **Make the site reflect current VSF reality**, not inherited WordPress copy.
-6. **Support grants and donor conversion** through clear project, donation, partnership, and contact paths.
+From this point on, Codex should default to **finishing and validating**, not generating more planning material.
+
+### Rules
+- Do not create a new strategy doc unless it changes implementation.
+- Do not keep parallel task pages for the same outcome.
+- When a task is absorbed into another task, mark it done or archive it.
+- When a page role is settled, move from discussion to implementation.
+- Prefer updating the existing source-of-truth doc over creating a new one.
+
+### Source-of-truth hierarchy
+1. `CODEX_ROADMAP.md` — migration execution order
+2. `CODEX_WORDING_BRIEF.md` — public wording guidance
+3. `CODEX_WEBSITE_WORDING_AUDIT.md` — wording gaps and page-specific cleanup needs
+4. active PRs / active task rows — live execution
+
+Everything else should either support execution directly or be archived / treated as reference only.
 
 ---
 
@@ -97,35 +108,6 @@ That means:
 
 ---
 
-## Program Streams
-
-### Stream A — Operating Site Launch
-Goal: ship a public-facing site that accurately represents VSF and can support donor growth.
-
-**Status:** In focused execution / launch-readiness phase.
-
-### Stream B — Content and Conversion Engine
-Goal: turn articles, case studies, and project pages into donor-facing entry points.
-
-**Status:** Core structure in place; continue editorial and routing discipline.
-
-### Stream C — RDC Evidence and Credibility Layer
-Goal: surface trustworthy field evidence and policy/reporting credibility without making the site feel academic or bureaucratic.
-
-**Status:** Public hub established; continue strengthening proof discipline and article connection.
-
-### Stream D — Growth / Automation / AI
-Goal: reduce manual work in publishing, lead capture, CRM updates, and campaign operations.
-
-**Status:** Ads workflow improved; broader automation still mostly ahead.
-
-### Stream E — Foundation Structure
-Goal: make the site and repo usable as the public layer of a broader operating system.
-
-**Status:** Directionally in place; continue documentation and low-friction operational scaffolding.
-
----
-
 ## Phase 1 — Remaining Core Page Execution
 
 ### 1. San Rafael rewrite
@@ -135,6 +117,7 @@ Acceptance criteria:
 - no internal wording such as donor-safe / pilot path remains
 - the page explains the local problem, practical response, and next support logic clearly
 - the page feels donor-facing, not internally managed
+- the page reflects the nursery-expansion phase and proof-first positioning already established in VSF planning
 
 ### 2. Vetiver refinement
 Goal: make Vetiver the clearest education page on the site.
@@ -241,23 +224,39 @@ Acceptance criteria:
 
 ---
 
-## Phase 3 — Public Credibility and Launch Safety
+## Phase 3 — Task and Documentation Hygiene
 
-### 11. Review public proof-point claims
+### 11. Close or merge stale migration tasks
+Acceptance criteria:
+- no standalone task remains open if its outcome is already absorbed into another active task
+- completed page-role work is marked done in task tracking
+- broad migration tasks reflect the current phase instead of the earlier architecture phase
+
+### 12. Reduce documentation sprawl
+Acceptance criteria:
+- no new migration doc is created unless it changes implementation
+- source-of-truth docs are updated instead of duplicated
+- reference-only pages are treated as reference, not active execution
+
+---
+
+## Phase 4 — Public Credibility and Launch Safety
+
+### 13. Review public proof-point claims
 Acceptance criteria:
 - public-facing claims are donor-safe and field-grounded
 - questionable figures are either corrected, softened, or documented for later review
 
-### 12. Keep the editorial system tied to real actions
+### 14. Keep the editorial system tied to real actions
 Acceptance criteria:
 - editorial additions follow the routing model without regressions
 - content system remains understandable to future contributors
 
 ---
 
-## Phase 4 — Donor Growth and AI / Automation
+## Phase 5 — Donor Growth and AI / Automation
 
-### 13. Build a practical donor funnel
+### 15. Build a practical donor funnel
 The site should visibly support:
 - first-time donor
 - sponsor-a-project donor
@@ -269,7 +268,7 @@ Acceptance criteria:
 - donor path is visible from Home, Projects, Get Involved, and project/article pages
 - CTAs are consistent and measurable
 
-### 14. Add low-friction automation
+### 16. Add low-friction automation
 Priority automations:
 - newsletter/contact capture normalization
 - simple lead routing / logging
@@ -294,17 +293,19 @@ Acceptance criteria:
 6. Remove remaining migration leftovers
 7. Decide and document the staged media launch stance
 8. Add the local dev recovery runbook
+9. Close or merge stale migration tasks
 
 ### Near-term
-9. Review public proof-point claims
-10. Confirm forms and intake flows
-11. Strengthen donor funnel visibility and measurement
-12. Add low-friction automation where useful
+10. Review public proof-point claims
+11. Confirm forms and intake flows
+12. Strengthen donor funnel visibility and measurement
+13. Add low-friction automation where useful
+14. Reduce documentation sprawl where it is slowing execution
 
 ### After launch
-13. Expand project hubs and case studies
-14. Improve donor funnel and analytics
-15. Use the repo as the canonical public content system for VSF operations
+15. Expand project hubs and case studies
+16. Improve donor funnel and analytics
+17. Use the repo as the canonical public content system for VSF operations
 
 ---
 
@@ -316,6 +317,7 @@ Codex should avoid:
 - overengineering CRM/automation before launch quality is secure
 - building a generic nonprofit site disconnected from field realities
 - burying evidence under marketing language
+- creating new docs instead of finishing open implementation work
 
 ---
 
@@ -328,6 +330,7 @@ This roadmap succeeds if:
 - RDC credibility is visible and usable
 - content, projects, and CTAs feel like one coherent system
 - launch blockers are reduced to known, documented, manageable items rather than vague unknowns
+- task and documentation overhead no longer slows execution
 
 ---
 
@@ -338,4 +341,4 @@ This roadmap succeeds if:
 3. Document the staged media stance for launch.
 4. Add the local development recovery note.
 5. Review public proof-point claims for donor-safe wording.
-6. Propose 3 realistic AI/automation wins for the first post-launch cycle.
+6. Close or merge stale migration tasks.
