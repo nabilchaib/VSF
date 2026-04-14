@@ -37,6 +37,15 @@ PR 18 was later merged as a legacy cleanup and bridge-page polish change set. It
 - stronger proof-point caution language
 - local Next.js / HMR recovery note added to the repo
 
+PR 19 is now merged as the final public-page completion pass:
+- San Rafael was rewritten into a donor-facing field / campaign page
+- Vetiver was tightened back into an educational page with balanced CTAs
+- Services was reframed as a partnership / implementation path
+- Stories kept intentional exit routing, including the contact path
+- EN / FR metadata and public copy were polished across the launch-critical surface
+
+With PR 19 merged, the migration roadmap is complete. The remaining work is operational upkeep, not migration-critical implementation.
+
 ---
 
 ## Current Launch State
@@ -57,23 +66,21 @@ Completed or substantially completed:
 - story and article pages now use intent-based CTA routing
 - content-level CTA targeting added so posts can point to the right next step
 - Google Ads operating flow upgraded with OAuth refresh, draft creation, and approval-gated live changes
+- final copy and metadata cleanup merged in PR 19, including the remaining bilingual polish pass and shared CTA routing fixes
 
 This means the site is no longer blocked by broad architecture or messaging work.
-The main work left is targeted page execution, validation, cleanup, and cutover confidence.
+The main work left is normal post-launch monitoring and maintenance.
 
 ---
 
 ## Current Remaining Migration-Critical Work
 
-1. Rewrite and clean up San Rafael.
-2. Strengthen Vetiver as the clearest education page on the site.
-3. Strengthen Services as a real partnership / implementation path.
-4. Keep Stories aligned with the routing model.
-5. Run the final CTA, routing, and bilingual validation pass.
-6. Confirm final donation, contact, and newsletter behavior on live pages.
-7. Decide and document the launch stance for staged media dependencies.
-8. Add the local development recovery note for Next.js / HMR failures.
-9. Close, merge, or remove stale migration tasks and docs that no longer change execution.
+No migration-critical implementation remains open.
+
+Current upkeep:
+1. Keep an eye on live donation, contact, newsletter, and proposal paths.
+2. Monitor production for any regressions in bilingual routing or media fallback.
+3. Fold future copy or route fixes into normal maintenance, not the migration roadmap.
 
 ---
 
@@ -129,6 +136,8 @@ That means:
 
 ## Phase 1 — Remaining Core Page Execution
 
+Status: complete as of PR 19. Retained here as a record of the final shipped scope.
+
 ### 1. San Rafael rewrite
 Goal: turn San Rafael into a concrete campaign and field-proof page without internal portfolio language.
 
@@ -163,6 +172,8 @@ Acceptance criteria:
 ---
 
 ## Phase 2 — Launch-Blocking Validation and Cleanup
+
+Status: complete as of PR 19. Retained here as the launch-readiness checklist that was closed out.
 
 ### 5. Final launch-readiness audit
 Review all launch-critical public routes:
@@ -244,6 +255,8 @@ Acceptance criteria:
 ---
 
 ## Phase 3 — Task and Documentation Hygiene
+
+Status: complete as of PR 19. Retained here to document the cleanup rules that are now part of normal maintenance.
 
 ### 11. Close or merge stale migration tasks
 Acceptance criteria:
