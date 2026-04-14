@@ -148,7 +148,7 @@ const ARTICLE_END_CTA: Record<Locale, Record<ArticleIntent, ArticleEndCtaCopy>> 
       eyebrow: 'Partenariat',
       title: 'Utiliser les services ou contacter VSF.',
       body:
-        'Choisissez la prochaine etape qui correspond a votre role et a ce que vous souhaitez discuter.',
+        "Choisissez la prochaine étape qui correspond à votre rôle et à ce que vous souhaitez discuter.",
       primary: { label: 'Voir les services', href: '/about/services', variant: 'primary' },
       secondary: { label: 'Contacter VSF', href: '/about/contact', variant: 'secondary' },
       tertiary: { label: 'Parcourir les projets', href: '/projects', variant: 'tertiary' }

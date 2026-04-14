@@ -4,14 +4,14 @@ import { getAbsoluteUrl, getMediaUrl, SITE_NAME, type Locale } from '@/lib/site'
 
 const HOME_PAGE_META: Record<Locale, { title: string; description: string }> = {
   en: {
-    title: 'A remarkable plant for soil, water, and community resilience.',
+    title: 'Vetiver for soil, water, and resilience.',
     description:
-      'Vetiver is a deep-rooted grass used to slow runoff, hold soil in place, and make fragile landscapes easier to work with.'
+      'Vetiver is a deep-rooted grass used to slow runoff, hold soil in place, and support practical land restoration.'
   },
   fr: {
-    title: 'Une plante remarquable pour les sols, l eau et la resilience communautaire.',
+    title: "Vétiver pour les sols, l'eau et la résilience.",
     description:
-      'Le vetiver est une graminee a racines profondes utilisee pour ralentir le ruissellement, retenir les sols et rendre les paysages fragiles plus faciles a travailler.'
+      "Le vétiver est une graminée à racines profondes utilisée pour ralentir le ruissellement, retenir les sols et soutenir une restauration pratique des terres."
   }
 };
 

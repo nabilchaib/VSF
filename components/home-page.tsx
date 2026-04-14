@@ -99,54 +99,54 @@ const homepageCopy = {
         'A concise way to follow progress without relying on social media.'
     }
   },
-  fr: {
-    hero: {
-      eyebrow: 'Qu est-ce que le vetiver ?',
-      title:
-        'Une graminee pratique pour les sols, l eau et les terres.',
-      body:
-        'Le vetiver est une graminee a racines profondes utilisee pour ralentir le ruissellement, retenir les sols et rendre les terres fragiles plus faciles a gerer.',
-      supportingBody:
-        'Vetiver Sans Frontieres aide les communautes a apprendre, tester et appliquer des solutions basees sur le vetiver grace au soutien de terrain, aux partenariats de projet et a des pages de projet publiques.',
-      donateLabel: 'Faire un don',
-      involvedLabel: 'Participer',
-      learnMoreLabel: 'Decouvrir le vetiver',
-      learnMoreHref: '/vetiver',
-      imageAlt: 'Vetiver plante le long d une route pour stabiliser les sols et proteger le terrain.',
-      highlight:
-        'Le vetiver dure quand les communautes peuvent le comprendre, l essayer sur le terrain et continuer a l utiliser localement.'
-    },
-    impact: {
+    fr: {
+      hero: {
+        eyebrow: "Qu'est-ce que le vétiver ?",
+        title:
+          "Une graminée pratique pour les sols, l'eau et les terres.",
+        body:
+        'Le vétiver est une graminée à racines profondes utilisée pour ralentir le ruissellement, retenir les sols et rendre les terres fragiles plus faciles à gérer.',
+        supportingBody:
+        'Vetiver Sans Frontières aide les communautés à apprendre, tester et appliquer des solutions basées sur le vétiver grâce au soutien de terrain, aux partenariats de projet et à des pages de projet publiques.',
+        donateLabel: 'Faire un don',
+        involvedLabel: 'Participer',
+      learnMoreLabel: 'Découvrir le vetiver',
+        learnMoreHref: '/vetiver',
+      imageAlt: 'Vetiver planté le long d une route pour stabiliser les sols et protéger le terrain.',
+        highlight:
+        "Le vétiver dure quand les communautés peuvent le comprendre, l'essayer sur le terrain et continuer à l'utiliser localement."
+      },
+      impact: {
       eyebrow: 'Comment VSF aide',
-      title: 'Transformer la comprehension en action concrete sur le terrain.',
+      title: 'Transformer la compréhension en action concrète sur le terrain.',
       body:
-        'Votre soutien aide VSF a passer de la formation a la mise en oeuvre : planification du site, appui local, soutien aux projets pilotes et suivi.',
-      pillars: [
+        'Votre soutien aide VSF à passer de la formation à la mise en œuvre : planification du site, appui local, soutien aux projets pilotes et suivi.',
+        pillars: [
         {
           title: 'Apprendre',
-          body: 'Les visiteurs commencent par une explication simple du vetiver avant qu on leur demande de soutenir quoi que ce soit.'
+          body: "Les visiteurs commencent par une explication simple du vétiver avant qu'on leur demande de soutenir quoi que ce soit."
         },
         {
           title: 'Tester',
-          body: 'Les projets sont adaptes aux conditions du site pour que la solution corresponde au probleme.'
+          body: 'Les projets sont adaptés aux conditions du site pour que la solution corresponde au problème.'
         },
         {
           title: 'Soutenir',
-          body: 'Donateurs et partenaires peuvent appuyer le terrain, la visibilite des projets et le suivi dans le temps.'
+          body: 'Donateurs et partenaires peuvent appuyer le terrain, la visibilité des projets et le suivi dans le temps.'
         }
       ],
       donateLabel: 'Faire un don',
       supportingLabel: 'Participer'
     },
     stories: {
-      eyebrow: 'Dernieres actualites',
-      title: 'Recits de terrain, mises a jour de projets et lecons pratiques sur le vetiver.',
+      eyebrow: 'Dernières actualités',
+      title: 'Récits de terrain, mises à jour de projets et leçons pratiques sur le vetiver.',
       body:
-        'Des nouvelles recentes des projets et des partenaires montrent comment le travail avance sur le terrain.',
-      ctaLabel: 'Voir toutes les actualites'
+        'Des nouvelles récentes des projets et des partenaires montrent comment le travail avance sur le terrain.',
+      ctaLabel: 'Voir toutes les actualités'
     },
     getInvolved: {
-      hubEyebrow: 'Passer a l action',
+      hubEyebrow: 'Passer à l action',
       hubTitle: 'Choisir la voie de soutien qui vous convient.',
       hubBody:
         'Le hub de soutien couvre cinq voies : soutenir VSF, appuyer une initiative de terrain, collaborer, proposer ou suivre et apprendre.',
@@ -154,7 +154,7 @@ const homepageCopy = {
       projectsEyebrow: 'Travail actuel',
       projectsTitle: 'Consulter les initiatives de terrain en cours.',
       projectsBody:
-        'Les projets sont des preuves et des assets de campagne, pas toute la strategie. Utilisez-les pour voir ce qui est actif maintenant.',
+      'Les projets sont des preuves et des éléments de campagne, pas toute la stratégie. Utilisez-les pour voir ce qui est actif maintenant.',
       projectsCta: 'Voir les projets',
       projectsHref: '/projects'
     },
@@ -162,9 +162,9 @@ const homepageCopy = {
       eyebrow: 'Infolettre',
       title: 'Restez proches des projets sur le terrain.',
       body:
-        'Recevez des nouvelles de terrain, des recits de projets et les etapes importantes de Vetiver Sans Frontieres.',
+        'Recevez des nouvelles de terrain, des récits de projets et les étapes importantes de Vetiver Sans Frontières.',
       note:
-        'Une facon simple de suivre les progres sans dependance aux reseaux sociaux.'
+        'Une façon simple de suivre les progrès sans dépendance aux réseaux sociaux.'
     }
   }
 } as const;

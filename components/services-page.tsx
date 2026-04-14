@@ -235,46 +235,46 @@ const copy = {
   fr: {
     title: 'Services vetiver',
     subtitle:
-      'Soutien pratique base sur le Vetiver pour l evaluation du site, la mise en oeuvre et le travail de terrain porte par des partenaires.',
+      "Soutien pratique basé sur le vétiver pour l'évaluation du site, la mise en œuvre et le travail de terrain porté par des partenaires.",
     introEyebrow: 'Ce que nous proposons',
     introTitle: 'Une voie de partenariat pour les sites, les responsables et les institutions.',
     introBody:
-      'Nous partons du probleme sur le terrain - erosion, ruissellement, instabilite des pentes ou degradation des terres - pour construire une reponse pratique autour du vetiver.',
+      'Nous partons du problème sur le terrain - érosion, ruissellement, instabilité des pentes ou dégradation des terres - pour construire une réponse pratique autour du vétiver.',
     summaryPoints: [
-      'Evaluation et planification du site',
-      'Protection des pentes et controle de l erosion',
+      'Évaluation et planification du site',
+      'Protection des pentes et contrôle de l érosion',
       'Gestion des eaux de pluie',
       'Formation et transfert',
-      'Appui a la mise en oeuvre par les partenaires',
-      'Planification de l entretien a long terme'
+      'Appui à la mise en œuvre par les partenaires',
+      'Planification de l entretien à long terme'
     ],
-    imageAlt: 'Conditions de site montrant ou des services bases sur le Vetiver peuvent etre appliques.',
+    imageAlt: 'Conditions de site montrant où des services basés sur le Vétiver peuvent être appliqués.',
     servicesEyebrow: 'Domaines de service',
-    servicesTitle: 'Comment le vetiver peut soutenir un site ou un partenariat.',
+    servicesTitle: 'Comment le vétiver peut soutenir un site ou un partenariat.',
     serviceCards: [
       {
         title: 'Protection des infrastructures',
-        body: 'Nous utilisons le Vetiver comme outil de bioingenierie pour integrer une protection environnementale durable aux projets et aux sites.'
+        body: 'Nous utilisons le vétiver comme outil de bioingénierie pour intégrer une protection environnementale durable aux projets et aux sites.'
       },
       {
-        title: 'Reduction des risques naturels',
-        body: 'Le Vetiver peut aider a limiter les dommages lies aux tempetes, glissements, inondations et dunes instables.'
+        title: 'Réduction des risques naturels',
+        body: 'Le vétiver peut aider à limiter les dommages liés aux tempêtes, glissements, inondations et dunes instables.'
       },
       {
         title: 'Conception environnementale',
-        body: 'Nous aidons a construire des strategies de site qui relient fonction ecologique, stabilite des terres et durabilite.'
+        body: 'Nous aidons à construire des stratégies de site qui relient fonction écologique, stabilité des terres et durabilité.'
       },
       {
         title: 'Formation et assistance technique',
-        body: 'Nous accompagnons les porteurs de projet et les equipes qui souhaitent implementer le Vetiver de facon pratique sur le terrain.'
+        body: 'Nous accompagnons les porteurs de projet et les équipes qui souhaitent mettre en œuvre le vétiver de façon pratique sur le terrain.'
       },
       {
         title: 'Qui cela sert',
-        body: 'Toute personne ou organisation qui agit sur le paysage peut en beneficier, des initiatives locales aux institutions et organisations communautaires.'
+        body: 'Toute personne ou organisation qui agit sur le paysage peut en bénéficier, des initiatives locales aux institutions et organisations communautaires.'
       },
       {
         title: 'Planification de l entretien',
-        body: 'Nous aidons a integrer le Vetiver dans des cadres de planification realistes, maintenables et evolutifs.'
+        body: 'Nous aidons à intégrer le vétiver dans des cadres de planification réalistes, maintenables et évolutifs.'
       }
     ],
     deliveryEyebrow: 'Notre approche',
@@ -282,23 +282,23 @@ const copy = {
     deliveryCards: [
       {
         title: 'Lecture du site',
-        body: 'Nous partons des conditions locales, des usages existants et des contraintes environnementales reelles.'
+        body: 'Nous partons des conditions locales, des usages existants et des contraintes environnementales réelles.'
       },
       {
-        title: 'Appui a la mise en oeuvre',
-        body: 'Les porteurs de projet recoivent un soutien pratique pour transformer une idee en intervention stable et maintenable.'
+        title: 'Appui à la mise en œuvre',
+        body: 'Les porteurs de projet reçoivent un soutien pratique pour transformer une idée en intervention stable et maintenable.'
       },
       {
-        title: 'Durabilite dans le temps',
-        body: 'Notre objectif est de reduire les risques environnementaux et de soutenir une gestion plus durable des paysages.'
+        title: 'Durabilité dans le temps',
+        body: 'Notre objectif est de réduire les risques environnementaux et de soutenir une gestion plus durable des paysages.'
       }
     ],
-    imageAltTwo: 'Paysage expose a l instabilite ou le Vetiver peut aider a reduire les dommages.',
+    imageAltTwo: "Paysage exposé à l'instabilité où le vétiver peut aider à réduire les dommages.",
     imageAltThree: 'Personnes travaillant dans des contextes agricoles soutenus par la formation.',
     ctaEyebrow: 'Travailler avec VSF',
-    ctaTitle: 'Parlez-nous d un site ou d une idee de partenariat.',
+    ctaTitle: "Parlez-nous d'un site ou d'une idée de partenariat.",
     ctaBody:
-      'Contactez-nous pour discuter de votre site, de votre projet ou de votre demande de collaboration et voir si le vetiver convient.',
+      "Contactez-nous pour discuter de votre site, de votre projet ou de votre demande de collaboration et voir si le vétiver convient.",
     cta: 'Contactez-nous',
     secondaryCta: 'Voir les projets'
   }
