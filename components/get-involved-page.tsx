@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { Button } from '@/components/button';
 import { Container } from '@/components/container';
 import { PageHero } from '@/components/page-hero';
-import { DONATE_URL, getMediaUrl, localePath, type Locale } from '@/lib/site';
+import { DONATE_URL, SOCIAL_LINKS, getMediaUrl, localePath, type Locale } from '@/lib/site';
 
 type ActionLink = {
   label: string;
@@ -71,6 +71,23 @@ export function GetInvolvedPage({ locale }: { locale: Locale }) {
                   variant={link.variant}
                 >
                   {link.label}
+                </Button>
+              ))}
+            </div>
+          </div>
+        </Container>
+      </section>
+
+      <section className="bg-white/72 py-14 lg:py-20">
+        <Container>
+          <div className="rounded-[2.2rem] border border-bark/10 bg-white px-7 py-8 shadow-card lg:px-9">
+            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-bark/60">{t.followEyebrow}</p>
+            <h2 className="mt-3 max-w-[14ch] text-3xl font-semibold text-ink sm:text-4xl">{t.followTitle}</h2>
+            <p className="mt-4 max-w-2xl text-base leading-8 text-ink/72">{t.followBody}</p>
+            <div className="mt-6 flex flex-wrap gap-3">
+              {SOCIAL_LINKS.map((social) => (
+                <Button key={social.label} href={social.href} external target="_blank" rel="noreferrer" variant="secondary">
+                  {social.label}
                 </Button>
               ))}
             </div>
@@ -151,7 +168,11 @@ const copy = {
         external: false,
         variant: 'tertiary' as const
       }
-    ] satisfies ActionLink[]
+    ] satisfies ActionLink[],
+    followEyebrow: 'Stay connected',
+    followTitle: 'Follow the work if you are not ready for direct action.',
+    followBody:
+      'Sharing and following are useful low-friction ways to stay close to the work and help more people discover it.'
   },
   fr: {
     title: 'Participer au travail sur le vetiver',
@@ -222,6 +243,10 @@ const copy = {
         external: false,
         variant: 'tertiary' as const
       }
-    ] satisfies ActionLink[]
+    ] satisfies ActionLink[],
+    followEyebrow: 'Rester connecte',
+    followTitle: 'Suivez le travail si vous n etes pas pret pour une action directe.',
+    followBody:
+      'Partager et suivre restent des façons simples de rester proche du travail et d aider davantage de personnes a le decouvrir.'
   }
 } as const;
