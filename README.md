@@ -73,3 +73,4 @@ The draft command is a safe API wrapper around `campaignDrafts:mutate`. It needs
 - `ads/AGENTS.md` is the Google Ads automation operating guide.
 - The Ads cleanup workflow is dry-run first and does not mutate campaigns until explicit approval is added.
 - Live mutation is gated by `--confirm-live` and `GOOGLE_ADS_ALLOW_LIVE_MUTATION=true`.
+- If Next.js or HMR gets stuck during launch QA, stop `npm run dev`, clear `.next`, restart the dev server, and recheck `/` and `/fr`.

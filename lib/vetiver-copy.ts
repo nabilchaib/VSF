@@ -91,7 +91,8 @@ export const VETIVER_PROOF_POINTS: Record<Locale, VetiverProofPointsCopy> = {
   en: {
     eyebrow: 'Proof points',
     title: 'Working references VSF uses to explain why vetiver can help.',
-    note: 'Treat these as working references from donor and project materials until source links or validation are attached.',
+    note:
+      'Treat these as working references from donor and project materials until source links or validation are attached. Do not present them as final donor-safe claims until they are verified.',
     points: [
       {
         value: '90%',
@@ -113,7 +114,8 @@ export const VETIVER_PROOF_POINTS: Record<Locale, VetiverProofPointsCopy> = {
   fr: {
     eyebrow: 'Preuves publiques',
     title: 'Des references de travail que VSF utilise pour expliquer le vetiver.',
-    note: 'Considerez-les comme des repères de travail, pas comme des affirmations finales, jusqu a ce que les sources soient ajoutees.',
+    note:
+      'Considerez-les comme des reperes de travail, pas comme des affirmations finales, jusqu a ce que les sources soient ajoutees. Ne les presentez pas comme des affirmations finales pour les donateurs tant qu elles ne sont pas verifiees.',
     points: [
       {
         value: '90%',
