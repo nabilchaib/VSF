@@ -188,7 +188,6 @@ const copy: Record<Locale, PageCopy> = {
           {
             label: 'Get email updates',
             href: '/#newsletter',
-            localized: false,
             variant: 'primary'
           }
         ]
@@ -271,8 +270,7 @@ const copy: Record<Locale, PageCopy> = {
           },
           {
             label: 'Recevoir les mises à jour',
-            href: '/fr#newsletter',
-            localized: false,
+            href: '/#newsletter',
             variant: 'primary'
           }
         ]

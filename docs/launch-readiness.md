@@ -21,7 +21,9 @@ Production expectation:
 
 ## Media
 
-Launch stance: hybrid launch with legacy media allowed.
+Launch stance: intentional hybrid launch with legacy media allowed.
+
+This is a deliberate launch policy, not an open-ended migration blocker.
 
 - `NEXT_PUBLIC_MEDIA_BASE_URL` is the preferred base for migrated media.
 - When that variable is unset, media resolves to the legacy WordPress uploads host through `getMediaBaseUrl()`.

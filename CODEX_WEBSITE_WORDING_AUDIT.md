@@ -2,7 +2,9 @@
 
 ## Purpose
 
-This document is the repo-aware wording audit for the public VSF website.
+This document is the historical repo-aware wording audit for the public VSF website.
+
+It is retained for context. The active source of truth for migration closure is [CODEX_ROADMAP.md](./CODEX_ROADMAP.md).
 
 It should help Codex understand:
 - what has improved
@@ -29,7 +31,7 @@ It is now a more focused set of page-level cleanups and refinements.
 
 ## Executive Summary
 
-The wording migration is **partly successful, but not finished**.
+The wording migration reached completion in PR 19; this audit is retained as a historical record of the wording gaps that were identified before closure.
 
 The site is much better than the legacy WordPress version at introducing vetiver first. The strongest improvement is that the site no longer starts purely with NGO identity language.
 
