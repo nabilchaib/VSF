@@ -15,7 +15,7 @@ export function VetiverPage({ locale }: { locale: Locale }) {
       <PageHero
         title={t.title}
         subtitle={t.subtitle}
-        image="2024/10/DALL·E-2024-10-01-14.24.48-A-small-rural-community-involved-in-planting-and-harvesting-Vetiver-grass.-Local-farmers-are-working-in-the-fields-cutting-and-bundling-the-grass.-Th.webp"
+        image="2024/02/IMG-20240131-WA0016-1536x1152.jpg"
         align="left"
       />
 
@@ -25,7 +25,7 @@ export function VetiverPage({ locale }: { locale: Locale }) {
             <div className="relative overflow-hidden rounded-[2.2rem] border border-bark/10 bg-[#f2ecdf] p-3 shadow-card">
               <div className="relative aspect-square overflow-hidden rounded-[1.6rem]">
                 <Image
-                  src={getMediaUrl('2024/10/DALL·E-2024-10-01-14.51.12-A-detailed-artistic-illustration-of-a-single-Vetiver-grass-plant-with-very-deep-and-vertical-roots.-The-roots-should-extend-straight-down-into-the-so.webp')}
+                  src={getMediaUrl('2024/02/IMG-20240131-WA0023-1024x768.jpg')}
                   alt={t.imageAltOne}
                   fill
                   className="object-cover"
@@ -64,7 +64,7 @@ export function VetiverPage({ locale }: { locale: Locale }) {
             <div className="relative overflow-hidden rounded-[2.2rem] border border-bark/10 bg-white p-3 shadow-card">
               <div className="relative aspect-[4/5] overflow-hidden rounded-[1.6rem] sm:aspect-[16/11] lg:aspect-[4/5]">
                 <Image
-                  src={getMediaUrl('2024/10/DALL·E-2024-10-01-15.50.27-A-realistic-image-of-Vetiver-grass-in-an-arid-environment-emphasizing-its-role-as-an-economic-benefactor.-The-Vetiver-grass-should-be-depicted-with-i.webp')}
+                  src={getMediaUrl('2024/01/WhatsApp-Image-2024-01-31-at-09.26.30-1024x768.jpeg')}
                   alt={t.imageAltTwo}
                   fill
                   className="object-cover"
@@ -118,8 +118,8 @@ const copy = {
       { title: 'Agricultural resilience', body: 'Supports crop production by protecting soil and helping fields keep moisture longer.' },
       { title: 'Local value', body: 'Can contribute to local economies through handicrafts, animal feed, and processing pilots.' }
     ],
-    imageAltOne: 'Illustration of vetiver grass showing deep vertical roots.',
-    imageAltTwo: 'Vetiver grass in a dry landscape demonstrating environmental and economic potential.',
+    imageAltOne: 'Real field photo showing vetiver planting and preparation work.',
+    imageAltTwo: 'Vetiver in a dry field showing real-world resilience and site conditions.',
     ctaEyebrow: 'Apply the system',
     ctaTitle: 'Learn what vetiver is before choosing the next step.',
     ctaBody:
@@ -147,8 +147,8 @@ const copy = {
       { title: 'Résilience agricole', body: 'Soutient la production en protégeant les sols et en aidant les champs à garder l’humidité plus longtemps.' },
       { title: 'Valeur locale', body: 'Peut contribuer aux économies locales par l’artisanat, l’alimentation animale et des pistes de transformation.' }
     ],
-    imageAltOne: 'Illustration du vétiver montrant son enracinement profond.',
-    imageAltTwo: 'Vétiver dans un paysage sec montrant son potentiel environnemental et économique.',
+    imageAltOne: 'Photo de terrain montrant la plantation et la préparation du vétiver.',
+    imageAltTwo: 'Vétiver dans un champ sec montrant des conditions de terrain réelles.',
     ctaEyebrow: 'Mettre en œuvre le système',
     ctaTitle: "Comprenez d'abord le vétiver avant de choisir la prochaine étape.",
     ctaBody:

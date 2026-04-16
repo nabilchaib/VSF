@@ -1,8 +1,9 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import type { ReactNode } from 'react';
 
 import { PageHero } from '@/components/page-hero';
-import { DONATE_URL, localePath, type Locale } from '@/lib/site';
+import { DONATE_URL, getMediaUrl, localePath, type Locale } from '@/lib/site';
 import {
   RDC_PROJECT,
   getRdcFlagshipStoryPath,
@@ -16,6 +17,40 @@ import {
 
 export function RdcProjectHub({ locale }: { locale: Locale }) {
   const copy = RDC_PROJECT[locale];
+  const visualGallery = [
+    {
+      src: '2025/03/WhatsApp-Image-2025-03-07-at-13.54.00.jpeg',
+      alt:
+        locale === 'fr'
+          ? 'Photo de terrain en RDC montrant le travail vetiver sur site.'
+          : 'RDC field photo showing vetiver work on site.',
+      className: 'sm:col-span-2'
+    },
+    {
+      src: '2025/03/WhatsApp-Image-2025-03-07-at-13.54.44.webp',
+      alt:
+        locale === 'fr'
+          ? 'Photo de terrain en RDC montrant une autre étape du travail.'
+          : 'RDC field photo showing another step of the work.',
+      className: ''
+    },
+    {
+      src: '2025/04/00000276-PHOTO-2025-04-08-08-09-13.webp',
+      alt:
+        locale === 'fr'
+          ? 'Photo documentaire en RDC montrant le travail de terrain.'
+          : 'Documentary RDC photo showing field work.',
+      className: ''
+    },
+    {
+      src: '2025/04/00000283-PHOTO-2025-04-08-08-10-24.webp',
+      alt:
+        locale === 'fr'
+          ? 'Photo documentaire en RDC montrant le travail et la récupération des terres.'
+          : 'Documentary RDC photo showing field work and land recovery.',
+      className: 'sm:col-span-2'
+    }
+  ] as const;
 
   return (
     <div className="pb-16">
@@ -72,19 +107,32 @@ export function RdcProjectHub({ locale }: { locale: Locale }) {
                 </Link>
               </div>
             </div>
-            <div className="rounded-[1.75rem] bg-surface/80 p-6 shadow-card">
+            <div className="rounded-[1.75rem] border border-bark/10 bg-surface/42 p-4 shadow-card">
               <p className="text-xs font-medium uppercase tracking-[0.24em] text-bark/60">
-                {locale === 'fr' ? 'Pont public' : 'Public bridge'}
+                {locale === 'fr' ? 'Séquence visuelle' : 'Visual sequence'}
               </p>
-              <h2 className="mt-3 text-3xl font-bold uppercase tracking-[-0.05em] text-ink">
+              <div className="mt-3 grid gap-3 sm:grid-cols-2">
+                {visualGallery.map((item) => (
+                  <div
+                    key={item.src}
+                    className={`overflow-hidden rounded-[1.05rem] border border-bark/8 bg-white ${item.className}`}
+                  >
+                    <div className="relative aspect-[4/3] overflow-hidden bg-[#fbfaf5]">
+                      <Image
+                        src={getMediaUrl(item.src)}
+                        alt={item.alt}
+                        fill
+                        className="object-cover"
+                        sizes="(min-width: 1024px) 22vw, (min-width: 640px) 38vw, 100vw"
+                      />
+                    </div>
+                  </div>
+                ))}
+              </div>
+              <p className="mt-4 text-sm leading-7 text-ink/72">
                 {locale === 'fr'
-                  ? 'Preuves, récit et soutien'
-                  : 'Evidence, storytelling, and support'}
-              </h2>
-              <p className="mt-3 text-base leading-7 text-ink/75">
-                {locale === 'fr'
-                  ? 'Les détails opérationnels sensibles restent dans les documents de travail.'
-                  : 'Sensitive operating details stay in the working docs.'}
+                  ? 'Cette séquence visuelle montre plusieurs moments du travail de terrain en RDC.'
+                  : 'This visual sequence shows several moments from the RDC field work.'}
               </p>
             </div>
           </div>

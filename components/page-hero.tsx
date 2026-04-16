@@ -75,8 +75,8 @@ export function getHeroImageForEntry(slug: string, locale: Locale) {
     'about/vetiver-system': '2022/10/vs-use-07-b.jpeg',
     'about/vetiver-system/how-to-plant-vetiver-system': '2022/10/vs-use-07-b.jpeg',
     'projects': '2022/10/vlcsnap-2022-10-21-14h15m27s059-scaled.jpg',
-    'get-involved': '2026/02/Gemini_Generated_Image_7fcdjg7fcdjg7fcd-scaled.webp',
-    'vetiver': '2024/10/DALL·E-2024-10-01-14.24.48-A-small-rural-community-involved-in-planting-and-harvesting-Vetiver-grass.-Local-farmers-are-working-in-the-fields-cutting-and-bundling-the-grass.-Th.webp',
+    'get-involved': '2024/02/WhatsApp-Image-2024-02-28-at-15.12.55-1.jpeg',
+    'vetiver': '2024/02/IMG-20240131-WA0016-1536x1152.jpg',
     'about/faq': '2022/10/DSCF0117.jpeg',
     'services': '2022/10/DSCF0117.jpeg'
   };
