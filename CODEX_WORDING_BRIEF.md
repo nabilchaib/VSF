@@ -2,7 +2,9 @@
 
 ## Purpose
 
-This file is the active Codex-facing website wording brief for VSF.
+This file is a historical Codex-facing website wording brief for VSF.
+
+It is retained for context. The active source of truth for migration closure is [CODEX_ROADMAP.md](./CODEX_ROADMAP.md).
 
 It should help Codex understand:
 - what is already working
@@ -29,7 +31,7 @@ The remaining work is now **focused page-by-page execution and consistency**.
 
 ## Executive Summary
 
-The wording migration is moving in the right direction, but it is **not finished**.
+The wording migration reached completion in PR 19; this brief is retained as a historical record of the wording gaps that were identified before closure.
 
 The strongest improvement so far is that the site increasingly starts with **vetiver first**, instead of opening with generic NGO identity language. That shift is correct and should be preserved.
 
