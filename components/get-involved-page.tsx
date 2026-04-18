@@ -36,7 +36,7 @@ export function GetInvolvedPage({ locale }: { locale: Locale }) {
       <PageHero
         title={t.title}
         subtitle={t.subtitle}
-        image="2026/02/Gemini_Generated_Image_7fcdjg7fcdjg7fcd-scaled.webp"
+        image="2024/02/WhatsApp-Image-2024-02-28-at-15.12.55-1.jpeg"
         align="left"
       />
 

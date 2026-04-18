@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 
-import { SITE_NAME, type Locale, getAbsoluteUrl } from '@/lib/site';
+import { SITE_NAME, getAbsoluteUrl, getMediaUrl, type Locale } from '@/lib/site';
 
 export const RDC_PROJECT_PATH = {
   en: '/projects/rdc',
@@ -688,6 +688,8 @@ export const RDC_PROJECT: Record<Locale, RdcLocaleContent> = {
   }
 };
 
+const RDC_METADATA_IMAGE = getMediaUrl('2025/03/WhatsApp-Image-2025-03-07-at-13.54.00.jpeg');
+
 export function getRdcProjectPath(locale: Locale) {
   return RDC_PROJECT_PATH[locale];
 }
@@ -716,12 +718,18 @@ export function buildRdcMetadata(locale: Locale): Metadata {
       url: canonical,
       siteName: SITE_NAME,
       locale: locale === 'fr' ? 'fr_CA' : 'en_CA',
-      type: 'website'
+      type: 'website',
+      images: [
+        {
+          url: RDC_METADATA_IMAGE
+        }
+      ]
     },
     twitter: {
       card: 'summary_large_image',
       title: copy.title,
-      description: copy.subtitle
+      description: copy.subtitle,
+      images: [RDC_METADATA_IMAGE]
     }
   };
 }
