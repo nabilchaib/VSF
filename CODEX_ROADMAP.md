@@ -33,7 +33,7 @@ As of mid-April 2026, the website migration is **past the major architecture pha
 
 Completed or substantially completed:
 - core public pages rewritten around a clearer donor / partner journey
-- vetiver-first homepage and public narrative in place
+- vetiver-led public narrative in place, with the homepage ready for a light positioning refinement so visitors are welcomed to VSF before entering the vetiver explanation flow
 - Get Involved rewritten into a real support-routing page
 - About rewritten into a trust and organizational-positioning page
 - San Rafael rewritten as a donor-facing public pilot page tied to the next phase
@@ -58,9 +58,10 @@ The main work left is launch verification, cleanup confirmation, and cutover con
 
 1. Run the final CTA, routing, and bilingual validation pass.
 2. Confirm final donation, contact, newsletter, and propose-a-project behavior on live pages.
-3. Remove any remaining migration leftovers still visible on launch-critical pages.
-4. Decide and document the launch stance for staged media dependencies.
-5. Close, merge, or remove stale migration tasks and docs that no longer change execution.
+3. Refine the homepage hero so it establishes VSF identity first, then transitions immediately into the vetiver explanation flow.
+4. Remove any remaining migration leftovers still visible on launch-critical pages.
+5. Decide and document the launch stance for staged media dependencies.
+6. Close, merge, or remove stale migration tasks and docs that no longer change execution.
 
 ---
 
@@ -102,7 +103,7 @@ The public model should now be understood as:
 - not one project and one funnel
 
 That means:
-- Home teaches vetiver first
+- Home welcomes visitors to VSF first, then introduces vetiver immediately as the practical method behind the mission
 - Vetiver explains the plant in plain language
 - About builds trust and organizational clarity
 - Get Involved routes supporter intent
@@ -111,6 +112,8 @@ That means:
 - San Rafael acts as a public field-proof / pilot page
 - stories route into the right next step instead of ending cold
 - Contact / Services / Get Involved remain valid conversion paths depending on intent
+
+Homepage note: the first screen should establish arrival, trust, and organizational identity before moving into the vetiver explanation layer. The goal is not to replace the vetiver-first public narrative, but to soften it with a concise welcome-to-VSF framing.
 
 ---
 
@@ -249,20 +252,21 @@ Acceptance criteria:
 ### Immediate
 1. Final CTA, bilingual, and conversion-path verification
 2. Confirm donate / contact / newsletter / propose-a-project flows
-3. Remove remaining migration leftovers
-4. Decide and document the staged media launch stance
-5. Close or merge stale migration tasks
+3. Refine the homepage hero so it welcomes visitors to Vetiver Without Borders before the vetiver explainer begins
+4. Remove remaining migration leftovers
+5. Decide and document the staged media launch stance
+6. Close or merge stale migration tasks
 
 ### Near-term
-6. Review public proof-point claims
-7. Strengthen donor funnel visibility and measurement
-8. Add low-friction automation where useful
-9. Reduce documentation sprawl where it is slowing execution
+7. Review public proof-point claims
+8. Strengthen donor funnel visibility and measurement
+9. Add low-friction automation where useful
+10. Reduce documentation sprawl where it is slowing execution
 
 ### After launch
-10. Expand project hubs and case studies
-11. Improve donor funnel and analytics
-12. Use the repo as the canonical public content system for VSF operations
+11. Expand project hubs and case studies
+12. Improve donor funnel and analytics
+13. Use the repo as the canonical public content system for VSF operations
 
 ---
 
@@ -295,6 +299,7 @@ This roadmap succeeds if:
 
 1. Validate all primary CTA paths in EN and FR.
 2. Confirm donation, contact, newsletter, and propose-a-project flows.
-3. Document the staged media stance for launch.
-4. Review public proof-point claims for field-grounded wording.
-5. Close or merge stale migration tasks.
+3. Adjust the homepage hero and opening copy to welcome visitors to Vetiver Without Borders before the vetiver explainer begins.
+4. Document the staged media stance for launch.
+5. Review public proof-point claims for field-grounded wording.
+6. Close or merge stale migration tasks.
