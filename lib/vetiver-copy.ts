@@ -92,22 +92,22 @@ export const VETIVER_PROOF_POINTS: Record<Locale, VetiverProofPointsCopy> = {
     eyebrow: 'Proof points',
     title: 'Working references VSF uses to explain why vetiver can help.',
     note:
-      'Treat these as working references from donor and project materials until source links or validation are attached. Do not present them as final public claims until they are verified.',
+      'Treat these as working references from donor and project materials. They are reported figures, not universal guarantees, and should stay labeled that way until a source link or validation is attached.',
     points: [
       {
         value: '90%',
         label: 'Reported soil-loss reduction',
-        body: 'A cited benchmark VSF uses to describe reported soil-loss reduction from vetiver hedgerows on vulnerable ground.'
+        body: 'A cited benchmark VSF uses to describe reported soil-loss reduction from vetiver hedgerows on vulnerable ground. Results vary by site and management.'
       },
       {
         value: '70%',
         label: 'Reported runoff reduction',
-        body: 'A cited benchmark used to explain how vetiver can help water stay where it is needed.'
+        body: 'A cited benchmark used to explain how vetiver can help water stay where it is needed. Treat it as a reported reference, not a promise.'
       },
       {
         value: '357 CAD$/ha',
         label: 'Cost reference',
-        body: 'A planning reference for comparing vetiver-based work with heavier infrastructure; verify before broad promotion.'
+        body: 'A planning reference for comparing vetiver-based work with heavier infrastructure; verify before broad promotion and keep it context-specific.'
       }
     ]
   },
@@ -115,22 +115,22 @@ export const VETIVER_PROOF_POINTS: Record<Locale, VetiverProofPointsCopy> = {
     eyebrow: 'Preuves publiques',
     title: 'Des références de travail que VSF utilise pour expliquer le vétiver.',
     note:
-      'Considérez-les comme des repères de travail, pas comme des affirmations finales, jusqu’à ce que les sources soient ajoutées. Ne les présentez pas comme des affirmations publiques finales tant qu’elles ne sont pas vérifiées.',
+      'Considérez-les comme des repères de travail. Ce sont des chiffres rapportés, pas des garanties universelles, et il faut les garder ainsi jusqu’à ce qu’une source soit ajoutée.',
     points: [
       {
         value: '90%',
         label: 'Réduction déclarée de la perte de sol',
-        body: 'Un repère cité que VSF utilise pour décrire la réduction déclarée de la perte de sol avec les haies de vétiver.'
+        body: 'Un repère cité que VSF utilise pour décrire la réduction déclarée de la perte de sol avec les haies de vétiver. Les résultats varient selon le site et la gestion.'
       },
       {
         value: '70%',
         label: 'Réduction déclarée du ruissellement',
-        body: 'Un repère cité pour expliquer comment le vétiver peut aider l’eau à rester là où elle est utile.'
+        body: 'Un repère cité pour expliquer comment le vétiver peut aider l’eau à rester là où elle est utile. Considérez-le comme une référence rapportée, pas comme une promesse.'
       },
       {
         value: '357 CAD$/ha',
         label: 'Référence de coût',
-        body: 'Une référence de planification pour comparer le travail basé sur le vétiver à des infrastructures plus lourdes; à vérifier avant une promotion large.'
+        body: 'Une référence de planification pour comparer le travail basé sur le vétiver à des infrastructures plus lourdes; à vérifier avant une promotion large et à garder liée au contexte.'
       }
     ]
   }

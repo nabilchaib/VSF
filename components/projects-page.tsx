@@ -190,7 +190,7 @@ const copy = {
     gatewayEyebrow: 'Project gateway',
     gatewayTitle: 'Three public project paths.',
     gatewayBody:
-      'RDC is the flagship proof hub. San Rafael is an active pilot with 250 vetiver slips already planted. New ideas start with a simple proposal.',
+      'RDC is the flagship evidence hub. San Rafael is an active pilot with the first planting in place. New ideas start with a simple proposal.',
     gatewayLinks: [
       {
         label: 'Open RDC hub',
@@ -229,7 +229,7 @@ const copy = {
       'Each card gives a short summary, why it matters, and one clear next step.',
     portfolio: [
       {
-        eyebrow: 'Flagship public proof hub',
+        eyebrow: 'Flagship public evidence hub',
         title: 'RDC',
         summary:
           'The Congo Basin project hub. It gives the flagship work a public home.',
@@ -244,7 +244,7 @@ const copy = {
         eyebrow: 'Live field project',
         title: 'San Rafael',
         summary:
-          'A live vetiver site in El Juego with the first planting already in the ground. It gives supporters a concrete project to follow.',
+          'A live vetiver site in El Juego with the first planting in place. It gives supporters a concrete project to follow.',
         whyLabel: 'Why it matters',
         why: 'It shows what the work looks like in a real site and what the next phase can build on.',
         cta: 'View San Rafael',
@@ -303,7 +303,7 @@ const copy = {
     gatewayEyebrow: 'Portail des projets',
     gatewayTitle: 'Voir les projets publics et la suite possible.',
     gatewayBody:
-      'La RDC est le hub public de preuve phare. San Rafael est un pilote actif avec 250 plantules de vétiver déjà plantées. Les nouvelles idées commencent par une proposition simple.',
+      'La RDC est le hub public de preuves phare. San Rafael est un pilote actif avec la première plantation en place. Les nouvelles idées commencent par une proposition simple.',
     gatewayLinks: [
       {
         label: 'Ouvrir le hub RDC',
@@ -342,7 +342,7 @@ const copy = {
       'Chaque carte donne un bref résumé, explique pourquoi elle compte et indique une prochaine étape claire.',
     portfolio: [
       {
-        eyebrow: 'Hub public de preuve',
+        eyebrow: 'Hub public de preuves',
         title: 'RDC',
         summary:
           'Le projet du bassin du Congo. Il donne au travail phare un lieu public.',
@@ -357,7 +357,7 @@ const copy = {
         eyebrow: 'Projet de terrain actif',
         title: 'San Rafael',
         summary:
-          'Un site vétiver actif à El Juego avec la première plantation déjà en place. Il donne aux soutiens un projet concret à suivre.',
+          'Un site vétiver actif à El Juego avec la première plantation en place. Il donne aux soutiens un projet concret à suivre.',
         whyLabel: 'Pourquoi c’est important',
         why: 'Il montre ce que le travail donne dans un site réel et ce que la prochaine phase peut construire.',
         cta: 'Voir San Rafael',

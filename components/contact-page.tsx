@@ -64,7 +64,7 @@ const enCopy = {
   subtitle: 'Start here for vetiver questions, project proposals, partnerships, donations, media requests, or general questions.',
   contactUs: 'Contact details',
   formTitle: 'Write us today',
-  formBody: 'Use the hosted contact form configured for the new stack, or reach out directly by email or phone if that is easier. Tell us what you are trying to solve and we will route it to the right person.'
+  formBody: 'Use the hosted contact form if it is available. If not, email or phone still works. Tell us what you are trying to solve and we will route it to the right person.'
 };
 
 const frCopy = {
@@ -72,5 +72,5 @@ const frCopy = {
   subtitle: 'Commencez ici pour une question sur le vetiver, un projet, un partenariat, un don, une demande media ou une question generale.',
   contactUs: 'Coordonnees',
   formTitle: 'Ecrivez-nous',
-  formBody: 'Utilisez le formulaire heberge configure pour la nouvelle plateforme, ou contactez-nous directement par email ou telephone si c est plus simple. Dites-nous ce que vous cherchez a resoudre et nous orienterons la demande.'
+  formBody: "Utilisez le formulaire heberge s'il est disponible. Sinon, le courriel ou le telephone fonctionne toujours. Dites-nous ce que vous cherchez a resoudre et nous orienterons la demande."
 };

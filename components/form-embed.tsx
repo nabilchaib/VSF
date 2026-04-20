@@ -23,8 +23,8 @@ function getFormConfig(kind: FormKind, locale: 'en' | 'fr'): FormConfig {
       title: locale === 'fr' ? 'Contactez-nous' : 'Contact us',
       description:
         locale === 'fr'
-          ? 'Envoyez-nous un message et notre equipe reviendra vers vous.'
-          : 'Send us a message and our team will get back to you.',
+          ? "Utilisez le formulaire heberge s'il est disponible, ou ecrivez-nous directement par courriel si ce n'est pas le cas."
+          : 'Use the hosted form if it is available, or email us directly if it is not.',
       buttonLabel: locale === 'fr' ? 'Ouvrir le formulaire' : 'Open form',
       fallback: `mailto:${CONTACT_EMAIL}`,
       analyticsEvent: 'generate_lead',
@@ -38,8 +38,8 @@ function getFormConfig(kind: FormKind, locale: 'en' | 'fr'): FormConfig {
     title: locale === 'fr' ? 'Inscription a l infolettre' : 'Newsletter sign-up',
     description:
       locale === 'fr'
-        ? 'Inscrivez-vous pour recevoir des nouvelles de terrain, des recits de projet et les prochaines etapes de VSF.'
-        : 'Subscribe for field updates, project stories, and the next steps in VSF work.',
+        ? "Utilisez le formulaire heberge s'il est disponible, ou ecrivez-nous directement par courriel si ce n'est pas le cas."
+        : 'Use the hosted form if it is available, or email us directly if it is not.',
     buttonLabel: locale === 'fr' ? 'Ouvrir le formulaire' : 'Open form',
     fallback: `mailto:${CONTACT_EMAIL}?subject=Newsletter`,
     analyticsEvent: 'sign_up',
