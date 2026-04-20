@@ -71,7 +71,7 @@ const INTENT_LABELS: Record<Locale, Record<ArticleIntent, string>> = {
   },
   fr: {
     education: 'Apprentissage',
-    field_evidence: 'Evidence du projet',
+    field_evidence: 'Preuves du projet',
     active_project: 'Projet en cours',
     services_or_partnership: 'Partenariat'
   }
@@ -127,10 +127,10 @@ const ARTICLE_END_CTA: Record<Locale, Record<ArticleIntent, ArticleEndCtaCopy>> 
       tertiary: { label: 'Participer', href: '/get-involved', variant: 'tertiary' }
     },
     field_evidence: {
-      eyebrow: 'Références du projet',
-      title: 'Ouvrir le hub de références RDC.',
+      eyebrow: 'Preuves du projet',
+      title: 'Ouvrir le hub de preuves RDC.',
       body:
-        'Ce récit renvoie à des références publiques. Ouvrez RDC, puis parcourez les projets ou soutenez le travail si vous voulez le contexte plus large.',
+        'Ce récit renvoie à des preuves publiques. Ouvrez RDC, puis parcourez les projets ou soutenez le travail si vous voulez le contexte plus large.',
       primary: { label: 'Ouvrir le hub RDC', href: '/projects/rdc', variant: 'primary' },
       secondary: { label: 'Voir les projets', href: '/projects', variant: 'secondary' },
       tertiary: { label: 'Soutenir le travail', href: '/get-involved', variant: 'tertiary' }
