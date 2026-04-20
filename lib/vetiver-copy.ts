@@ -35,7 +35,7 @@ export const VETIVER_EXPLAINER: Record<Locale, VetiverExplainerCopy> = {
     bodyOne:
       'Vetiver is a practical grass used around the world to slow runoff, hold soil in place, and make fragile ground easier to manage.',
     bodyTwo:
-      'VSF helps communities learn, test, and apply vetiver-based solutions through field support, project partnerships, and clear public examples.',
+      'VSF helps communities use vetiver through field support, project partnerships, and clear public examples.',
     cards: [
       {
         title: 'Why it stands out',
@@ -50,8 +50,8 @@ export const VETIVER_EXPLAINER: Record<Locale, VetiverExplainerCopy> = {
         body: 'We support education, site design, planting, and the follow-through needed to make the work stick.'
       },
       {
-        title: 'What comes next',
-        body: 'Visitors can learn, support a project, partner, or propose a new initiative once they understand the plant.'
+        title: 'Where it leads',
+        body: 'Clear examples show where vetiver fits, where support is useful, and where partnerships can grow.'
       }
     ],
     primaryCta: 'Learn about vetiver',
@@ -63,7 +63,7 @@ export const VETIVER_EXPLAINER: Record<Locale, VetiverExplainerCopy> = {
     bodyOne:
       'Le vétiver est une graminée pratique utilisée dans le monde entier pour ralentir le ruissellement, retenir les sols et rendre les terres fragiles plus faciles à gérer.',
     bodyTwo:
-      'VSF aide les communautés à apprendre, tester et appliquer des solutions basées sur le vétiver grâce au soutien de terrain, aux partenariats de projet et à des exemples publics clairs.',
+      'VSF aide les communautés à utiliser le vétiver grâce à un appui de terrain, à des partenariats de projet et à des exemples publics clairs.',
     cards: [
       {
         title: 'Pourquoi il se distingue',
@@ -78,8 +78,8 @@ export const VETIVER_EXPLAINER: Record<Locale, VetiverExplainerCopy> = {
         body: 'Nous soutenons la formation, la conception du site, la plantation et le suivi qui permettent au travail de durer.'
       },
       {
-        title: 'Et ensuite',
-        body: 'Une fois la plante comprise, les visiteurs peuvent apprendre, soutenir un projet, devenir partenaire ou proposer une initiative.'
+        title: 'Où cela mène',
+        body: "Des exemples clairs montrent où le vétiver s'intègre, où un appui est utile et où les partenariats peuvent se développer."
       }
     ],
     primaryCta: 'Découvrir le vétiver',
@@ -112,25 +112,25 @@ export const VETIVER_PROOF_POINTS: Record<Locale, VetiverProofPointsCopy> = {
     ]
   },
   fr: {
-    eyebrow: 'References de travail',
-    title: 'Des chiffres de terrain que VSF utilise pour expliquer l impact du vetiver.',
+    eyebrow: 'Références de travail',
+    title: "Des chiffres de terrain que VSF utilise pour expliquer l'impact du vétiver.",
     note:
-      "Ces chiffres sont des references de travail tirees des documents de terrain et de projet. Gardez-les visibles, mais ne les presentez pas comme des affirmations publiques finales tant que des liens ou une validation ne sont ajoutes.",
+      "Ces chiffres sont des références de travail tirées des documents de terrain et de projet. Gardez-les visibles, mais ne les présentez pas comme des affirmations publiques finales tant qu'aucun lien de source ni élément de validation n'a été ajouté.",
     points: [
       {
         value: '90%',
         label: 'Réduction déclarée de la perte de sol',
-        body: 'Un repère de travail que VSF utilise pour décrire la réduction déclarée de la perte de sol avec les haies de vetiver.'
+        body: 'Un repère de travail que VSF utilise pour décrire la réduction déclarée de la perte de sol avec les haies de vétiver.'
       },
       {
         value: '70%',
         label: 'Réduction déclarée du ruissellement',
-        body: "Un repère de travail pour expliquer comment le vetiver peut aider l'eau a rester la ou elle est utile."
+        body: "Un repère de travail pour expliquer comment le vétiver peut aider l'eau à rester là où elle est utile."
       },
       {
         value: '357 CAD$/ha',
         label: 'Référence de coût',
-        body: "Une référence de planification pour comparer le travail base sur le vetiver a des infrastructures plus lourdes; gardez-la comme chiffre de travail jusqu'a ce que la validation soit ajoutee."
+        body: "Une référence de planification pour comparer le travail basé sur le vétiver à des infrastructures plus lourdes; gardez-la comme chiffre de travail jusqu'à ce que la validation soit ajoutée."
       }
     ]
   }

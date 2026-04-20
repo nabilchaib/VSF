@@ -4,14 +4,14 @@ import { getAbsoluteUrl, getMediaUrl, SITE_NAME, type Locale } from '@/lib/site'
 
 const HOME_PAGE_META: Record<Locale, { title: string; description: string }> = {
   en: {
-    title: 'Vetiver Without Borders | Practical resilience through vetiver',
+    title: 'Vetiver Without Borders | Protecting soil, water, and land',
     description:
-      'Vetiver Without Borders helps communities and local partners understand, test, and apply vetiver-based solutions for soil, water, and practical land restoration.'
+      'Vetiver Without Borders helps communities and local partners use vetiver to protect soil, water, and land in real conditions.'
   },
   fr: {
-    title: 'Vetiver Sans Frontieres | Resilience pratique avec le vetiver',
+    title: 'Vetiver Sans Frontières | Protéger les sols, l’eau et les terres',
     description:
-      "Vetiver Sans Frontieres aide les communautes et les partenaires locaux a comprendre, tester et appliquer des solutions a base de vetiver pour les sols, l'eau et la restauration pratique des terres."
+      "Vetiver Sans Frontières aide les communautés et les partenaires locaux à utiliser le vétiver pour protéger les sols, l’eau et les terres dans des conditions réelles."
   }
 };
 

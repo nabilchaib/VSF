@@ -37,26 +37,26 @@ const homepageCopy = {
       eyebrow: 'Welcome to Vetiver Without Borders',
       title: 'Helping communities turn vetiver into practical resilience.',
       body:
-        'VSF works with communities and local partners to understand, test, and apply vetiver-based solutions for soil, water, and land restoration.',
+        'VSF helps communities and local partners use vetiver to protect soil, water, and land in real conditions.',
       supportingBody:
-        'Start with the explainer below, then choose a path to donate, get involved, review current projects, or follow recent stories.',
+        'That work supports practical land restoration, local resilience, and solutions people can keep using on the ground.',
       donateLabel: 'Donate',
       involvedLabel: 'Get involved',
       learnMoreLabel: 'Learn what vetiver is',
       learnMoreHref: '/#vetiver-explainer',
       imageAlt: 'Vetiver planted along a roadside to stabilize land and protect surrounding soil.',
       highlight:
-        'Practical change starts when a community can understand the plant, test it in context, and keep using it locally.'
+        'A practical plant matters when it helps protect fragile land without heavy infrastructure.'
     },
     impact: {
       eyebrow: 'How VSF helps',
       title: 'Turn understanding into practical field action.',
       body:
-        'Your support helps VSF turn learning into field delivery: site planning, local training, pilot support, and follow-through.',
+        'Your support helps VSF deliver site planning, local training, pilot support, and follow-through for communities using vetiver.',
       pillars: [
         {
           title: 'Learn',
-          body: 'Start with a plain-language explanation of vetiver, then choose the next step that fits you.'
+          body: 'Vetiver is explained clearly and concretely, so first-time visitors can see how it protects soil and water.'
         },
         {
           title: 'Test',
@@ -64,7 +64,7 @@ const homepageCopy = {
         },
         {
           title: 'Support',
-          body: 'If you want to help, you can back field work, project visibility, and long-term follow-through.'
+          body: 'If you want to help, your support goes toward field work, project visibility, and long-term follow-through.'
         }
       ],
       donateLabel: 'Donate',
@@ -74,19 +74,19 @@ const homepageCopy = {
       eyebrow: 'Latest stories',
       title: 'Field stories, project updates, and practical vetiver lessons.',
       body:
-        'Recent updates show how vetiver work is moving from explanation into practice.',
+        'Recent updates show field work, local results, and the places where vetiver is making a difference.',
       ctaLabel: 'Read all stories'
     },
     getInvolved: {
-      hubEyebrow: 'Take part',
-      hubTitle: 'Choose the support path that fits you.',
+      hubEyebrow: 'How to help',
+      hubTitle: 'Support the work that protects soil, water, and land.',
       hubBody:
-        'Use the support hub to choose the next step: donate, back a field initiative, partner, propose, or follow along.',
-      hubCta: 'Open support hub',
+        'Donate, partner, propose a project, or stay connected to the field work.',
+      hubCta: 'See ways to help',
       projectsEyebrow: 'Current work',
-      projectsTitle: 'Review live field initiatives.',
+      projectsTitle: 'See active projects.',
       projectsBody:
-        'Projects show what is active now and where support is being applied.',
+        'Discover active field work and the places where support is already making a difference.',
       projectsCta: 'See current projects',
       projectsHref: '/projects'
     },
@@ -101,37 +101,37 @@ const homepageCopy = {
   },
     fr: {
       hero: {
-        eyebrow: 'Bienvenue chez Vetiver Sans Frontieres',
-        title: 'Aider les communautes a transformer le vetiver en resilience concrete.',
+        eyebrow: 'Bienvenue chez Vetiver Sans Frontières',
+        title: 'Aider les communautés à transformer le vétiver en résilience concrète.',
         body:
-          "Vetiver Sans Frontieres travaille avec les communautes et les partenaires locaux pour comprendre, tester et appliquer des solutions a base de vetiver pour les sols, l'eau et la restauration des terres.",
+          "Vetiver Sans Frontières aide les communautés et les partenaires locaux à utiliser le vétiver pour protéger les sols, l'eau et les terres dans des conditions réelles.",
         supportingBody:
-          "Commencez par l'explication ci-dessous, puis choisissez une voie pour faire un don, participer, consulter les projets en cours ou suivre les recits recents.",
+          'Ce travail soutient une restauration concrète des terres, une résilience locale plus forte et des solutions de terrain durables.',
         donateLabel: 'Faire un don',
         involvedLabel: 'Participer',
-        learnMoreLabel: 'Decouvrir le vetiver',
+        learnMoreLabel: 'Découvrir le vétiver',
         learnMoreHref: '/#vetiver-explainer',
-        imageAlt: "Vetiver plante le long d'une route pour stabiliser les sols et proteger le terrain.",
+        imageAlt: "Vetiver planté le long d'une route pour stabiliser les sols et protéger le terrain.",
         highlight:
-          "Le changement concret commence quand une communaute peut comprendre la plante, la tester dans son contexte et continuer a l'utiliser localement."
+          "Une plante utile compte lorsqu'elle aide à protéger des terres fragiles sans infrastructure lourde."
       },
       impact: {
         eyebrow: 'Comment VSF aide',
         title: 'Transformer la compréhension en action concrète sur le terrain.',
         body:
-          "Votre soutien aide VSF a transformer la comprehension en mise en oeuvre sur le terrain : planification du site, formation locale, appui aux projets pilotes et suivi.",
+          "Votre soutien aide VSF à offrir la planification du site, la formation locale, l'appui aux projets pilotes et le suivi aux communautés qui utilisent le vétiver.",
         pillars: [
           {
             title: 'Apprendre',
-            body: 'Commencez par une explication simple du vetiver, puis choisissez la prochaine etape qui vous convient.'
+            body: 'Le vétiver est expliqué clairement et concrètement, afin que les nouveaux visiteurs comprennent comment il protège les sols et l’eau.'
           },
           {
             title: 'Tester',
-            body: 'Les projets sont adaptes aux conditions du site pour que la solution corresponde au probleme.'
+            body: 'Les projets sont adaptés aux conditions du site pour que la solution corresponde vraiment au besoin.'
           },
           {
             title: 'Soutenir',
-            body: 'Si vous souhaitez aider, vous pouvez appuyer le terrain, la visibilite des projets et le suivi dans le temps.'
+            body: 'Si vous souhaitez aider, votre soutien va vers le terrain, la visibilité des projets et le suivi dans le temps.'
           }
         ],
         donateLabel: 'Faire un don',
@@ -141,29 +141,29 @@ const homepageCopy = {
         eyebrow: 'Dernières actualités',
         title: 'Récits de terrain, mises à jour de projets et leçons pratiques sur le vétiver.',
         body:
-          "Les mises a jour recentes montrent comment le travail sur le vetiver passe de l'explication a la pratique.",
+          "Les mises à jour récentes montrent le travail sur le terrain, les résultats locaux et les lieux où le vétiver fait une différence.",
         ctaLabel: 'Voir toutes les actualités'
       },
       getInvolved: {
-        hubEyebrow: 'Passer à l’action',
-        hubTitle: 'Choisir la voie de soutien qui vous convient.',
+        hubEyebrow: 'Comment aider',
+        hubTitle: 'Soutenez un travail qui protège les sols, l’eau et les terres.',
         hubBody:
-          'Le hub de soutien vous aide a choisir la prochaine etape : don, appui a une initiative de terrain, partenariat, proposition ou suivi.',
-        hubCta: 'Ouvrir le hub de soutien',
+          'Faites un don, devenez partenaire, proposez un projet ou suivez le travail de terrain.',
+        hubCta: 'Voir les façons d’aider',
         projectsEyebrow: 'Travail actuel',
-        projectsTitle: 'Consulter les initiatives de terrain en cours.',
+        projectsTitle: 'Voir les projets actifs.',
         projectsBody:
-          'Les projets montrent ce qui est actif maintenant et ou le soutien est applique.',
+          'Découvrez le travail en cours sur le terrain et les lieux où le soutien fait déjà une différence.',
         projectsCta: 'Voir les projets',
         projectsHref: '/projects'
       },
       newsletter: {
         eyebrow: 'Infolettre',
-        title: 'Restez proches des projets sur le terrain.',
+        title: 'Restez au plus près des projets sur le terrain.',
         body:
-          'Recevez des nouvelles de terrain, des recits de projet et les etapes cles de Vetiver Sans Frontieres.',
+          'Recevez des nouvelles de terrain, des récits de projet et les étapes clés de Vetiver Sans Frontières.',
         note:
-        'Une façon simple de suivre les progrès sans dépendance aux réseaux sociaux.'
+          'Une façon simple de suivre les progrès sans dépendre des réseaux sociaux.'
       }
   }
 } as const;
