@@ -89,48 +89,48 @@ export const VETIVER_EXPLAINER: Record<Locale, VetiverExplainerCopy> = {
 
 export const VETIVER_PROOF_POINTS: Record<Locale, VetiverProofPointsCopy> = {
   en: {
-    eyebrow: 'Proof points',
-    title: 'Working references VSF uses to explain why vetiver can help.',
+    eyebrow: 'Working references',
+    title: 'Field-grounded figures VSF uses to explain vetiver impact.',
     note:
-      'Treat these as working references from donor and project materials until source links or validation are attached. Do not present them as final public claims until they are verified.',
+      'These figures are working references drawn from field and project materials. Keep them visible, but do not present them as final public claims until source links or validation are attached.',
     points: [
       {
         value: '90%',
         label: 'Reported soil-loss reduction',
-        body: 'A cited benchmark VSF uses to describe reported soil-loss reduction from vetiver hedgerows on vulnerable ground.'
+        body: 'A working benchmark VSF uses to describe reported soil-loss reduction from vetiver hedgerows on vulnerable ground.'
       },
       {
         value: '70%',
         label: 'Reported runoff reduction',
-        body: 'A cited benchmark used to explain how vetiver can help water stay where it is needed.'
+        body: 'A working benchmark used to explain how vetiver can help water stay where it is needed.'
       },
       {
         value: '357 CAD$/ha',
         label: 'Cost reference',
-        body: 'A planning reference for comparing vetiver-based work with heavier infrastructure; verify before broad promotion.'
+        body: 'A planning reference for comparing vetiver-based work with heavier infrastructure; keep it as a working figure until validation is attached.'
       }
     ]
   },
   fr: {
-    eyebrow: 'Preuves publiques',
-    title: 'Des références de travail que VSF utilise pour expliquer le vétiver.',
+    eyebrow: 'References de travail',
+    title: 'Des chiffres de terrain que VSF utilise pour expliquer l impact du vetiver.',
     note:
-      'Considérez-les comme des repères de travail, pas comme des affirmations finales, jusqu’à ce que les sources soient ajoutées. Ne les présentez pas comme des affirmations publiques finales tant qu’elles ne sont pas vérifiées.',
+      "Ces chiffres sont des references de travail tirees des documents de terrain et de projet. Gardez-les visibles, mais ne les presentez pas comme des affirmations publiques finales tant que des liens ou une validation ne sont ajoutes.",
     points: [
       {
         value: '90%',
         label: 'Réduction déclarée de la perte de sol',
-        body: 'Un repère cité que VSF utilise pour décrire la réduction déclarée de la perte de sol avec les haies de vétiver.'
+        body: 'Un repère de travail que VSF utilise pour décrire la réduction déclarée de la perte de sol avec les haies de vetiver.'
       },
       {
         value: '70%',
         label: 'Réduction déclarée du ruissellement',
-        body: 'Un repère cité pour expliquer comment le vétiver peut aider l’eau à rester là où elle est utile.'
+        body: "Un repère de travail pour expliquer comment le vetiver peut aider l'eau a rester la ou elle est utile."
       },
       {
         value: '357 CAD$/ha',
         label: 'Référence de coût',
-        body: 'Une référence de planification pour comparer le travail basé sur le vétiver à des infrastructures plus lourdes; à vérifier avant une promotion large.'
+        body: "Une référence de planification pour comparer le travail base sur le vetiver a des infrastructures plus lourdes; gardez-la comme chiffre de travail jusqu'a ce que la validation soit ajoutee."
       }
     ]
   }
