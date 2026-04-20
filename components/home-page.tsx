@@ -35,7 +35,7 @@ const homepageCopy = {
   en: {
     hero: {
       eyebrow: 'Welcome to Vetiver Without Borders',
-      title: 'Helping communities protect soil, water, and land with vetiver.',
+      title: 'Helping communities stabilize fragile land and manage water with vetiver.',
       body:
         'VSF helps communities and local partners use vetiver to protect soil, water, and land in real conditions.',
       supportingBody:
@@ -102,7 +102,7 @@ const homepageCopy = {
     fr: {
       hero: {
         eyebrow: 'Bienvenue chez Vetiver Sans Frontières',
-        title: 'Aider les communautés à protéger les sols, l’eau et les terres grâce au vétiver.',
+        title: 'Aider les communautés à stabiliser les sols fragiles et mieux gérer l’eau grâce au vétiver.',
         body:
           "Vetiver Sans Frontières aide les communautés et les partenaires locaux à utiliser le vétiver pour protéger les sols, l'eau et les terres dans des conditions réelles.",
         supportingBody:
