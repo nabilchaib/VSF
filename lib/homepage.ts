@@ -9,7 +9,7 @@ const HOME_PAGE_META: Record<Locale, { title: string; description: string }> = {
       'Vetiver Without Borders helps communities and local partners use vetiver to protect soil, water, and land in real conditions.'
   },
   fr: {
-    title: 'Aider les communautés à protéger les sols, l’eau et les sols grâce au vétiver.',
+    title: 'Aider les communautés à protéger les sols, l’eau et les terres grâce au vétiver.',
     description:
       "Vetiver Sans Frontières aide les communautés et les partenaires locaux à utiliser le vétiver pour protéger les sols, l’eau et les terres dans des conditions réelles."
   }
