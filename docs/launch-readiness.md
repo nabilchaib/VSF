@@ -21,7 +21,9 @@ Production expectation:
 
 ## Media
 
-Launch stance: hybrid launch with explicit fallback.
+Launch stance: intentional hybrid launch with explicit fallback and legacy media allowed.
+
+This is a deliberate launch policy, not an open-ended migration blocker.
 
 - Preferred base: `NEXT_PUBLIC_MEDIA_BASE_URL` for migrated media.
 - Launch fallback: legacy WordPress uploads host through `getMediaBaseUrl()` when the media base is unset.

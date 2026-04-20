@@ -109,7 +109,7 @@ export function AboutPage({ locale }: { locale: Locale }) {
             <div className="relative overflow-hidden rounded-[2.2rem] border border-bark/10 bg-[#eef1e4] p-3 shadow-card">
               <div className="relative aspect-[4/5] overflow-hidden rounded-[1.6rem] sm:aspect-[16/11] lg:aspect-[4/5]">
                 <Image
-                  src={getMediaUrl('2022/11/ivan-bandura-Oei00n8F5JQ-unsplash-scaled.jpg')}
+                  src={getMediaUrl('2024/01/WhatsApp-Image-2024-01-31-at-09.26.28-768x1024.jpeg')}
                   alt={t.imageAltTwo}
                   fill
                   className="object-cover"
@@ -213,7 +213,7 @@ const copy = {
     overviewBody:
       'Vetiver work makes the most sense when it stays close to the ground: local conditions, local judgment, and local follow-through.',
     imageAltOne: 'VSF team and community members in a field setting.',
-    imageAltTwo: 'People gathering outdoors to support regenerative environmental work.',
+    imageAltTwo: 'Field support photo showing vetiver work with partners and community members.',
     ctaEyebrow: 'Join the work',
     ctaTitle: 'Choose the next step that fits you.',
     ctaBody:
@@ -293,7 +293,7 @@ const copy = {
     overviewBody:
       'Le travail sur le vétiver a le plus de sens quand il reste proche du terrain : conditions locales, jugement local et suivi local.',
     imageAltOne: 'Équipe VSF et membres de la communauté sur le terrain.',
-    imageAltTwo: "Personnes rassemblées à l'extérieur autour d'un travail de régénération.",
+    imageAltTwo: 'Photo de terrain montrant le travail vetiver avec des partenaires et des membres de la communauté.',
     ctaEyebrow: 'Rejoindre le travail',
     ctaTitle: 'Choisissez la prochaine étape qui vous correspond.',
     ctaBody:

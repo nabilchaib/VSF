@@ -10,7 +10,7 @@ export function generateMetadata(): Metadata {
     path: PROJECT_PATHS.sanRafael,
     title: 'San Rafael | Vetiver Without Borders',
     description: 'San Rafael is an active vetiver pilot in El Juego, San Rafael, Antioquia, Colombia.',
-    image: '2022/10/DSCF0117.jpeg'
+    image: '2025/04/00000276-PHOTO-2025-04-08-08-09-13.webp'
   });
 }
 
@@ -23,7 +23,7 @@ const copy: Record<'en', ProjectDetailCopy> = {
     eyebrow: 'Active field pilot',
     title: 'San Rafael',
     subtitle: 'A live vetiver pilot in El Juego, San Rafael, Antioquia, Colombia.',
-    image: '2022/10/DSCF0117.jpeg',
+    image: '2025/04/00000276-PHOTO-2025-04-08-08-09-13.webp',
     summaryEyebrow: 'Public overview',
     summaryTitle: 'A public pilot with real planting already in the ground.',
     summaryBody:

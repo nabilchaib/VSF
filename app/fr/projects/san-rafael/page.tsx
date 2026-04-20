@@ -10,7 +10,7 @@ export function generateMetadata(): Metadata {
     path: PROJECT_PATHS.sanRafael,
     title: 'San Rafael | Vetiver Sans Frontieres',
     description: 'San Rafael est un pilote vétiver actif à El Juego, à San Rafael, Antioquia, en Colombie.',
-    image: '2022/10/DSCF0117.jpeg'
+    image: '2025/04/00000276-PHOTO-2025-04-08-08-09-13.webp'
   });
 }
 
@@ -23,7 +23,7 @@ const copy: Record<'fr', ProjectDetailCopy> = {
     eyebrow: 'Pilote de terrain actif',
     title: 'San Rafael',
     subtitle: 'Un pilote vétiver vivant à El Juego, San Rafael, Antioquia, Colombie.',
-    image: '2022/10/DSCF0117.jpeg',
+    image: '2025/04/00000276-PHOTO-2025-04-08-08-09-13.webp',
     summaryEyebrow: 'Vue publique',
     summaryTitle: 'Un pilote public avec une plantation réelle déjà en place.',
     summaryBody:

@@ -2,7 +2,9 @@
 
 ## Purpose
 
-This file is the active Codex-facing website wording brief for VSF.
+This file is a historical Codex-facing website wording brief for VSF.
+
+It is retained for context. The active source of truth for migration closure is [CODEX_ROADMAP.md](./CODEX_ROADMAP.md).
 
 It should help Codex understand:
 - what is already working
@@ -29,9 +31,9 @@ The remaining work is now **focused page-by-page execution and consistency**.
 
 ## Executive Summary
 
-The wording migration is moving in the right direction, but it is **not finished**.
+The wording migration reached completion in PR 19; this brief is retained as a historical record of the wording gaps that were identified before closure.
 
-The strongest improvement so far is that the site increasingly starts with **vetiver first**, instead of opening with generic NGO identity language. That shift is correct and should be preserved.
+The strongest improvement so far is that the site increasingly explains **vetiver early and concretely**, instead of opening with generic NGO identity language. That shift is correct and should be preserved. On the homepage, however, this should be paired with a concise welcome-to-VSF framing so the visitor first understands where they are before entering the explainer flow.
 
 ### Current reality
 - **Home is mostly strong** and should be tightened, not rebuilt from scratch.
@@ -70,11 +72,14 @@ For a cold visitor, this creates a clarity problem:
 ## Strategic Reframe
 
 The site should follow this progression:
-1. **What is vetiver?**
-2. **Why is it useful?**
-3. **What can it do for land, water, farming, and communities?**
-4. **How does VSF help turn that into action?**
-5. **How can the visitor support, partner, or propose something?**
+1. **Who is VSF?**
+2. **What is vetiver?**
+3. **Why is it useful?**
+4. **What can it do for land, water, farming, and communities?**
+5. **How does VSF help turn that into action?**
+6. **How can the visitor support, partner, or propose something?**
+
+This sequence applies most directly to the homepage hero and opening sections. The broader site should still explain vetiver early, plainly, and concretely.
 
 VSF should be presented as the organization that helps communities **understand, test, and apply vetiver in real conditions**.
 
@@ -94,14 +99,15 @@ Do not lose it.
 Codex should **reuse and refine** that copy instead of inventing a new explanation on every page.
 
 ### 3. Home page structure
-The current home structure is mostly right:
+The current home structure is mostly right, but the opening should be refined:
+- who VSF is
 - what vetiver is
 - why it matters
 - what it can do
 - how VSF helps
 - what to do next
 
-The issue is now mostly **tone and precision**, not architecture.
+The issue is now mostly **tone, sequencing, and precision**, not a broad architecture problem.
 
 ### 4. Clearer CTA logic
 The site is increasingly moving toward clearer paths:
@@ -261,7 +267,7 @@ These phrases are only acceptable when followed immediately by something concret
 
 When rewriting:
 1. Assume the reader has never heard of vetiver.
-2. Introduce the plant before the organization.
+2. On the homepage, introduce VSF first in one concise welcome layer, then move immediately into the vetiver explanation.
 3. Explain benefits through concrete use cases.
 4. Keep the first explanation simple; move technical depth lower on the page.
 5. Connect educational sections to a project, proof point, or CTA.
@@ -295,7 +301,7 @@ The wording work is done when:
 Think about the remaining work in three buckets:
 
 ### Bucket 1 — Protect what already works
-Do not destroy the good vetiver-first structure already established on Home, About, Get Involved, and in the reusable explainer.
+Do not destroy the good vetiver education spine already established on Home, About, Get Involved, and in the reusable explainer. Refine the homepage opening so visitors are welcomed to VSF before the explainer begins.
 
 ### Bucket 2 — Rewrite what is still clearly unfinished
 Treat San Rafael as the clearest unfinished public page, then continue with Vetiver, Services, and cross-page consistency work.

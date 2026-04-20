@@ -1,5 +1,7 @@
 # WordPress Rebuild Runbook
 
+> Historical reference only. This runbook documents the old WordPress restore path and is no longer part of the active migration workflow.
+
 This repository contains enough to rebuild the site on a new WordPress host.
 
 It does **not** contain:

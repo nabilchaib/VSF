@@ -105,24 +105,24 @@ export function ServicesPage({ locale }: { locale: Locale }) {
             <div className="grid gap-4">
               <div className="relative overflow-hidden rounded-[2rem] border border-bark/10 bg-white p-3 shadow-card">
                 <div className="relative aspect-[16/10] overflow-hidden rounded-[1.5rem]">
-                  <Image
-                    src={getMediaUrl('2022/10/42149b3ff0cd4818b102e0124e2d88bd.jpg')}
-                    alt={t.imageAltTwo}
-                    fill
-                    className="object-cover"
-                    sizes="(min-width: 1024px) 38vw, 100vw"
-                  />
+                <Image
+                  src={getMediaUrl('2024/02/IMG-20240131-WA0017-1024x768.jpg')}
+                  alt={t.imageAltTwo}
+                  fill
+                  className="object-cover"
+                  sizes="(min-width: 1024px) 38vw, 100vw"
+                />
                 </div>
               </div>
               <div className="relative overflow-hidden rounded-[2rem] border border-bark/10 bg-white p-3 shadow-card">
                 <div className="relative aspect-[16/10] overflow-hidden rounded-[1.5rem]">
-                  <Image
-                    src={getMediaUrl('2022/11/agriculture-asia-go-back-1822446.jpg')}
-                    alt={t.imageAltThree}
-                    fill
-                    className="object-cover"
-                    sizes="(min-width: 1024px) 38vw, 100vw"
-                  />
+                <Image
+                  src={getMediaUrl('2025/04/00000283-PHOTO-2025-04-08-08-10-24.webp')}
+                  alt={t.imageAltThree}
+                  fill
+                  className="object-cover"
+                  sizes="(min-width: 1024px) 38vw, 100vw"
+                />
                 </div>
               </div>
             </div>
@@ -223,8 +223,8 @@ const copy = {
         body: 'Our work aims to improve durability, reduce environmental risk, and support more sustainable land management over time.'
       }
     ],
-    imageAltTwo: 'Landscape affected by instability where Vetiver can help mitigate damage.',
-    imageAltThree: 'People working in agriculture and land stewardship contexts supported by training.',
+    imageAltTwo: 'Field photo showing vetiver work in a real landscape setting.',
+    imageAltThree: 'Documentary photo showing land recovery and stewardship support.',
     ctaEyebrow: 'Work with VSF',
     ctaTitle: 'Talk through a site or partnership idea.',
     ctaBody:
@@ -293,8 +293,8 @@ const copy = {
         body: 'Notre objectif est de réduire les risques environnementaux et de soutenir une gestion plus durable des paysages.'
       }
     ],
-    imageAltTwo: "Paysage exposé à l'instabilité où le vétiver peut aider à réduire les dommages.",
-    imageAltThree: 'Personnes travaillant dans des contextes agricoles soutenus par la formation.',
+    imageAltTwo: 'Photo de terrain montrant le travail vetiver dans un paysage réel.',
+    imageAltThree: 'Photo documentaire montrant la récupération des terres et l appui au terrain.',
     ctaEyebrow: 'Travailler avec VSF',
     ctaTitle: "Parlez-nous d'un site ou d'une idée de partenariat.",
     ctaBody:
