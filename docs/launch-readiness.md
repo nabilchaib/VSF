@@ -21,15 +21,23 @@ Production expectation:
 
 ## Media
 
-Launch stance: intentional hybrid launch with legacy media allowed.
+Launch stance: intentional hybrid launch with explicit fallback and legacy media allowed.
 
 This is a deliberate launch policy, not an open-ended migration blocker.
 
-- `NEXT_PUBLIC_MEDIA_BASE_URL` is the preferred base for migrated media.
-- When that variable is unset, media resolves to the legacy WordPress uploads host through `getMediaBaseUrl()`.
-- Legacy HTML still rewrites old `wp-content/uploads` and `i0.wp.com` URLs through the same base, so launch-critical pages can ship without a full media migration.
+- Preferred base: `NEXT_PUBLIC_MEDIA_BASE_URL` for migrated media.
+- Launch fallback: legacy WordPress uploads host through `getMediaBaseUrl()` when the media base is unset.
+- Legacy HTML still rewrites old `wp-content/uploads` and `i0.wp.com` URLs through the same base, so archive content can stay readable while migration continues.
+- Homepage, projects, vetiver, contact, services, and San Rafael imagery should use the normalized media helpers or approved absolute URLs, not fresh ad hoc WordPress paths.
+- Legacy story/article bodies may remain hybrid for launch as long as they still resolve through the shared media rewrite path.
 
 This means the launch blocker is not "media must be fully migrated first"; the blocker is "media behavior must be explicit and predictable."
+
+Operational image rule:
+- real field photos first
+- support graphics second
+- stock or stock-like visuals only as fallback, never as flagship imagery
+- for metadata and social cards, use absolute URLs only, either through `getMediaUrl()`/`getAbsoluteUrl()` or a direct approved absolute asset URL
 
 ## Homepage Metadata
 

@@ -111,12 +111,12 @@ const copy = {
     benefitsEyebrow: 'Benefits of vetiver grass',
     benefitsTitle: 'Environmental protection with practical local value.',
     benefits: [
-      { title: 'Soil and water conservation', body: 'Reduces erosion, improves infiltration, and supports stronger water retention in vulnerable landscapes.' },
-      { title: 'Slope stabilization', body: 'Helps protect steep slopes and infrastructure from landslides and surface failure.' },
-      { title: 'Runoff control', body: 'Slows moving water so the landscape can absorb more of it instead of losing it.' },
-      { title: 'Land rehabilitation', body: 'Supports recovery on degraded ground where a low-cost, durable approach is needed.' },
-      { title: 'Agricultural resilience', body: 'Supports crop production by protecting soil and helping fields keep moisture longer.' },
-      { title: 'Local value', body: 'Can contribute to local economies through handicrafts, animal feed, and processing pilots.' }
+      { title: 'Soil and water conservation', body: 'Can help reduce erosion, improve infiltration, and support stronger water retention in vulnerable landscapes.' },
+      { title: 'Slope stabilization', body: 'Can help protect steep slopes and infrastructure from landslides and surface failure.' },
+      { title: 'Runoff control', body: 'Can slow moving water so the landscape can absorb more of it instead of losing it.' },
+      { title: 'Land rehabilitation', body: 'Can support recovery on degraded ground where a low-cost, durable approach is needed.' },
+      { title: 'Agricultural resilience', body: 'Can support crop production by protecting soil and helping fields keep moisture longer.' },
+      { title: 'Local value', body: 'May contribute to local economies through handicrafts, animal feed, and processing pilots.' }
     ],
     imageAltOne: 'Real field photo showing vetiver planting and preparation work.',
     imageAltTwo: 'Vetiver in a dry field showing real-world resilience and site conditions.',
@@ -140,11 +140,11 @@ const copy = {
     benefitsEyebrow: 'Bénéfices du vétiver',
     benefitsTitle: 'Une protection environnementale avec une valeur locale concrète.',
     benefits: [
-      { title: 'Conservation des sols et de l’eau', body: 'Réduit l’érosion, améliore l’infiltration et aide à conserver davantage d’eau sur les terrains sensibles.' },
-      { title: 'Stabilisation des pentes', body: 'Aide à protéger les pentes et les infrastructures contre les glissements et les ruptures de surface.' },
-      { title: 'Contrôle du ruissellement', body: 'Ralentit l’eau qui circule pour qu’une plus grande partie puisse être absorbée par le paysage.' },
-      { title: 'Réhabilitation des terres', body: 'Soutient la remise en état des sols dégradés quand une solution peu coûteuse et durable est nécessaire.' },
-      { title: 'Résilience agricole', body: 'Soutient la production en protégeant les sols et en aidant les champs à garder l’humidité plus longtemps.' },
+      { title: 'Conservation des sols et de l’eau', body: 'Peut aider à réduire l’érosion, améliorer l’infiltration et soutenir une meilleure rétention d’eau sur les terrains sensibles.' },
+      { title: 'Stabilisation des pentes', body: 'Peut aider à protéger les pentes et les infrastructures contre les glissements et les ruptures de surface.' },
+      { title: 'Contrôle du ruissellement', body: 'Peut ralentir l’eau qui circule pour qu’une plus grande partie soit absorbée par le paysage.' },
+      { title: 'Réhabilitation des terres', body: 'Peut soutenir la remise en état des sols dégradés quand une solution peu coûteuse et durable est nécessaire.' },
+      { title: 'Résilience agricole', body: 'Peut soutenir la production en protégeant les sols et en aidant les champs à garder l’humidité plus longtemps.' },
       { title: 'Valeur locale', body: 'Peut contribuer aux économies locales par l’artisanat, l’alimentation animale et des pistes de transformation.' }
     ],
     imageAltOne: 'Photo de terrain montrant la plantation et la préparation du vétiver.',

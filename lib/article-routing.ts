@@ -65,7 +65,7 @@ const TARGET_LABELS: Record<Locale, Record<ArticleCtaTarget, string>> = {
 const INTENT_LABELS: Record<Locale, Record<ArticleIntent, string>> = {
   en: {
     education: 'Learn',
-    field_evidence: 'Project proof',
+    field_evidence: 'Project evidence',
     active_project: 'Live project',
     services_or_partnership: 'Partnership'
   },
@@ -89,10 +89,10 @@ const ARTICLE_END_CTA: Record<Locale, Record<ArticleIntent, ArticleEndCtaCopy>> 
       tertiary: { label: 'Get involved', href: '/get-involved', variant: 'tertiary' }
     },
     field_evidence: {
-      eyebrow: 'Project proof',
-      title: 'Open the RDC hub.',
+      eyebrow: 'Project evidence',
+      title: 'Open the RDC evidence hub.',
       body:
-        'This story connects to public proof. Open RDC, then browse projects or support the work if you want the broader context.',
+        'This story connects to public evidence. Open RDC, then browse projects or support the work if you want the broader context.',
       primary: { label: 'Open RDC hub', href: '/projects/rdc', variant: 'primary' },
       secondary: { label: 'View projects', href: '/projects', variant: 'secondary' },
       tertiary: { label: 'Support the work', href: '/get-involved', variant: 'tertiary' }
@@ -128,9 +128,9 @@ const ARTICLE_END_CTA: Record<Locale, Record<ArticleIntent, ArticleEndCtaCopy>> 
     },
     field_evidence: {
       eyebrow: 'Preuves du projet',
-      title: 'Ouvrir le hub RDC.',
+      title: 'Ouvrir le hub de preuves RDC.',
       body:
-        'Ce récit renvoie aux preuves publiques. Ouvrez RDC, puis parcourez les projets ou soutenez le travail si vous voulez le contexte plus large.',
+        'Ce récit renvoie à des preuves publiques. Ouvrez RDC, puis parcourez les projets ou soutenez le travail si vous voulez le contexte plus large.',
       primary: { label: 'Ouvrir le hub RDC', href: '/projects/rdc', variant: 'primary' },
       secondary: { label: 'Voir les projets', href: '/projects', variant: 'secondary' },
       tertiary: { label: 'Soutenir le travail', href: '/get-involved', variant: 'tertiary' }
