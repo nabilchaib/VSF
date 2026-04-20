@@ -25,9 +25,9 @@ const copy: Record<'en', ProjectDetailCopy> = {
     subtitle: 'A live vetiver pilot in El Juego, San Rafael, Antioquia, Colombia.',
     image: '2022/10/DSCF0117.jpeg',
     summaryEyebrow: 'Public overview',
-    summaryTitle: 'A public pilot with the first planting in place.',
+    summaryTitle: 'A public pilot with real planting already in the ground.',
     summaryBody:
-      'San Rafael shows vetiver in a working site in El Juego. The first planting is already in place, and this page explains the problem, the response, and the next phase in public terms.',
+      'San Rafael shows vetiver in a working site in El Juego. The first batch of 250 vetiver slips has already been planted, and this page explains the problem, the response, and the next phase in public terms.',
     whyEyebrow: 'Why it matters',
     whyTitle: 'Why this project stands on its own.',
     whyPoints: [
@@ -56,7 +56,7 @@ const copy: Record<'en', ProjectDetailCopy> = {
     ctaHref: DONATE_URL,
     ctaExternal: true,
     supportNote: 'For partnership or local follow-up, use the contact page before contributing.',
-    footerTitle: 'A public pilot with the first planting in place.',
+    footerTitle: 'A public pilot with planting in the ground.',
     footerBody:
       'San Rafael is meant to stay readable without exposing sensitive field detail. It gives supporters enough context to see what has happened, what comes next, and why the project matters.',
     footerLinks: [

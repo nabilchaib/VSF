@@ -25,9 +25,9 @@ const copy: Record<'fr', ProjectDetailCopy> = {
     subtitle: 'Un pilote vétiver vivant à El Juego, San Rafael, Antioquia, Colombie.',
     image: '2022/10/DSCF0117.jpeg',
     summaryEyebrow: 'Vue publique',
-    summaryTitle: 'Un pilote public avec la première plantation en place.',
+    summaryTitle: 'Un pilote public avec une plantation réelle déjà en place.',
     summaryBody:
-      'San Rafael montre le vétiver dans un site en activité à El Juego. La première plantation est déjà en place, et cette page explique le problème, la réponse et la prochaine phase en termes publics.',
+      'San Rafael montre le vétiver dans un site en activité à El Juego. Les 250 premiers plantules de vétiver ont déjà été plantés, et cette page explique le problème, la réponse et la prochaine phase en termes publics.',
     whyEyebrow: 'Pourquoi c’est important',
     whyTitle: 'Pourquoi ce projet compte.',
     whyPoints: [
