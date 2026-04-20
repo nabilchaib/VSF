@@ -26,6 +26,19 @@ Prefer this hierarchy:
 
 For launch-facing pages, the site should feel mostly real-photo-led.
 
+## Launch policy
+
+Launch is hybrid on purpose.
+
+- Keep the live pages and metadata on the normalized media path whenever possible.
+- Allow legacy WordPress-hosted media to remain in the archive and in older story bodies until each asset is migrated or intentionally replaced.
+- Do not add new WordPress media URLs directly inside live component code.
+- Use absolute image URLs for metadata and social cards, or route them through the shared media helpers so previews resolve predictably.
+- Treat support graphics as explanatory assets, not primary evidence assets.
+- Use stock only when there is no real field image or documentary image that can do the job.
+
+Future additions should follow the same order of preference: field photo, contextual documentary photo, support graphic, stock fallback.
+
 ## Source folders reviewed
 
 ### 1. Vetiver RDC

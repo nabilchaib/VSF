@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { getHeroImageForEntry } from '@/components/page-hero';
 import { getEntryPath, type ContentEntry } from '@/lib/content';
 import { getArticleIntentLabel } from '@/lib/article-routing';
-import { formatDate, getMediaUrl, type Locale } from '@/lib/site';
+import { formatDate, resolveMediaReference, getMediaUrl, type Locale } from '@/lib/site';
 
 export function StoryCard({
   entry,
@@ -52,9 +52,7 @@ export function StoryCard({
 
 function getStoryImage(entry: ContentEntry) {
   if (entry.ogImage) {
-    return entry.ogImage.startsWith('http')
-      ? entry.ogImage
-      : getMediaUrl(entry.ogImage);
+    return resolveMediaReference(entry.ogImage);
   }
 
   return getMediaUrl(getHeroImageForEntry(entry.slug, entry.locale));

@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 
-import { SITE_NAME, getAbsoluteUrl, type Locale } from '@/lib/site';
+import { SITE_NAME, getAbsoluteUrl, resolveMediaReference, type Locale } from '@/lib/site';
 
 export const PROJECT_PATHS = {
   gateway: {
@@ -37,11 +37,7 @@ export function buildProjectMetadata({
   image?: string;
 }): Metadata {
   const canonical = getAbsoluteUrl(path[locale]);
-  const resolvedImage = image
-    ? image.startsWith('http')
-      ? image
-      : getAbsoluteUrl(image)
-    : undefined;
+  const resolvedImage = image ? resolveMediaReference(image) : undefined;
 
   return {
     title,

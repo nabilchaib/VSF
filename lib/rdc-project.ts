@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 
-import { SITE_NAME, type Locale, getAbsoluteUrl } from '@/lib/site';
+import { SITE_NAME, type Locale, getAbsoluteUrl, getMediaUrl } from '@/lib/site';
 
 export const RDC_PROJECT_PATH = {
   en: '/projects/rdc',
@@ -716,12 +716,18 @@ export function buildRdcMetadata(locale: Locale): Metadata {
       url: canonical,
       siteName: SITE_NAME,
       locale: locale === 'fr' ? 'fr_CA' : 'en_CA',
-      type: 'website'
+      type: 'website',
+      images: [
+        {
+          url: getMediaUrl('2025/03/WhatsApp-Image-2025-03-07-at-13.54.00.jpeg')
+        }
+      ]
     },
     twitter: {
       card: 'summary_large_image',
       title: copy.title,
-      description: copy.subtitle
+      description: copy.subtitle,
+      images: [getMediaUrl('2025/03/WhatsApp-Image-2025-03-07-at-13.54.00.jpeg')]
     }
   };
 }

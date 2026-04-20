@@ -87,6 +87,26 @@ export function getMediaUrl(path: string) {
   return `${getMediaBaseUrl()}/${cleanPath}`;
 }
 
+export function resolveMediaReference(path: string) {
+  const legacyUploadsPrefix = 'https://vetiversansfrontieres.org/wp-content/uploads/';
+  const legacyI0Prefix = 'https://i0.wp.com/vetiversansfrontieres.org/wp-content/uploads/';
+
+  if (path.startsWith(legacyUploadsPrefix)) {
+    return getMediaUrl(path.slice(legacyUploadsPrefix.length));
+  }
+
+  if (path.startsWith(legacyI0Prefix)) {
+    const suffix = path.slice(legacyI0Prefix.length).split('?')[0];
+    return getMediaUrl(suffix);
+  }
+
+  if (path.startsWith('http://') || path.startsWith('https://')) {
+    return path;
+  }
+
+  return getMediaUrl(path);
+}
+
 export function resolveMediaAsset(path: string) {
   if (path.startsWith('http://') || path.startsWith('https://')) {
     return path;
