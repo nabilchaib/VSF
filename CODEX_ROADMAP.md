@@ -18,7 +18,7 @@ The site remains the public surface of a broader VSF operating system, but the r
 
 ---
 
-## Progress Update — April 20, 2026
+## Progress Update — April 21, 2026
 
 Eight launch-relevant PRs are now merged in sequence:
 - **PR 15** — Get Involved support hub
@@ -28,6 +28,8 @@ Eight launch-relevant PRs are now merged in sequence:
 - **PR 20** — migration closure cleanup / doc hygiene / FR newsletter CTA fix
 - **PR 21** — image migration rollout / field-photo replacement / metadata image normalization
 - **PR 22** — homepage framing update
+
+The VSF website is now live in production as of April 21, 2026.
 
 This matters because several roadmap items that were previously listed as still open are now **done or substantially done**:
 - the homepage has already been reframed to welcome visitors to VSF before the vetiver explainer
@@ -41,7 +43,7 @@ The roadmap should therefore stop describing those items as pending implementati
 
 ## Current Site State
 
-As of April 20, 2026, the website is **past migration closure** and is now in the **launch hardening / operating phase**.
+As of April 21, 2026, the website is **live**, **past migration closure**, and operating in the **launch hardening / operating phase**.
 
 Completed or substantially completed:
 - core public pages rewritten around a clearer donor / partner / public-education journey
@@ -77,6 +79,12 @@ The main work left is **verification, proof quality, funnel quality, media gover
 4. Confirm the launch stance for staged media dependencies and long-term asset hosting.
 5. Tighten project / article / support-page funnel continuity so users always have a credible next step.
 6. Finish task and documentation hygiene so the repo reflects the current phase instead of the migration phase.
+7. Complete Google Workspace operational hardening for org mailboxes (`info@vetiversansfrontieres.org`, `nabil@vetiversansfrontieres.org`) as part of launch operations.
+
+### Workspace mailbox note — April 21, 2026
+- `info@vetiversansfrontieres.org` is active and receiving inbound mail.
+- Google Workspace for Nonprofits activation request is in progress (status email received April 21, 2026).
+- A security alert was received for `nabil@vetiversansfrontieres.org` (recovery phone change); this should be reviewed in account security activity.
 
 ### No longer roadmap-worthy as open build items
 - homepage reframing before the vetiver explainer
