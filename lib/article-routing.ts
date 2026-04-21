@@ -90,9 +90,9 @@ const ARTICLE_END_CTA: Record<Locale, Record<ArticleIntent, ArticleEndCtaCopy>> 
     },
     field_evidence: {
       eyebrow: 'Project evidence',
-      title: 'Open the RDC evidence hub.',
+      title: 'Open the RDC project hub.',
       body:
-        'This story connects to public evidence. Open RDC, then browse projects or support the work if you want the broader context.',
+        'This story ties back to work in the Congo Basin. Open RDC for the full picture, browse other projects, or get involved.',
       primary: { label: 'Open RDC hub', href: '/projects/rdc', variant: 'primary' },
       secondary: { label: 'View projects', href: '/projects', variant: 'secondary' },
       tertiary: { label: 'Support the work', href: '/get-involved', variant: 'tertiary' }
@@ -128,9 +128,9 @@ const ARTICLE_END_CTA: Record<Locale, Record<ArticleIntent, ArticleEndCtaCopy>> 
     },
     field_evidence: {
       eyebrow: 'Preuves du projet',
-      title: 'Ouvrir le hub de preuves RDC.',
+      title: 'Ouvrir le hub du projet RDC.',
       body:
-        'Ce récit renvoie à des preuves publiques. Ouvrez RDC, puis parcourez les projets ou soutenez le travail si vous voulez le contexte plus large.',
+        'Ce récit s’inscrit dans le travail mené dans le bassin du Congo. Ouvrez RDC pour le tableau d’ensemble, parcourez les autres projets ou participez.',
       primary: { label: 'Ouvrir le hub RDC', href: '/projects/rdc', variant: 'primary' },
       secondary: { label: 'Voir les projets', href: '/projects', variant: 'secondary' },
       tertiary: { label: 'Soutenir le travail', href: '/get-involved', variant: 'tertiary' }

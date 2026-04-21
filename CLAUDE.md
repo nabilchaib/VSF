@@ -50,6 +50,8 @@ Colors are loaded from `data/brand/tokens.json` and mapped to semantic names in 
 | `sand`    | Light surface           | `#D1D9B4` |
 | `surface` | Same as sand            | `#D1D9B4` |
 | `reed`    | Alt surface             | `#CAD996` |
+| `cream`   | Warm neutral background | `#f3ede2` |
+| `cream-card` | Warm neutral card surface | `#f4efe4` |
 
 ### Opacity
 

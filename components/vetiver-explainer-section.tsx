@@ -8,7 +8,7 @@ export function VetiverExplainerSection({ locale }: { locale: Locale }) {
   const copy = VETIVER_EXPLAINER[locale];
 
   return (
-    <Section id="vetiver-explainer" className="scroll-mt-28 bg-[#f3ede2] py-14 lg:py-20 lg:scroll-mt-32">
+    <Section id="vetiver-explainer" className="scroll-mt-28 bg-cream py-14 lg:py-20 lg:scroll-mt-32">
       <Container>
         <div className="grid gap-8 lg:grid-cols-[0.92fr_1.08fr] lg:items-start">
           <div className="rounded-[2.2rem] border border-bark/10 bg-white px-7 py-8 shadow-card lg:px-9 lg:py-9">

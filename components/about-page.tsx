@@ -60,7 +60,7 @@ export function AboutPage({ locale }: { locale: Locale }) {
         </Container>
       </section>
 
-      <section className="bg-[#f3ede2] py-14 lg:py-20">
+      <section className="bg-cream py-14 lg:py-20">
         <Container>
           <div className="max-w-2xl">
             <p className="text-sm font-semibold uppercase tracking-[0.2em] text-bark/60">{t.workEyebrow}</p>

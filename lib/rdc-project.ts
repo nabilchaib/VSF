@@ -197,7 +197,7 @@ export const RDC_PROJECT: Record<Locale, RdcLocaleContent> = {
       },
       {
         title: 'Geography as trust layer',
-        body: 'As validation improves, public-facing geography can become more precise without exposing sensitive field details.'
+        body: 'Site details are shared as they are verified, so the map stays accurate and respects the people and communities working on the ground.'
       }
     ],
     fieldAnchorTitle: 'Field anchor',
@@ -473,7 +473,7 @@ export const RDC_PROJECT: Record<Locale, RdcLocaleContent> = {
       },
       {
         title: 'La géographie comme gage de confiance',
-        body: 'A mesure que la validation progresse, la geographie publique peut devenir plus precise sans exposer les details sensibles.'
+        body: 'Les details des sites sont partages au fur et a mesure qu’ils sont verifies, pour que la carte reste juste et respecte les personnes et les communautes qui travaillent sur le terrain.'
       }
     ],
     fieldAnchorTitle: 'Ancre terrain',

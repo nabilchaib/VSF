@@ -20,7 +20,7 @@ export function ArticleEndCta({
   const copy = getArticleEndCtaCopy(locale, intent, ctaTarget);
 
   return (
-    <section className="bg-[#f3ede2] py-14 lg:py-20">
+    <section className="bg-cream py-14 lg:py-20">
       <Container className="max-w-5xl">
         <div className="rounded-[2.3rem] border border-bark/10 bg-bark px-7 py-8 text-white shadow-soft lg:px-9 lg:py-10">
           <p className="text-sm font-semibold uppercase tracking-[0.2em] text-surface/76">{copy.eyebrow}</p>

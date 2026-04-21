@@ -9,7 +9,7 @@ export function generateMetadata(): Metadata {
     locale: 'en',
     path: PROJECT_PATHS.sanRafael,
     title: 'San Rafael | Vetiver Without Borders',
-    description: 'San Rafael is an active vetiver pilot in El Juego, San Rafael, Antioquia, Colombia.',
+    description: 'San Rafael is a live VSF vetiver site in El Juego, San Rafael, Antioquia, Colombia — with the first 250 slips already planted.',
     image: '2025/04/00000276-PHOTO-2025-04-08-08-09-13.webp'
   });
 }
@@ -20,45 +20,45 @@ export default function EnglishSanRafaelProjectPage() {
 
 const copy: Record<'en', ProjectDetailCopy> = {
   en: {
-    eyebrow: 'Active field pilot',
+    eyebrow: 'Active field project',
     title: 'San Rafael',
-    subtitle: 'A live vetiver pilot in El Juego, San Rafael, Antioquia, Colombia.',
+    subtitle: 'A live vetiver site in El Juego, San Rafael, Antioquia, Colombia.',
     image: '2025/04/00000276-PHOTO-2025-04-08-08-09-13.webp',
-    summaryEyebrow: 'Public overview',
-    summaryTitle: 'A public pilot with real planting already in the ground.',
+    summaryEyebrow: 'Project overview',
+    summaryTitle: 'A working vetiver site, with planting already in the ground.',
     summaryBody:
-      'San Rafael shows vetiver in a working site in El Juego. The first batch of 250 vetiver slips has already been planted, and this page explains the problem, the response, and the next phase in public terms.',
+      'San Rafael is a live vetiver site in El Juego. The first 250 vetiver slips have been planted, and this page walks through what the land needs, what is in the ground today, and what the next phase would add.',
     whyEyebrow: 'Why it matters',
     whyTitle: 'Why this project stands on its own.',
     whyPoints: [
       {
-        title: 'Real-site learning',
-        body: 'It is tied to an active field setting, not a concept note.'
+        title: 'Grounded in a real site',
+        body: 'The work is tied to an active field setting in El Juego, not an idea on paper.'
       },
       {
         title: 'Visible progress',
-        body: 'Support now helps expand, document, and strengthen what has already started.'
+        body: 'Support today helps expand the planting, document results, and strengthen what is already taking root.'
       },
       {
-        title: 'Useful for replication',
-        body: 'What is learned here can inform future field work and later expansion.'
+        title: 'Useful beyond this site',
+        body: 'What we learn here can shape future plantings and similar sites facing the same soil and water pressures.'
       }
     ],
     nextEyebrow: 'How to engage',
-    nextTitle: 'Support the next phase or keep browsing.',
-    nextBody: 'If you want to follow the pilot, the next step is direct and public.',
+    nextTitle: 'Support the next planting phase or keep browsing.',
+    nextBody: 'If you want to follow the project, the next step is simple and direct.',
     nextSteps: [
-      'Review the project as a public field example.',
-      'Support the next planting phase through the donation link.',
-      'Use the contact page for partnership or site questions.'
+      'Read the site as a concrete example of vetiver in a real field setting.',
+      'Fund the next planting phase through the donation link.',
+      'Use the contact page for partnership or local follow-up questions.'
     ],
     ctaLabel: 'Support San Rafael',
     ctaHref: DONATE_URL,
     ctaExternal: true,
-    supportNote: 'For partnership or local follow-up, use the contact page before contributing.',
-    footerTitle: 'A public pilot with planting in the ground.',
+    supportNote: 'For partnership or local follow-up, reach out through the contact page before contributing.',
+    footerTitle: 'A real project, with planting already in the ground.',
     footerBody:
-      'San Rafael is meant to stay readable without exposing sensitive field detail. It gives supporters enough context to see what has happened, what comes next, and why the project matters.',
+      'San Rafael gives you enough context to see what has already happened on the site, what the next planting phase needs, and why the work matters for the land around El Juego.',
     footerLinks: [
       {
         label: 'Open the projects page',

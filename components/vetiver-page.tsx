@@ -46,7 +46,7 @@ export function VetiverPage({ locale }: { locale: Locale }) {
       <VetiverExplainerSection locale={locale} />
       <VetiverProofPoints locale={locale} />
 
-      <section className="bg-[#f3ede2] py-14 lg:py-20">
+      <section className="bg-cream py-14 lg:py-20">
         <Container>
           <div className="grid gap-8 lg:grid-cols-[1.04fr_0.96fr]">
             <div>
