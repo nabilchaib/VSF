@@ -3,7 +3,7 @@ export type EntryType = 'page' | 'post';
 
 export const SITE_NAME = 'Vetiver Without Borders';
 export const SITE_DESCRIPTION =
-  'Vetiver Without Borders helps communities facing climate stress rebuild land, protect water, and regenerate local resilience through the Vetiver System.';
+  'Vetiver Without Borders helps communities and local partners use the Vetiver System to protect soil, stabilize slopes, and manage water in real field conditions.';
 export const ANALYTICS_ID = process.env.NEXT_PUBLIC_ANALYTICS_ID || 'G-LJY6QLC727';
 export const DONATE_URL = 'https://www.zeffy.com/en-CA/donation-form/cbac2a62-15cb-4f94-866c-c860b1cfa606';
 export const CONTACT_EMAIL = 'info@vetiversansfrontieres.org';

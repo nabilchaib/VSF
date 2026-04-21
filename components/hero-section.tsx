@@ -84,7 +84,7 @@ export function HeroSection({
         <div className="relative lg:pt-4">
           <div className="absolute -left-4 top-8 hidden h-20 w-20 rounded-full bg-surface/70 blur-2xl sm:block" />
           <div className="space-y-4">
-            <div className="relative overflow-hidden rounded-[2rem] border border-bark/12 bg-[#f4efe4] p-2.5 shadow-soft">
+            <div className="relative overflow-hidden rounded-[2rem] border border-bark/12 bg-cream-card p-2.5 shadow-soft">
               <div className="relative aspect-[5/5.6] overflow-hidden rounded-[1.6rem] bg-[#ebe3d4] sm:aspect-[5/4.85]">
                 <Image
                   src={getMediaUrl('2025/03/Vetiver-Highway.jpg')}

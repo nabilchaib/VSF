@@ -25,8 +25,8 @@ export function SiteFooter({ locale }: { locale: Locale }) {
             />
             <p className="max-w-sm text-sm leading-7 text-ink/72">
               {locale === 'fr'
-                ? "Solutions écologiques pour protéger les sols, l'eau et la résilience communautaire."
-                : 'Ecological solutions for soil protection, water security, and community resilience.'}
+                ? "Protéger les sols, l'eau et les terres avec le vétiver — aux côtés des communautés et des partenaires locaux."
+                : 'Protecting soil, water, and land with vetiver — alongside communities and local partners.'}
             </p>
             <div className="pt-2">
               <Button

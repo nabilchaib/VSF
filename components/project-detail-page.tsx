@@ -50,7 +50,7 @@ export function ProjectDetailPage({ locale, copy }: { locale: Locale; copy: Proj
               <p className="mt-5 text-base leading-8 text-ink/72">{copy.summaryBody}</p>
             </div>
 
-            <div className="rounded-[2.2rem] border border-bark/10 bg-[#f4efe4] p-7 shadow-card lg:p-9">
+            <div className="rounded-[2.2rem] border border-bark/10 bg-cream-card p-7 shadow-card lg:p-9">
               <p className="text-sm font-semibold uppercase tracking-[0.2em] text-bark/60">{copy.whyEyebrow}</p>
               <h2 className="mt-3 text-3xl font-semibold text-ink sm:text-4xl">{copy.whyTitle}</h2>
               <div className="mt-6 space-y-4">
@@ -66,7 +66,7 @@ export function ProjectDetailPage({ locale, copy }: { locale: Locale; copy: Proj
         </Container>
       </section>
 
-      <section className="bg-[#f3ede2] py-14 lg:py-20">
+      <section className="bg-cream py-14 lg:py-20">
         <Container>
           <div className="rounded-[2.3rem] border border-bark/10 bg-bark px-7 py-8 text-white shadow-soft lg:px-9 lg:py-10">
             <div className="grid gap-7 lg:grid-cols-[1.05fr_0.95fr] lg:items-center">
@@ -123,7 +123,7 @@ export function ProjectDetailPage({ locale, copy }: { locale: Locale; copy: Proj
         <Container>
           <div className="rounded-[2.2rem] border border-bark/10 bg-white px-7 py-8 shadow-card lg:px-9 lg:py-10">
             <p className="text-sm font-semibold uppercase tracking-[0.2em] text-bark/60">
-              {locale === 'fr' ? 'Contexte public' : 'Public context'}
+              {locale === 'fr' ? 'À propos du projet' : 'About this project'}
             </p>
             <h2 className="mt-3 text-3xl font-semibold text-ink sm:text-4xl">{copy.footerTitle}</h2>
             <p className="mt-4 max-w-3xl text-base leading-8 text-ink/72">{copy.footerBody}</p>

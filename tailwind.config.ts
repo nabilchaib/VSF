@@ -33,7 +33,12 @@ const config: Config = {
         secondary: brandColors.secondary,
         surface: brandColors.surfaceMoss,
         surfaceAlt: brandColors.surfaceMossAlt,
-        accent: brandColors.accent
+        accent: brandColors.accent,
+        // Warm neutral tones used on section and card backgrounds.
+        // Keep these semantic — do not reintroduce ad-hoc hex values
+        // like bg-[#f3ede2] or bg-[#f4efe4] scattered across components.
+        cream: '#f3ede2',
+        'cream-card': '#f4efe4'
       },
       boxShadow: {
         soft: '0 24px 60px rgba(35, 35, 35, 0.12)',

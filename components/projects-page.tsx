@@ -75,7 +75,7 @@ export function ProjectsPage({ locale }: { locale: Locale }) {
               </div>
             </div>
 
-            <div className="rounded-[2.2rem] border border-bark/10 bg-[#f4efe4] p-7 shadow-card lg:p-9">
+            <div className="rounded-[2.2rem] border border-bark/10 bg-cream-card p-7 shadow-card lg:p-9">
               <p className="text-sm font-semibold uppercase tracking-[0.2em] text-bark/60">{t.intentEyebrow}</p>
               <h2 className="mt-3 text-3xl font-semibold text-ink sm:text-4xl">{t.intentTitle}</h2>
               <div className="mt-6 space-y-4">
@@ -91,7 +91,7 @@ export function ProjectsPage({ locale }: { locale: Locale }) {
         </Container>
       </section>
 
-      <section className="bg-[#f3ede2] py-14 lg:py-20">
+      <section className="bg-cream py-14 lg:py-20">
         <Container>
           <div className="max-w-2xl">
             <p className="text-sm font-semibold uppercase tracking-[0.2em] text-bark/60">{t.portfolioEyebrow}</p>
@@ -188,9 +188,9 @@ const copy = {
       }
     ] satisfies QuickLink[],
     gatewayEyebrow: 'Project gateway',
-    gatewayTitle: 'Three public project paths.',
+    gatewayTitle: 'Three ways into VSF projects.',
     gatewayBody:
-      'RDC is the flagship evidence hub. San Rafael is an active pilot with the first 250 vetiver slips already planted. New ideas start with a simple proposal.',
+      'RDC is the flagship project hub. San Rafael is a live field site with the first 250 vetiver slips already planted. New ideas start with a simple proposal.',
     gatewayLinks: [
       {
         label: 'Open RDC hub',
@@ -224,15 +224,15 @@ const copy = {
       }
     ] satisfies IntentPoint[],
     portfolioEyebrow: 'Featured projects',
-    portfolioTitle: 'Three public project pages.',
+    portfolioTitle: 'Where the work is happening today.',
     portfolioBody:
-      'Each card gives a short summary, why it matters, and one clear next step.',
+      'Each card gives a short summary, why the project matters on the ground, and one clear next step.',
     portfolio: [
       {
-        eyebrow: 'Flagship public evidence hub',
+        eyebrow: 'Flagship project hub',
         title: 'RDC',
         summary:
-          'The Congo Basin project hub. It gives the flagship work a public home.',
+          'The Congo Basin project hub. It brings the flagship work and its field learning into one place.',
         whyLabel: 'Why it matters',
         why: 'It keeps the main story easy to find without making it the only route.',
         cta: 'Open the RDC hub',
@@ -301,9 +301,9 @@ const copy = {
       }
     ] satisfies QuickLink[],
     gatewayEyebrow: 'Portail des projets',
-    gatewayTitle: 'Voir les projets publics et la suite possible.',
+    gatewayTitle: 'Trois portes d’entrée vers les projets de VSF.',
     gatewayBody:
-      'La RDC est le hub public de preuves phare. San Rafael est un pilote actif où les 250 premiers plantules de vétiver sont déjà plantés. Les nouvelles idées commencent par une proposition simple.',
+      'La RDC est le hub du projet phare. San Rafael est un site de terrain vivant où les 250 premiers plants de vétiver sont déjà en terre. Les nouvelles idées commencent par une proposition simple.',
     gatewayLinks: [
       {
         label: 'Ouvrir le hub RDC',
@@ -337,15 +337,15 @@ const copy = {
       }
     ] satisfies IntentPoint[],
     portfolioEyebrow: 'Projets mis en avant',
-    portfolioTitle: 'Trois pages de projet publiques.',
+    portfolioTitle: 'Là où le travail se passe aujourd’hui.',
     portfolioBody:
-      'Chaque carte donne un bref résumé, explique pourquoi elle compte et indique une prochaine étape claire.',
+      'Chaque carte donne un bref résumé, explique pourquoi le projet compte sur le terrain, et indique une prochaine étape claire.',
     portfolio: [
       {
-        eyebrow: 'Hub public de preuves',
+        eyebrow: 'Hub du projet phare',
         title: 'RDC',
         summary:
-          'Le projet du bassin du Congo. Il donne au travail phare un lieu public.',
+          'Le hub du projet dans le bassin du Congo. Il rassemble le travail phare et les apprentissages de terrain en un seul endroit.',
         whyLabel: 'Pourquoi c’est important',
         why: 'Il garde le récit principal facile à trouver sans devenir la seule entrée.',
         cta: 'Ouvrir le hub RDC',

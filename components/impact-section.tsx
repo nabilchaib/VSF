@@ -19,7 +19,7 @@ export function ImpactSection({
   copy: ImpactSectionCopy;
 }) {
   return (
-    <Section className="bg-[#f3ede2] py-14 lg:py-20">
+    <Section className="bg-cream py-14 lg:py-20">
       <div className="overflow-hidden rounded-[2.6rem] border border-bark/10 bg-bark text-white shadow-soft">
         <div className="grid gap-8 px-6 py-8 lg:grid-cols-[1.1fr_0.75fr] lg:items-start lg:px-10 lg:py-10">
           <div className="space-y-5">
