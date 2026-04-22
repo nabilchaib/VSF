@@ -12,8 +12,6 @@ export const SOCIAL_LINKS = [
   { label: 'Instagram', href: 'https://www.instagram.com/vetiversansfrontieres/' },
   { label: 'LinkedIn', href: 'https://www.linkedin.com/company/vetiver-sans-frontieres/' }
 ] as const;
-const LEGACY_MEDIA_BASE_URL = 'https://vetiversansfrontieres.org/wp-content/uploads';
-
 export const NAV_ITEMS = [
   {
     key: 'about',
@@ -72,19 +70,9 @@ export function getAbsoluteUrl(path: string) {
   return `${getSiteUrl()}${path.startsWith('/') ? path : `/${path}`}`;
 }
 
-export function getMediaBaseUrl() {
-  const configured = process.env.NEXT_PUBLIC_MEDIA_BASE_URL?.replace(/\/$/, '');
-
-  if (configured) {
-    return configured;
-  }
-
-  return LEGACY_MEDIA_BASE_URL;
-}
-
 export function getMediaUrl(path: string) {
-  const cleanPath = path.replace(/^\/+/, '');
-  return `${getMediaBaseUrl()}/${cleanPath}`;
+  const cleanPath = path.replace(/^\/+/, '').replace(/-\d+x\d+(\.[^.]+)$/, '$1');
+  return `/media/${cleanPath}`;
 }
 
 export function resolveMediaReference(path: string) {
@@ -113,10 +101,10 @@ export function resolveMediaAsset(path: string) {
   }
 
   if (path.startsWith('/media/')) {
-    return getMediaUrl(path.slice('/media/'.length));
+    return path;
   }
 
-  return path;
+  return getMediaUrl(path);
 }
 
 export function localePath(enPath: string, locale: Locale): string {

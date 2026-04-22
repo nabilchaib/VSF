@@ -5,6 +5,12 @@ import { Container } from '@/components/container';
 import { PageHero } from '@/components/page-hero';
 import { getMediaUrl, localePath, type Locale } from '@/lib/site';
 
+const workPhotoStrip = [
+  { src: '2022/10/IMG-20220616-WA0002.jpg', alt: 'VSF team working on a vetiver planting site.' },
+  { src: '2022/10/IMG-20220616-WA0003.jpg', alt: 'Community members and VSF partners assessing a vetiver field.' },
+  { src: '2022/10/IMG-20220616-WA0005.jpg', alt: 'Vetiver slips laid out for planting at a field site.' },
+] as const;
+
 export function AboutPage({ locale }: { locale: Locale }) {
   const t = copy[locale];
 
@@ -50,10 +56,23 @@ export function AboutPage({ locale }: { locale: Locale }) {
                   />
                 </div>
               </div>
-              <div className="rounded-[2.2rem] border border-bark/10 bg-[#f5efe3] p-6 shadow-card lg:p-7">
-                <p className="text-sm font-semibold uppercase tracking-[0.2em] text-bark/60">{t.focusEyebrow}</p>
-                <h2 className="mt-3 text-3xl font-semibold text-ink sm:text-4xl">{t.focusTitle}</h2>
-                <p className="mt-4 text-base leading-8 text-ink/72">{t.focusBody}</p>
+              <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-1">
+                <div className="relative overflow-hidden rounded-[2.2rem] border border-bark/10 bg-[#eef1e4] p-3 shadow-card">
+                  <div className="relative aspect-[3/2] overflow-hidden rounded-[1.6rem]">
+                    <Image
+                      src={getMediaUrl('2024/02/WhatsApp-Image-2024-02-28-at-15.12.55-1.jpeg')}
+                      alt={t.imageAltThree}
+                      fill
+                      className="object-cover"
+                      sizes="(min-width: 1024px) 42vw, (min-width: 640px) 50vw, 100vw"
+                    />
+                  </div>
+                </div>
+                <div className="rounded-[2.2rem] border border-bark/10 bg-[#f5efe3] p-6 shadow-card lg:p-7">
+                  <p className="text-sm font-semibold uppercase tracking-[0.2em] text-bark/60">{t.focusEyebrow}</p>
+                  <h2 className="mt-3 text-3xl font-semibold text-ink sm:text-4xl">{t.focusTitle}</h2>
+                  <p className="mt-4 text-base leading-8 text-ink/72">{t.focusBody}</p>
+                </div>
               </div>
             </div>
           </div>
@@ -67,7 +86,22 @@ export function AboutPage({ locale }: { locale: Locale }) {
             <h2 className="mt-3 text-3xl font-semibold text-ink sm:text-4xl">{t.workTitle}</h2>
             <p className="mt-4 text-base leading-8 text-ink/72">{t.workBody}</p>
           </div>
-          <div className="mt-8 grid gap-4 md:grid-cols-2 xl:grid-cols-4">
+          <div className="mt-8 grid gap-4 sm:grid-cols-3">
+            {workPhotoStrip.map((photo) => (
+              <div key={photo.src} className="overflow-hidden rounded-[2rem] border border-bark/10 shadow-card">
+                <div className="relative aspect-[4/3]">
+                  <Image
+                    src={getMediaUrl(photo.src)}
+                    alt={photo.alt}
+                    fill
+                    className="object-cover"
+                    sizes="(min-width: 1024px) 28vw, (min-width: 640px) 33vw, 100vw"
+                  />
+                </div>
+              </div>
+            ))}
+          </div>
+          <div className="mt-4 grid gap-4 md:grid-cols-2 xl:grid-cols-4">
             {t.workSteps.map((step) => (
               <div key={step.title} className="rounded-[1.8rem] border border-bark/10 bg-white p-6 shadow-card">
                 <p className="text-sm font-semibold uppercase tracking-[0.18em] text-bark/58">{step.index}</p>
@@ -88,16 +122,29 @@ export function AboutPage({ locale }: { locale: Locale }) {
                 ))}
               </div>
             </div>
-            <div className="rounded-[2.1rem] border border-bark/10 bg-white px-6 py-6 shadow-card lg:px-8">
-              <p className="text-sm font-semibold uppercase tracking-[0.2em] text-bark/58">{t.overviewEyebrow}</p>
-              <div className="mt-4 flex flex-wrap gap-3">
-                {t.overviewTags.map((goal) => (
-                  <span key={goal} className="rounded-full border border-bark/10 bg-surface/55 px-4 py-2 text-sm text-ink/70">
-                    {goal}
-                  </span>
-                ))}
+            <div className="grid gap-4">
+              <div className="overflow-hidden rounded-[2.1rem] border border-bark/10 shadow-card">
+                <div className="relative aspect-[4/3]">
+                  <Image
+                    src={getMediaUrl('2025/04/00000224-PHOTO-2025-03-21-03-51-17.webp')}
+                    alt={t.imageAltFour}
+                    fill
+                    className="object-cover"
+                    sizes="(min-width: 1024px) 42vw, 100vw"
+                  />
+                </div>
               </div>
-              <p className="mt-5 text-base leading-8 text-ink/72">{t.overviewBody}</p>
+              <div className="rounded-[2.1rem] border border-bark/10 bg-white px-6 py-6 shadow-card lg:px-8">
+                <p className="text-sm font-semibold uppercase tracking-[0.2em] text-bark/58">{t.overviewEyebrow}</p>
+                <div className="mt-4 flex flex-wrap gap-3">
+                  {t.overviewTags.map((goal) => (
+                    <span key={goal} className="rounded-full border border-bark/10 bg-surface/55 px-4 py-2 text-sm text-ink/70">
+                      {goal}
+                    </span>
+                  ))}
+                </div>
+                <p className="mt-5 text-base leading-8 text-ink/72">{t.overviewBody}</p>
+              </div>
             </div>
           </div>
         </Container>
@@ -214,6 +261,8 @@ const copy = {
       'Vetiver work makes the most sense when it stays close to the ground: local conditions, local judgment, and local follow-through.',
     imageAltOne: 'VSF team and community members in a field setting.',
     imageAltTwo: 'Field support photo showing vetiver work with partners and community members.',
+    imageAltThree: 'VSF field team and community partners working together on a vetiver site.',
+    imageAltFour: 'VSF field documentation photo showing vetiver site progress.',
     ctaEyebrow: 'Join the work',
     ctaTitle: 'Choose the next step that fits you.',
     ctaBody:
@@ -294,6 +343,8 @@ const copy = {
       'Le travail sur le vétiver a le plus de sens quand il reste proche du terrain : conditions locales, jugement local et suivi local.',
     imageAltOne: 'Équipe VSF et membres de la communauté sur le terrain.',
     imageAltTwo: 'Photo de terrain montrant le travail vetiver avec des partenaires et des membres de la communauté.',
+    imageAltThree: 'Équipe de terrain VSF et partenaires communautaires travaillant ensemble sur un site vétiver.',
+    imageAltFour: "Photo documentaire VSF montrant la progression d'un site vétiver.",
     ctaEyebrow: 'Rejoindre le travail',
     ctaTitle: 'Choisissez la prochaine étape qui vous correspond.',
     ctaBody:

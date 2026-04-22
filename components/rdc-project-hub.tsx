@@ -43,11 +43,35 @@ export function RdcProjectHub({ locale }: { locale: Locale }) {
       className: ''
     },
     {
+      src: '2025/04/00000281-PHOTO-2025-04-08-08-10-22.webp',
+      alt:
+        locale === 'fr'
+          ? 'Membres de la communauté tenant des boutures de vétiver prêtes à planter en RDC.'
+          : 'Community members holding vetiver slips ready for planting in RDC.',
+      className: ''
+    },
+    {
+      src: '2025/04/00000282-PHOTO-2025-04-08-08-10-23.webp',
+      alt:
+        locale === 'fr'
+          ? 'Photo de terrain supplémentaire du travail de plantation vétiver en RDC.'
+          : 'Additional field photo of vetiver planting work in RDC.',
+      className: ''
+    },
+    {
       src: '2025/04/00000283-PHOTO-2025-04-08-08-10-24.webp',
       alt:
         locale === 'fr'
           ? 'Photo documentaire en RDC montrant le travail et la récupération des terres.'
           : 'Documentary RDC photo showing field work and land recovery.',
+      className: 'sm:col-span-2'
+    },
+    {
+      src: '2025/04/Screen-Shot-2025-04-10-at-3.07.37-PM.webp',
+      alt:
+        locale === 'fr'
+          ? "Vue aérienne d'une pirogue sur le fleuve Congo près d'un site vétiver."
+          : 'Aerial view of a pirogue on the Congo river near a vetiver site.',
       className: 'sm:col-span-2'
     }
   ] as const;
@@ -161,6 +185,8 @@ export function RdcProjectHub({ locale }: { locale: Locale }) {
         subtitle={copy.fieldAnchorSubtitle}
         body={copy.fieldAnchorBody}
         quote={copy.fieldAnchorQuote}
+        image="2025/03/WhatsApp-Image-2025-03-03-at-07.35.34.webp"
+        imageAlt={locale === 'fr' ? 'Photo de terrain RDC montrant un site vétiver actif.' : 'RDC field photo showing an active vetiver site.'}
       />
 
       <TimelineSection eyebrow={copy.sectionEyebrow} title={copy.timelineTitle} subtitle={copy.timelineSubtitle} items={copy.timeline} />
@@ -224,26 +250,39 @@ export function RdcProjectPromo({ locale }: { locale: Locale }) {
 
   return (
     <section className="mx-auto w-full max-w-6xl px-6 py-10 lg:px-10">
-      <div className="brand-frame rounded-[2rem] p-8 lg:p-10">
-        <div className="grid gap-6 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
-          <div className="space-y-4">
+      <div className="brand-frame overflow-hidden rounded-[2rem]">
+        <div className="grid lg:grid-cols-[1fr_320px]">
+          <div className="p-8 lg:p-10">
             <p className="text-xs font-medium uppercase tracking-[0.24em] text-bark/60">{copy.eyebrow}</p>
-            <h2 className="text-3xl font-bold uppercase tracking-[-0.05em] text-ink">{copy.title}</h2>
-            <p className="text-lg leading-8 text-ink/78">{copy.introBody}</p>
+            <h2 className="mt-3 text-3xl font-bold uppercase tracking-[-0.05em] text-ink">{copy.title}</h2>
+            <p className="mt-4 text-lg leading-8 text-ink/78">{copy.introBody}</p>
+            <div className="mt-6 flex flex-wrap gap-3">
+              <Link
+                href={getRdcProjectPath(locale)}
+                className="brand-pill rounded-full px-6 py-3 text-sm font-semibold uppercase tracking-[0.16em] hover:bg-clay"
+              >
+                {locale === 'fr' ? 'Voir le hub' : 'Open the hub'}
+              </Link>
+              <Link
+                href={getRdcFlagshipStoryPath(locale)}
+                className="rounded-full border border-bark/15 bg-surface/40 px-6 py-3 text-sm font-medium text-bark hover:border-bark/30"
+              >
+                {copy.storyCta}
+              </Link>
+            </div>
           </div>
-          <div className="flex flex-wrap gap-3 lg:justify-end">
-            <Link
-              href={getRdcProjectPath(locale)}
-              className="brand-pill rounded-full px-6 py-3 text-sm font-semibold uppercase tracking-[0.16em] hover:bg-clay"
-            >
-              {locale === 'fr' ? 'Voir le hub' : 'Open the hub'}
-            </Link>
-            <Link
-              href={getRdcFlagshipStoryPath(locale)}
-              className="rounded-full border border-bark/15 bg-surface/40 px-6 py-3 text-sm font-medium text-bark hover:border-bark/30"
-            >
-              {copy.storyCta}
-            </Link>
+          <div className="relative hidden overflow-hidden border-l border-bark/10 lg:block">
+            <Image
+              src={getMediaUrl('2024/01/WhatsApp-Image-2024-01-31-at-09.26.31-1.jpeg')}
+              alt={
+                locale === 'fr'
+                  ? 'Travail de terrain en RDC — équipe et communauté sur site.'
+                  : 'RDC field work — team and community on site.'
+              }
+              fill
+              className="object-cover"
+              sizes="320px"
+            />
           </div>
         </div>
       </div>
@@ -488,25 +527,42 @@ function FieldAnchorSection({
   title,
   subtitle,
   body,
-  quote
+  quote,
+  image,
+  imageAlt
 }: {
   eyebrow: string;
   title: string;
   subtitle: string;
   body: string;
   quote: string;
+  image?: string;
+  imageAlt?: string;
 }) {
   return (
     <section className="mx-auto w-full max-w-6xl px-6 py-10 lg:px-10">
       <SectionHeader eyebrow={eyebrow} title={title} subtitle={subtitle} />
-      <div className="mt-8 brand-frame grid gap-6 rounded-[1.75rem] p-6 lg:grid-cols-[1.1fr_0.9fr] lg:p-8">
+      <div className="mt-8 brand-frame grid gap-6 rounded-[1.75rem] p-6 lg:grid-cols-[1fr_1fr_0.9fr] lg:p-8">
+        {image && (
+          <div className="overflow-hidden rounded-[1.5rem] border border-bark/10 shadow-card">
+            <div className="relative aspect-[3/4] lg:aspect-auto lg:h-full">
+              <Image
+                src={getMediaUrl(image)}
+                alt={imageAlt ?? ''}
+                fill
+                className="object-cover"
+                sizes="(min-width: 1024px) 22vw, 100vw"
+              />
+            </div>
+          </div>
+        )}
         <div className="space-y-4">
           <p className="text-lg leading-8 text-ink/80">{body}</p>
           <p className="text-sm font-semibold uppercase tracking-[0.18em] text-bark/55">Eric Mpongo</p>
         </div>
         <div className="rounded-[1.5rem] bg-surface/75 p-6 shadow-card">
           <p className="text-sm font-medium uppercase tracking-[0.2em] text-bark/60">Field note</p>
-          <p className="mt-4 text-lg leading-8 text-ink/82">“{quote}”</p>
+          <p className="mt-4 text-lg leading-8 text-ink/82">&ldquo;{quote}&rdquo;</p>
         </div>
       </div>
     </section>

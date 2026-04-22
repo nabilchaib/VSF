@@ -1,6 +1,8 @@
+import Image from 'next/image';
+
 import { Button } from '@/components/button';
 import { Section } from '@/components/section';
-import { DONATE_URL, CONTACT_EMAIL, localePath, type Locale } from '@/lib/site';
+import { DONATE_URL, CONTACT_EMAIL, getMediaUrl, localePath, type Locale } from '@/lib/site';
 
 type GetInvolvedSectionCopy = {
   hubEyebrow: string;
@@ -26,40 +28,61 @@ export function GetInvolvedSection({
     <Section className="bg-cream-card py-14 lg:py-20">
       <div className="grid gap-6 lg:grid-cols-2">
         {/* Left — dark bark donation card */}
-        <div className="flex h-full flex-col rounded-[2.2rem] bg-bark px-6 py-8 text-white shadow-card lg:px-8">
-          <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-surface/74">
-            {copy.hubEyebrow}
-          </p>
-          <h3 className="mt-4 text-[1.75rem] font-semibold leading-[1.15] text-white">
-            {copy.hubTitle}
-          </h3>
-          <p className="mt-4 text-[15px] leading-7 text-white/76">{copy.hubBody}</p>
-          <div className="mt-auto flex flex-wrap gap-3 pt-7">
-            <Button
-              href={DONATE_URL}
-              external
-              target="_blank"
-              rel="noreferrer"
-              variant="primary"
-              className="shadow-soft"
-            >
-              {copy.donateCta}
-            </Button>
-            <Button
-              href={DONATE_URL}
-              external
-              target="_blank"
-              rel="noreferrer"
-              variant="secondary"
-              className="border-white/25 bg-transparent text-white hover:border-white/40 hover:bg-white/8"
-            >
-              {copy.monthlyGivingCta}
-            </Button>
+        <div className="flex h-full flex-col overflow-hidden rounded-[2.2rem] bg-bark text-white shadow-card">
+          <div className="relative aspect-[16/9] overflow-hidden">
+            <Image
+              src={getMediaUrl('2022/10/DJI_0170.jpg')}
+              alt={locale === 'fr' ? 'Vue aérienne de terres agricoles dégradées — le type de terrain que le vétiver peut stabiliser.' : 'Aerial view of degraded agricultural land — the kind of terrain vetiver stabilizes.'}
+              fill
+              className="object-cover"
+              sizes="(min-width: 1024px) 50vw, 100vw"
+            />
+          </div>
+          <div className="flex flex-1 flex-col px-6 py-8 lg:px-8">
+            <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-surface/74">
+              {copy.hubEyebrow}
+            </p>
+            <h3 className="mt-4 text-[1.75rem] font-semibold leading-[1.15] text-white">
+              {copy.hubTitle}
+            </h3>
+            <p className="mt-4 text-[15px] leading-7 text-white/76">{copy.hubBody}</p>
+            <div className="mt-auto flex flex-wrap gap-3 pt-7">
+              <Button
+                href={DONATE_URL}
+                external
+                target="_blank"
+                rel="noreferrer"
+                variant="primary"
+                className="shadow-soft"
+              >
+                {copy.donateCta}
+              </Button>
+              <Button
+                href={DONATE_URL}
+                external
+                target="_blank"
+                rel="noreferrer"
+                variant="secondary"
+                className="border-white/25 bg-transparent text-white hover:border-white/40 hover:bg-white/8"
+              >
+                {copy.monthlyGivingCta}
+              </Button>
+            </div>
           </div>
         </div>
 
         {/* Right — reed partner card */}
-        <div className="flex h-full flex-col rounded-[2.2rem] bg-reed px-6 py-8 text-bark shadow-card lg:px-8">
+        <div className="flex h-full flex-col overflow-hidden rounded-[2.2rem] bg-reed text-bark shadow-card">
+          <div className="relative aspect-[16/9] overflow-hidden">
+            <Image
+              src={getMediaUrl('2025/04/00000281-PHOTO-2025-04-08-08-10-22.webp')}
+              alt={locale === 'fr' ? 'Membres de la communauté avec des boutures de vétiver prêtes à planter.' : 'Community members with vetiver slips ready for planting.'}
+              fill
+              className="object-cover"
+              sizes="(min-width: 1024px) 50vw, 100vw"
+            />
+          </div>
+          <div className="flex flex-1 flex-col px-6 py-8 lg:px-8">
           <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-bark/64">
             {copy.partnerEyebrow}
           </p>
@@ -78,6 +101,7 @@ export function GetInvolvedSection({
             >
               {copy.stayConnectedCta}
             </Button>
+          </div>
           </div>
         </div>
       </div>
