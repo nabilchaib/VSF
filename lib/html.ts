@@ -7,14 +7,18 @@ const OLD_SITE = 'https://vetiversansfrontieres.org';
 const OLD_UPLOADS = `${OLD_SITE}/wp-content/uploads/`;
 const I0_PREFIX = 'https://i0.wp.com/vetiversansfrontieres.org/wp-content/uploads/';
 
+function stripWpThumbnailSuffix(path: string) {
+  return path.replace(/-\d+x\d+(\.[^.]+)$/, '$1');
+}
+
 function replaceOldMedia(url: string) {
   if (url.startsWith(OLD_UPLOADS)) {
-    return `/media/${url.slice(OLD_UPLOADS.length)}`;
+    return `/media/${stripWpThumbnailSuffix(url.slice(OLD_UPLOADS.length))}`;
   }
 
   if (url.startsWith(I0_PREFIX)) {
     const suffix = url.slice(I0_PREFIX.length).split('?')[0];
-    return `/media/${suffix}`;
+    return `/media/${stripWpThumbnailSuffix(suffix)}`;
   }
 
   return url;
@@ -73,8 +77,8 @@ export function transformLegacyHtml(html: string | undefined, locale: Locale) {
     .replace(/<a[^>]*href="#[^"]*"[^>]*>([\s\S]*?)<\/a>/g, '$1')
     .replace(/href="([^"]+)"/g, (_, url) => `href="${normalizeInternalLink(url, locale)}"`)
     .replace(/src="([^"]+)"/g, (_, url) => `src="${replaceOldMedia(url)}"`)
-    .replace(/https:\/\/i0\.wp\.com\/vetiversansfrontieres\.org\/wp-content\/uploads\/([^"?]+)(?:\?[^"]*)?/g, (_, suffix) => `/media/${suffix}`)
-    .replace(/https:\/\/vetiversansfrontieres\.org\/wp-content\/uploads\/([^"]+)/g, (_, suffix) => `/media/${suffix}`)
+    .replace(/https:\/\/i0\.wp\.com\/vetiversansfrontieres\.org\/wp-content\/uploads\/([^"?]+)(?:\?[^"]*)?/g, (_, suffix) => `/media/${stripWpThumbnailSuffix(suffix)}`)
+    .replace(/https:\/\/vetiversansfrontieres\.org\/wp-content\/uploads\/([^"]+)/g, (_, suffix) => `/media/${stripWpThumbnailSuffix(suffix)}`)
     .replace(/<a([^>]*?)>\s*Facebook\s*<\/a>/g, '<a$1 rel="noreferrer" target="_blank">Facebook</a>')
     .replace(/<a([^>]*?)>\s*Instagram\s*<\/a>/g, '<a$1 rel="noreferrer" target="_blank">Instagram</a>')
     .replace(/<a([^>]*?)>\s*Linkedin\s*<\/a>/g, '<a$1 rel="noreferrer" target="_blank">LinkedIn</a>');

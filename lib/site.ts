@@ -71,7 +71,7 @@ export function getAbsoluteUrl(path: string) {
 }
 
 export function getMediaUrl(path: string) {
-  const cleanPath = path.replace(/^\/+/, '');
+  const cleanPath = path.replace(/^\/+/, '').replace(/-\d+x\d+(\.[^.]+)$/, '$1');
   return `/media/${cleanPath}`;
 }
 
