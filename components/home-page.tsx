@@ -49,26 +49,27 @@ const homepageCopy = {
         'A practical plant matters when it helps protect fragile land without heavy infrastructure.'
     },
     impact: {
-      eyebrow: 'How VSF helps',
-      title: 'Turn understanding into practical field action.',
+      eyebrow: 'How vetiver helps',
+      title: 'Reported outcomes from real field conditions.',
       body:
-        'Your support helps VSF deliver site planning, local training, pilot support, and follow-through for communities using vetiver.',
-      pillars: [
+        'Every figure is flagged as reported, cited, or a planning reference. Treat them as working benchmarks, not guarantees — results vary by site and management.',
+      stats: [
         {
-          title: 'Learn',
-          body: 'Vetiver is explained clearly and concretely, so first-time visitors can see how it protects soil and water.'
+          qualifier: 'Reported',
+          value: '90%',
+          body: 'Reported soil-loss reduction from vetiver hedgerows on vulnerable ground. Results vary by site and management.'
         },
         {
-          title: 'Test',
-          body: 'Projects are shaped around site conditions so the solution fits the problem rather than forcing a generic template.'
+          qualifier: 'Reported',
+          value: '3–5 m',
+          body: 'Typical root depth observed in field conditions. That depth is what holds soil in place through heavy rain.'
         },
         {
-          title: 'Support',
-          body: 'If you want to help, your support goes toward field work, project visibility, and long-term follow-through.'
+          qualifier: 'Planning ref',
+          value: '30+',
+          body: 'Countries where vetiver is cited in land and water planning references.'
         }
-      ],
-      donateLabel: 'Donate',
-      supportingLabel: 'Get involved'
+      ]
     },
     stories: {
       eyebrow: 'Latest stories',
@@ -78,17 +79,18 @@ const homepageCopy = {
       ctaLabel: 'Read all stories'
     },
     getInvolved: {
-      hubEyebrow: 'How to help',
-      hubTitle: 'Support the work that protects soil, water, and land.',
+      hubEyebrow: 'Support the work',
+      hubTitle: 'Donations go toward field work, training, and local partnerships.',
       hubBody:
-        'Donate, partner, propose a project, or stay connected to the field work.',
-      hubCta: 'See ways to help',
-      projectsEyebrow: 'Current work',
-      projectsTitle: 'See active projects.',
-      projectsBody:
-        'Discover active field work and the places where support is already making a difference.',
-      projectsCta: 'See current projects',
-      projectsHref: '/projects'
+        'Canadian tax receipts available for eligible donations. Every contribution supports reported project outcomes.',
+      donateCta: 'Donate now',
+      monthlyGivingCta: 'Monthly giving',
+      partnerEyebrow: 'Partner with VSF',
+      partnerTitle: 'Propose a project, partner, or stay connected.',
+      partnerBody:
+        'Organizations and field partners can reach out about proposed projects, cited planning references, or general collaboration.',
+      contactCta: 'Contact VSF',
+      stayConnectedCta: 'Stay connected'
     },
     newsletter: {
       eyebrow: 'Newsletter',
@@ -116,26 +118,27 @@ const homepageCopy = {
           "Une plante utile compte lorsqu'elle aide à protéger des terres fragiles sans infrastructure lourde."
       },
       impact: {
-        eyebrow: 'Comment VSF aide',
-        title: 'Transformer la compréhension en action concrète sur le terrain.',
+        eyebrow: "Comment le vétiver aide",
+        title: "Résultats rapportés dans des conditions réelles de terrain.",
         body:
-          "Votre soutien aide VSF à offrir la planification du site, la formation locale, l'appui aux projets pilotes et le suivi aux communautés qui utilisent le vétiver.",
-        pillars: [
+          "Chaque chiffre est identifié comme rapporté, cité ou référence de planification. Traitez-les comme des repères de travail, pas des garanties — les résultats varient selon le site et la gestion.",
+        stats: [
           {
-            title: 'Apprendre',
-            body: 'Le vétiver est expliqué clairement et concrètement, afin que les nouveaux visiteurs comprennent comment il protège les sols et l’eau.'
+            qualifier: "Rapporté",
+            value: "90%",
+            body: "Réduction déclarée de la perte de sol par les haies de vétiver sur terrain vulnérable. Les résultats varient selon le site et la gestion."
           },
           {
-            title: 'Tester',
-            body: 'Les projets sont adaptés aux conditions du site pour que la solution corresponde vraiment au besoin.'
+            qualifier: "Rapporté",
+            value: "3–5 m",
+            body: "Profondeur de racine typique observée sur le terrain. Cette profondeur maintient le sol en place pendant les pluies intenses."
           },
           {
-            title: 'Soutenir',
-            body: 'Si vous souhaitez aider, votre soutien va vers le terrain, la visibilité des projets et le suivi dans le temps.'
+            qualifier: "Référence",
+            value: "30+",
+            body: "Pays où le vétiver est cité dans des références de planification foncière et hydraulique."
           }
-        ],
-        donateLabel: 'Faire un don',
-        supportingLabel: 'Participer'
+        ]
     },
       stories: {
         eyebrow: 'Dernières actualités',
@@ -145,17 +148,18 @@ const homepageCopy = {
         ctaLabel: 'Voir toutes les actualités'
       },
       getInvolved: {
-        hubEyebrow: 'Comment aider',
-        hubTitle: 'Soutenez un travail qui protège les sols, l’eau et les terres.',
+        hubEyebrow: "Soutenir le travail",
+        hubTitle: "Les dons vont au travail de terrain, à la formation et aux partenariats locaux.",
         hubBody:
-          'Faites un don, devenez partenaire, proposez un projet ou suivez le travail de terrain.',
-        hubCta: 'Voir les façons d’aider',
-        projectsEyebrow: 'Travail actuel',
-        projectsTitle: 'Voir les projets actifs.',
-        projectsBody:
-          'Découvrez le travail en cours sur le terrain et les lieux où le soutien fait déjà une différence.',
-        projectsCta: 'Voir les projets',
-        projectsHref: '/projects'
+          "Reçus fiscaux canadiens disponibles pour les dons admissibles. Chaque contribution soutient des résultats de projet rapportés.",
+        donateCta: "Faire un don",
+        monthlyGivingCta: "Don mensuel",
+        partnerEyebrow: "Partenariat avec VSF",
+        partnerTitle: "Proposez un projet, devenez partenaire ou restez connecté.",
+        partnerBody:
+          "Les organisations et partenaires de terrain peuvent nous contacter pour des projets proposés, des références de planification ou une collaboration générale.",
+        contactCta: "Contacter VSF",
+        stayConnectedCta: "Rester connecté"
       },
       newsletter: {
         eyebrow: 'Infolettre',

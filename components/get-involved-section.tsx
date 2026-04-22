@@ -1,17 +1,18 @@
 import { Button } from '@/components/button';
 import { Section } from '@/components/section';
-import { localePath, type Locale } from '@/lib/site';
+import { DONATE_URL, CONTACT_EMAIL, localePath, type Locale } from '@/lib/site';
 
 type GetInvolvedSectionCopy = {
   hubEyebrow: string;
   hubTitle: string;
   hubBody: string;
-  hubCta: string;
-  projectsEyebrow: string;
-  projectsTitle: string;
-  projectsBody: string;
-  projectsCta: string;
-  projectsHref: string;
+  donateCta: string;
+  monthlyGivingCta: string;
+  partnerEyebrow: string;
+  partnerTitle: string;
+  partnerBody: string;
+  contactCta: string;
+  stayConnectedCta: string;
 };
 
 export function GetInvolvedSection({
@@ -22,32 +23,62 @@ export function GetInvolvedSection({
   copy: GetInvolvedSectionCopy;
 }) {
   return (
-    <Section className="bg-[#f4f0e8] py-14 lg:py-20">
+    <Section className="bg-cream-card py-14 lg:py-20">
       <div className="grid gap-6 lg:grid-cols-2">
-        <div className="flex h-full flex-col rounded-[2rem] border border-bark/10 bg-white px-6 py-7 shadow-card lg:px-8">
-          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-bark/60">
+        {/* Left — dark bark donation card */}
+        <div className="flex h-full flex-col rounded-[2.2rem] bg-bark px-6 py-8 text-white shadow-card lg:px-8">
+          <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-surface/74">
             {copy.hubEyebrow}
           </p>
-          <h2 className="mt-3 text-3xl font-semibold text-ink">{copy.hubTitle}</h2>
-          <p className="mt-4 text-base leading-8 text-ink/72">{copy.hubBody}</p>
-          <Button href={localePath('/get-involved', locale)} variant="secondary" className="mt-auto">
-            {copy.hubCta}
-          </Button>
+          <h3 className="mt-4 text-[1.75rem] font-semibold leading-[1.15] text-white">
+            {copy.hubTitle}
+          </h3>
+          <p className="mt-4 text-[15px] leading-7 text-white/76">{copy.hubBody}</p>
+          <div className="mt-auto flex flex-wrap gap-3 pt-7">
+            <Button
+              href={DONATE_URL}
+              external
+              target="_blank"
+              rel="noreferrer"
+              variant="primary"
+              className="shadow-soft"
+            >
+              {copy.donateCta}
+            </Button>
+            <Button
+              href={DONATE_URL}
+              external
+              target="_blank"
+              rel="noreferrer"
+              variant="secondary"
+              className="border-white/25 bg-transparent text-white hover:border-white/40 hover:bg-white/8"
+            >
+              {copy.monthlyGivingCta}
+            </Button>
+          </div>
         </div>
 
-        <div className="flex h-full flex-col rounded-[2rem] border border-bark/10 bg-[#e8ebdc] px-6 py-7 shadow-card lg:px-8">
-          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-bark/60">
-            {copy.projectsEyebrow}
+        {/* Right — reed partner card */}
+        <div className="flex h-full flex-col rounded-[2.2rem] bg-reed px-6 py-8 text-bark shadow-card lg:px-8">
+          <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-bark/64">
+            {copy.partnerEyebrow}
           </p>
-          <h2 className="mt-3 text-3xl font-semibold text-ink">{copy.projectsTitle}</h2>
-          <p className="mt-4 text-base leading-8 text-ink/72">{copy.projectsBody}</p>
-          <Button
-            href={localePath(copy.projectsHref, locale)}
-            variant="tertiary"
-            className="mt-auto text-sm tracking-[0.16em]"
-          >
-            {copy.projectsCta}
-          </Button>
+          <h3 className="mt-4 text-[1.75rem] font-semibold leading-[1.15]">
+            {copy.partnerTitle}
+          </h3>
+          <p className="mt-4 text-[15px] leading-7 text-ink/72">{copy.partnerBody}</p>
+          <div className="mt-auto flex flex-wrap gap-3 pt-7">
+            <Button href={`mailto:${CONTACT_EMAIL}`} variant="primary">
+              {copy.contactCta}
+            </Button>
+            <Button
+              href={localePath('/get-involved', locale)}
+              variant="tertiary"
+              className="text-sm tracking-[0.16em]"
+            >
+              {copy.stayConnectedCta}
+            </Button>
+          </div>
         </div>
       </div>
     </Section>
