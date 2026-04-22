@@ -9,7 +9,7 @@ Vetiver Sans Frontieres (VSF) — a bilingual (EN/FR) nonprofit website built wi
 - `npm run dev` — start dev server
 - `npm run build` — production build (run this to verify changes)
 - `npm run content:generate` — regenerate MDX content from source data
-- `npm run media:upload` — upload media assets to Cloudflare R2
+- `npm run media:upload` — upload media assets (legacy, now unused)
 
 ## Project structure
 
@@ -99,11 +99,16 @@ Use `localePath(enPath, locale)` from `@/lib/site` for all internal links. Do NO
 
 Legacy HTML rendered via `dangerouslySetInnerHTML` in `html-content.tsx` is sanitized with `isomorphic-dompurify` before rendering. Always sanitize HTML from external/legacy sources.
 
+### Media
+
+All media is served from `public/media/` as Next.js static assets — no external storage, no env var required. `getMediaUrl(path)` in `lib/site.ts` returns `/media/${path}` and automatically strips WordPress thumbnail size suffixes (`-WIDTHxHEIGHT`) so any path resolves to the original file. Legacy WordPress URLs in MDX HTML content are rewritten by `replaceOldMedia` in `lib/html.ts` using the same suffix-stripping logic.
+
+To add new images, copy them into `public/media/YEAR/MONTH/filename.ext` and reference them with `getMediaUrl('YEAR/MONTH/filename.ext')`.
+
 ### Launch behavior
 
 - Contact and newsletter forms use `NEXT_PUBLIC_CONTACT_FORM_EMBED_URL`, `NEXT_PUBLIC_CONTACT_FORM_URL`, `NEXT_PUBLIC_NEWSLETTER_EMBED_URL`, and `NEXT_PUBLIC_NEWSLETTER_URL`.
 - If the hosted form env vars are missing, the UI falls back to email links instead of breaking the page.
-- Media falls back to legacy WordPress uploads until `NEXT_PUBLIC_MEDIA_BASE_URL` is configured.
 - Homepage metadata should follow the live homepage component strategy, not the legacy MDX frontmatter.
 
 ### Images
@@ -111,6 +116,7 @@ Legacy HTML rendered via `dangerouslySetInnerHTML` in `html-content.tsx` is sani
 - Use Next.js `<Image>` with appropriate `sizes` attribute — never just `sizes="100vw"`.
 - Hero/banner images: `sizes="(min-width: 1280px) 1280px, 100vw"`
 - Grid images: `sizes="(min-width: 1024px) XXvw, 100vw"` where XX matches the grid fraction.
+- Always reference images via `getMediaUrl()` — never hardcode `/media/` paths directly, as the function handles suffix stripping.
 
 ### Accessibility
 
