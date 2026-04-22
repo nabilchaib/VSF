@@ -25,11 +25,6 @@ const nextConfig: NextConfig = {
         hostname: 'i0.wp.com',
         pathname: '/**'
       },
-      {
-        protocol: 'http',
-        hostname: 'localhost',
-        pathname: '/**'
-      }
     ]
   }
 };
