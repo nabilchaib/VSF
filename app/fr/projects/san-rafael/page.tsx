@@ -10,7 +10,7 @@ export function generateMetadata(): Metadata {
     path: PROJECT_PATHS.sanRafael,
     title: 'San Rafael | Vetiver Sans Frontieres',
     description: 'San Rafael est un site vétiver vivant de VSF à El Juego, San Rafael, Antioquia, Colombie — avec les 250 premiers plants déjà en terre.',
-    image: '2025/04/00000276-PHOTO-2025-04-08-08-09-13.webp'
+    image: '2026/04/san-rafael-1231.jpg'
   });
 }
 
@@ -23,7 +23,8 @@ const copy: Record<'fr', ProjectDetailCopy> = {
     eyebrow: 'Projet de terrain actif',
     title: 'San Rafael',
     subtitle: 'Un site vétiver vivant à El Juego, San Rafael, Antioquia, Colombie.',
-    image: '2025/04/00000276-PHOTO-2025-04-08-08-09-13.webp',
+    image: '2026/04/san-rafael-1231.jpg',
+    gallery: ['2026/04/san-rafael-1233.jpg', '2026/04/san-rafael-1243.jpg'],
     summaryEyebrow: 'Vue du projet',
     summaryTitle: 'Un site vétiver actif, avec la plantation déjà en terre.',
     summaryBody:

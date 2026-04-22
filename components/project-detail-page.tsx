@@ -1,6 +1,9 @@
+import Image from 'next/image';
+
 import { Button } from '@/components/button';
 import { Container } from '@/components/container';
 import { PageHero } from '@/components/page-hero';
+import { getMediaUrl } from '@/lib/site';
 import type { Locale } from '@/lib/site';
 
 type ProjectDetailPoint = {
@@ -13,6 +16,7 @@ export type ProjectDetailCopy = {
   title: string;
   subtitle: string;
   image: string;
+  gallery?: readonly string[];
   summaryEyebrow: string;
   summaryTitle: string;
   summaryBody: string;
@@ -63,6 +67,24 @@ export function ProjectDetailPage({ locale, copy }: { locale: Locale; copy: Proj
               </div>
             </div>
           </div>
+
+          {copy.gallery && copy.gallery.length > 0 && (
+            <div className="mt-6 grid gap-4 sm:grid-cols-2">
+              {copy.gallery.map((src) => (
+                <div key={src} className="overflow-hidden rounded-[2rem] border border-bark/10 shadow-card">
+                  <div className="relative aspect-[4/3]">
+                    <Image
+                      src={getMediaUrl(src)}
+                      alt=""
+                      fill
+                      className="object-cover"
+                      sizes="(min-width: 1024px) 48vw, 100vw"
+                    />
+                  </div>
+                </div>
+              ))}
+            </div>
+          )}
         </Container>
       </section>
 
