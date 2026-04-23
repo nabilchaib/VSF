@@ -136,14 +136,14 @@ export type RdcLocaleContent = {
 
 export const RDC_PROJECT: Record<Locale, RdcLocaleContent> = {
   en: {
-    eyebrow: 'RDC project hub',
+    eyebrow: 'RDC Network',
     sectionEyebrow: 'Public view',
     title: 'Vetiver in the Congo Basin',
     subtitle:
-      'A public hub for VSF’s RDC work: low-input vetiver systems as an alternative to costly, import-dependent agriculture in the Congo Basin.',
-    introTitle: 'What this hub does',
+      "VSF's RDC Network: low-input vetiver systems as an alternative to costly, import-dependent agriculture in the Congo Basin.",
+    introTitle: 'What this network does',
     introBody:
-      'This hub turns a real field initiative into a public home for donors and partners. It keeps the story and support together while sensitive operating details stay in working docs.',
+      'This network turns a real field initiative into a public home for donors and partners. It keeps the story and support together while sensitive operating details stay in working docs.',
     primaryCta: 'Support the project',
     secondaryCta: 'Explore the overview',
     storyCta: 'Read the flagship story',
@@ -203,7 +203,7 @@ export const RDC_PROJECT: Record<Locale, RdcLocaleContent> = {
     fieldAnchorTitle: 'Field anchor',
     fieldAnchorSubtitle: 'The project grows through local field leadership.',
     fieldAnchorBody:
-      'Eric Mpongo’s work on the ground gives this project its practical edge. The public hub should connect stories, site learning, and evidence themes back to real field conditions rather than abstract claims.',
+      "Eric Mpongo's work on the ground gives this project its practical edge. The RDC Network should connect stories, site learning, and evidence themes back to real field conditions rather than abstract claims.",
     fieldAnchorQuote:
       'Field validation comes first. The public story must stay tied to what is actually happening on the ground.',
     timelineTitle: 'Public roadmap',
@@ -222,7 +222,7 @@ export const RDC_PROJECT: Record<Locale, RdcLocaleContent> = {
       {
         period: 'Phase 3',
         title: 'Convert support into operating capacity',
-        body: 'Use the project hub, article flow, and donation pages to fund evidence gathering, validation, and early pilots.'
+        body: 'Use the RDC Network, article flow, and donation pages to fund evidence gathering, validation, and early pilots.'
       }
     ],
     ownersTitle: 'Who is involved',
@@ -250,18 +250,18 @@ export const RDC_PROJECT: Record<Locale, RdcLocaleContent> = {
       }
     ],
     budgetTitle: 'Funding priorities',
-    budgetSubtitle: 'High-level support areas for the public hub.',
+    budgetSubtitle: 'High-level support areas for the RDC Network.',
     budget: [
       { item: 'Public storytelling', amount: 'TBD', note: 'Tracked in working docs' },
       { item: 'Field validation', amount: 'TBD', note: 'Tracked in working docs' }
     ],
     budgetTotal: 'TBD',
     decisionsTitle: 'Project notes',
-    decisionsSubtitle: 'High-level choices that shape the public hub.',
+    decisionsSubtitle: 'High-level choices that shape the RDC Network.',
     decisions: [
       {
         date: 'Current',
-        decision: 'Keep the public hub narrative-led.',
+        decision: 'Keep the RDC Network narrative-led.',
         reason: 'It should bridge evidence, stories, and support.'
       }
     ],
@@ -330,7 +330,7 @@ export const RDC_PROJECT: Record<Locale, RdcLocaleContent> = {
     funnel: [
       {
         article: 'Flagship slash-and-burn story',
-        landing: 'RDC hub overview',
+        landing: 'RDC Network overview',
         donationObjective: 'Support field learning and storytelling',
         cta: 'Support the story'
       },
@@ -397,7 +397,7 @@ export const RDC_PROJECT: Record<Locale, RdcLocaleContent> = {
       }
     ],
     sitesTitle: 'Project sites',
-    sitesSubtitle: 'Sites connected to the public hub.',
+    sitesSubtitle: 'Sites connected to the RDC Network.',
     sites: [
       {
         site: 'RDC multi-site work',
@@ -408,17 +408,17 @@ export const RDC_PROJECT: Record<Locale, RdcLocaleContent> = {
     ],
     footerTitle: 'Support a grounded alternative',
     footerBody:
-      'This hub keeps the public story connected to real field work. Support helps VSF document results, strengthen the public case, and test practical next steps in RDC.'
+      'The RDC Network keeps the public story connected to real field work. Support helps VSF document results, strengthen the public case, and test practical next steps in RDC.'
   },
   fr: {
-    eyebrow: 'Hub projet RDC',
+    eyebrow: 'Réseau RDC',
     sectionEyebrow: 'Vue publique',
     title: 'Le vétiver dans le bassin du Congo',
     subtitle:
-      'Un hub public pour le travail RDC de VSF : des systèmes vétiver à faibles intrants comme alternative à une agriculture coûteuse et dépendante des importations.',
-    introTitle: 'Ce que fait ce hub',
+      'Le Réseau RDC de VSF : des systèmes vétiver à faibles intrants comme alternative à une agriculture coûteuse et dépendante des importations.',
+    introTitle: 'Ce que fait ce réseau',
     introBody:
-      'Ce hub transforme une initiative de terrain réelle en espace public pour les donateurs et les partenaires. Il relie le recit et le soutien, tout en gardant les details sensibles dans les documents de travail.',
+      'Ce réseau transforme une initiative de terrain réelle en espace public pour les donateurs et les partenaires. Il relie le recit et le soutien, tout en gardant les details sensibles dans les documents de travail.',
     primaryCta: 'Soutenir le projet',
     secondaryCta: 'Découvrir la vue d’ensemble',
     storyCta: 'Lire le récit phare',
@@ -479,7 +479,7 @@ export const RDC_PROJECT: Record<Locale, RdcLocaleContent> = {
     fieldAnchorTitle: 'Ancre terrain',
     fieldAnchorSubtitle: 'Le projet grandit grâce au leadership terrain local.',
     fieldAnchorBody:
-      'Le travail d’Eric Mpongo sur le terrain donne à ce projet son ancrage pratique. Le hub public doit relier les récits, l’apprentissage des sites et les thèmes de preuve aux conditions réelles du terrain plutôt qu’à des affirmations abstraites.',
+      'Le travail d’Eric Mpongo sur le terrain donne à ce projet son ancrage pratique. Le Réseau RDC doit relier les récits, l’apprentissage des sites et les thèmes de preuve aux conditions réelles du terrain plutôt qu’à des affirmations abstraites.',
     fieldAnchorQuote:
       'La validation terrain vient d abord. Le recit public doit rester lie a ce qui se passe reellement sur le terrain.',
     timelineTitle: 'Feuille de route publique',
@@ -498,7 +498,7 @@ export const RDC_PROJECT: Record<Locale, RdcLocaleContent> = {
       {
         period: 'Phase 3',
         title: 'Convertir le soutien en capacité d’action',
-        body: 'Utiliser le hub, le flux d articles et les pages de don pour financer les preuves, la validation et les premiers pilotes.'
+        body: 'Utiliser le Réseau RDC, le flux d articles et les pages de don pour financer les preuves, la validation et les premiers pilotes.'
       }
     ],
     ownersTitle: 'Qui est impliqué',
@@ -526,18 +526,18 @@ export const RDC_PROJECT: Record<Locale, RdcLocaleContent> = {
       }
     ],
     budgetTitle: 'Priorites de financement',
-    budgetSubtitle: 'Des domaines de soutien a haut niveau pour le hub public.',
+    budgetSubtitle: 'Des domaines de soutien a haut niveau pour le Réseau RDC.',
     budget: [
       { item: 'Recit public', amount: 'À déterminer', note: 'Suivi dans les documents de travail' },
       { item: 'Validation terrain', amount: 'À déterminer', note: 'Suivi dans les documents de travail' }
     ],
     budgetTotal: 'À déterminer',
     decisionsTitle: 'Notes de projet',
-    decisionsSubtitle: 'Des choix de haut niveau qui orientent le hub public.',
+    decisionsSubtitle: 'Des choix de haut niveau qui orientent le Réseau RDC.',
     decisions: [
       {
         date: 'Actuel',
-        decision: 'Garder le hub centré sur le récit.',
+        decision: 'Garder le Réseau RDC centré sur le récit.',
         reason: 'Il doit relier les preuves, les histoires et le soutien.'
       }
     ],
@@ -606,7 +606,7 @@ export const RDC_PROJECT: Record<Locale, RdcLocaleContent> = {
     funnel: [
       {
         article: 'Récit phare sur le brûlis',
-        landing: 'Vue d’ensemble du hub RDC',
+        landing: 'Vue d’ensemble du Réseau RDC',
         donationObjective: 'Soutenir l apprentissage de terrain et le recit',
         cta: 'Soutenir le recit'
       },
@@ -673,7 +673,7 @@ export const RDC_PROJECT: Record<Locale, RdcLocaleContent> = {
       }
     ],
     sitesTitle: 'Sites du projet',
-    sitesSubtitle: 'Sites lies au hub public.',
+    sitesSubtitle: 'Sites liés au Réseau RDC.',
     sites: [
       {
         site: 'Travail multi-sites en RDC',
@@ -684,7 +684,7 @@ export const RDC_PROJECT: Record<Locale, RdcLocaleContent> = {
     ],
     footerTitle: 'Soutenir une alternative ancrée',
     footerBody:
-      'Ce hub est conçu pour garder le recit public relie au travail de terrain. Le soutien aide VSF a documenter les resultats, renforcer le cas public et tester les prochaines etapes pratiques en RDC.'
+      'Le Réseau RDC est conçu pour garder le recit public relie au travail de terrain. Le soutien aide VSF a documenter les resultats, renforcer le cas public et tester les prochaines etapes pratiques en RDC.'
   }
 };
 

@@ -114,9 +114,9 @@ const copy: Record<Locale, PageCopy> = {
   en: {
     title: 'Choose how to take part',
     subtitle:
-      'Start with the path that fits your role. This hub routes support, partnerships, project ideas, and learning without depending on any single project.',
+      'Start with the path that fits your role. This network routes support, partnerships, project ideas, and learning without depending on any single project.',
     routesEyebrow: 'Five routes',
-    routesTitle: 'One hub, five clear next steps.',
+    routesTitle: 'One network, five clear next steps.',
     routesBody:
       'Support VSF generally, back a field initiative, partner, propose a project, or follow and learn first.',
     routes: [
@@ -197,9 +197,9 @@ const copy: Record<Locale, PageCopy> = {
   fr: {
     title: 'Choisissez comment participer',
     subtitle:
-      "Commencez par la voie qui correspond à votre rôle. Ce hub oriente le soutien, les partenariats, les idées de projet et l'apprentissage sans dépendre d'un seul projet.",
+      "Commencez par la voie qui correspond à votre rôle. Ce réseau oriente le soutien, les partenariats, les idées de projet et l'apprentissage sans dépendre d'un seul projet.",
     routesEyebrow: 'Cinq voies',
-    routesTitle: 'Un hub, cinq prochaines étapes claires.',
+    routesTitle: 'Un réseau, cinq prochaines étapes claires.',
     routesBody:
       'Soutenez VSF, appuyez une initiative de terrain, collaborez, proposez un projet, ou commencez par suivre et apprendre.',
     routes: [

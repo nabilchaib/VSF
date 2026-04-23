@@ -190,10 +190,10 @@ const copy = {
     gatewayEyebrow: 'Project gateway',
     gatewayTitle: 'Three ways into VSF projects.',
     gatewayBody:
-      'RDC is the flagship project hub. San Rafael is a live field site with the first 250 vetiver slips already planted. New ideas start with a simple proposal.',
+      'RDC is the flagship project network. San Rafael is a live field site with the first 250 vetiver slips already planted. New ideas start with a simple proposal.',
     gatewayLinks: [
       {
-        label: 'Open RDC hub',
+        label: 'Explore RDC Network',
         href: PROJECT_PATHS.rdc.en,
         external: false
       },
@@ -229,13 +229,13 @@ const copy = {
       'Each card gives a short summary, why the project matters on the ground, and one clear next step.',
     portfolio: [
       {
-        eyebrow: 'Flagship project hub',
+        eyebrow: 'Flagship project',
         title: 'RDC',
         summary:
-          'The Congo Basin project hub. It brings the flagship work and its field learning into one place.',
+          'The Congo Basin flagship project. It brings the field work and its learning into one place.',
         whyLabel: 'Why it matters',
         why: 'It keeps the main story easy to find without making it the only route.',
-        cta: 'Open the RDC hub',
+        cta: 'Explore the RDC Network',
         href: PROJECT_PATHS.rdc.en,
         external: false,
         variant: 'secondary' as const
@@ -303,10 +303,10 @@ const copy = {
     gatewayEyebrow: 'Portail des projets',
     gatewayTitle: 'Trois portes d’entrée vers les projets de VSF.',
     gatewayBody:
-      'La RDC est le hub du projet phare. San Rafael est un site de terrain vivant où les 250 premiers plants de vétiver sont déjà en terre. Les nouvelles idées commencent par une proposition simple.',
+      'La RDC est le réseau du projet phare. San Rafael est un site de terrain vivant où les 250 premiers plants de vétiver sont déjà en terre. Les nouvelles idées commencent par une proposition simple.',
     gatewayLinks: [
       {
-        label: 'Ouvrir le hub RDC',
+        label: 'Explorer le Réseau RDC',
         href: PROJECT_PATHS.rdc.fr,
         external: false
       },
@@ -342,13 +342,13 @@ const copy = {
       'Chaque carte donne un bref résumé, explique pourquoi le projet compte sur le terrain, et indique une prochaine étape claire.',
     portfolio: [
       {
-        eyebrow: 'Hub du projet phare',
+        eyebrow: 'Réseau du projet phare',
         title: 'RDC',
         summary:
-          'Le hub du projet dans le bassin du Congo. Il rassemble le travail phare et les apprentissages de terrain en un seul endroit.',
+          'Le réseau du projet dans le bassin du Congo. Il rassemble le travail phare et les apprentissages de terrain en un seul endroit.',
         whyLabel: 'Pourquoi c’est important',
         why: 'Il garde le récit principal facile à trouver sans devenir la seule entrée.',
-        cta: 'Ouvrir le hub RDC',
+        cta: 'Explorer le Réseau RDC',
         href: PROJECT_PATHS.rdc.fr,
         external: false,
         variant: 'secondary' as const
