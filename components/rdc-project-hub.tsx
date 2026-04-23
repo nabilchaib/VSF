@@ -17,65 +17,6 @@ import {
 
 export function RdcProjectHub({ locale }: { locale: Locale }) {
   const copy = RDC_PROJECT[locale];
-  const visualGallery = [
-    {
-      src: '2025/03/WhatsApp-Image-2025-03-07-at-13.54.00.jpeg',
-      alt:
-        locale === 'fr'
-          ? 'Photo de terrain en RDC montrant le travail vetiver sur site.'
-          : 'RDC field photo showing vetiver work on site.',
-      className: 'sm:col-span-2'
-    },
-    {
-      src: '2025/03/WhatsApp-Image-2025-03-07-at-13.54.44.webp',
-      alt:
-        locale === 'fr'
-          ? 'Photo de terrain en RDC montrant une autre étape du travail.'
-          : 'RDC field photo showing another step of the work.',
-      className: ''
-    },
-    {
-      src: '2025/04/00000276-PHOTO-2025-04-08-08-09-13.webp',
-      alt:
-        locale === 'fr'
-          ? 'Photo documentaire en RDC montrant le travail de terrain.'
-          : 'Documentary RDC photo showing field work.',
-      className: ''
-    },
-    {
-      src: '2025/04/00000281-PHOTO-2025-04-08-08-10-22.webp',
-      alt:
-        locale === 'fr'
-          ? 'Membres de la communauté tenant des boutures de vétiver prêtes à planter en RDC.'
-          : 'Community members holding vetiver slips ready for planting in RDC.',
-      className: ''
-    },
-    {
-      src: '2025/04/00000282-PHOTO-2025-04-08-08-10-23.webp',
-      alt:
-        locale === 'fr'
-          ? 'Photo de terrain supplémentaire du travail de plantation vétiver en RDC.'
-          : 'Additional field photo of vetiver planting work in RDC.',
-      className: ''
-    },
-    {
-      src: '2025/04/00000283-PHOTO-2025-04-08-08-10-24.webp',
-      alt:
-        locale === 'fr'
-          ? 'Photo documentaire en RDC montrant le travail et la récupération des terres.'
-          : 'Documentary RDC photo showing field work and land recovery.',
-      className: 'sm:col-span-2'
-    },
-    {
-      src: '2025/04/Screen-Shot-2025-04-10-at-3.07.37-PM.webp',
-      alt:
-        locale === 'fr'
-          ? "Vue aérienne d'une pirogue sur le fleuve Congo près d'un site vétiver."
-          : 'Aerial view of a pirogue on the Congo river near a vetiver site.',
-      className: 'sm:col-span-2'
-    }
-  ] as const;
-
   return (
     <div className="pb-16">
       <PageHero
@@ -131,33 +72,29 @@ export function RdcProjectHub({ locale }: { locale: Locale }) {
                 </Link>
               </div>
             </div>
-            <div className="rounded-[1.75rem] border border-bark/10 bg-surface/42 p-4 shadow-card">
-              <p className="text-xs font-medium uppercase tracking-[0.24em] text-bark/60">
-                {locale === 'fr' ? 'Séquence visuelle' : 'Visual sequence'}
-              </p>
-              <div className="mt-3 grid gap-3 sm:grid-cols-2">
-                {visualGallery.map((item) => (
-                  <div
-                    key={item.src}
-                    className={`overflow-hidden rounded-[1.05rem] border border-bark/8 bg-white ${item.className}`}
-                  >
-                    <div className="relative aspect-[4/3] overflow-hidden bg-[#fbfaf5]">
-                      <Image
-                        src={getMediaUrl(item.src)}
-                        alt={item.alt}
-                        fill
-                        className="object-cover"
-                        sizes="(min-width: 1024px) 22vw, (min-width: 640px) 38vw, 100vw"
-                      />
-                    </div>
-                  </div>
-                ))}
+            <div className="grid gap-4">
+              <div className="overflow-hidden rounded-[1.75rem] border border-bark/10 shadow-card">
+                <div className="relative aspect-[4/3] overflow-hidden">
+                  <Image
+                    src={getMediaUrl('2025/03/WhatsApp-Image-2025-03-07-at-13.54.00.jpeg')}
+                    alt={locale === 'fr' ? 'Photo de terrain en RDC montrant le travail vétiver sur site.' : 'RDC field photo showing vetiver work on site.'}
+                    fill
+                    className="object-cover"
+                    sizes="(min-width: 1024px) 44vw, 100vw"
+                  />
+                </div>
               </div>
-              <p className="mt-4 text-sm leading-7 text-ink/72">
-                {locale === 'fr'
-                  ? 'Cette séquence visuelle montre plusieurs moments du travail de terrain en RDC.'
-                  : 'This visual sequence shows several moments from the RDC field work.'}
-              </p>
+              <div className="overflow-hidden rounded-[1.75rem] border border-bark/10 shadow-card">
+                <div className="relative aspect-[16/9] overflow-hidden">
+                  <Image
+                    src={getMediaUrl('2025/03/WhatsApp-Image-2025-03-07-at-13.54.44.webp')}
+                    alt={locale === 'fr' ? 'Photo de terrain en RDC montrant une autre étape du travail.' : 'RDC field photo showing another step of the work.'}
+                    fill
+                    className="object-cover"
+                    sizes="(min-width: 1024px) 44vw, 100vw"
+                  />
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -189,13 +126,22 @@ export function RdcProjectHub({ locale }: { locale: Locale }) {
         imageAlt={locale === 'fr' ? 'Photo de terrain RDC montrant un site vétiver actif.' : 'RDC field photo showing an active vetiver site.'}
       />
 
-      <TimelineSection eyebrow={copy.sectionEyebrow} title={copy.timelineTitle} subtitle={copy.timelineSubtitle} items={copy.timeline} />
+      <TimelineSection
+        eyebrow={copy.sectionEyebrow}
+        title={copy.timelineTitle}
+        subtitle={copy.timelineSubtitle}
+        items={copy.timeline}
+        image="2025/04/Screen-Shot-2025-04-10-at-3.07.37-PM.webp"
+        imageAlt={locale === 'fr' ? "Vue aérienne d'une pirogue sur le fleuve Congo près d'un site vétiver." : 'Aerial view of a pirogue on the Congo river near a vetiver site.'}
+      />
       <EditorialSection
         eyebrow={copy.sectionEyebrow}
         title={copy.editorialTitle}
         subtitle={copy.editorialSubtitle}
         items={copy.editorial}
         locale={locale}
+        image="2025/04/00000283-PHOTO-2025-04-08-08-10-24.webp"
+        imageAlt={locale === 'fr' ? 'Photo documentaire en RDC montrant le travail et la récupération des terres.' : 'Documentary RDC photo showing field work and land recovery.'}
       />
       <FunnelSection eyebrow={copy.sectionEyebrow} title={copy.funnelTitle} subtitle={copy.funnelSubtitle} items={copy.funnel} />
       <DataSection
@@ -261,7 +207,7 @@ export function RdcProjectPromo({ locale }: { locale: Locale }) {
                 href={getRdcProjectPath(locale)}
                 className="brand-pill rounded-full px-6 py-3 text-sm font-semibold uppercase tracking-[0.16em] hover:bg-clay"
               >
-                {locale === 'fr' ? 'Voir le hub' : 'Open the hub'}
+                {locale === 'fr' ? 'Voir le réseau' : 'Explore the network'}
               </Link>
               <Link
                 href={getRdcFlagshipStoryPath(locale)}
@@ -315,16 +261,27 @@ function TimelineSection({
   eyebrow,
   title,
   subtitle,
-  items
+  items,
+  image,
+  imageAlt
 }: {
   eyebrow: string;
   title: string;
   subtitle: string;
   items: RdcTimelineItem[];
+  image?: string;
+  imageAlt?: string;
 }) {
   return (
     <section className="mx-auto w-full max-w-6xl px-6 py-10 lg:px-10">
       <SectionHeader eyebrow={eyebrow} title={title} subtitle={subtitle} />
+      {image && (
+        <div className="mt-8 overflow-hidden rounded-[1.75rem] border border-bark/10 shadow-card">
+          <div className="relative aspect-[21/8] overflow-hidden">
+            <Image src={getMediaUrl(image)} alt={imageAlt ?? ''} fill className="object-cover" sizes="(min-width: 1280px) 1200px, 100vw" />
+          </div>
+        </div>
+      )}
       <div className="mt-8 grid gap-6 md:grid-cols-3">
         {items.map((item) => (
           <div key={item.period} className="brand-frame rounded-[1.75rem] p-6">
@@ -343,17 +300,28 @@ function EditorialSection({
   title,
   subtitle,
   items,
-  locale
+  locale,
+  image,
+  imageAlt
 }: {
   eyebrow: string;
   title: string;
   subtitle: string;
   items: RdcEditorialItem[];
   locale: Locale;
+  image?: string;
+  imageAlt?: string;
 }) {
   return (
     <section className="mx-auto w-full max-w-6xl px-6 py-10 lg:px-10">
       <SectionHeader eyebrow={eyebrow} title={title} subtitle={subtitle} />
+      {image && (
+        <div className="mt-8 overflow-hidden rounded-[1.75rem] border border-bark/10 shadow-card">
+          <div className="relative aspect-[21/8] overflow-hidden">
+            <Image src={getMediaUrl(image)} alt={imageAlt ?? ''} fill className="object-cover" sizes="(min-width: 1280px) 1200px, 100vw" />
+          </div>
+        </div>
+      )}
       <div className="mt-8 grid gap-6 md:grid-cols-2">
         {items.map((item) => (
           <div key={item.title} className="brand-frame rounded-[1.75rem] p-6">

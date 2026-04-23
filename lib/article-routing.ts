@@ -46,7 +46,7 @@ const TARGET_LABELS: Record<Locale, Record<ArticleCtaTarget, string>> = {
     vetiver: 'Learn about vetiver',
     projects: 'Browse projects',
     'get-involved': 'Get involved',
-    rdc: 'Open RDC hub',
+    rdc: 'Explore RDC Network',
     'san-rafael': 'View San Rafael',
     services: 'See services',
     contact: 'Contact VSF'
@@ -55,7 +55,7 @@ const TARGET_LABELS: Record<Locale, Record<ArticleCtaTarget, string>> = {
     vetiver: 'Découvrir le vétiver',
     projects: 'Parcourir les projets',
     'get-involved': 'Participer',
-    rdc: 'Ouvrir le hub RDC',
+    rdc: 'Explorer le Réseau RDC',
     'san-rafael': 'Voir San Rafael',
     services: 'Voir les services',
     contact: 'Contacter VSF'
@@ -90,10 +90,10 @@ const ARTICLE_END_CTA: Record<Locale, Record<ArticleIntent, ArticleEndCtaCopy>> 
     },
     field_evidence: {
       eyebrow: 'Project evidence',
-      title: 'Open the RDC project hub.',
+      title: 'Explore the RDC Network.',
       body:
-        'This story ties back to work in the Congo Basin. Open RDC for the full picture, browse other projects, or get involved.',
-      primary: { label: 'Open RDC hub', href: '/projects/rdc', variant: 'primary' },
+        'This story ties back to work in the Congo Basin. Explore the RDC Network for the full picture, browse other projects, or get involved.',
+      primary: { label: 'Explore RDC Network', href: '/projects/rdc', variant: 'primary' },
       secondary: { label: 'View projects', href: '/projects', variant: 'secondary' },
       tertiary: { label: 'Support the work', href: '/get-involved', variant: 'tertiary' }
     },
@@ -128,10 +128,10 @@ const ARTICLE_END_CTA: Record<Locale, Record<ArticleIntent, ArticleEndCtaCopy>> 
     },
     field_evidence: {
       eyebrow: 'Preuves du projet',
-      title: 'Ouvrir le hub du projet RDC.',
+      title: 'Explorer le Réseau RDC.',
       body:
-        'Ce récit s’inscrit dans le travail mené dans le bassin du Congo. Ouvrez RDC pour le tableau d’ensemble, parcourez les autres projets ou participez.',
-      primary: { label: 'Ouvrir le hub RDC', href: '/projects/rdc', variant: 'primary' },
+        'Ce récit s’inscrit dans le travail mené dans le bassin du Congo. Explorez le Réseau RDC pour le tableau d’ensemble, parcourez les autres projets ou participez.',
+      primary: { label: 'Explorer le Réseau RDC', href: '/projects/rdc', variant: 'primary' },
       secondary: { label: 'Voir les projets', href: '/projects', variant: 'secondary' },
       tertiary: { label: 'Soutenir le travail', href: '/get-involved', variant: 'tertiary' }
     },
