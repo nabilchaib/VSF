@@ -15,6 +15,28 @@ type FormConfig = {
   analyticsMethod: string;
 };
 
+function getFallbackHref(kind: FormKind, locale: 'en' | 'fr') {
+  const subject =
+    kind === 'newsletter'
+      ? locale === 'fr'
+        ? 'Inscription infolettre VSF'
+        : 'VSF newsletter signup'
+      : locale === 'fr'
+        ? 'Demande de contact VSF'
+        : 'VSF contact inquiry';
+
+  const body =
+    kind === 'newsletter'
+      ? locale === 'fr'
+        ? "Bonjour VSF,%0D%0A%0D%0AJ'aimerais recevoir les nouvelles de VSF.%0D%0A%0D%0ANom:%0D%0ACourriel:%0D%0A"
+        : 'Hello VSF,%0D%0A%0D%0AI would like to receive VSF updates.%0D%0A%0D%0AName:%0D%0AEmail:%0D%0A'
+      : locale === 'fr'
+        ? 'Bonjour VSF,%0D%0A%0D%0AJe vous contacte au sujet de:%0D%0A%0D%0ANom:%0D%0ACourriel:%0D%0AOrganisation:%0D%0A'
+        : 'Hello VSF,%0D%0A%0D%0AI am contacting you about:%0D%0A%0D%0AName:%0D%0AEmail:%0D%0AOrganization:%0D%0A';
+
+  return `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(subject)}&body=${body}`;
+}
+
 function getFormConfig(kind: FormKind, locale: 'en' | 'fr'): FormConfig {
   if (kind === 'contact') {
     return {
@@ -26,7 +48,7 @@ function getFormConfig(kind: FormKind, locale: 'en' | 'fr'): FormConfig {
           ? "Utilisez le formulaire heberge s'il est disponible, ou ecrivez-nous directement par courriel si ce n'est pas le cas."
           : 'Use the hosted form if it is available, or email us directly if it is not.',
       buttonLabel: locale === 'fr' ? 'Ouvrir le formulaire' : 'Open form',
-      fallback: `mailto:${CONTACT_EMAIL}`,
+      fallback: getFallbackHref('contact', locale),
       analyticsEvent: 'generate_lead',
       analyticsMethod: 'contact_form'
     } satisfies FormConfig;
@@ -41,7 +63,7 @@ function getFormConfig(kind: FormKind, locale: 'en' | 'fr'): FormConfig {
         ? "Utilisez le formulaire heberge s'il est disponible, ou ecrivez-nous directement par courriel si ce n'est pas le cas."
         : 'Use the hosted form if it is available, or email us directly if it is not.',
     buttonLabel: locale === 'fr' ? 'Ouvrir le formulaire' : 'Open form',
-    fallback: `mailto:${CONTACT_EMAIL}?subject=Newsletter`,
+    fallback: getFallbackHref('newsletter', locale),
     analyticsEvent: 'sign_up',
     analyticsMethod: 'newsletter_form'
   } satisfies FormConfig;

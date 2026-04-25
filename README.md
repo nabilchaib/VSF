@@ -69,6 +69,7 @@ The draft command is a safe API wrapper around `campaignDrafts:mutate`. It needs
 - Legacy `/en/...` routes redirect to root English routes.
 - Contact and newsletter forms are intentionally provider-agnostic and controlled by environment variables.
 - See `docs/launch-readiness.md` for the explicit launch stance on forms, media, homepage metadata, proof points, and local dev recovery.
+- See `docs/email-capture-and-zeffy-flow.md` for the canonical contact/newsletter/donor capture model and Google Form CSV export workflow.
 - `CLAUDE.md` is the website operating guide.
 - `ads/AGENTS.md` is the Google Ads automation operating guide.
 - The Ads cleanup workflow is dry-run first and does not mutate campaigns until explicit approval is added.

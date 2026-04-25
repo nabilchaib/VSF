@@ -12,12 +12,15 @@ Contact form:
 Newsletter form:
 - `NEXT_PUBLIC_NEWSLETTER_EMBED_URL` renders the hosted newsletter form in an iframe when present.
 - `NEXT_PUBLIC_NEWSLETTER_URL` provides the direct hosted newsletter link/button when present.
-- If both are missing, the newsletter flow falls back to `mailto:info@vetiversansfrontieres.org?subject=Newsletter`.
+- If both are missing, the newsletter flow falls back to `mailto:info@vetiversansfrontieres.org` with a source-specific newsletter subject.
 
 Production expectation:
 - set the hosted embed and direct URLs for both forms before launch
+- point contact/newsletter hosted form URLs to the VSF Google intake form linked to the responses Sheet
 - keep the email fallback available so the page still works if a provider setting is missing
 - do not rely on the legacy `[wpforms]` shortcode for production behavior
+- use Zeffy as the contact system of record after reviewed CSV imports, not through direct website API writes
+- see `docs/email-capture-and-zeffy-flow.md` for the canonical routing model, CSV export workflow, and hygiene checks
 
 ## Media
 
