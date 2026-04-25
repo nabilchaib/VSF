@@ -9,6 +9,7 @@ coverage
 .env.production.local
 .env.development.local
 *.log
+*.tsbuildinfo
 extracted/
 backup_*.gz
 backup_*.zip
